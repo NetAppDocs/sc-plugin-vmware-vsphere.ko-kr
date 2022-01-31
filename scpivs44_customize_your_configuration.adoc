@@ -1,0 +1,255 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_customize_your_configuration.html 
+keywords:  
+summary: 운영 효율성을 향상시키려면 scbr.override 구성 파일을 수정하여 기본값을 변경하십시오. 이러한 값은 백업 중에 생성 또는 삭제된 VMware 스냅샷 수 또는 백업 스크립트의 실행이 중지되기 전의 시간과 같은 설정을 제어합니다. 
+---
+= 구성을 사용자 지정합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+운영 효율을 높이기 위해 'SCBR.OVERRIDE' 설정 파일을 수정하여 기본값을 변경할 수 있습니다. 이러한 값은 백업 중에 생성 또는 삭제된 VMware 스냅샷 수 또는 백업 스크립트의 실행이 중지되기 전의 시간과 같은 설정을 제어합니다.
+
+SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원하는 VMware vSphere 환경을 위한 SnapCenter 플러그인에서 'SCBR.OVERRIDE' 구성 파일을 사용합니다. 이 파일이 없으면 템플릿 파일에서 만들어야 합니다.
+
+
+
+=== scbr.override 구성 파일을 만듭니다
+
+. '/opt/netapp/scvservice/standalone_aegis/etc/scbr/scbr.override-template'으로 이동합니다.
+. 'scBR.override-template' 파일을 '\opt\netapp\scvservice\standalone_aegis\etc\scbr' 디렉토리의 'scBR.override'라는 새 파일에 복사합니다.
+
+
+
+
+=== 덮어쓸 수 있는 속성
+
+* 기본적으로 템플릿은 해시 기호를 사용하여 구성 속성에 주석을 달 수 있습니다. 속성을 사용하여 설정 값을 수정하려면 '#' 문자를 제거해야 합니다.
+* 변경 사항을 적용하려면 SnapCenter Plug-in for VMware vSphere 호스트에서 서비스를 다시 시작해야 합니다.
+
+
+'CBR.OVERRIDE' 설정 파일에 나열된 다음 속성을 사용하여 기본값을 변경할 수 있습니다.
+
+* dashboard.protected.vm.count.interval=7* 으로 문의하십시오
++
+대시보드에 VM 보호 상태가 표시되는 일 수를 지정합니다.
+
++
+기본값은 "7"입니다.
+
+* guestFileRestore.guest.operation.interval=5* 으로 문의하십시오
++
+VMware vSphere용 SnapCenter 플러그인이 게스트에 대한 게스트 작업(온라인 디스크 및 복원 파일)을 완료하기 위해 모니터링하는 시간 간격(초)을 지정합니다. 총 대기 시간은 guestFileRestore.online.disk.timeout과 udestFileRestore.restore.files.timeout로 설정됩니다.
+
++
+기본값은 "5"입니다.
+
+* * guestFileRestore.monitorInterval = 30 *
++
+SnapCenter VMware 플러그인이 만료된 게스트 파일 복구 세션을 모니터링하는 시간 간격(분)을 지정합니다. 구성된 세션 시간을 초과하여 실행 중인 모든 세션의 연결이 끊어집니다.
+
++
+기본값은 "30"입니다.
+
+* * guestFileRestore.online.disk.timeout = 100 *
++
+SnapCenter VMware 플러그인이 게스트 VM에서 온라인 디스크 작업이 완료될 때까지 대기하는 시간(초)을 지정합니다. 플러그인이 온라인 디스크 작업 완료를 폴링하기 전에 추가로 30초 대기 시간이 있습니다.
+
++
+기본값은 "100"입니다.
+
+* * guestFileRestore.restore.files.timeout = 3600 *
++
+SnapCenter VMware 플러그인이 게스트 VM의 파일 복구 작업이 완료될 때까지 대기하는 시간(초)을 지정합니다. 시간이 초과되면 프로세스가 종료되고 작업이 실패로 표시됩니다.
+
++
+기본값은 "3600"(1시간)입니다.
+
+* * guestFileRestore.robocopy.directory.flags=/R:0/W:0/ZB/CopyAll/EFSRAW/A-:SH/e/NJH/NDL/NP *
++
+게스트 파일 복원 작업 중에 디렉토리를 복사할 때 사용할 추가 Robocopy 플래그를 지정합니다.
+
++
+복원 출력의 구문 분석이 중단되므로 '/NJH'를 제거하거나 '/NJS'를 추가하지 마십시오.
+
++
+오류가 발생한 사본에 대해 재시도 횟수를 초과할 수 있으므로 무제한 재시도("/R" 플래그 제거)를 허용하지 마십시오.
+
++
+기본값은 ""/R:0/W:0/ZB/CopyAll/EFSRAW/A-:SH/e/NJH/NDL/NP""입니다.
+
+* * guestFileRestore.robocopy.file.flags=/R:0/W:0/ZB/CopyAll/EFSRAW/A-:SH/NJH/NDL/NP *
++
+게스트 파일 복원 작업 중에 개별 파일을 복사할 때 사용할 추가 Robocopy 플래그를 지정합니다.
+
++
+복원 출력의 구문 분석이 중단되므로 '/NJH'를 제거하거나 '/NJS'를 추가하지 마십시오.
+
++
+오류가 발생한 사본에 대해 재시도 횟수를 초과할 수 있으므로 무제한 재시도("/R" 플래그 제거)를 허용하지 마십시오.
+
++
+기본값은 ""/R:0/W:0/ZB/CopyAll/EFSRAW/A-:SH/NJH/NDL/NP""입니다.
+
+* guestFileRestore.sessionTime=1440* 으로 문의하십시오
++
+VMware vSphere용 SnapCenter 플러그인이 게스트 파일 복구 세션을 활성 상태로 유지하는 시간(분)을 지정합니다.
+
++
+기본값은 "1440"(24시간)입니다.
+
+* guestFileRestore.use.custom.online.disk.script=true* 으로 문의하십시오
++
+게스트 파일 복구 세션을 생성할 때 디스크를 온라인 상태로 설정하고 드라이브 문자를 검색하는 데 사용자 지정 스크립트를 사용할지 여부를 지정합니다. 스크립트는 "[설치 경로]\etc\guestFileRestore_onlineDisk.ps1"에 있어야 합니다. 설치 시 기본 스크립트가 제공됩니다. 첨부 프로세스 중에 스크립트에 "[Disk_Serial_Number]", "[Online_Disk_Output]" 및 "[Drive_Output]" 값이 대체됩니다.
+
++
+기본값은 "false"입니다.
+
+* include.esx.initiator.id.from.cluster=true* 으로 문의하십시오
++
+SnapCenter VMware 플러그인이 VMDK 워크플로우를 통해 애플리케이션의 클러스터에 있는 모든 ESXi 호스트의 iSCSI 및 FCP 이니시에이터 ID를 포함하도록 지정합니다.
+
++
+기본값은 "false"입니다.
+
+* * 최대 동시 .ds.storage.query.count = 15 *
++
+SnapCenter VMware 플러그인이 데이터 저장소의 스토리지 공간을 검색하기 위해 SnapCenter Server에 대해 수행할 수 있는 최대 동시 호출 수를 지정합니다. SnapCenter VMware 플러그인 VM 호스트에서 Linux 서비스를 다시 시작하면 플러그인에서 이러한 호출을 수행합니다.
+
+* * nfs.datastore.mount.retry.count=3 *
++
+SnapCenter VMware 플러그인이 vCenter에서 볼륨을 NFS 데이터 저장소로 마운트하려고 시도하는 최대 횟수를 지정합니다.
+
++
+기본값은 "3"입니다.
+
+* nfs.datastore.mount.retry.delay=60000* 으로 문의하십시오
++
+SnapCenter VMware 플러그인이 vCenter에서 볼륨을 NFS 데이터 저장소로 마운트하려는 시도 사이에서 대기하는 시간(밀리초)을 지정합니다.
+
++
+기본값은 "60000"(60초)입니다.
+
+* * script.virtual.machine.count.variable.name = virtual_machines *
++
+가상 머신 수를 포함하는 환경 변수 이름을 지정합니다. 백업 작업 중에 사용자 정의 스크립트를 실행하기 전에 변수를 정의해야 합니다.
+
++
+예를 들어 virtual_machines=2는 두 개의 가상 머신이 백업되고 있음을 의미합니다.
+
+* script.virtual.machine.info.variable.name=VIRTUAL_MACHINE.%s* 으로 문의하십시오
++
+백업의 nth 가상 머신에 대한 정보가 포함된 환경 변수의 이름을 제공합니다. 백업 중에 사용자 정의 스크립트를 실행하기 전에 이 변수를 설정해야 합니다.
+
++
+예를 들어, 환경 변수 virtual_machine.2에서는 백업의 두 번째 가상 머신에 대한 정보를 제공합니다.
+
+* * script.virtual.machine.info.format= %s|%s|%s|%s|%s *
++
+가상 머신에 대한 자세한 내용은 에 나와 있습니다. 환경 변수에 설정된 이 정보의 형식은 'VM 이름|VM UUID|VM 전원 상태(ON|OFF)|VM 스냅샷 촬영(TRUE|FALSE)|IP 주소'입니다
+
++
+다음은 사용자가 제공할 수 있는 정보의 예입니다.
+
++
+'virtual_machine.2=vm 1|564d6769-f07d-6e3b-68b1f3c29ba03a9a|pered_on||true|10.0.4.2'
+
+* * storage.connection.timeout = 600000 *
++
+SnapCenter 서버가 스토리지 시스템의 응답을 대기하는 시간(밀리초)을 지정합니다.
+
++
+기본값은 "600000"(10분)입니다.
+
+* vmware.esx.ip.kernel.ip.map* 으로 문의하십시오
++
+기본값이 없습니다. 이 값을 사용하여 ESXi IP 주소를 VMkernel IP 주소에 매핑합니다. 기본적으로 SnapCenter VMware 플러그인은 ESXi 호스트의 관리 VMkernel 어댑터 IP 주소를 사용합니다. SnapCenter VMware 플러그인에서 다른 VMkernel 어댑터 IP 주소를 사용하려면 재정의 값을 제공해야 합니다.
+
++
+다음 예에서는 관리 VMkernel 어댑터 IP 주소가 10.225.10.56이지만 SnapCenter VMware 플러그인은 10.225.11.57 및 10.225.11.58의 지정된 주소를 사용합니다. 관리 VMkernel 어댑터 IP 주소가 10.225.10.60인 경우 플러그인은 10.225.11.61 주소를 사용합니다.
+
++
+vmware.esx.ip.kernel.ip.map=10.225.10.56:10.225.11.57,10.225.11.58; 10.225.10.60:10.225.11.61
+
+* * vmware.max concurrent.snapshots = 30 *
++
+SnapCenter VMware 플러그인이 서버에서 수행하는 최대 동시 VMware 스냅샷 수를 지정합니다.
+
++
+이 수치는 데이터 저장소 단위로 확인되며 정책에 "VM 정합성 보장"이 선택되어 있는 경우에만 확인됩니다. 충돌 시에도 정합성 보장 백업을 수행하는 경우에는 이 설정이 적용되지 않습니다.
+
++
+기본값은 "30"입니다.
+
+* vmware.max.concurrent.snapshots.delete=30* 으로 문의하십시오
++
+SnapCenter VMware 플러그인이 서버에서 수행하는 최대 동시 VMware 스냅샷 삭제 작업 수를 데이터 저장소당 지정합니다.
+
++
+이 수치는 데이터 저장소별로 확인됩니다.
+
++
+기본값은 "30"입니다.
+
+* * vmware.query.unresolved.retry.count=10 *
++
+SnapCenter VMware 플러그인이 I/O를 보류하기 위한 시간 제한." 오류 때문에 해결되지 않은 볼륨에 대한 쿼리를 다시 보내는 최대 횟수를 지정합니다.
+
++
+기본값은 "10"입니다.
+
+* * vmware.quiesce.retry.count=0 *
++
+백업 중 "...입출력 보류 시간 제한.." 오류로 인해 SnapCenter VMware 플러그인이 VMware 스냅샷에 대한 쿼리를 다시 보내는 최대 횟수를 지정합니다.
+
++
+기본값은 "0"입니다.
+
+* vmware.quiesce.retry.interval=5* 으로 문의하십시오
++
+백업 중에 SnapCenter VMware 플러그인이 VMware 스냅샷 "...I/O를 보류하기 위한 시간 제한..."과 관련된 쿼리를 보내는 동안 대기하는 시간(초)을 지정합니다.
+
++
+기본값은 "5"입니다.
+
+* * vmware.query.unresolved.retry.delay= 60000 *
++
+SnapCenter VMware 플러그인이 "...I/O를 보류하기 위한 시간 제한.." 오류 때문에 해결되지 않은 볼륨에 대한 쿼리를 전송하는 동안 대기하는 시간(밀리초)을 지정합니다. 이 오류는 VMFS 데이터 저장소를 클론 생성할 때 발생합니다.
+
++
+기본값은 "60000"(60초)입니다.
+
+* * vmware.reconfig.vm.retry.count=10 *
++
+SnapCenter VMware 플러그인이 "I/O를 보류하기 위한 시간 제한.."으로 인해 VM 재구성에 대한 쿼리를 전송하는 최대 횟수를 지정합니다.
+
++
+기본값은 "10"입니다.
+
+* vmware.reconfig.vm.retry.delay=30000* 으로 문의하십시오
++
+SnapCenter VMware 플러그인이 "...I/O를 보류하기 위한 시간 제한.." 오류 때문에 VM 재구성과 관련된 쿼리를 전송하는 동안 대기하는 최대 시간(밀리초)을 지정합니다.
+
++
+기본값은 "30000"(30초)입니다.
+
+* * vmware.rescan.hba.retry.count=3 *
++
+SnapCenter VMware 플러그인이 "...I/O를 보류하기 위한 시간 제한.." 오류 때문에 호스트 버스 어댑터를 다시 스캔하기 위한 쿼리를 전송하는 동안 대기하는 시간(밀리초)을 지정합니다.
+
++
+기본값은 "3"입니다.
+
+* vmware.rescan.hba.retry.delay=30000* 으로 문의하십시오
++
+SnapCenter VMware 플러그인이 호스트 버스 어댑터를 재검사하기 위해 재시도하는 최대 횟수를 지정합니다.
+
++
+기본값은 "30000"입니다.
+
+

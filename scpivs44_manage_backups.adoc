@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_manage_backups.html 
+keywords:  
+summary: SnapCenter Plug-in for VMware vSphere에서 수행한 백업의 이름을 바꾸고 삭제할 수 있습니다. 여러 백업을 동시에 삭제할 수도 있습니다. 
+---
+= 백업 관리
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SnapCenter Plug-in for VMware vSphere에서 수행한 백업의 이름을 바꾸고 삭제할 수 있습니다. 여러 백업을 동시에 삭제할 수도 있습니다.
+
+
+
+=== 백업 이름을 바꿉니다
+
+검색 기능을 향상시키기 위해 더 나은 이름을 제공하려면 VMware vSphere 백업용 SnapCenter 플러그인의 이름을 바꿀 수 있습니다.
+
+.단계
+. Menu * 를 클릭하고 * Hosts and Clusters * 메뉴 옵션을 선택한 다음 VM을 선택하고 * Configure * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.
++
+image:scpivs44_image14.png["오류: 그래픽 이미지가 없습니다"]
+
+. 구성 탭에서 백업을 선택하고 * 이름 바꾸기 * 를 클릭합니다.
+. 백업 이름 바꾸기 * 대화 상자에서 새 이름을 입력하고 * 확인 * 을 클릭합니다.
++
+VM, 데이터 저장소, 정책, 백업 또는 리소스 그룹 이름에 & * $#@! /: *? "<>-|;',. 밑줄 문자(_)를 사용할 수 있습니다.
+
+
+
+
+
+=== 백업을 삭제합니다
+
+다른 데이터 보호 작업을 위한 백업이 더 이상 필요하지 않은 경우 VMware vSphere 백업을 위한 SnapCenter 플러그인을 삭제할 수 있습니다. 하나의 백업을 삭제하거나 여러 백업을 동시에 삭제할 수 있습니다.
+
+마운트된 백업은 삭제할 수 없습니다. 백업을 삭제하려면 먼저 마운트 해제해야 합니다.
+
+2차 스토리지의 스냅샷 복사본은 SnapCenter VMware 플러그인이 아닌 ONTAP 보존 설정에서 관리합니다. 따라서 SnapCenter VMware 플러그인을 사용하여 백업을 삭제하면 기본 스토리지의 Snapshot 복사본이 삭제되지만 보조 스토리지의 Snapshot 복사본은 삭제되지 않습니다. 스냅샷 복사본이 여전히 보조 스토리지에 존재하는 경우 SnapCenter VMware 플러그인은 복원 요청을 지원하기 위해 백업과 연결된 메타데이터를 유지합니다. ONTAP 보존 프로세스에서 2차 스냅샷 복사본을 삭제하면 SnapCenter VMware 플러그인이 정기적으로 실행되는 삭제 작업을 사용하여 메타데이터를 삭제합니다.
+
+. Menu * 를 클릭하고 * Hosts and Clusters * 메뉴 옵션을 선택한 다음 VM을 선택하고 * Configure * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.
++
+image:scpivs44_image14.png["오류: 그래픽 이미지가 없습니다"]
+
+. 하나 이상의 백업을 선택하고 * Delete * 를 클릭합니다.
++
+삭제할 백업을 최대 40개까지 선택할 수 있습니다.
+
+. 확인 * 을 클릭하여 삭제 작업을 확인합니다.
+. 왼쪽 vSphere 메뉴 표시줄에서 새로 고침 아이콘을 클릭하여 백업 목록을 새로 고칩니다.
+

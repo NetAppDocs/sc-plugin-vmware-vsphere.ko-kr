@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_upgrade_to_a_new_patch.html 
+keywords:  
+summary: 동일한 릴리즈의 새 패치로 업그레이드하는 경우 vCenter 웹 서버에서 SnapCenter Plug-in for VMware vSphere 캐시를 지우고 업그레이드 또는 등록 전에 서버를 다시 시작해야 합니다. 
+---
+= VMware vSphere용 SnapCenter 플러그인의 동일한 릴리즈의 새 패치로 업그레이드하십시오
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+동일한 릴리즈의 새 패치로 업그레이드하는 경우 vCenter 웹 서버에서 SnapCenter Plug-in for VMware vSphere 캐시를 지우고 업그레이드 또는 등록 전에 서버를 다시 시작해야 합니다.
+
+플러그인 캐시를 지우지 않으면 다음 시나리오에서 최근 작업이 대시보드 및 작업 모니터에 표시되지 않습니다.
+
+* VMware vSphere용 SnapCenter 플러그인은 vCenter를 사용하여 구축한 후 나중에 동일한 릴리즈의 패치로 업그레이드했습니다.
+* SnapCenter VMware 가상 어플라이언스는 vCenter 1에 배포되었습니다. 나중에 이 SnapCenter VMware 플러그인은 새 vCenter2에 등록되었습니다. SnapCenter VMware 플러그인의 새 인스턴스는 패치를 통해 생성되고 vCenter1에 등록됩니다. 그러나 vCenter1은 여전히 패치 없이 첫 번째 SnapCenter VMware 플러그인의 캐시된 플러그인을 가지고 있으므로 캐시를 지워야 합니다.
+
+
+
+
+=== 캐시를 지우는 단계입니다
+
+. vSphere-client-en레니티 폴더를 찾은 후 com.netapp.scvm.webclient-4.6.0` 폴더를 찾아 삭제합니다.
++
+각 릴리즈에 대한 폴더 이름이 변경됩니다.
+
++
+운영 체제의 "vSphere-client-serenity" 폴더 위치는 VMware 설명서를 참조하십시오.
+
+. vCenter Server를 다시 시작합니다.
++
+그런 다음 SnapCenter VMware 플러그인을 업그레이드할 수 있습니다.
+
+

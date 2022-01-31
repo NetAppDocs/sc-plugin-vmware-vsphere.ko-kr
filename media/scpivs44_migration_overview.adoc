@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_migration_overview.html 
+keywords:  
+summary:  
+---
+= 마이그레이션 개요
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+마이그레이션 명령은 #SnapCenter 4.0 이상에서 #만 마이그레이션합니다. 이전 버전의 SnapCenter를 사용하는 경우 먼저 업그레이드해야 마이그레이션할 수 있습니다.
+
+* 마이그레이션에는 다음이 포함됩니다
++
+** 마이그레이션 내용
++
+SnapCenter 메타데이터 - 스토리지 시스템, 사용자 지정 스로틀, SnapCenter 구성 파일의 이메일 설정, 정책, 리소스 그룹, 백업 메타데이터 및 마운트를 포함합니다. (처방자 또는 사후 스크립트를 발견하면 마이그레이션이 실패함)
+
+** 마이그레이션되지 않은 사항
++
+리소스 그룹에 대해 구성된 사전/사후 스크립트입니다
+
++
+활성 게스트 파일 복원 세션, 게스트 파일 복원 자격 증명 및 프록시 VM
+
++
+게스트 파일 복구 세션이 활성 상태일 때 마이그레이션을 시작하면 세션이 삭제되고 연결된 디스크가 마운트 해제되지 않습니다. 연결된 디스크를 수동으로 삭제해야 할 수도 있습니다.
+
++
+'CBR.OVERRIDE' 설정 파일
+
+
+
+* SnapCenter 호스트가 일시 중단되었습니다
++
+마이그레이션 성공을 보장하기 위해 migration 명령은 SnapCenter에 등록된 모든 호스트를 일시 중단합니다. 마이그레이션 프로세스가 성공적으로 완료되면 SnapCenter 호스트가 다시 시작됩니다.
+
+* 마이그레이션 cmdlet 프로세스
++
+SnapCenter에 등록된 SnapCenter VMware 플러그인의 각 인스턴스에 대해 Windows Powershell cmdlet 'invoke-SCVVAMigration'을 사용해야 합니다.
+
++
+cmdlet은 다음을 수행합니다.
+
++
+** 마이그레이션 중에 작업 실패를 방지하기 위해 모든 일정을 일시 중단합니다. 마이그레이션이 성공적으로 완료되면 스케줄이 자동으로 다시 활성화됩니다.
+** 스토리지 연결과 메타데이터를 마이그레이션합니다.
+** 마이그레이션 후 백업을 위한 백업 스케줄을 생성합니다.
+** Windows 호스트에서 기존 VMware vSphere용 SnapCenter 플러그인을 제거합니다.
++
+SnapCenter VMware 플러그인이 SnapCenter 서버 호스트에 설치되어 있고 SnapCenter 저장소에 대해 보호가 구성된 경우, 마이그레이션 프로세스에서 VMware vSphere용 SnapCenter 플러그인과 Windows용 SnapCenter 플러그인이 포함된 Windows 기반 플러그인 패키지도 제거합니다. 그런 다음 리포지토리 보호를 지원하기 위해 최신 버전의 Windows용 SnapCenter 플러그인을 다시 설치합니다. SnapCenter GUI의 호스트 유형은 "vSphere"에서 "Windows"로 변경됩니다.
+
+** Windows SnapCenter 서버에서 vSphere 호스트 및 리소스 그룹을 제거합니다.
+** Linux 기반 SnapCenter VMware 플러그인에서 백업 작업을 활성화합니다.
+** SnapCenter VMware 플러그인용 vSphere 호스트를 SnapCenter에 등록하여 가상화된 데이터베이스 및 파일 시스템(VMDK 백업을 통한 애플리케이션)의 애플리케이션 기반 백업을 지원합니다.
+
+
+* 메타데이터가 저장된 위치
++
+애플리케이션 기반 VMDK 백업에 대한 메타데이터는 SnapCenter 서버 저장소에 저장됩니다. VM 및 데이터 저장소 백업의 메타데이터는 SnapCenter VMware 플러그인 MySQL 저장소에 저장됩니다.
+
+

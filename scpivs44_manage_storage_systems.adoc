@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_manage_storage_systems.html 
+keywords:  
+summary: VMware vSphere 웹 클라이언트를 사용하여 VM 또는 데이터 저장소를 백업하거나 복구하려면 먼저 스토리지를 추가해야 합니다. 
+---
+= 스토리지 시스템 관리
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere 웹 클라이언트를 사용하여 VM 또는 데이터 저장소를 백업하거나 복구하려면 먼저 스토리지를 추가해야 합니다.
+
+
+
+== 스토리지 VM을 수정합니다
+
+VMware vSphere 웹 클라이언트를 사용하면 VMware vSphere용 SnapCenter 플러그인에 등록되어 VM 데이터 보호 작업에 사용되는 클러스터 및 스토리지 VM의 구성을 수정할 수 있습니다.
+
+클러스터(암시적 스토리지 VM라고도 함)의 일부로 자동 추가된 스토리지 VM을 수정하는 경우 해당 스토리지 VM은 명시적 스토리지 VM으로 변경되며 해당 클러스터의 나머지 스토리지 VM을 변경하지 않고 개별적으로 삭제할 수 있습니다. 스토리지 시스템 페이지에서 암시적 스토리지 VM의 경우 사용자 이름이 "-"로 표시됩니다. 사용자 이름은 클러스터 목록의 명시적 스토리지 VM에만 표시되고 ExplicitSVM 플래그가 TRUE로 설정됩니다. 모든 스토리지 VM은 항상 연결된 클러스터 아래에 나열됩니다.
+
+
+IMPORTANT: SnapCenter GUI를 사용하여 애플리케이션 기반 데이터 보호 작업을 위해 스토리지 VM을 추가한 경우 동일한 GUI를 사용하여 해당 스토리지 VM을 수정해야 합니다.
+
+.단계
+. VMware vSphere 웹 클라이언트의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭합니다.
+. 스토리지 시스템 * 페이지에서 수정할 스토리지 VM을 선택한 다음 을 클릭합니다 image:scpivs44_image25.png["오류: 그래픽 이미지가 없습니다"] * 편집 *.
+. Edit Storage System * 창에서 새 값을 입력한 다음 * Update * 를 클릭하여 변경 사항을 적용합니다.
++
+image:scpivs44_image26.png["오류: 그래픽 이미지가 없습니다"]
+
+
+
+
+
+== 스토리지 VM의 이름을 바꿉니다
+
+VM을 리소스 그룹에 추가한 후 이름을 변경하면 VMware vSphere용 SnapCenter 플러그인이 이름이 아닌 VM UUID에서 작동하므로 리소스 페이지에 새 이름이 표시되지 않을 수 있습니다.
+
+리소스 페이지에 새 VM 이름이 표시되도록 하려면 다음을 수행합니다.
+
+. 리소스 그룹을 편집하고 VM을 제거합니다.
+. VM의 이름을 바꿉니다.
+. VM을 리소스 그룹에 다시 추가합니다.
+
+
+
+
+== 스토리지 VM을 제거합니다
+
+VMware vSphere 웹 클라이언트를 사용하여 vCenter의 인벤토리에서 스토리지 VM을 제거할 수 있습니다.
+
+
+NOTE: SnapCenter GUI를 사용하여 애플리케이션 기반 데이터 보호 작업을 위해 스토리지 VM을 추가한 경우 동일한 GUI를 사용하여 해당 스토리지 VM을 수정해야 합니다.
+
+스토리지 VM을 제거하려면 먼저 스토리지 VM의 모든 데이터 저장소를 마운트 해제해야 합니다.
+
+리소스 그룹에 제거하는 스토리지 VM에 상주하는 백업이 있는 경우 해당 리소스 그룹에 대한 후속 백업이 실패합니다.
+
+.단계
+. VMware vSphere 웹 클라이언트의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭합니다.
+. 스토리지 시스템 * 페이지에서 제거할 스토리지 VM을 선택한 다음 * 삭제 * 를 클릭합니다.
+. 스토리지 시스템 제거 * 확인 상자에서 * 스토리지 시스템 삭제 * 확인란을 선택한 다음 * 예 * 를 클릭하여 확인합니다.
+. 제거된 스토리지 VM이 ESXi 6.7 Server에서 관리되는 경우 웹 클라이언트 서비스를 다시 시작해야 합니다.
++
+link:scpivs44_manage_the_vmware_vsphere_web_client_service.html["VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다"].
+
+

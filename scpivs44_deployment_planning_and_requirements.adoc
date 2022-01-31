@@ -1,0 +1,210 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_deployment_planning_and_requirements.html 
+keywords:  
+summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항을 숙지해야 합니다. 
+---
+= 배포 계획 및 요구 사항
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+가상 어플라이언스를 구축하기 전에 구축 요구 사항을 숙지해야 합니다. 배포 요구 사항은 다음 다섯 개의 표에 나열되어 있습니다.
+
+
+
+== 호스트 요구 사항
+
+VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 호스트 요구 사항을 숙지해야 합니다.
+
+* SnapCenter VMware 플러그인을 Linux VM으로 배포해야 합니다.
++
+SnapCenter VMware 플러그인은 Windows 시스템 또는 Linux 시스템의 데이터를 보호하기 위해 플러그인을 사용하는지에 관계없이 Linux VM으로 배포됩니다.
+
+* vCenter Server에 SnapCenter VMware 플러그인을 구축해야 합니다.
++
+백업 스케줄은 SnapCenter VMware 플러그인이 구축된 시간대에서 실행됩니다. vCenter는 vCenter가 있는 표준 시간대의 데이터를 보고합니다. 따라서 SnapCenter VMware 플러그인과 vCenter가 서로 다른 시간대에 있는 경우 SnapCenter VMware 플러그인 대시보드의 데이터가 보고서의 데이터와 다를 수 있습니다.
+
+* 특수 문자가 있는 폴더에 SnapCenter VMware 플러그인을 배포해서는 안 됩니다.
++
+폴더 이름에는 $!@#%^&()_+{}';., *?"<>| 같은 특수 문자가 포함될 수 없습니다
+
+* 각 vCenter Server에 대해 SnapCenter VMware 플러그인의 고유한 개별 인스턴스를 구축하고 등록해야 합니다.
++
+** 각 vCenter Server가 연결 모드에 있는지 여부에 관계없이 SnapCenter VMware 플러그인의 별도의 인스턴스와 페어링해야 합니다.
+** SnapCenter VMware 플러그인의 각 인스턴스는 별도의 Linux VM으로 구축해야 합니다.
++
+예를 들어 vCenter Server의 서로 다른 인스턴스 6개에서 백업을 수행하려면 SnapCenter VMware 플러그인을 호스트 6개에 구축해야 하며 각 vCenter Server는 SnapCenter VMware 플러그인의 고유한 인스턴스와 페어링되어야 합니다.
+
+
+
+* VVOL VM(VMware VVOL 데이터 저장소의 VM)을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 VVOL을 위한 스토리지를 프로비저닝 및 구성합니다.
++
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere용 ONTAP 툴"^]
+
++
+지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=103284;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
+
+* SnapCenter VMware 플러그인은 스토리지 vMotion을 지원하는 가상 머신의 제한으로 인해 공유 PCI 또는 PCIe 장치(예: NVIDIA Grid GPU)를 제한적으로 지원합니다. 자세한 내용은 공급업체의 VMware 배포 가이드 문서를 참조하십시오.
++
+** 지원 내용:
++
+자원 그룹 작성
+
++
+VM 일관성 없이 백업 생성
+
++
+모든 VMDK가 NFS 데이터 저장소에 있고 플러그인이 Storage vMotion을 사용할 필요가 없는 경우 전체 VM을 복구합니다
+
++
+VMDK 연결 및 분리
+
++
+데이터 저장소 마운트 및 마운트 해제
+
++
+게스트 파일 복원
+
+** 지원되지 않는 항목:
++
+VM 일관성을 사용하여 백업 생성
+
++
+하나 이상의 VMDK가 VMFS 데이터 저장소에 있는 경우 전체 VM 복구
+
+
+
+* SnapCenter VMware 플러그인 제한 사항에 대한 자세한 목록은 를 참조하십시오 link:scpivs44_release_notes.html["VMware vSphere용 SnapCenter 플러그인 릴리즈 노트"^].
+
+
+
+
+== 라이센스 요구 사항
+
+|===
+| 다음에 대한 라이센스를 제공해야 합니다. | 라이센스 요구 사항 
+
+
+| ONTAP | 다음 중 하나: SnapMirror 또는 SnapVault(관계 유형에 관계없이 2차 데이터 보호를 위해) 
+
+
+| 추가 제품 | vSphere Standard, Enterprise 또는 Enterprise Plus 복구 작업을 수행하려면 Storage vMotion을 사용하는 vSphere 라이센스가 필요합니다. vSphere Essentials 또는 Essentials Plus 라이센스에는 Storage vMotion이 포함되지 않습니다. 
+
+
+| 주 대상 | SnapCenter 표준: VMware SnapRestore을 통해 애플리케이션 기반 보호를 수행하는 데 필요: VMware VM 및 데이터 저장소에 대해서만 복구 작업을 수행하는 데 필요 FlexClone: VMware VM 및 데이터 저장소에서 마운트 및 연결 작업에만 사용 
+
+
+| 보조 대상 | SnapCenter 표준: VMware FlexClone을 통한 애플리케이션 기반 보호를 위한 페일오버 작업에 사용됨: VMware VM 및 데이터 저장소에서 마운트 및 연결 작업에만 사용됩니다 
+|===
+
+
+== 소프트웨어 지원
+
+|===
+| 항목 | 지원되는 버전 
+
+
+| vCenter vSphere를 참조하십시오 | HTML5 클라이언트: 6.5U2/U3, 6.7x, 7.0, 7.0U1, 7.0U2, 7.0U3 Flex 클라이언트는 지원되지 않습니다. 
+
+
+| ESXi | 6.5U2 이상 
+
+
+| IP 주소 | IPv4, IPv6 
+
+
+| VMware TLS | 1.2 
+
+
+| SnapCenter 서버의 TLS | TLSv1.1 이상 버전의 SnapCenter Server는 이를 사용하여 VMDK 데이터 보호 작업을 통해 애플리케이션을 위한 SnapCenter VMware 플러그인과 통신합니다. 
+
+
+| VMware 애플리케이션 VAAI(vStorage API for Array Integration) | VMware vSphere용 SnapCenter 플러그인은 이 기능을 사용하여 복구 작업의 성능을 향상시킵니다. 또한 NFS 환경의 성능도 개선합니다. 
+
+
+| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 NetApp 상호 운용성 매트릭스 툴을 참조하십시오. 
+|===
+지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=103284;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
+
+
+
+== 요구사항을 충족해야 합니다
+
+|===
+| 항목 | 요구 사항 
+
+
+| 운영 체제 | 리눅스 
+
+
+| 최소 CPU 수입니다 | 4코어 
+
+
+| 최소 RAM | 최소: 12GB 권장: 16GB 
+
+
+| VMware vSphere, 로그 및 MySQL 데이터베이스용 SnapCenter 플러그인의 최소 하드 드라이브 공간 | 100GB 
+|===
+
+
+== 연결 및 포트 요구 사항
+
+|===
+| 포트의 유형입니다 | 사전 구성된 포트 
+
+
+| VMware vSphere 포트용 SnapCenter 플러그인  a| 
+8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다. 참고: 포트 구성은 수정할 수 없습니다.
+
+
+
+| VMware vSphere vCenter Server 포트입니다 | VVol VM을 보호하는 경우 포트 443을 사용해야 합니다. 
+
+
+| 스토리지 클러스터 또는 스토리지 VM 포트입니다 | 443(HTTPS), 양방향 80(HTTP), 양방향 이 포트는 가상 어플라이언스와 스토리지 VM이 포함된 클러스터 간 통신에 사용됩니다. 
+|===
+
+
+== 구성 지원
+
+각 플러그인 인스턴스는 하나의 vCenter Server만 지원합니다. 연결된 모드의 vCenter가 지원됩니다. 여러 플러그인 인스턴스가 다음 그림과 같이 동일한 SnapCenter 서버를 지원할 수 있습니다.
+
+image:scpivs44_image4.png["오류: 그래픽 이미지가 없습니다"]
+
+
+
+== RBAC 권한이 필요합니다
+
+vCenter 관리자 계정에는 다음 표에 나와 있는 대로 필요한 vCenter 권한이 있어야 합니다.
+
+|===
+| 이 작업을 수행하려면… | 이러한 vCenter 권한이 있어야 합니다. 
+
+
+| vCenter에서 VMware vSphere용 SnapCenter 플러그인을 구축 및 등록합니다 | 내선: 내선 번호를 등록합니다 
+
+
+| VMware vSphere용 SnapCenter 플러그인을 업그레이드하거나 제거합니다  a| 
+연장
+
+* 내선 번호 업데이트
+* 내선 번호 등록을 취소합니다
+
+
+
+
+| SnapCenter에 등록된 vCenter 자격 증명 사용자 계정이 VMware vSphere용 SnapCenter 플러그인에 대한 사용자 액세스 권한을 검증하도록 허용합니다 | sessions.validate.session 
+
+
+| 사용자가 VMware vSphere용 SnapCenter 플러그인에 액세스할 수 있도록 허용합니다 | SCV 관리자 SCV 백업 SCV 게스트 파일 복원 SCV 복원 SCV 보기 vCenter 루트에서 권한을 할당해야 합니다. 
+|===
+
+
+== AutoSupport
+
+VMware vSphere용 SnapCenter 플러그인은 플러그인 URL을 비롯하여 사용 현황을 추적하기 위한 최소한의 정보를 제공합니다. AutoSupport에는 AutoSupport 뷰어에 표시되는 설치된 플러그인 테이블이 포함되어 있습니다.

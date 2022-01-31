@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_rest_api_workflow__back_up_on_demand.html 
+keywords:  
+summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 필요 시 백업 작업을 수행하려면 규정된 일련의 REST API 호출을 따라야 합니다. 
+---
+= 요청 시 백업을 위한 REST API 워크플로우
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 필요 시 백업 작업을 수행하려면 규정된 일련의 REST API 호출을 따라야 합니다.
+
+각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+
+|===
+| 단계 | REST API | 설명 
+
+
+| 1 | '/4.1/자원 그룹' | 리소스 그룹 목록 가져오기(Get List of Resource Groups)는 VMware vSphere 웹 클라이언트 리소스 그룹의 목록을 가져옵니다. 백업할 리소스 그룹에 대한 * resourceGroupId * 와 * policyId * 를 확인합니다. 
+
+
+| 2 | '/4.1/자원 그룹/백업' | 리소스 그룹에서 백업 실행 은 필요 시 리소스 그룹을 백업합니다. 1단계에서 * resourceGroupId * 와 * policyId * 를 전달합니다. 
+|===

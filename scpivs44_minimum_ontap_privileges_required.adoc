@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_minimum_ontap_privileges_required.html 
+keywords:  
+summary: 필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중인 SnapCenter 플러그인에 따라 다릅니다. 
+---
+= 최소 ONTAP 권한이 필요합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중인 SnapCenter 플러그인에 따라 다릅니다.
+
+모든 SnapCenter 플러그인에는 다음과 같은 최소 권한이 필요합니다.
+
+|===
+| All-access 명령: ONTAP 8.3 이상에서 필요한 최소 권한 
+
+
+| event generate-autosupport-log입니다 
+
+
+| 작업 기록은 작업 중지를 표시합니다 
+
+
+| LUN LUN LUN 생성 LUN 삭제 LUN igroup 추가 LUN igroup 생성 LUN igroup 삭제 lun igroup 이름 변경 lun mapping add-reporting-nodes lun mapping 생성 LUN 매핑 삭제 lun mapping remove-reporting-nodes lun mapping show lun modify lun move-in-volume lun offline lun persistent-reservation LUN serial LUN 표시 
+
+
+| SnapMirror 목록 - 대상 SnapMirror 정책 추가 규칙 SnapMirror 정책 수정 - 규칙 SnapMirror 정책 제거 - 규칙 SnapMirror 정책 표시 SnapMirror show -history SnapMirror update SnapMirror update -ls -set 
+
+
+| 버전 
+
+
+| 볼륨 클론 생성 볼륨 클론 생성 show volume clone split start volume clone split stop volume destroy volume file clone create volume file show-disk-usage volume offline volume online volume qtree create volume qtree delete volume qtree modify volume qtree show volume srestrict volume show volume show volume show volume show snapshot create 볼륨 스냅샷 삭제 볼륨 스냅샷 수정 볼륨 스냅샷 이름 변경 볼륨 스냅샷 복구 볼륨 스냅샷 복구 - 파일 볼륨 스냅샷 표시 볼륨 마운트 해제 
+
+
+| SVM CIFS vServer CIFS 공유 create vserver cifs share create vserver cifs shadowcopy show vserver cifs shifs show vserver cifs export-policy vserver export -policy vserver export -policy rule create vserver export -policy rule show vserver iscsi connection show vserver show network interface 를 참조하십시오 네트워크 인터페이스 페일오버 그룹 네트워크 인터페이스가 표시됩니다 
+|===
+|===
+| 읽기 전용 명령: ONTAP 8.3 이상에 필요한 최소 권한 
+
+
+| SVM 
+|===
+
+
+=== 추가 ONTAP 정보
+
+* ONTAP 8.2.x를 실행 중인 경우:
++
+VMware vSphere 작업을 위한 SnapCenter 플러그인에 적절한 권한을 부여하려면 스토리지 VM에서 "vsadmin"으로 로그인해야 합니다.
+
+* ONTAP 8.3 이상을 실행 중인 경우:
++
+위 표에 나열된 최소 권한을 가진 역할이나 "vsadmin"으로 로그인해야 합니다.
+
+

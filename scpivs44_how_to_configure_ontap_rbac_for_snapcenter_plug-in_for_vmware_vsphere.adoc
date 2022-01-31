@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_how_to_configure_ontap_rbac_for_snapcenter_plug-in_for_vmware_vsphere.html 
+keywords:  
+summary: 'ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다.' 
+---
+= VMware vSphere용 SnapCenter 플러그인용 ONTAP RBAC를 구성하는 방법
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다.
+
+SnapCenter VMware 플러그인과 함께 사용하려면 스토리지 시스템에서 ONTAP RBAC를 구성해야 합니다. ONTAP 내에서 다음 작업을 수행해야 합니다.
+
+* 단일 역할을 생성합니다.
++
+http://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.pow-adm-auth-rbac%2Fhome.html["ONTAP 9 관리자 인증 및 RBAC 전원 가이드"^]
+
+* ONTAP에서 역할에 대한 사용자 이름 및 암호(스토리지 시스템 자격 증명)를 생성합니다.
++
+SnapCenter VMware 플러그인용 스토리지 시스템을 구성하려면 이 스토리지 시스템 자격 증명이 필요합니다. 플러그인에서 자격 증명을 입력하여 이 작업을 수행합니다. 이러한 자격 증명을 사용하여 스토리지 시스템에 로그인할 때마다 자격 증명을 생성할 때 ONTAP에서 설정한 SnapCenter 기능 집합이 표시됩니다.
+
+
+
+관리자 또는 루트 로그인을 사용하여 모든 SnapCenter 작업에 액세스할 수 있지만, ONTAP에서 제공하는 RBAC 기능을 사용하여 액세스 권한이 제한된 사용자 지정 계정을 하나 이상 생성하는 것이 좋습니다.
+
+자세한 내용은 을 참조하십시오 link:scpivs44_minimum_ontap_privileges_required.html["최소 ONTAP 권한이 필요합니다"^].

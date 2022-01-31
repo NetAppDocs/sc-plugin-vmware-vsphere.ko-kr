@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_generate_a_support_bundle_from_the_maintenance_console.html 
+keywords:  
+summary: 유지보수 콘솔에서 지원 번들을 생성할 수 있습니다. 
+---
+= 유지보수 콘솔에서 지원 번들을 생성합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+.단계
+. VMware vSphere 웹 클라이언트에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
+. VM을 마우스 오른쪽 단추로 클릭한 다음 가상 어플라이언스의 * 요약 * 탭에서 * 원격 콘솔 시작 또는 웹 콘솔 시작 * 을 클릭하여 유지보수 콘솔 창을 엽니다.
++
+SnapCenter VMware 플러그인 유지 관리 콘솔의 로그온 기본값은 다음과 같습니다.
+
++
+사용자 이름: 성자 비밀번호: admin123
+
++
+image:scpivs44_image11.png["오류: 그래픽 이미지가 없습니다"]
+
+. 기본 메뉴에서 옵션 * 4) 지원 및 진단 * 을 입력합니다.
+. 지원 및 진단 메뉴에서 옵션 * 1) 지원 번들 생성 * 을 입력합니다.
+
+
+지원 번들에 액세스하려면 지원 및 진단 메뉴에서 옵션 * 2) 진단 셸 액세스 * 를 입력합니다. 콘솔에서 '/support/support/<bundle_name>.tar.gz'로 이동합니다.

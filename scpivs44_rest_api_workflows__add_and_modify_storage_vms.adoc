@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_rest_api_workflows__add_and_modify_storage_vms.html 
+keywords:  
+summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 스토리지 VM 작업을 추가 및 수정하려면 규정된 REST API 호출 순서를 따라야 합니다. 
+---
+= 스토리지 VM을 추가 및 수정하는 REST API 워크플로우
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 스토리지 VM 작업을 추가 및 수정하려면 규정된 REST API 호출 순서를 따라야 합니다.
+
+각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+
+스토리지 VM 작업을 추가하려면 다음 워크플로우를 따르십시오.
+
+|===
+| 단계 | REST API | 설명 
+
+
+| 1 | '/4.1/스토리지 시스템' | "스토리지 시스템 추가"는 지정된 스토리지 VM을 VMware vSphere용 SnapCenter 플러그인에 추가합니다. 
+|===
+스토리지 VM 작업을 수정하려면 다음 워크플로우를 따르십시오.
+
+|===
+| 단계 | REST API | 설명 
+
+
+| 1 | '/4.1/스토리지 시스템' | getSvmAll은 사용 가능한 모든 스토리지 VM의 목록을 가져옵니다. 수정하려는 스토리지 VM의 * 이름 * 에 유의하십시오. 
+
+
+| 2 | '/4.1/스토리지 시스템' | "스토리지 시스템 수정"은 지정된 스토리지 VM을 수정합니다. 다른 모든 필수 속성과 함께 1단계에서 * 이름 * 을 전달합니다. 
+|===

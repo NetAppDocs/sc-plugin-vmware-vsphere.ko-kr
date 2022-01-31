@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_unmount_a_backup.html 
+keywords:  
+summary: 데이터 저장소의 파일을 더 이상 액세스할 필요가 없을 경우 백업을 마운트 해제할 수 있습니다. 
+---
+= 백업을 마운트 해제합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+데이터 저장소의 파일을 더 이상 액세스할 필요가 없을 경우 백업을 마운트 해제할 수 있습니다.
+
+VMware vSphere 웹 클라이언트 GUI에 마운트된 것으로 나열되지만 백업 마운트 해제 화면에 표시되지 않는 경우 REST API "/backup/{backup-ID}/cleanup"을 사용하여 바인딩되지 않은 데이터 저장소를 정리한 다음 마운트 해제 절차를 다시 수행해야 합니다.
+
+로드 공유 미러 관계의 루트 볼륨으로 SVM(스토리지 VM)에 NFS 데이터 저장소의 백업 복제본을 마운트하려고 하면 "vCenter에 구성된 최대 NFS 볼륨 수에 도달했을 수 있습니다. 오류 메시지가 있는지 vSphere Client를 확인하십시오 이 문제를 방지하려면 * ESX * > * Manage * > * Settings * > * Advance System Settings * 로 이동하여 NFS.MaxVolumes 값을 변경하여 최대 볼륨 설정을 변경하십시오. 최대값은 256입니다.
+
+.단계
+. VMware vSphere 웹 클라이언트의 도구 모음에서 * 메뉴 * 를 클릭한 다음 드롭다운 목록에서 * 스토리지 * 를 선택합니다.
+. 왼쪽 탐색 창에서 데이터 저장소를 마우스 오른쪽 단추로 클릭한 다음 드롭다운 목록에서 * NetApp SnapCenter * 를 선택하고 보조 드롭다운 목록에서 마운트 해제 를 선택합니다.
++
+
+IMPORTANT: 마운트 해제할 올바른 데이터 저장소를 선택했는지 확인합니다. 그렇지 않으면 생산 작업에 영향을 줄 수 있습니다.
+
+. Unmount Cloned Datastore * 대화 상자에서 데이터 저장소를 선택하고 * Unmount the Cloned datastore * 확인란을 선택한 다음 * Unmount * 를 클릭합니다.
+

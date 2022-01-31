@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_rest_api_workflow__restore_vmdks.html 
+keywords:  
+summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMDK에 대한 복구 작업을 수행하려면 규정된 일련의 REST API 호출을 따라야 합니다. 
+---
+= VMDK를 복구하는 REST API 워크플로우
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMDK에 대한 복구 작업을 수행하려면 규정된 일련의 REST API 호출을 따라야 합니다.
+
+각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+
+|===
+| 단계 | REST API | 설명 
+
+
+| 1 | http://<vCenter-IP>/mob` 참조하십시오 | VMware Managed Objects URL에서 VM을 찾습니다. VMDK가 있는 VM의 * moref * 를 확인합니다. 
+
+
+| 2 | '/4.1/VM/{moref}/백업' | VM 백업 가져오기지정된 VM의 백업 목록을 가져옵니다. 1단계에서 * moref * 를 전달합니다. 복원하려는 백업의 * backupId * 를 기록해 둡니다. 
+
+
+| 3 | "/4.1/vm/backups/{backupId}/snapshotlocations" | "Get snapshot locations"는 지정된 백업에 대한 스냅샷 복사본의 위치를 가져옵니다. 2단계에서 * backupId * 를 전달합니다. snapshotLocationsList* 정보를 확인합니다. 
+
+
+| 4 | "/4.1/vm/{moref}/backups/vmdklocations"를 선택합니다 | VMDK 위치 가져오기 지정된 VM의 VMDK 목록을 가져옵니다. vmdkLocationsList* 정보를 확인합니다. 
+
+
+| 5 | '/4.1/vm/{moref}/backups/{backupId}/사용 가능한 데이터 저장소' | 'Get Available datastores'는 복구 작업에 사용할 수 있는 데이터 저장소의 목록을 가져옵니다. 1단계에서 * moref * 를 전달합니다. 2단계에서 * backupId * 를 전달합니다. DatastoreNameList * 정보를 확인합니다. 
+
+
+| 6 | '/4.1/vm/{moref}/backups/availability.xhosts' | Get Available ESX Hosts는 백업이 저장된 호스트에 대한 정보를 가져옵니다. 1단계에서 * moref * 를 전달합니다. 사용 가능한 EsableEsHostsList* 정보를 확인합니다. 
+
+
+| 7 | "/4.1/vm/{moref}/backups/{backupId}/restorevmdks"  a| 
+백업에서 VMDK 복원 은 지정된 백업에서 지정된 VMDK를 복원합니다. esxHost* 속성에서 6단계의 * 가용성 EsxHostsList*에서 정보를 전달합니다. 3단계에서 5단계까지의 정보를 * vmdkRestoreLocations * 속성으로 전달합니다.
+
+* RestoreFromLocation 속성에서 3단계의 snapshotLocationsList에서 정보를 전달합니다.
+* vmdkToRestore 속성에서 4단계의 vmdkLocationsList에서 정보를 전달합니다.
+* RestoreToDatastore 속성에서 5단계의 DatastoreNameList 에서 정보를 전달합니다.
+
+
+|===

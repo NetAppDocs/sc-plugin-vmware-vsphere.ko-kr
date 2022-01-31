@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_download_the_ova_open_virtual_appliance.html 
+keywords:  
+summary: ova 파일에는 VMware vSphere용 SnapCenter 플러그인에서 수행하는 VM 및 데이터 저장소 데이터 보호를 위한 마이크로서비스 집합이 포함되어 있습니다. 
+---
+= OVA 다운로드(Open Virtual Appliance)
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+'.ova' 파일에는 VMware vSphere용 SnapCenter 플러그인에서 수행하는 VM 및 데이터 저장소 데이터 보호를 위한 마이크로서비스 세트가 포함되어 있습니다
+
+
+IMPORTANT: 다운로드 과정에서 기존 CV.ova 파일을 확인하지 않습니다. 따라서 다운로드하기 전에 vCenter에 다른 'CV.ova' 파일이 없는지 확인해야 합니다.
+
+. NetApp Support 사이트( 에 로그인합니다 https://mysupport.netapp.com/products/index.html["https://mysupport.netapp.com/products/index.html"^])를 클릭합니다.
+. 제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * 최신 릴리스 다운로드 * 버튼을 클릭합니다.
+. VMware vSphere용 SnapCenter 플러그인 .ova 파일을 원하는 위치로 다운로드합니다.
+

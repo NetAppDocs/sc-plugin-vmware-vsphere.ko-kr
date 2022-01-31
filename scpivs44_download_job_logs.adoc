@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_download_job_logs.html 
+keywords:  
+summary: SnapCenter VMware vSphere 웹 클라이언트의 대시보드에 있는 작업 모니터 탭에서 작업 로그를 다운로드할 수 있습니다. 
+---
+= 작업 로그를 다운로드합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SnapCenter VMware vSphere 웹 클라이언트의 대시보드에 있는 작업 모니터 탭에서 작업 로그를 다운로드할 수 있습니다.
+
+VMware vSphere 웹 클라이언트를 사용하는 동안 예기치 않은 동작이 발생하는 경우 로그 파일을 사용하여 원인을 식별하고 문제를 해결할 수 있습니다.
+
+
+NOTE: 작업 로그 보존의 기본값은 30일입니다. 작업 보유의 기본값은 90일입니다. 구성된 보존보다 오래된 작업 로그 및 작업은 6시간마다 삭제됩니다. 삭제 일정은 수정할 수 없습니다.
+
+.단계
+. vSphere 웹 클라이언트의 왼쪽 탐색 창에서 * Dashboard * 를 클릭하고 vCenter Server를 선택한 다음 * Job Monitor * 탭을 클릭합니다.
++
+image:scpivs44_image9.png["오류: 그래픽 이미지가 없습니다"]
+
+. 를 클릭합니다 image:scpivs44_image37.png["오류: 그래픽 이미지가 없습니다"] Job Monitor 제목 표시줄의 다운로드 아이콘
++
+아이콘을 보려면 오른쪽으로 스크롤해야 할 수도 있습니다.
+
++
+작업을 두 번 클릭하여 작업 세부 정보 창에 액세스한 다음 * 작업 로그 다운로드 * 를 클릭할 수도 있습니다.
+
+
+
+작업 로그는 SnapCenter VMware 플러그인이 구축된 Linux VM 호스트에 있습니다. 기본 작업 로그 위치는 '/var/log/netapp'입니다.
+
+작업 로그를 다운로드하려고 했지만 오류 메시지에 명명된 로그 파일이 삭제된 경우 "HTTP error 500 problem 액세스/export-scV-logs" 오류가 발생할 수 있습니다. 이 오류를 해결하려면 오류 메시지에 명명된 파일에 대한 파일 액세스 상태 및 권한을 확인하고 액세스 문제를 해결하십시오.

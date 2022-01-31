@@ -1,0 +1,135 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_prescripts_and_postscripts.html 
+keywords:  
+summary: 데이터 보호 작업의 일부로 사용자 지정 처방과 사후 스크립트를 사용할 수 있습니다. 이러한 스크립트를 사용하면 데이터 보호 작업 전 또는 이후에 자동화를 수행할 수 있습니다. 
+---
+= 사전 스크립트 및 포스트스크립트
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+데이터 보호 작업의 일부로 사용자 지정 처방과 사후 스크립트를 사용할 수 있습니다. 이러한 스크립트를 사용하면 데이터 보호 작업 전 또는 이후에 자동화를 수행할 수 있습니다. 예를 들어 데이터 보호 작업 장애 또는 경고를 자동으로 알리는 스크립트를 포함할 수 있습니다. 처방전과 소인을 설정하기 전에 이러한 스크립트를 만들기 위한 몇 가지 요구 사항을 이해해야 합니다.
+
+
+
+== 지원되는 스크립트 유형입니다
+
+Perl 및 셸 스크립트가 지원됩니다. 쉘 스크립트는 '!/bin/bash'로 시작해야 합니다. ('!/bin/sh'는 지원되지 않습니다.)
+
+
+
+== 스크립트 경로 위치입니다
+
+사전 스크립트 및 사후 스크립트는 VMware vSphere용 SnapCenter 플러그인에서 실행됩니다. 따라서 스크립트를 실행 가능한 권한으로 VMware vSphere OVA용 SnapCenter 플러그인에 두어야 합니다.
+
+예를 들어 * PERL 스크립트 경로는 `/support/support/script.pl ' * 쉘 스크립트 경로는 '/support/support/script.sh'일 수 있습니다
+
+스크립트 경로는 스크립트가 실행될 때 검증됩니다.
+
+
+
+== 스크립트 지정 위치
+
+스크립트는 백업 정책에 지정됩니다. 백업 작업이 시작되면 정책은 자동으로 스크립트를 백업 중인 리소스와 연결합니다.
+
+여러 스크립트를 지정하려면 각 스크립트 경로 뒤에 * Enter * 를 눌러 각 스크립트를 별도의 줄에 나열합니다. 세미콜론(;)은 허용되지 않습니다. 여러 개의 처방과 여러 개의 소인을 지정할 수 있습니다. 단일 스크립트는 처방과 PS로 모두 코딩될 수 있으며 다른 스크립트를 호출할 수 있습니다.
+
+
+
+== 스크립트 실행 시
+
+스크립트는 backup_phase에 설정된 값에 따라 실행됩니다.
+
+* backup_phase = pre_backup입니다
++
+Pre_backup 단계에서 Prescripts가 실행됩니다.
+
+
+
+
+NOTE: 처방이 실패하면 백업이 성공적으로 완료되고 경고 메시지가 전송됩니다.
+
+* backup_phase = POST_backup 또는 backup_phase = failed_backup입니다
++
+백업이 성공적으로 완료된 후 작업의 POST_BACKUP 단계에서 또는 백업이 성공적으로 완료되지 않은 경우 FAILED_BACKUP 단계에서 사후 스크립트가 실행됩니다.
+
+
+
+
+NOTE: PS가 실패하면 백업이 성공적으로 완료되고 경고 메시지가 전송됩니다.
+
+스크립트 값이 채워졌는지 확인하려면 다음을 확인하십시오. * PERL 스크립트의 경우: '/support/support/log_env.log' * 쉘 스크립트의 경우: '/support/support/log_file.log'
+
+
+
+== 스크립트에 환경 변수가 전달되었습니다
+
+스크립트의 다음 표에 나와 있는 환경 변수를 사용할 수 있습니다.
+
+|===
+| 환경 변수 | 설명 
+
+
+| 백업_이름 | 백업의 이름입니다. 변수는 소인으로만 전달됩니다. 
+
+
+| 'backup_date'입니다 | 백업 날짜, yyyymmdd 형식의 변수는 소인으로만 전달되었습니다. 
+
+
+| 'backup_time'입니다 | 백업 시간(hhmmss) 형식으로 postscripts 로만 전달되었습니다. 
+
+
+| 'backup_phase | 스크립트를 실행할 백업 단계입니다. 유효한 값은 'pre_backup, POST_backup, failed_backup'입니다. 변수 는 처방과 사후 스크립트로 전달됩니다. 
+
+
+| 'storage_snapshots' | 백업의 스토리지 스냅샷 수입니다. 변수는 소인으로만 전달됩니다. 
+
+
+| 'storage_snapshot.#' | 정의된 스토리지 스냅샷 중 하나는 '<filer>:/vol/<volume>:<ONTAP-snapshot-name>' 형식으로 postscripts 로만 전달됩니다. 
+
+
+| 가상 머신 | 백업의 VM 수입니다. 변수 는 처방과 사후 스크립트로 전달됩니다. 
+
+
+| "virtual_machine.#" | 정의된 가상 시스템 중 하나는 다음과 같습니다. "<vm name>[vm name]<vm UUID>[vm bar]<power-state>[vm snapshot>[vertical bar]<ip-address><power-state>에는 power_on, power_off 또는 Suspended"<vm snapshot>"이 "true" 또는 postppts" 값이 있습니다. 
+|===
+
+
+== 스크립트 시간 초과
+
+백업 스크립트의 시간 제한은 15분이며 수정할 수 없습니다.
+
+
+
+== PERL 스크립트 #1의 예
+
+다음 PERL 스크립트는 백업이 실행될 때 환경 변수를 인쇄합니다.
+
+'#!/usr/bin/perl'''경고 사용;''엄격;''$argnum;''y$ logfile='/support/log_env.log';'''open(fh,'>>', $logfile) 또는 die$!;''foreach(sort(sort keys %ENV){'$fh=" print="}"<print= fh_fh}"} "닫기(FH)";"
+
+
+
+== PERL 스크립트 #2의 예
+
+다음 예에서는 백업에 대한 정보를 인쇄합니다.
+
+'#!/usr/bin/perl''경고 사용;'엄격 사용;'
+
+my$argnum;"'my$logfile='/support/support/log_env.log';''open(fh,'>', $logfile) or die$!;'
+
+"print fh" backup_phase is $ENV{'backup_phase'}\n";""print fh" 백업 이름 $ENV{'backup_name'}\n";""print fh" 가상 머신 $ENV{'virtual_machines'}\n"\n""enfh" backing" vis $ENV{'virtual_machine" time;"{fh_print"
+
+"인쇄 FH" PWD는 $ENV{'PWD'}\n";""인쇄 FH" 호출 ID는 $ENV{'호출_ID'}\n";"
+
+"인쇄 FH" =========== "닫기(FH)";"
+
+
+
+== 쉘 스크립트의 예
+
+=============================================================================== `============================================================================================================================ "

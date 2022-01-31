@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_log_in_to_the_snapcenter_vmware_vsphere_web_client.html 
+keywords:  
+summary: VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VMware vSphere 웹 클라이언트가 설치되며, vCenter 화면에는 다른 vSphere 웹 클라이언트와 함께 표시됩니다. 
+---
+= SnapCenter VMware vSphere 웹 클라이언트에 로그인합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VMware vSphere 웹 클라이언트가 설치되며, vCenter 화면에는 다른 vSphere 웹 클라이언트와 함께 표시됩니다.
+
+vCenter에서 TLS(전송 계층 보안)를 활성화해야 합니다. VMware 설명서를 참조하십시오.
+
+.단계
+. 브라우저에서 VMware vSphere vCenter로 이동합니다.
+. VMware 화면에서 * vSphere Client(HTML5) * 를 클릭합니다.
+. VMware vCenter Single Sign-On * 페이지에 로그인합니다.
++
+
+IMPORTANT: 로그인 * 버튼을 클릭합니다. 알려진 VMware 문제로 인해 Enter 키를 사용하여 로그인하지 마십시오. 자세한 내용은 ESXi Embedded Host Client 문제에 대한 VMware 설명서를 참조하십시오.
+
+. VMware vSphere 웹 클라이언트 * 페이지의 도구 모음에서 메뉴 를 클릭한 다음 * VMware vSphere * 용 SnapCenter 플러그인 을 선택합니다.
+

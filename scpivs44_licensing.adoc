@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_licensing.html 
+keywords:  
+summary: 이 섹션에서는 VMware vSphere용 SnapCenter 플러그인의 라이센스 정보를 제공합니다. 
+---
+= 라이센싱
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+다음 스토리지 시스템을 사용 중인 경우 VMware vSphere용 SnapCenter 플러그인은 무료 제품입니다.
+
+* FAS
+* AFF
+* Cloud Volumes ONTAP
+* ONTAP Select
+
+
+SnapCenter 표준 라이센스를 보조 대상에 추가하는 것이 좋지만 필수는 아닙니다. 보조 시스템에서 SnapCenter 표준 라이센스가 활성화되어 있지 않으면 페일오버 작업을 수행한 후 SnapCenter를 사용할 수 없습니다. 그러나 마운트 및 연결 작업을 수행하려면 보조 스토리지의 FlexClone 라이센스가 필요합니다. 복원 작업을 수행하려면 SnapRestore 라이센스가 필요합니다.

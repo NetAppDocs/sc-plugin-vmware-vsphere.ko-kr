@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_rest_apis_fail_stuck_jobs.html 
+keywords:  
+summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 웹 클라이언트 작업에 대한 작업 ID를 찾으려면 VMware vSphere에 대한 REST API 호출을 사용해야 합니다. 
+---
+= 중단된 작업을 실패로 표시하는 REST API
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 웹 클라이언트 작업에 대한 작업 ID를 찾으려면 VMware vSphere에 대한 REST API 호출을 사용해야 합니다. 이러한 REST API는 SnapCenter Plug-in for VMware vSphere 4.4에 추가되었습니다.
+
+각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+
+작업 섹션의 다음 REST API를 사용하여 실행 중 상태로 고착된 작업을 실패 상태로 변경합니다.
+
+|===
+| REST API | 설명 
+
+
+| "/4.1/작업/{id}/failJobs" | 실행 중인 상태로 고착된 작업의 ID를 전달하면 failJobs는 해당 작업을 실패한 것으로 표시합니다. 실행 중 상태로 고착된 작업을 식별하려면 작업 모니터 GUI를 사용하여 모든 작업의 상태와 작업 ID를 확인하십시오. 
+|===

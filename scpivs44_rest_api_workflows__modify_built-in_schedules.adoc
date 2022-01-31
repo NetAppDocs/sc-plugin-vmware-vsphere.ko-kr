@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_rest_api_workflows__modify_built-in_schedules.html 
+keywords:  
+summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 웹 클라이언트 작업에 대한 기본 제공 일정을 수정하려면 규정된 REST API 호출 순서를 따라야 합니다. 
+---
+= REST API 워크플로우를 통해 기본 제공 일정을 수정할 수 있습니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 웹 클라이언트 작업에 대한 기본 제공 일정을 수정하려면 규정된 REST API 호출 순서를 따라야 합니다.
+
+기본 제공 일정은 제품의 일부로 제공되는 스케줄입니다(예: MySQL 데이터베이스 덤프 일정). 스케줄-데이터베이스-덤프 스케줄-청정백업 스케줄-아서데이터수집 스케줄-컴퓨터 스토리지 저장예약-청정작업 스케줄 등을 수정할 수 있습니다
+
+각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+
+|===
+| 단계 | REST API | 설명 
+
+
+| 1 | '/4.1/일정' | '모든 기본 제공' 스케줄은 제품에 원래 제공된 작업 일정의 목록을 가져옵니다. 수정할 스케줄 이름과 관련 cron 식을 확인합니다. 
+
+
+| 2 | '/4.1/일정' | 일정수정 일정대로 바뀌게 됩니다. 1단계의 스케줄 이름을 전달하고 스케줄의 새 cron 표현식을 생성합니다. 
+|===

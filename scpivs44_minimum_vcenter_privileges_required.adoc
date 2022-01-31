@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_minimum_vcenter_privileges_required.html 
+keywords:  
+summary: VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 필요한 최소 vCenter 권한이 있는지 확인해야 합니다. 
+---
+= 최소 vCenter 권한이 필요합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 필요한 최소 vCenter 권한이 있는지 확인해야 합니다.
+
+
+
+== vCenter 관리자 역할에 필요한 권한
+
+시스템.익명 시스템.시스템.읽기 데이터 저장소.이름 바꾸기 데이터 저장소 이동.데이터 저장소 삭제.FileManagement 데이터 저장소.AllocateSpace 네트워크.Assign Host.Config.Config.Storage Host.AdvancedConfig.Config.Config.Config.Settings 호스트.Config.Settings 호스트.Local.CreateVM Host.ReconesVM Host.Local.DeleteVM.VirtualMachine.VirtualMachine.VirtualExistExistExistExistExisteMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualRecommendeConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualRecommendeConfig.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualRecommendeConfig.VirtualRecommendeConfig.VirtualRecommendeConfig.VirtualMachine.VirtualRecommendecoCreate.VirtualResource.VirtualMachine.VirtualMachine.VirtualMachine.VirtualRecommendeConfig.VirtualRecommendation.VirtualMachine.VirtualMachine.VirtualRecommendation.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualReconf
+
+
+
+== VMware vCenter용 SnapCenter 플러그인과 관련된 필수 권한
+
+넷SCV.Guest.RestoreFile 넷SCV.Recovery.MountUnMount 넷SCV.Backup.DeleteBackupJob netappSCV.Configure.netappConfigureStorageSystems.Delete 넷앱 SCV.Recovery.RecoverVM SCV.Configure.ConfigureStorageSystems.AddUpdate.SCV.Backup.Now.ScanteNow.ScBackupConfigure.SCBackupBackup.ScBackupedBackupConfigure.SCBackupBackup.ScBackupConfigure.SCBackupDataBackup.ScBackupConfigure.SCBackupDataBackup.ScBackupConfigure.SCBackupBackup.Sc

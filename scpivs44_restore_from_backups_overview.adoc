@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_restore_from_backups_overview.html 
+keywords:  
+summary: 운영 또는 보조 백업에서 VM, VMDK, 파일 및 폴더를 복구할 수 있습니다. 
+---
+= 복원 개요
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+운영 또는 보조 백업에서 VM, VMDK, 파일 및 폴더를 복구할 수 있습니다.
+
+* VM 복원 대상
++
+기존 VM을 원래 호스트 또는 동일한 vCenter Server의 대체 호스트 또는 동일한 vCenter 또는 연결된 모드의 vCenter에서 관리되는 대체 ESXi 호스트에 복구할 수 있습니다.
+
++
+VVOL VM을 원래 호스트로 복원할 수 있습니다.
+
+* VMDK 복구 대상
++
+기존 VM의 VMDK를 원래 데이터 저장소 또는 대체 데이터 저장소로 복구할 수 있습니다.
+
++
+VVOL VM의 VMDK를 원래 데이터 저장소로 복원할 수 있습니다.
+
+
+
+또한 가상 디스크의 백업 복사본을 연결한 다음 선택한 파일 또는 폴더를 복원하는 게스트 파일 복원 세션에서 개별 파일 및 폴더를 복원할 수 있습니다.
+
+다음을 복원할 수 없습니다.
+
+* 데이터 저장소
++
+SnapCenter Plug-in for VMware vSphere를 사용하여 데이터 저장소를 복구할 수 없으며 데이터 저장소의 개별 VM만 복구할 수 있습니다.
+
+* 제거된 VM의 백업
++
+제거된 스토리지 VM의 백업은 복원할 수 없습니다. 예를 들어 관리 LIF를 사용하여 스토리지 VM을 추가한 다음 백업을 생성한 다음, 해당 스토리지 VM을 제거하고 같은 스토리지 VM이 포함된 클러스터를 추가하면 백업에 대한 복원 작업이 실패합니다.
+
+

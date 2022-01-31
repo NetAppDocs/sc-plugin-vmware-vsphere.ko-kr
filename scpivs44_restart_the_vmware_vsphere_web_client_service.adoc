@@ -1,0 +1,91 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_restart_the_vmware_vsphere_web_client_service.html 
+keywords:  
+summary: SnapCenter VMware vSphere 웹 클라이언트가 제대로 작동하지 않으면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 웹 클라이언트 서비스를 다시 시작합니다. 
+---
+= VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SnapCenter VMware vSphere 웹 클라이언트가 제대로 작동하지 않으면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 웹 클라이언트 서비스를 다시 시작합니다.
+
+
+
+=== Linux vCenter에서 VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
+
+vCenter가 Linux 어플라이언스에 있는 경우 Linux 명령을 사용하여 VMware vSphere 웹 클라이언트 서비스를 다시 시작해야 합니다.
+
+vCenter 6.5 이상을 실행해야 합니다.
+
+.단계
+. SSH를 사용하여 vCenter Server Appliance에 루트로 로그인합니다.
+. 다음 명령을 사용하여 어플라이언스 셸 또는 Bash Shell에 액세스합니다.
++
+'지옥'입니다
+
+. 다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 중지합니다.
++
+'Service-control--stop vSphere-UI
+
+. 다음 셸 명령을 사용하여 vCenter에서 오래된 HTML5 scvm 패키지를 모두 삭제합니다.
++
+"etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/
+
++
+rm-rf com.netapp.scvm.webclient-<version_number>`
+
++
+
+IMPORTANT: VASA 또는 VSC7.x 이상 패키지를 제거하지 마십시오.
+
+. 다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 시작합니다.
++
+'Service-control--start vSphere-UI'를 선택합니다
+
+
+
+
+
+=== Windows vCenter에서 VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
+
+vCenter가 Windows 호스트에 있는 경우 Windows 명령을 사용하여 SnapCenter 웹 클라이언트 서비스를 다시 시작해야 합니다.
+
+vCenter 6.5 이상을 실행해야 합니다.
+
+.단계
+. 'C:\Program Files\VMware\vCenter Server\bin'으로 이동한 후 다음 명령을 실행하여 웹 클라이언트 서비스를 중지합니다.
++
+'Service-control--stop vSphere-UI
+
++
+서비스 중지 요청 완료 메시지가 나타날 때까지 기다립니다.
+
+. 다음을 수행하여 vCenter에서 오래된 HTML5 scvm 패키지를 모두 삭제합니다.
++
+.. vCenter vSphere-client-en레니티/폴더로 이동합니다.
++
+'C:\ProgramData\VMware\vCenterServer\cfg\vSphere-UI\'
+
++
+'vc-packages\vsphere-client-serenity\'
+
+.. 다음 이름의 모든 플러그인 폴더를 삭제합니다.
++
+"com.netapp.scvm.webclient-<version_number>`
+
+
+
+. 다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 다시 시작합니다.
++
+'Service-control--start vSphere-UI'를 선택합니다
+
++
+서비스 요청 시작을 완료했습니다. 메시지가 나타날 때까지 기다립니다
+
+

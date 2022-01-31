@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_add_multiple_vms_and_datastores_to_a_resource_group.html 
+keywords:  
+summary: SnapCenter VMware vSphere 웹 클라이언트 리소스 그룹 편집 마법사를 사용하여 기존 리소스 그룹에 여러 VM 및 데이터 저장소를 추가할 수 있습니다. 
+---
+= 리소스 그룹에 여러 VM 및 데이터 저장소를 추가합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SnapCenter VMware vSphere 웹 클라이언트 리소스 그룹 편집 마법사를 사용하여 기존 리소스 그룹에 여러 리소스를 추가할 수 있습니다.
+
+리소스 그룹에는 다음 중 하나가 포함될 수 있습니다.
+
+* 기존 VM과 SAN, NAS 데이터 저장소(VVOL 데이터 저장소는 지원되지 않음)의 조합입니다.
+* FlexGroup 데이터 저장소 1개(스패닝 VM은 지원되지 않음)
+* 하나 이상의 FlexVol 데이터 저장소(스패닝 VM이 지원됨)
+* 하나 이상의 VVol VM.
+* 지정된 vCenter 태그가 있는 모든 VVol VM
+* 지정된 폴더에 있는 모든 VVol VM.
+
+
+.단계
+. VMware vSphere 웹 클라이언트의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 리소스 그룹을 선택하고 을 클릭합니다 image:scpivs44_image39.png["오류: 그래픽 이미지가 없습니다"] * 리소스 그룹 편집 * 을 클릭하여 마법사를 시작합니다.
+. 리소스 * 페이지에서 다음을 수행합니다.
++
+.. Datastores 필드에서 추가할 VM 또는 데이터 저장소로 이동합니다.
+.. 사용 가능한 엔터티 목록에서 리소스 그룹에 추가할 하나 이상의 VM 또는 데이터 저장소를 선택한 다음 * > * 를 클릭하여 선택한 항목을 선택한 엔터티 목록으로 이동합니다. * >> * 를 클릭하여 사용 가능한 모든 요소를 이동할 수 있습니다.
++
+기본적으로 사용 가능한 엔터티 목록에는 데이터 센터 개체가 표시됩니다. 데이터 저장소를 클릭하여 데이터 저장소 내의 VM을 보고 리소스 그룹에 추가할 수 있습니다.
+
++
+다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다. '일부 엔터티가 SnapCenter와 호환되지 않음' 메시지가 표시되면 선택한 VM 또는 데이터 저장소가 SnapCenter와 호환되지 않습니다. 을 참조하십시오 link:scpivs44_create_resource_groups_for_vms_and_datastores.html#manage-compatibility-check-failures["호환성 검사 실패 관리"] 를 참조하십시오.
+
+
+
+. 추가할 각 VM 또는 데이터 저장소에 대해 2단계를 반복합니다.
+. 요약 * 페이지가 나타날 때까지 * 다음 * 을 클릭한 후 요약을 검토하고 * 마침 * 을 클릭합니다.
+

@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_access_the_maintenance_console.html 
+keywords:  
+summary: VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 사용하여 애플리케이션, 시스템 및 네트워크 구성을 관리할 수 있습니다. 관리자 암호, 유지 관리 암호를 변경하고, 지원 번들을 생성하고, 원격 진단을 시작할 수 있습니다. 
+---
+= 유지보수 콘솔에 액세스합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 사용하여 애플리케이션, 시스템 및 네트워크 구성을 관리할 수 있습니다. 관리자 암호, 유지 관리 암호를 변경하고, 지원 번들을 생성하고, 원격 진단을 시작할 수 있습니다.
+
+SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.
+
+.이 작업에 대해
+* 기본값은 사용자 이름으로 "maint"이고 VMware vSphere용 SnapCenter 플러그인의 유지 관리 콘솔에 로그인하기 위한 암호로 "admin123"입니다.
++
+
+TIP: 배포 후 기본 로그인 자격 증명을 수정합니다.
+
+* 원격 진단을 활성화하는 동안 "diag" 사용자의 암호를 설정해야 합니다.
++
+명령을 실행할 루트 사용자 권한을 얻으려면 sudo < command > 를 사용합니다.
+
+
+
+.단계
+. VMware vSphere 웹 클라이언트에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
+. VM을 마우스 오른쪽 단추로 클릭한 다음 가상 어플라이언스의 * 요약 * 탭에서 * 원격 콘솔 시작 * 을 클릭하여 유지보수 콘솔 창을 엽니다.
++
+SnapCenter VMware 플러그인 유지 관리 콘솔의 로그온 기본값은 다음과 같습니다.
+
++
+사용자 이름: 성자 비밀번호: admin123
+
++
+image:scpivs44_image11.png["오류: 그래픽 이미지가 없습니다"]
+
+. 다음 작업을 수행할 수 있습니다.
++
+** 옵션 1: 애플리케이션 구성
++
+SnapCenter VMware 플러그인 요약 표시 SnapCenter VMware 플러그인 서비스 시작 또는 중지 SnapCenter VMware 플러그인의 로그인 사용자 이름 또는 암호 변경 MySQL 암호 백업 및 복구 MySQL
+
+** 옵션 2: 시스템 구성
++
+가상 시스템 재부팅 또는 종료 '성인자' 사용자 암호 변경 시간대 변경 NTP 서버 변경 SSH 액세스 활성화/비활성화 Jail 디스크 크기 증가(/jail) VMware Tools 업그레이드
+
+** 옵션 3: 네트워크 구성
++
+IP 주소 설정 표시 또는 변경 도메인 이름 검색 설정 표시 또는 변경 정적 경로 표시 또는 변경 커밋 변경 사항 호스트에 대한 Ping
+
+** 옵션 4: 지원 및 진단
++
+지원 번들 액세스 진단 셸 생성 원격 진단 액세스 활성화 코어 덤프 번들 생성
+
+
+
+

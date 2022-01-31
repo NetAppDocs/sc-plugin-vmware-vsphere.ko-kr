@@ -1,0 +1,18 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_quick_start_overview.html 
+keywords:  
+summary: 빠른 시작 설명서는 VMware vSphere 가상 어플라이언스인 SnapCenter 플러그인을 배포하고 VMware vSphere용 SnapCenter 플러그인을 활성화하는 데 필요한 간략한 지침을 제공합니다. 이 지침은 SnapCenter가 이미 설치되어 있지 않으며 VM 및 데이터 저장소만 보호하려는 고객을 위한 것입니다. 
+---
+= 개요
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+빠른 시작 설명서는 VMware vSphere 가상 어플라이언스인 SnapCenter 플러그인을 배포하고 VMware vSphere용 SnapCenter 플러그인을 활성화하는 데 필요한 간략한 지침을 제공합니다. 이 지침은 SnapCenter가 이미 설치되어 있지 않으며 VM 및 데이터 저장소만 보호하려는 고객을 위한 것입니다.
+
+시작하기 전에 를 참조하십시오 link:scpivs44_deployment_planning_and_requirements.html["배포 계획 및 요구 사항"].

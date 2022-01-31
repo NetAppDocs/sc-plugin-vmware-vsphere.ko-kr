@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_types_of_rbac_for_snapcenter_users.html 
+keywords:  
+summary: VMware vSphere용 SnapCenter 플러그인을 사용하는 경우 vCenter Server는 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다. 
+---
+= VMware vSphere 사용자를 위한 SnapCenter 플러그인의 RBAC 유형
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+VMware vSphere용 SnapCenter 플러그인을 사용하는 경우 vCenter Server는 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다.
+
+
+
+== vCenter Server RBAC
+
+이 보안 메커니즘은 VM 일관성, VM 장애 발생 시 정합성이 보장되는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업을 포함하는 SnapCenter VMware 플러그인에서 수행하는 모든 작업에 적용됩니다. 이 RBAC 레벨은 vSphere 사용자가 VM(가상 머신) 및 데이터 저장소와 같은 vSphere 객체에서 SnapCenter VMware 플러그인 작업을 수행할 수 있도록 제한합니다.
+
+SnapCenter VMware 플러그인 구축 시 vCenter에서 SnapCenter 작업에 대해 다음과 같은 역할이 생성됩니다.
+
+CV 관리자 CV 백업 CV 게스트 파일 복원 CV 복원 CV 보기
+
+vSphere 관리자는 다음을 수행하여 vCenter Server RBAC를 설정합니다.
+
+* 루트 객체(루트 폴더라고도 함)에 vCenter Server 권한을 설정합니다. 그런 다음 이러한 권한이 필요하지 않은 자식 엔터티를 제한하여 보안을 강화할 수 있습니다.
+* Active Directory 사용자에게 SCV 역할 할당
++
+최소한 모든 사용자는 vCenter 객체를 볼 수 있어야 합니다. 이 권한이 없으면 사용자가 VMware vSphere 웹 클라이언트 GUI에 액세스할 수 없습니다.
+
+
+
+
+
+== ONTAP RBAC
+
+이 보안 메커니즘은 SnapCenter 서버 애플리케이션 정합성이 보장되는(VMDK를 통한 애플리케이션) 작업에만 적용됩니다. 이 수준에서는 SnapCenter가 특정 스토리지 시스템에서 데이터 저장소용 스토리지 백업과 같은 특정 스토리지 작업을 수행하도록 제한합니다.
+
+다음 워크플로우를 사용하여 ONTAP 및 SnapCenter RBAC를 설정합니다.
+
+. 스토리지 관리자는 필요한 권한을 사용하여 스토리지 VM에 역할을 생성합니다.
+. 그런 다음 스토리지 관리자가 스토리지 사용자에게 역할을 할당합니다.
+. SnapCenter 관리자는 스토리지 사용자 이름을 사용하여 스토리지 VM을 SnapCenter 서버에 추가합니다.
+. 그런 다음 SnapCenter 관리자는 SnapCenter 사용자에게 역할을 할당합니다.
+
+
+
+
+== RBAC 권한에 대한 검증 워크플로
+
+다음 그림에서는 RBAC 권한(vCenter 및 ONTAP)에 대한 검증 워크플로우를 개괄적으로 보여 줍니다.
+
+image:scpivs44_image1.png["오류: 그래픽 이미지가 없습니다"]

@@ -159,7 +159,9 @@ VM 일관성을 사용하여 백업 생성
 
 
 | VMware vSphere 포트용 SnapCenter 플러그인  a| 
-8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다. 참고: 포트 구성은 수정할 수 없습니다.
+8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.
+
+참고: 포트 구성은 수정할 수 없습니다.
 
 
 

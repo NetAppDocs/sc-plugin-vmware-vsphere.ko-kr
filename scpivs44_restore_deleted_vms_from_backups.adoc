@@ -36,7 +36,7 @@ summary: 삭제된 VM을 데이터 저장소 운영 또는 보조 백업에서 �
 NOTE: 다른 위치로 복구할 경우 복구 작업의 대상인 연결된 vCenter에서 VMware vSphere용 SnapCenter 플러그인이 실행되고 있어야 합니다. 대상 데이터 저장소에 충분한 공간이 있어야 합니다.
 
 
-NOTE: 삭제된 VM을 복원할 때 원래 VM에 할당된 태그는 복원되지 않습니다.
+NOTE: 삭제된 VM을 복원할 때 원래 VM에 할당된 태그나 폴더는 복원되지 않습니다.
 
 .시작하기 전에
 * VMware vSphere 웹 클라이언트의 스토리지 시스템 페이지에 있는 스토리지 시스템의 사용자 계정에 가 있어야 합니다 link:scpivs44_minimum_ontap_privileges_required.html["ONTAP에 필요한 최소 ONTAP 권한"].

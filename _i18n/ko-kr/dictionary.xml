@@ -121,7 +121,6 @@
   <block id="f756ba31a99a4185d9ca1e432a20a83f" category="paragraph">연결된 모드에서 목록에는 연결된 모든 vCenter의 정책이 포함됩니다. 리소스 그룹과 동일한 vCenter에 있는 정책을 선택해야 합니다.</block>
   <block id="5049311e411f306df5ef01765b9dc8ec" category="list-text">Schedules * 페이지에서 선택한 각 정책에 대한 백업 스케줄을 구성합니다.</block>
   <block id="c4c45b2b283ca2fa9057abb408ea2d4d" category="paragraph"><block ref="c4c45b2b283ca2fa9057abb408ea2d4d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7fb7ad8e3535da92bb1912857e528122" category="paragraph">시작 시간 필드에 0이 아닌 시간을 입력합니다.</block>
   <block id="c80a367628429b7e21115a777438508a" category="paragraph">각 필드에 내용을 입력해야 합니다. SnapCenter VMware 플러그인은 SnapCenter VMware 플러그인이 구축된 표준 시간대에서 일정을 생성합니다. VMware vSphere GUI용 SnapCenter 플러그인을 사용하여 시간대를 수정할 수 있습니다.</block>
   <block id="67b9c02e71508024192e407aa7425aa2" category="inline-link-macro">백업에 대한 시간대를 수정합니다</block>
   <block id="381ccd52bbe70b77caebf5b7721bc854" category="paragraph"><block ref="a1b611f7f1d7d8197cb1d43fb49ccfda" category="inline-link-macro-rx"></block>.</block>
@@ -544,7 +543,6 @@
   <block id="3672cca688eb0474cd3fee2add1a2067" category="cell">포트의 유형입니다</block>
   <block id="1af12a0ed126e7e6b194370c0c0be5eb" category="cell">사전 구성된 포트</block>
   <block id="926bafe6b6d4e07892751c7ca73ad20d" category="cell">VMware vSphere 포트용 SnapCenter 플러그인</block>
-  <block id="36e5cc5b4b4a18a57e38d80baa6dc2e0" category="paragraph">8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다. 참고: 포트 구성은 수정할 수 없습니다.</block>
   <block id="7c1239972879fe0b69b4bb6d5c9a743e" category="cell">VMware vSphere vCenter Server 포트입니다</block>
   <block id="1f5ccbd5c3e6d6be1c440296630a5678" category="cell">VVol VM을 보호하는 경우 포트 443을 사용해야 합니다.</block>
   <block id="131b9f1c14d26ba7a0cce7389e7679a9" category="cell">스토리지 클러스터 또는 스토리지 VM 포트입니다</block>
@@ -1593,7 +1591,6 @@
   <block id="60d5e6a078f542229c70f62d22f5d19a" category="summary">삭제된 VM을 데이터 저장소 운영 또는 보조 백업에서 선택한 ESXi 호스트로 복구할 수 있습니다.</block>
   <block id="0b12c7bc8c57650d3bccce352eaf5119" category="doc">백업에서 삭제된 VM을 복원합니다</block>
   <block id="aa835685c16c1a6980a51248f3bbaa73" category="list-text">원래 ESXi 호스트에 마운트된 원래 데이터 저장소에 마운트(VM 복제본 생성)</block>
-  <block id="5aaff5e3519cb05a480cee3030d87ebc" category="admonition">삭제된 VM을 복원할 때 원래 VM에 할당된 태그는 복원되지 않습니다.</block>
   <block id="f9542d4ba033f3ee5f12634c8eb3edd0" category="inline-link-macro">ONTAP에 필요한 최소 ONTAP 권한</block>
   <block id="d7e6d4f790be477a0e28aaa76b46784a" category="list-text">VMware vSphere 웹 클라이언트의 스토리지 시스템 페이지에 있는 스토리지 시스템의 사용자 계정에 가 있어야 합니다 <block ref="c6bbdabe4722aaa67efe77832cf6fd69" category="inline-link-macro-rx"></block>.</block>
   <block id="e2496f7f30be021f22d563d55a9d9a77" category="inline-link-macro">VMware vSphere용 SnapCenter 플러그인에 필요한 최소 vCenter 권한</block>
@@ -1864,7 +1861,6 @@
   <block id="9e51876f1626b29bef8363e8e49f4399" category="paragraph"><block ref="9e51876f1626b29bef8363e8e49f4399" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e36997657270b76894de3e4df7a0bfea" category="paragraph">작업 모니터 탭에는 각 작업과 해당 상태, 시작 시간 및 종료 시간이 나열됩니다. 작업 이름이 긴 경우 시작 시간과 종료 시간을 보려면 오른쪽으로 스크롤해야 할 수 있습니다. 디스플레이는 30초마다 새로 고쳐집니다.</block>
   <block id="6877b4359705f09d5cae8f90b7263c8a" category="list-text">를 클릭합니다 <block ref="7af497620571fc05b49f8954481b7140" category="inline-image-macro-rx" type="image"></block> 도구 모음의 새로 고침 아이콘을 클릭하여 필요 시 표시를 새로 고칩니다.</block>
-  <block id="de43f564191b23e6a59c556cc7f93041" category="list-text">를 클릭합니다 <block ref="7381c96683fb50d316b765b33a279a1f" category="inline-image-macro-rx" type="image"></block> 필터 아이콘: 표시할 작업의 시간 범위, 유형 및 상태를 선택합니다.</block>
   <block id="1e5d7883bd10140e35399af7097dca80" category="list-text">를 클릭합니다 <block ref="7af497620571fc05b49f8954481b7140" category="inline-image-macro-rx" type="image"></block> 작업 내역 창의 새로 고침 아이콘을 누르면 작업이 실행되는 동안 디스플레이가 새로 고쳐집니다.</block>
   <block id="998d28e7400255771ac581f9219e9a7f" category="inline-link">KB 문서: SnapCenter vSphere 웹 클라이언트 대시보드에 작업이 표시되지 않습니다</block>
   <block id="9f9e4f1f94fce90c2461c88b48d97eff" category="paragraph">대시보드에 작업 정보가 표시되지 않으면 를 참조하십시오<block ref="41548c972cbca01447f4997545abfec9" category="inline-link-rx"></block>.</block>
@@ -1922,4 +1918,9 @@
   <block id="7608e75619cff3eeb4e8bce40481b456" category="sidebar">SnapCenter 소프트웨어 설명서</block>
   <block id="11d88a82190664755120fc16494310df" category="sidebar">이전 버전의 SCV에 대한 문서</block>
   <block id="74fe1f888648848c4fd5f85ae847a16c" category="sidebar">NetApp 기술 자료 – SCV</block>
+  <block id="122cb6830661325b4e6605ab0ebf6879" category="admonition">삭제된 VM을 복원할 때 원래 VM에 할당된 태그나 폴더는 복원되지 않습니다.</block>
+  <block id="62feac6f129e2303fab52cf1bd2e90c4" category="list-text">를 클릭합니다 <block ref="7381c96683fb50d316b765b33a279a1f" category="inline-image-macro-rx" type="image"></block> 필터 아이콘: 표시할 작업의 시간 범위, 유형, 태그 및 상태를 선택합니다. 필터는 대소문자를 구분합니다.</block>
+  <block id="9f0e863b35d7c0c7148fb01a2711d395" category="paragraph">8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.</block>
+  <block id="34fe6318217e13219322f9f481788cfa" category="paragraph">참고: 포트 구성은 수정할 수 없습니다.</block>
+  <block id="9d53fb85cd7b48e31e4ae938dd8a9d13" category="paragraph">시작 시간 필드에 0이 아닌 날짜와 시간을 입력합니다. 날짜는 '일/월/년' 형식이어야 합니다.</block>
 </blocks>

@@ -1720,38 +1720,6 @@
   <block id="6735a8ae7975c90de27a83556fa63791" category="paragraph">VMware vSphere 작업을 위한 SnapCenter 플러그인에 적절한 권한을 부여하려면 스토리지 VM에서 "vsadmin"으로 로그인해야 합니다.</block>
   <block id="c1baf46f8c1f04fa3cc96df859f88fe2" category="list-text">ONTAP 8.3 이상을 실행 중인 경우:</block>
   <block id="8134cf1fb1cf193c0ab9fa188232e858" category="paragraph">위 표에 나열된 최소 권한을 가진 역할이나 "vsadmin"으로 로그인해야 합니다.</block>
-  <block id="058c063e71e7a372dedf168e2a604eb9" category="summary">SnapCenter Plug-in for VMware vSphere에서 제공하는 새로운 기능을 사용하려면 NetApp Data Broker 1.0.x에서 VMware vSphere용 SnapCenter 플러그인으로 업그레이드해야 합니다.</block>
-  <block id="0c003d82499f0d438805114b812d8bcc" category="doc">NetApp Data Broker에서 업그레이드</block>
-  <block id="aea46fc42440d1dbca56b7c0cb8f4168" category="list-text">업그레이드하려는 VM에는 12GB RAM이 있어야 합니다.</block>
-  <block id="2b8d5dd3a5c1ca1af7a5c7fe4f2dbbeb" category="list-text">업그레이드하려는 VM의 전원을 켜야 합니다.</block>
-  <block id="436e62866185df0411370b63e2ba2df2" category="list-text">모범 사례는 업그레이드 전에 NetApp 데이터 브로커가 포함된 VM을 백업하는 것입니다.</block>
-  <block id="4e5bb808269336045054fde60aaed517" category="paragraph">다음과 같은 세 가지 기본 업그레이드 단계가 있습니다.</block>
-  <block id="b1d47c4a14f5322478dec76f2c8db9b5" category="list-text">업그레이드를 준비합니다.</block>
-  <block id="20713c70d68b79148e8f656e0aed11c6" category="list-text">업그레이드 .iso 파일을 다운로드합니다.</block>
-  <block id="9c56b7173c04da16b16d23e721c8ef6b" category="list-text">데이터 저장소에 .iso 파일을 업로드합니다.</block>
-  <block id="05ebcb88aebe04d4b7554752e4d737a6" category="list-text">데이터 저장소의 .iso 파일에 VM을 연결합니다.</block>
-  <block id="2afdb167552320e31d47753be88be213" category="list-text">업그레이드를 실행합니다.</block>
-  <block id="f4c357fe473ebd5b4c7be135748546ac" category="list-text">NetApp Data Broker 관리 GUI에 로그인합니다.</block>
-  <block id="38d44809ade2f141c8f7b87b3634fecc" category="paragraph">NetApp Data Broker를 배포할 때 IP가 표시됩니다.</block>
-  <block id="7d62575d3bc7b58e343cd30785c90d70" category="list-text">왼쪽 탐색 창에서 구성 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 비활성화합니다.</block>
-  <block id="4718b614042c278ab3f31609ccad935a" category="list-text">VMware vSphere 업그레이드용 SnapCenter 플러그인을 원하는 위치로 다운로드합니다.</block>
-  <block id="1d49eddb57c81eca8d44353e2baa9d71" category="list-text">vCenter GUI에서 * vSphere Web Client (HTML5) * 를 클릭합니다.</block>
-  <block id="eb6b2dd3e5dae796ca58dcdc57b93939" category="list-text">탐색 창에서 업그레이드할 NetApp Data Broker VM을 클릭한 다음 * 요약 * 탭을 클릭합니다.</block>
-  <block id="4848248fa016f7d9a3f4b825140bfe39" category="list-text">선택한 데이터 저장소의 * Files * 탭에서 목록의 폴더를 클릭한 다음 스토리지 아이콘( * 데이터 저장소에 파일 업로드 *)을 클릭합니다.</block>
-  <block id="a3e2c931b223f74b176cac001786dce0" category="list-text">업그레이드 팝업 화면에서 '.iso' 파일을 다운로드한 위치로 이동한 다음 '.iso' 파일 이미지를 클릭하고 * 열기 * 를 클릭합니다.</block>
-  <block id="e852a9f29449b4d56c8d1dd100313e99" category="paragraph">파일이 데이터 저장소에 업로드됩니다.</block>
-  <block id="990f34fb256d02bbeddd9a234eab6c8c" category="list-text">업그레이드하려는 NetApp Data Broker VM으로 다시 이동하여 * 요약 * 탭을 클릭합니다.</block>
-  <block id="be6b8c415d1ea5fdd3030094d35ec8fd" category="paragraph">VM 하드웨어* 창의 CD/DVD 필드에서 값은 "연결 해제"되어야 합니다.</block>
-  <block id="492474fade2f410b24197c85ee42b361" category="paragraph"><block ref="492474fade2f410b24197c85ee42b361" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3e4a9be60d5e083433692b7b1708dd9d" category="paragraph">Datastores 열에서 .iso 파일을 업로드한 데이터 저장소를 선택합니다.</block>
-  <block id="39128cd7dc9ff926f481dd21b5a561e3" category="paragraph">목차 열에서 업로드한 ".iso" 파일로 이동하여 파일 형식 필드에서 "iso image"가 선택되어 있는지 확인한 다음 * 확인 * 을 클릭합니다.</block>
-  <block id="fcf7170f3e231a560dd115ff4bb9954a" category="paragraph">필드에 "연결됨" 상태가 표시될 때까지 기다립니다.</block>
-  <block id="1d4f38dc0cf132a9ff747c89e48c6ef8" category="list-text">가상 어플라이언스의 * 요약 * 탭에 액세스하여 유지보수 콘솔에 로그인한 다음 시작 아이콘을 클릭하여 유지보수 콘솔을 시작합니다.</block>
-  <block id="420d8efc5aac14e2c2c1dc0542e42a7c" category="paragraph">시스템에 "upgrade successful(업그레이드 성공)" 메시지가 표시되면 시스템에서 서비스 시작을 시도합니다.</block>
-  <block id="c90b9b19a408b027f2f8721ca87c1711" category="list-text">"계속하려면 Enter 키를 누르십시오." 메시지가 표시될 때까지 기다린 다음 VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그인합니다.</block>
-  <block id="e3cf3231f3996b49b271f37ffe99bf4e" category="paragraph">IP 주소는 이전 NetApp Data Broker 주소와 같습니다.</block>
-  <block id="c6fcc40c750cc3136cb59f9ce953d7d8" category="list-text">플러그인 세부 정보 * 섹션에서 VMware vSphere 서비스용 SnapCenter 플러그인을 활성화하고 상태가 "연결됨"으로 표시되는지 확인합니다.</block>
-  <block id="5a44c0e5e0af7cae22096ca96276f0d1" category="paragraph">VMware vSphere용 SnapCenter 플러그인을 사용하여 애플리케이션 기반 데이터 보호를 지원하고 플러그인이 SnapCenter 서버와 통신할 수 없는 경우 SnapCenter 서버에 대한 연결을 새로 고칩니다. SnapCenter GUI에서 * 호스트 * 를 클릭한 다음 VMware 호스트를 선택하고 * 서버 자격 증명 푸시 * 를 클릭합니다.</block>
   <block id="ebd912e510a4a32d14d678f9f198f7dd" category="summary">VMware vSphere용 SnapCenter 플러그인을 사용하는 경우 vCenter Server는 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다.</block>
   <block id="dfb30a67a3e8af9a1c9600e036a19621" category="doc">VMware vSphere 사용자를 위한 SnapCenter 플러그인의 RBAC 유형</block>
   <block id="8888109ae4cea3465d831186be6fad8a" category="section-title">vCenter Server RBAC</block>
@@ -1923,4 +1891,5 @@
   <block id="9f0e863b35d7c0c7148fb01a2711d395" category="paragraph">8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.</block>
   <block id="34fe6318217e13219322f9f481788cfa" category="paragraph">참고: 포트 구성은 수정할 수 없습니다.</block>
   <block id="9d53fb85cd7b48e31e4ae938dd8a9d13" category="paragraph">시작 시간 필드에 0이 아닌 날짜와 시간을 입력합니다. 날짜는 '일/월/년' 형식이어야 합니다.</block>
+  <block id="3bff0f18ac6484a23a602a095461c45e" category="paragraph">Every * 필드에서 일 수를 선택하면 지정된 간격마다 월 1일과 그 이후에 백업이 수행됩니다. 예를 들어, 2일마다 * 옵션을 선택하면 시작 데이터가 짝수인지 홀수인지에 관계없이 1일, 3일, 5일, 7일 등에 백업이 수행됩니다.</block>
 </blocks>

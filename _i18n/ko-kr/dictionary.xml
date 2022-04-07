@@ -1891,5 +1891,5 @@
   <block id="9f0e863b35d7c0c7148fb01a2711d395" category="paragraph">8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.</block>
   <block id="34fe6318217e13219322f9f481788cfa" category="paragraph">참고: 포트 구성은 수정할 수 없습니다.</block>
   <block id="9d53fb85cd7b48e31e4ae938dd8a9d13" category="paragraph">시작 시간 필드에 0이 아닌 날짜와 시간을 입력합니다. 날짜는 '일/월/년' 형식이어야 합니다.</block>
-  <block id="3bff0f18ac6484a23a602a095461c45e" category="paragraph">Every * 필드에서 일 수를 선택하면 지정된 간격마다 월 1일과 그 이후에 백업이 수행됩니다. 예를 들어, 2일마다 * 옵션을 선택하면 시작 데이터가 짝수인지 홀수인지에 관계없이 1일, 3일, 5일, 7일 등에 백업이 수행됩니다.</block>
+  <block id="ac5e163a794b06c9f175b63840f2db02" category="paragraph">Every * 필드에서 일 수를 선택하면 지정된 간격마다 월 1일과 그 이후에 백업이 수행됩니다. 예를 들어 * every 2 days * 옵션을 선택하면 시작 날짜가 짝수인지 홀수인지에 관계없이 1일, 3일, 5일, 7일 등에 백업이 수행됩니다.</block>
 </blocks>

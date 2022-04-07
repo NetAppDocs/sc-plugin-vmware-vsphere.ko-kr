@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인을 동일한 릴리즈의 새
 ---
 = 동일한 릴리즈의 새 패치로 업그레이드한 후 정보가 표시되지 않습니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

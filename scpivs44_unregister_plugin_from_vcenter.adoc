@@ -6,6 +6,7 @@ summary: 연결된 모드에 있는 vCenter에서 SnapCenter VMware 플러그인
 ---
 = vCenter에서 VMware vSphere용 SnapCenter 플러그인 등록을 취소합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

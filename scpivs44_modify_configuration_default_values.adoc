@@ -6,6 +6,7 @@ summary: '운영 효율을 높이기 위해 "SCBR.OVERRIDE" 설정 파일을 수
 ---
 = 구성 기본값을 수정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

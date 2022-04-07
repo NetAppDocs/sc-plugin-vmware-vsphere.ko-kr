@@ -6,6 +6,7 @@ summary: SnapCenter 데이터 보호 기능이 더 이상 필요하지 않은 �
 ---
 = VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하고 설정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

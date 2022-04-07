@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치
 ---
 = 구축 후 필요한 작업 및 문제
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 스�
 ---
 = 스토리지 VM을 추가 및 수정하는 REST API 워크플로우
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

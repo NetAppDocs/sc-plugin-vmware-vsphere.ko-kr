@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 및 데이
 ---
 = VM 및 데이터 저장소에 대한 백업 정책을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

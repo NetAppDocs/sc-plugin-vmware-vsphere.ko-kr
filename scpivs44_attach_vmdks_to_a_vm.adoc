@@ -6,6 +6,7 @@ summary: 백업에서 상위 VM 또는 동일한 ESXi 호스트의 대체 VM에 
 ---
 = VM에 VMDK 연결
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

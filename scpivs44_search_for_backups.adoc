@@ -6,6 +6,7 @@ summary: 복구 마법사를 사용하여 VM 또는 데이터 저장소의 특�
 ---
 = 백업을 검색합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

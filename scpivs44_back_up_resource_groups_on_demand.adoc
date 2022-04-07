@@ -6,6 +6,7 @@ summary: 백업 작업은 리소스 그룹에 정의된 모든 리소스에 대�
 ---
 = 필요 시 리소스 그룹을 백업합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

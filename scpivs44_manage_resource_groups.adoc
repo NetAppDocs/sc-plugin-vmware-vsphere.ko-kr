@@ -6,6 +6,7 @@ summary: 백업 리소스 그룹을 생성, 수정 및 삭제하고 리소스 �
 ---
 = 자원 그룹을 관리합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

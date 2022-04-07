@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VM
 ---
 = SnapCenter VMware vSphere 웹 클라이언트에 로그인합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

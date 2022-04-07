@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에
 ---
 = 최소 vCenter 권한이 필요합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

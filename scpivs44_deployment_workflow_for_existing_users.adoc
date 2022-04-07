@@ -6,6 +6,7 @@ summary: SnapCenter 사용자이고 SnapCenter 백업이 있는 경우 이 워�
 ---
 = 기존 사용자를 위한 배포 워크플로
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 리소스 그룹은 보호할 VM, 데이터 저장소 또는 VVol VM의
 ---
 = 리소스 그룹을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 �
 ---
 = 유지보수 콘솔에 액세스합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

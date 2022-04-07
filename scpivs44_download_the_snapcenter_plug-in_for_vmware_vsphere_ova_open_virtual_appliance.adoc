@@ -6,6 +6,7 @@ summary: NetApp Support 사이트에서 VMware vSphere용 SnapCenter 플러그�
 ---
 = VMware vSphere OVA용 SnapCenter 플러그인(오픈 가상 어플라이언스) 다운로드
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

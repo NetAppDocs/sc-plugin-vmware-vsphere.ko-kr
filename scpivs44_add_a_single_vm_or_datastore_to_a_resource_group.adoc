@@ -6,6 +6,7 @@ summary: SnapCenter Plug-in for VMware vSphere에서 관리하는 기존 리소�
 ---
 = 리소스 그룹에 단일 VM 또는 데이터 저장소를 추가합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

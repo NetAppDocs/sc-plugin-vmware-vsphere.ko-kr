@@ -6,6 +6,7 @@ summary: vCenter Server RBAC를 사용하여 작업을 간소화하기 위해 Sn
 ---
 = VMware vSphere용 SnapCenter 플러그인과 함께 패키지로 제공되는 사전 정의된 역할
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

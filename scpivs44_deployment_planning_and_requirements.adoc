@@ -6,6 +6,7 @@ summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항�
 ---
 = 배포 계획 및 요구 사항
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

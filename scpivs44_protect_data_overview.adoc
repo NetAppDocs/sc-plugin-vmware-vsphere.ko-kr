@@ -6,6 +6,7 @@ summary: 모든 백업 작업은 하나 이상의 VM과 데이터 저장소의 �
 ---
 = 데이터 보호 워크플로우
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

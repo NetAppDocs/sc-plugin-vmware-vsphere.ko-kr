@@ -6,6 +6,7 @@ summary: vSphere Web Client Dashboard에서 상태 정보를 볼 수 있습니�
 ---
 = 상태 정보를 봅니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

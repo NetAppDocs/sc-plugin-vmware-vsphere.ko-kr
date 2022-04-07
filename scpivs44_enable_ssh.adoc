@@ -6,6 +6,7 @@ summary: SnapCenter VMware 플러그인을 구축하면 기본적으로 SSH가 �
 ---
 = VMware vSphere용 SnapCenter 플러그인용 SSH를 설정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

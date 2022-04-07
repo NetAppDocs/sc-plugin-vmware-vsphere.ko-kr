@@ -6,6 +6,7 @@ summary: 관리 자격 증명을 사용하지 않으면 VMware vSphere용 SnapCe
 ---
 = 인증 오류를 관리합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

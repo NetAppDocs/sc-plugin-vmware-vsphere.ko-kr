@@ -6,6 +6,7 @@ summary: SnapCenter VMware vSphere 웹 클라이언트가 제대로 작동하지
 ---
 = VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

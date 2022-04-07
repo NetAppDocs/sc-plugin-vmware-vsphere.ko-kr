@@ -6,6 +6,7 @@ summary: 게스트 파일 복원 작업을 위해 가상 디스크를 연결하�
 ---
 = 복원 작업을 위해 프록시 VM을 설정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

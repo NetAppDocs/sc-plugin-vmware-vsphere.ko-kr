@@ -6,6 +6,7 @@ summary:
 ---
 = 스토리지 추가
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

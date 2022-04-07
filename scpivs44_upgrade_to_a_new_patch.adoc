@@ -6,6 +6,7 @@ summary: 동일한 릴리즈의 새 패치로 업그레이드하는 경우 vCent
 ---
 = VMware vSphere용 SnapCenter 플러그인의 동일한 릴리즈의 새 패치로 업그레이드하십시오
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

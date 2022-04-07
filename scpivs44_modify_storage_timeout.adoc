@@ -6,6 +6,7 @@ summary: 과거에는 백업이 성공적으로 실행되었지만 VMware vSpher
 ---
 = 구성된 스토리지 시간 제한을 수정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

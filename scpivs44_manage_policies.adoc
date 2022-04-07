@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인에 대한 백업 정책을 �
 ---
 = 정책 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

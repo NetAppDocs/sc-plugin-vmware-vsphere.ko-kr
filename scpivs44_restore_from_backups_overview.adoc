@@ -6,6 +6,7 @@ summary: 운영 또는 보조 백업에서 VM, VMDK, 파일 및 폴더를 복구
 ---
 = 복원 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 운영 효율성을 향상시키려면 scbr.override 구성 파일을 �
 ---
 = 구성을 사용자 지정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 'SnapCenter VMware 플러그인에는 플러그인에서 수행하는 �
 ---
 = VMware vSphere MySQL 데이터베이스용 SnapCenter 플러그인을 백업합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

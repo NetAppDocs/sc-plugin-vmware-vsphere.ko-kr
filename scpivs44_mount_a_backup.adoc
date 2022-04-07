@@ -6,6 +6,7 @@ summary: 백업의 파일에 액세스하려는 경우 백업에서 기존 데�
 ---
 = 백업을 마운트합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

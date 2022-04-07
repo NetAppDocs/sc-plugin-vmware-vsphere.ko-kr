@@ -6,6 +6,7 @@ summary: 데이터 저장소의 파일을 더 이상 액세스할 필요가 없�
 ---
 = 백업을 마운트 해제합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

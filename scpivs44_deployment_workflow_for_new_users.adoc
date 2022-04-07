@@ -6,6 +6,7 @@ summary: 이전에 SnapCenter를 사용하지 않았거나 SnapCenter 백업이 
 ---
 = 새 사용자를 위한 배포 워크플로
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

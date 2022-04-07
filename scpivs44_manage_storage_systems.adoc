@@ -6,6 +6,7 @@ summary: VMware vSphere 웹 클라이언트를 사용하여 VM 또는 데이터 
 ---
 = 스토리지 시스템 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

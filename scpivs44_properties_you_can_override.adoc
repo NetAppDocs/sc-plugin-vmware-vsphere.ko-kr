@@ -6,6 +6,7 @@ summary: '"SCBR.OVERRIDE" 설정 파일에 나열된 속성을 사용하여 기�
 ---
 = 덮어쓸 수 있는 속성
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

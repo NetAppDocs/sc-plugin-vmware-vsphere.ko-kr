@@ -6,6 +6,7 @@ summary: VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 �
 ---
 = VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

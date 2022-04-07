@@ -6,6 +6,7 @@ summary: 'SnapCenter VMware 플러그인은 클라이언트 브라우저와의 �
 ---
 = 인증서를 만들고 가져옵니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

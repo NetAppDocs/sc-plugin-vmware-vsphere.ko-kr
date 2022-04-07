@@ -6,6 +6,7 @@ summary: 필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중�
 ---
 = 최소 ONTAP 권한이 필요합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리
 ---
 = 역할 기반 액세스 제어(RBAC)
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

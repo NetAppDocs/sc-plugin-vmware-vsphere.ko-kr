@@ -6,6 +6,7 @@ summary: 게스트 파일을 복구하려고 할 때 게스트 파일 복구 세
 ---
 = 발생할 수 있는 게스트 파일 복원 시나리오
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

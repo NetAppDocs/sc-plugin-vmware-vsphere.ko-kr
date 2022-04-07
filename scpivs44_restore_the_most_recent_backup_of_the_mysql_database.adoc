@@ -6,6 +6,7 @@ summary: '유지 관리 콘솔을 사용하여 SnapCenter Plug-in for VMware vSp
 ---
 = MySQL 데이터베이스의 가장 최근 백업을 복원합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

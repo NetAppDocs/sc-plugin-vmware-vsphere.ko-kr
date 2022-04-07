@@ -6,6 +6,7 @@ summary: SnapCenter VMware vSphere 웹 클라이언트 리소스 그룹 편집 �
 ---
 = 리소스 그룹에 여러 VM 및 데이터 저장소를 추가합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

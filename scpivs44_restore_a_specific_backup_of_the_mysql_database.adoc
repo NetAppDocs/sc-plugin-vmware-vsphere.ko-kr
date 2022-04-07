@@ -6,6 +6,7 @@ summary: '유지 관리 콘솔을 사용하여 VMware vSphere 가상 어플라�
 ---
 = MySQL 데이터베이스의 특정 백업을 복원합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary:
 ---
 = VMware vSphere용 SnapCenter 플러그인 구축
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

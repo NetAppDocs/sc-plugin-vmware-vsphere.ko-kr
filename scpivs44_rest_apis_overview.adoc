@@ -6,6 +6,7 @@ summary: SnapCenter Plug-in for VMware vSphere REST API를 사용하여 일반�
 ---
 = 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 기본적으로 연결된 게스트 파일 복원 VMDK는 24시간 동�
 ---
 = 게스트 파일 복구 세션의 시간을 확장합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

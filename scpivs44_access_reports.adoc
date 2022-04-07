@@ -6,6 +6,7 @@ summary: 대시보드에서 하나 이상의 작업에 대한 보고서를 요�
 ---
 = 보고서에 액세스합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

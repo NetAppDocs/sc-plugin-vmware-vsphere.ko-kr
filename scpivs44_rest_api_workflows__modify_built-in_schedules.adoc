@@ -6,6 +6,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMwa
 ---
 = REST API 워크플로우를 통해 기본 제공 일정을 수정할 수 있습니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

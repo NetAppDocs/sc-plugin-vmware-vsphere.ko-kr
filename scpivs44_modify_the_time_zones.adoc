@@ -6,6 +6,7 @@ summary: SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 백업
 ---
 = 백업에 대한 시간대를 수정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

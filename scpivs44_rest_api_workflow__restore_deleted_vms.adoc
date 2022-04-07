@@ -6,6 +6,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM �
 ---
 = 삭제된 VM을 복원하는 REST API 워크플로우
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

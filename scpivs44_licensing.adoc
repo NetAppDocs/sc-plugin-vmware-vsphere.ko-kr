@@ -6,6 +6,7 @@ summary: 이 섹션에서는 VMware vSphere용 SnapCenter 플러그인의 라이
 ---
 = 라이센싱
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

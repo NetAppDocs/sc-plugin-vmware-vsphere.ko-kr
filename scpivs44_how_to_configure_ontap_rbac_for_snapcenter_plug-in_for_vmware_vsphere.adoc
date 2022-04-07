@@ -6,6 +6,7 @@ summary: 'ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VM
 ---
 = VMware vSphere용 SnapCenter 플러그인용 ONTAP RBAC를 구성하는 방법
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

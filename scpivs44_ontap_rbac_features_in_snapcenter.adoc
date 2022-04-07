@@ -6,6 +6,7 @@ summary: 'SnapCenter VMware 플러그인은 vCenter Server RBAC, SnapCenter RBAC
 ---
 = VMware vSphere용 SnapCenter 플러그인의 ONTAP RBAC 기능
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

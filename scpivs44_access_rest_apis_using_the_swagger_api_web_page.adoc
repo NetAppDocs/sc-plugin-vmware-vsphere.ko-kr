@@ -6,6 +6,7 @@ summary: REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger �
 ---
 = Swagger API 웹 페이지를 사용하여 REST API에 액세스합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: VMware vSphere 관리 GUI용 SnapCenter 플러그인을 사용하여 VM
 ---
 = VMware vSphere용 SnapCenter 플러그인 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

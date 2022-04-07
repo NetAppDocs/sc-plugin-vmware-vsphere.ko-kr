@@ -6,6 +6,7 @@ summary: ova 파일에는 VMware vSphere용 SnapCenter 플러그인에서 수행
 ---
 = OVA 다운로드(Open Virtual Appliance)
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

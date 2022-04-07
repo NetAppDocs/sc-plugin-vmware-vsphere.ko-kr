@@ -6,6 +6,7 @@ summary: 운영 또는 2차 백업에서 기존 VMDK를 복원하거나 삭제�
 ---
 = 백업에서 VMDK 복구
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

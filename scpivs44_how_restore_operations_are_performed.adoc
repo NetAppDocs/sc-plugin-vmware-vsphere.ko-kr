@@ -6,6 +6,7 @@ summary: 'VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Sto
 ---
 = 복원 작업 수행 방법
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

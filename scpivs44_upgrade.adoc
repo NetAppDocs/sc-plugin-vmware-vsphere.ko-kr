@@ -6,6 +6,7 @@ summary: SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사�
 ---
 = VMware vSphere용 SnapCenter 플러그인의 이전 릴리즈에서 업그레이드합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

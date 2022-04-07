@@ -6,6 +6,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 리�
 ---
 = 리소스 그룹을 생성 및 수정하는 REST API 워크플로우
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 빠른 시작 설명서는 VMware vSphere 가상 어플라이언스인 
 ---
 = 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

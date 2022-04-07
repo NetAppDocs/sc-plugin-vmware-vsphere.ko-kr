@@ -6,6 +6,7 @@ summary: 개별 파일을 복원하기 위해 가상 디스크를 연결한 후 
 ---
 = 가상 디스크를 분리합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

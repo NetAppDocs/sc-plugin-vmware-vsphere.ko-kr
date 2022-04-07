@@ -6,6 +6,7 @@ summary: Windows 게스트 OS의 VMDK에서 하나 이상의 파일 또는 폴�
 ---
 = VMDK에서 게스트 파일 및 폴더 복구
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

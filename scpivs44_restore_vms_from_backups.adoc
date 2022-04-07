@@ -6,6 +6,7 @@ summary: VM을 복원할 때 선택한 백업 복사본으로 기존 콘텐츠�
 ---
 = 백업에서 VM을 복원합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 스토리지를 추가하면 VMware vSphere용 SnapCenter 플러그인�
 ---
 = 스토리지 추가
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

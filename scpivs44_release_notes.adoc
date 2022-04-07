@@ -6,6 +6,7 @@ summary: 릴리즈 노트는 VMware vSphere용 SnapCenter 플러그인 릴리스
 ---
 = 릴리스 정보
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

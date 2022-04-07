@@ -6,6 +6,7 @@ summary:
 ---
 = 백업 정책을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

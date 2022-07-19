@@ -242,35 +242,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/sc-plugin-vmware-vsphere/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/sc-plugin-vmware-vsphere//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/sc-plugin-vmware-vsphere//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/sc-plugin-vmware-vsphere//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/sc-plugin-vmware-vsphere//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/sc-plugin-vmware-vsphere//search.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere//search.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/sc-plugin-vmware-vsphere//search.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/sc-plugin-vmware-vsphere//search.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/sc-plugin-vmware-vsphere//search.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -314,7 +306,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>사용 가능한 PDF<span>
+    <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>사용 가능한 PDF<span>
     </span>
   </a>
 </div>
@@ -324,7 +316,7 @@
         
         
         <a target="_blank" href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/fullsite-sidebar/VMware_vSphere용_SnapCenter_플러그인_설명서.pdf" >
-          <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>이 문서 사이트의 PDF</a>
+          <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>이 문서 사이트의 PDF</a>
 
 
 
@@ -341,7 +333,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/개념.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             개념
           </a>
           
@@ -361,8 +353,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -382,7 +372,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/시작하십시오.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             시작하십시오
           </a>
           
@@ -404,7 +394,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/SCV_배포_요구_사항.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             SCV 배포 요구 사항
           </a>
           
@@ -414,8 +404,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -431,8 +419,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -452,7 +438,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/빠른_시작.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             빠른 시작
           </a>
           
@@ -468,8 +454,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -489,7 +473,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/모니터링_및_보고.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             모니터링 및 보고
           </a>
           
@@ -505,8 +489,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -526,7 +508,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/스토리지_관리.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             스토리지 관리
           </a>
           
@@ -536,8 +518,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -557,7 +537,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/데이터_보호.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             데이터 보호
           </a>
           
@@ -585,8 +565,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -606,7 +584,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/데이터_저장소를_마운트하고_마운트_해제합니다.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             데이터 저장소를 마운트하고 마운트 해제합니다
           </a>
           
@@ -614,8 +592,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -635,7 +611,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/백업에서_복원합니다.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             백업에서 복원합니다
           </a>
           
@@ -659,8 +635,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -680,7 +654,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/게스트_파일_및_폴더를_복구합니다.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             게스트 파일 및 폴더를 복구합니다
           </a>
           
@@ -696,8 +670,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -717,7 +689,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/VMware_vSphere_어플라이언스인_SnapCenter_플러그인을_관리합니다.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             VMware vSphere 어플라이언스인 SnapCenter 플러그인을 관리합니다
           </a>
           
@@ -735,8 +707,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -756,7 +726,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/구성을_관리합니다.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             구성을 관리합니다
           </a>
           
@@ -776,8 +746,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -797,7 +765,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/REST_API.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             REST API
           </a>
           
@@ -827,8 +795,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -848,7 +814,7 @@
               href="/ko-kr/sc-plugin-vmware-vsphere/pdfs/sidebar/업그레이드.pdf" 
             
           >
-            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf.png" alt="" width="16" height="16"/>
             업그레이드
           </a>
           
@@ -858,8 +824,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -868,11 +832,10 @@
 
 
 
-
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/ko-kr/sc-plugin-vmware-vsphere/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>별도의 PDF 문서 모음<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -905,7 +868,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/sc-plugin-vmware-vsphere/index.html">
         VMware vSphere용 SnapCenter 플러그인
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/sc-plugin-vmware-vsphere/scpivs44_release_notes.html">
@@ -1209,6 +1172,8 @@
   data-did-you-mean="{suggestion}을(를) 검색해보십시오." 
   data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?" 
   data-results-found="{hitCount}개의 결과를 찾음"
+  data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+  data-error-reset="Reset Search"
   data-sk-es-pf-indexes=""
   data-flavor=""></div>
   <button class="search-all-icon n-property-bar__search-toggle-button" type="button">
@@ -1365,7 +1330,9 @@
     </script>
     <script src='/ko-kr/sc-plugin-vmware-vsphere/js/www-ntap.js'></script>
     <script src='/ko-kr/sc-plugin-vmware-vsphere/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/sc-plugin-vmware-vsphere/js/sidebar.js'></script>
   </body><script>
+    /*
       if(hasParameter(window.location.search,'q')) {
         var queryString = decodeURI(getParameter(window.location.search, 'q'));
         document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
@@ -1388,4 +1355,5 @@
         param = param || "";
         return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
       }
+      */
   </script></html>

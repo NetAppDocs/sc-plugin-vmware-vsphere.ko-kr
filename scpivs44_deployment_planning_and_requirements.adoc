@@ -119,10 +119,10 @@ VM 일관성을 사용하여 백업 생성
 | IP 주소 | IPv4, IPv6 
 
 
-| VMware TLS | 1.2 
+| VMware TLS | 1.2, 1.3 
 
 
-| SnapCenter 서버의 TLS | TLSv1.1 이상 버전의 SnapCenter Server는 이를 사용하여 VMDK 데이터 보호 작업을 통해 애플리케이션을 위한 SnapCenter VMware 플러그인과 통신합니다. 
+| SnapCenter 서버의 TLS | 1.2, 1.3 SnapCenter 서버는 이를 사용하여 VMDK 데이터 보호 작업을 통해 애플리케이션을 위한 SnapCenter VMware 플러그인과 통신합니다. 
 
 
 | VMware 애플리케이션 VAAI(vStorage API for Array Integration) | VMware vSphere용 SnapCenter 플러그인은 이 기능을 사용하여 복구 작업의 성능을 향상시킵니다. 또한 NFS 환경의 성능도 개선합니다. 

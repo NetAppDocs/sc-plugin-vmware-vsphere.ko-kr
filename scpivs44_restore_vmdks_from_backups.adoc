@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: scpivs44_restore_vmdks_from_backups.html 
 keywords:  
-summary: 운영 또는 2차 백업에서 기존 VMDK를 복원하거나 삭제되거나 분리된 VMDK를 복구할 수 있습니다. 
+summary: 기존 VM 또는 VVOL VM의 운영 또는 보조 백업에서 기존 VMDK를 복원하거나 삭제된 VMDK 또는 분리된 VMDK를 복구할 수 있습니다. 
 ---
 = 백업에서 VMDK 복구
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 운영 또는 2차 백업에서 기존 VMDK를 복원하거나 삭제�
 
 
 [role="lead"]
-운영 또는 2차 백업에서 기존 VMDK를 복원하거나 삭제되거나 분리된 VMDK를 복구할 수 있습니다.
+기존 VM 또는 VVOL VM의 운영 또는 보조 백업에서 기존 VMDK를 복원하거나 삭제된 VMDK 또는 분리된 VMDK를 복구할 수 있습니다.
 
 VM의 하나 이상의 VMDK(가상 머신 디스크)를 동일한 데이터 저장소에 복구할 수 있습니다.
 

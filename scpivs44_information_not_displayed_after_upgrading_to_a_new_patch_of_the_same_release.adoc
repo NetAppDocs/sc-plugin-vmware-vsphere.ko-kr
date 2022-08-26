@@ -42,7 +42,7 @@ VMware vSphere용 SnapCenter 플러그인을 동일한 릴리즈의 새 패치�
 
 
 
-=== 해결 방법 캐시를 지우기 전에 이미 업그레이드한 경우
+== 해결 방법 캐시를 지우기 전에 이미 업그레이드한 경우
 
 . SnapCenter VMware 플러그인 관리 GUI에 로그인합니다.
 +
@@ -52,7 +52,7 @@ SnapCenter VMware 플러그인을 구축하면 IP가 표시됩니다.
 +
 SnapCenter VMware 플러그인 서비스가 비활성화되고 vCenter에서 확장이 등록되지 않았습니다.
 
-. vSphere-client-en레니티 폴더를 찾은 후 com.netapp.scvm.webclient-4.2.0` 폴더를 찾아 삭제합니다.
+. vSphere-client-en레니티 폴더를 찾은 후 com.netapp.scvm.webclient-<release-number>` 폴더를 찾아 삭제합니다.
 +
 각 릴리즈에 대한 폴더 이름이 변경됩니다.
 

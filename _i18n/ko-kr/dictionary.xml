@@ -131,7 +131,6 @@
   <block id="fcd86cc596f822c816f0c6770a216f38" category="list-text">데이터 저장소는 clustered Data ONTAP 8.2.1 이상을 실행하는 NetApp 스토리지에 있습니다.</block>
   <block id="62fc2c3502f537ee988c89c46b547a37" category="paragraph">SnapCenter 버전 4.x는 ONTAP 8.3.1 이상을 지원합니다.</block>
   <block id="697ea025ecb303d4f40d1bf3a8b4bde0" category="inline-link">NetApp 상호 운용성 매트릭스 툴(IMT)</block>
-  <block id="f5568de9c9e0caa3283e8f2bcf00b4f9" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오<block ref="58191ff79dfed9aa80c7f0f097ed65be" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 확인하십시오.</block>
   <block id="4f11690e32499ec1417798db9cb86f8c" category="list-text">공유 PCI 장치가 VM에 연결되어 있습니다.</block>
   <block id="0706a3a0aad11229773c1704d2e28c53" category="list-text">SnapCenter에서 기본 IP가 구성되지 않았습니다.</block>
   <block id="6b2f6276dbeab613805dd6faa40c0b96" category="list-text">SnapCenter에 스토리지 VM(SVM) 관리 IP를 추가하지 않았습니다.</block>
@@ -683,7 +682,6 @@
   <block id="8478c8dba0b222eda55df9c06b26a928" category="list-text">SnapCenter VMware 플러그인은 Linux VM에서 가상 어플라이언스로 구축됩니다</block>
   <block id="8ebed4cc71ebae0e8a4f0dcea24cd08f" category="paragraph">가상 어플라이언스를 Linux VM으로 설치해야 하지만 SnapCenter VMware 플러그인은 Windows 기반 및 Linux 기반 vCenter를 모두 지원합니다. SnapCenter는 기본적으로 사용자 개입 없이 이 플러그인을 사용하여 vCenter와 통신하여 Windows 및 Linux 가상화 애플리케이션에서 데이터 보호 작업을 수행하는 SnapCenter 애플리케이션 기반 플러그인을 지원합니다.</block>
   <block id="b9c9e7f1948911f3919c87ac446095a1" category="paragraph">이러한 주요 기능 외에도 VMware vSphere용 SnapCenter 플러그인은 NFS 3.0 및 4.1을 통한 iSCSI, 파이버 채널, FCoE, VMDK 및 VMFS 5.0 및 6.0을 통한 VMDK를 지원합니다.</block>
-  <block id="9856ec9f087c5eba592abce3501cda06" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="25eb2128e948e2544fabd66492bfb7a4" category="inline-link-rx"></block> (IMT).</block>
   <block id="b13a4247d22cd0a43d54ca7d80210144" category="paragraph">NFS 프로토콜 및 ESXi에 대한 자세한 내용은 VMware에서 제공하는 vSphere 스토리지 설명서를 참조하십시오.</block>
   <block id="799fee4408785caa314299fa0125daec" category="inline-link">SnapCenter 문서</block>
   <block id="9e91a63458c500b0f59284f504d93fff" category="paragraph">SnapCenter 데이터 보호에 대한 자세한 내용은 에서 SnapCenter 플러그인의 데이터 보호 정보를 참조하십시오<block ref="4be00348c5f700eec4bebc72bc1bc49c" category="inline-link-rx"></block>.</block>
@@ -1441,7 +1439,6 @@
   <block id="fa48228aaf71277e6bc2d05f062b62bb" category="list-text">VMware Tools가 설치 및 실행되고 있어야 합니다.</block>
   <block id="0584a4eafed573c2dc210c534594afdd" category="paragraph">SnapCenter는 VMware Tools의 정보를 사용하여 VMware 게스트 OS에 대한 연결을 설정합니다.</block>
   <block id="1572f8be6f1646b62b5c0d4d4c380fe8" category="list-text">Windows 게스트 OS는 Windows Server 2008 R2 이상을 실행해야 합니다.</block>
-  <block id="9308bc3137849178f2a1d4b2f840f1f3" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="58191ff79dfed9aa80c7f0f097ed65be" category="inline-link-rx"></block>.</block>
   <block id="8eafca0087eab5ecb2870b27ade88f3c" category="list-text">대상 VM의 자격 증명은 기본 제공 도메인 관리자 계정 또는 기본 제공 로컬 관리자 계정을 지정해야 합니다. 사용자 이름은 "관리자"여야 합니다. 복구 작업을 시작하기 전에 가상 디스크를 연결할 VM에 대해 자격 증명을 구성해야 합니다. 연결 작업과 후속 복구 작업 모두에 자격 증명이 필요합니다. 작업 그룹 사용자는 기본 제공 로컬 관리자 계정을 사용할 수 있습니다.</block>
   <block id="ae010d54b0afb3a6e93783bbe5550d22" category="admonition">기본 제공 관리자 계정이 아닌 VM 내에 관리 권한이 있는 계정을 사용해야 하는 경우 게스트 VM에서 UAC를 비활성화해야 합니다.</block>
   <block id="37f8dfd8c74bc4597ec29e99bf89bf26" category="list-text">복원할 백업 스냅샷 복사본 및 VMDK를 알고 있어야 합니다.</block>
@@ -1453,7 +1450,6 @@
   <block id="7f395b83396bafcd5e1d1206370ba67d" category="list-text">영어 이외의 알파벳 이름이 있는 파일의 경우 단일 파일이 아닌 디렉터리에 저장해야 합니다.</block>
   <block id="ee1c70a48815e066082eefeebc34049f" category="paragraph">일본어 간지 등의 영문자가 아닌 이름으로 파일을 복원할 수 있습니다.</block>
   <block id="1ff1b21f136ea0663a63cc457f347949" category="list-text">Linux 게스트 OS에서 복구는 지원되지 않습니다</block>
-  <block id="ba7d5ae17e05f117613f6c9d8ce94a33" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="58191ff79dfed9aa80c7f0f097ed65be" category="inline-link-rx"></block>.</block>
   <block id="9229096468701d10aab6b30f546310c1" category="section-title">게스트 파일 복구 제한 사항</block>
   <block id="f59c7bff803fde0d7ac5c2117ba8b07a" category="paragraph">게스트 OS에서 파일 또는 폴더를 복구하기 전에 이 기능이 지원하지 않는 기능에 대해 알고 있어야 합니다.</block>
   <block id="0938c50db6a8d08637c074ab0c183305" category="list-text">게스트 OS 내에서 동적 디스크 유형을 복원할 수 없습니다.</block>
@@ -1929,4 +1925,8 @@
   <block id="3517efb765e07026ad62bc8e70a5e01a" category="list-text">VVOL을 대체 호스트로 복원할 수 없습니다.</block>
   <block id="c06551216ac3dfe9b7ff1f728845efe6" category="list-text">VVOL 자동 재조정은 지원되지 않습니다.</block>
   <block id="40d9577d304cdcb387b725468407241e" category="sidebar">VMware vSphere 4.7 docs용 SnapCenter 플러그인</block>
+  <block id="2475c9dd54056833d6396fbed1f941d8" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 확인하십시오.</block>
+  <block id="ca3bf2cb39f62342194d0f6777ffe162" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block>.</block>
+  <block id="fb80b6fccf5f1cdcfd342989b34962c7" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block>.</block>
+  <block id="a888ab84707631c86f5006309e186d1d" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="56392423f5d438aef305a97c794e0835" category="inline-link-rx"></block> (IMT).</block>
 </blocks>

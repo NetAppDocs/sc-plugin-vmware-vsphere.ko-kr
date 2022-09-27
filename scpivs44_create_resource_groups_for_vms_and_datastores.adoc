@@ -171,7 +171,7 @@ NOTE: 리소스 그룹에 연결된 각 정책에 대해 '_Recent' 백업이 생
 '선택한 <resource-name>은(는) SnapCenter와 호환되지 않습니다.'라는 메시지가 표시되면 선택한 리소스가 SnapCenter와 호환되지 않습니다. 을 참조하십시오  compatibility check failures 를 참조하십시오.
 
 +
-백업에서 하나 이상의 데이터 저장소를 전역적으로 제외하려면 'scBR.override' 구성 파일의 'global.ds.exclusion.pattern' 속성에 데이터 저장소 이름을 지정해야 합니다. 을 참조하십시오  you can override.
+백업에서 하나 이상의 데이터 저장소를 전역적으로 제외하려면 'scBR.override' 구성 파일의 'global.ds.exclusion.pattern' 속성에 데이터 저장소 이름을 지정해야 합니다. 을 참조하십시오 #Properties you can override,덮어쓸 수 있는 속성.
 
 . Spanning disks * 페이지에서 여러 데이터 저장소에 걸쳐 VMDK가 여러 개인 VM의 옵션을 선택합니다.
 +

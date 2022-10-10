@@ -1929,4 +1929,5 @@
   <block id="fb80b6fccf5f1cdcfd342989b34962c7" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block>.</block>
   <block id="a888ab84707631c86f5006309e186d1d" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="56392423f5d438aef305a97c794e0835" category="inline-link-rx"></block> (IMT).</block>
   <block id="0f928371dde9bb28b5372e8e7729ebb0" category="paragraph">백업에서 하나 이상의 데이터 저장소를 전역적으로 제외하려면 'scBR.override' 구성 파일의 'global.ds.exclusion.pattern' 속성에 데이터 저장소 이름을 지정해야 합니다. 을 참조하십시오 <block ref="37a0363725b373caf92b58503affefad" category="inline-xref-macro-rx"></block>.</block>
+  <block id="ec6b0c2e1fb8998a9149b0e870ce2442" category="list-text">사용자 역할을 생성 및 관리하려면 클러스터 관리자여야 합니다. 사용자를 클러스터 스토리지 VM 또는 스토리지 VM에 연결할 수 있습니다.</block>
 </blocks>

@@ -22,6 +22,7 @@ VMware vSphere 관리 GUI용 SnapCenter 플러그인을 사용하여 VMware vSph
 
 VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 사용하여 애플리케이션, 시스템 및 네트워크 구성을 관리할 수 있습니다. 관리자 암호, 유지 관리 암호를 변경하고, 지원 번들을 생성하고, 원격 진단을 시작할 수 있습니다.
 
+.시작하기 전에
 SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.
 
 .이 작업에 대해
@@ -76,8 +77,10 @@ IP 주소 설정 표시 또는 변경 도메인 이름 검색 설정 표시 또�
 
 VMware vSphere 관리 GUI용 SnapCenter 플러그인의 admin 암호를 모르는 경우 유지보수 콘솔에서 새 암호를 설정할 수 있습니다.
 
+.시작하기 전에
 SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.
 
+.이 작업에 대해
 SnapCenter VMware 플러그인의 유지보수 콘솔에 로그인하려면 사용자 이름으로 기본 ""maint""를 사용하고 암호로 "admin123"을 사용해야 합니다.
 
 .단계
@@ -131,6 +134,7 @@ SnapCenter 데이터 보호 기능이 더 이상 필요하지 않은 경우 Snap
 * 실행 중인 SnapCenter 작업이 없는지 확인합니다.
 
 
+.이 작업에 대해
 SnapCenter VMware 플러그인을 사용하지 않도록 설정하면 모든 리소스 그룹이 일시 중단되고 vCenter에서 플러그인이 확장명으로 등록되지 않습니다.
 
 SnapCenter VMware 플러그인을 설정하면 플러그인이 vCenter의 확장으로 등록되고, 모든 리소스 그룹이 운영 모드로 전환되고, 모든 스케줄이 설정됩니다.
@@ -192,6 +196,7 @@ VSC-httpclient3-security.jar CV-api-model.jar's CVM_WebUI_service.jar's CVM_WebU
 . SnapCenter VMware 플러그인을 사용하여 애플리케이션 정합성 보장 백업을 위한 다른 SnapCenter 플러그인을 지원했다면 SnapCenter에 로그인하여 vSphere 호스트를 제거하십시오.
 
 
+.작업을 마친 후
 가상 어플라이언스는 아직 구축되었지만 SnapCenter VMware 플러그인은 제거되었습니다.
 
 SnapCenter VMware 플러그인용 호스트 VM을 제거한 후에는 로컬 vCenter 캐시가 새로 고쳐질 때까지 플러그인이 vCenter에 계속 표시될 수 있습니다. 그러나 플러그인이 제거되었기 때문에 해당 호스트에서 SnapCenter VMware vSphere 작업을 수행할 수 없습니다. 로컬 vCenter 캐시를 새로 고치려면 먼저 어플라이언스가 SnapCenter VMware 플러그인 구성 페이지에서 사용 안 함 상태인지 확인한 다음 vCenter 웹 클라이언트 서비스를 다시 시작합니다.

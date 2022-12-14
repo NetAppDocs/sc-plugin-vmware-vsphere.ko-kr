@@ -16,6 +16,7 @@ summary: SnapCenter Plug-in for VMware vSphere에서 관리하는 기존 리소�
 [role="lead"]
 SnapCenter Plug-in for VMware vSphere에서 관리하는 기존 리소스 그룹에 단일 VM 또는 데이터 저장소를 빠르게 추가할 수 있습니다.
 
+.이 작업에 대해
 SAN 및 NAS 데이터 저장소를 추가할 수 있지만 VSAN 또는 VVol 데이터 저장소는 추가할 수 없습니다.
 
 .단계

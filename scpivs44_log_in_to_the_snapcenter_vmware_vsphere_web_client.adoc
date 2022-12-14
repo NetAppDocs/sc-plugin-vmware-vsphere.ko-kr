@@ -16,6 +16,7 @@ summary: VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VM
 [role="lead"]
 VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VMware vSphere 웹 클라이언트가 설치되며, vCenter 화면에는 다른 vSphere 웹 클라이언트와 함께 표시됩니다.
 
+.시작하기 전에
 vCenter에서 TLS(전송 계층 보안)를 활성화해야 합니다. VMware 설명서를 참조하십시오.
 
 .단계

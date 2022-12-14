@@ -13,6 +13,7 @@ summary: VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 �
 :imagesdir: ./media/
 
 
+.시작하기 전에
 [role="lead"]
 VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그온하려면 IP 주소와 로그인 자격 증명을 알고 있어야 합니다.
 

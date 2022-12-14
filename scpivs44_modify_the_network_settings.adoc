@@ -15,6 +15,7 @@ summary: VMware vSphere용 SnapCenter 플러그인에서 구성된 네트워크 
 
 VMware vSphere용 SnapCenter 플러그인에서 구성된 네트워크 설정을 수정할 수 있습니다. 이 설정은 플러그인에서 vCenter에 액세스하는 데 사용됩니다.
 
+.시작하기 전에
 VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그온 자격 증명을 알고 있어야 합니다.
 
 * SnapCenter VMware 플러그인을 구축할 때 IP 주소가 표시됩니다.

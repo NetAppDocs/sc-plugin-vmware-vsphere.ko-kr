@@ -55,10 +55,12 @@ TIP: VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이
 
 IMPORTANT: 액세스할 수 없는 상태의 VM은 추가하지 마십시오. 액세스할 수 없는 VM이 포함된 리소스 그룹을 생성할 수는 있지만 해당 리소스 그룹의 백업은 실패합니다.
 
+.시작하기 전에
 VVOL VM이 포함된 리소스 그룹을 생성하기 전에 ONTAP Tools for VMware를 구축해야 합니다.
 
 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere용 ONTAP 툴"^].
 
+.이 작업에 대해
 언제든지 자원 그룹에서 자원을 추가하거나 제거할 수 있습니다.
 
 * 단일 리소스 백업
@@ -89,7 +91,7 @@ ONTAP 9.8에서는 스위치백 후 백업이 중단됩니다. 이 문제는 ONT
 SnapCenter 리소스 그룹을 만들 때 호환성 검사를 수행합니다.
 
 +
- compatibility check failures
+<<호환성 검사 실패 관리>>
 
 
 
@@ -168,10 +170,10 @@ NOTE: 리소스 그룹에 연결된 각 정책에 대해 '_Recent' 백업이 생
 다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.
 
 +
-'선택한 <resource-name>은(는) SnapCenter와 호환되지 않습니다.'라는 메시지가 표시되면 선택한 리소스가 SnapCenter와 호환되지 않습니다. 을 참조하십시오  compatibility check failures 를 참조하십시오.
+'선택한 <resource-name>은(는) SnapCenter와 호환되지 않습니다.'라는 메시지가 표시되면 선택한 리소스가 SnapCenter와 호환되지 않습니다. 을 참조하십시오 <<호환성 검사 실패 관리>> 를 참조하십시오.
 
 +
-백업에서 하나 이상의 데이터 저장소를 전역적으로 제외하려면 'scBR.override' 구성 파일의 'global.ds.exclusion.pattern' 속성에 데이터 저장소 이름을 지정해야 합니다. 을 참조하십시오 #Properties you can override,덮어쓸 수 있는 속성.
+백업에서 하나 이상의 데이터 저장소를 전역적으로 제외하려면 'scBR.override' 구성 파일의 'global.ds.exclusion.pattern' 속성에 데이터 저장소 이름을 지정해야 합니다. 을 참조하십시오 <<scpivs44_properties_you_can_override.adoc#Properties you can override,덮어쓸 수 있는 속성>>.
 
 . Spanning disks * 페이지에서 여러 데이터 저장소에 걸쳐 VMDK가 여러 개인 VM의 옵션을 선택합니다.
 +

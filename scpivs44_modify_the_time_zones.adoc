@@ -15,6 +15,7 @@ summary: SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 백업
 
 SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 백업 스케줄을 구성하면 SnapCenter VMware 플러그인이 구축되는 시간대로 스케줄이 자동으로 설정됩니다. VMware vSphere 관리 GUI 또는 유지 관리 콘솔용 SnapCenter 플러그인을 사용하여 해당 시간대를 수정할 수 있습니다.
 
+.시작하기 전에
 VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그인 자격 증명을 알고 있어야 합니다.
 
 * SnapCenter VMware 플러그인을 구축할 때 IP 주소가 표시됩니다.

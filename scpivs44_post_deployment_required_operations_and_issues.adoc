@@ -113,4 +113,5 @@ NOTE: 인증 필드에 Linux를 선택해야 합니다.
 
 
 
+.작업을 마친 후
 VMware vSphere용 SnapCenter 플러그인 자격 증명이 수정된 경우 SnapCenter 관리 호스트 페이지를 사용하여 SnapCenter 서버에서 등록을 업데이트해야 합니다.

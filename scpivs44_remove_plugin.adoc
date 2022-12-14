@@ -36,6 +36,7 @@ VSC-httpclient3-security.jar CV-api-model.jar's CVM_WebUI_service.jar's CVM_WebU
 . SnapCenter VMware 플러그인을 사용하여 애플리케이션 정합성 보장 백업을 위한 다른 SnapCenter 플러그인을 지원했다면 SnapCenter에 로그인하여 vSphere 호스트를 제거하십시오.
 
 
+.작업을 마친 후
 가상 어플라이언스는 아직 구축되었지만 SnapCenter VMware 플러그인은 제거되었습니다.
 
 SnapCenter VMware 플러그인용 호스트 VM을 제거한 후에는 로컬 vCenter 캐시가 새로 고쳐질 때까지 플러그인이 vCenter에 계속 표시될 수 있습니다. 그러나 플러그인이 제거되었기 때문에 해당 호스트에서 SnapCenter VMware vSphere 작업을 수행할 수 없습니다. 로컬 vCenter 캐시를 새로 고치려면 먼저 어플라이언스가 SnapCenter VMware 플러그인 구성 페이지에서 사용 안 함 상태인지 확인한 다음 vCenter 웹 클라이언트 서비스를 다시 시작합니다.

@@ -159,4 +159,5 @@ SnapCenter VMware 플러그인이 활성화되어 있지 않으면 를 참조하
 
 
 
+.작업을 마친 후
 필수 를 완료해야 합니다 link:scpivs44_post_deployment_required_operations_and_issues.html["구축 후 작업"].

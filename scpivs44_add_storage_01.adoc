@@ -18,7 +18,7 @@ VM을 백업 또는 복원하려면 먼저 스토리지 클러스터 또는 스�
 
 * 사용할 GUI
 +
-VMware vSphere 웹 클라이언트를 사용하여 스토리지를 추가합니다.
+VMware vSphere Client를 사용하여 스토리지를 추가합니다.
 
 * 대규모 LUN
 +
@@ -26,7 +26,7 @@ VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이트�
 
 * VVOL(VMware 가상 볼륨)
 +
-먼저 VVol 스토리지 시스템을 VMware vSphere용 ONTAP Tools에 추가한 다음 VVol 스토리지 시스템을 VMware vSphere용 SnapCenter 플러그인에 추가해야 합니다.
+먼저 VVol 스토리지 시스템을 VMware vSphere용 ONTAP 툴에 추가한 다음 VVol 스토리지 시스템을 VMware vSphere용 SnapCenter 플러그인에 추가해야 합니다.
 
 +
 자세한 내용은 을 참조하십시오 https://docs.netapp.com/vapp-98/index.jsp["VMware vSphere용 ONTAP 툴"^]
@@ -40,7 +40,7 @@ ESXi 서버, SnapCenter VMware 플러그인 및 각 vCenter를 동시에 동기�
 SnapCenter VMware 플러그인은 직접 연결된 스토리지 VM과 스토리지 클러스터의 스토리지 VM에서 백업 및 복원 작업을 수행합니다.
 
 
-NOTE: SnapCenter VMware 플러그인을 사용하여 VMDK에서 애플리케이션 기반 백업을 지원하는 경우 SnapCenter GUI를 사용하여 스토리지 자격 증명을 입력하고 스토리지 시스템을 등록해야 합니다.
+NOTE: SnapCenter VMware 플러그인을 사용하여 VMDK에서 애플리케이션 기반 백업을 지원하는 경우 SnapCenter GUI를 사용하여 스토리지 인증 세부 정보를 입력하고 스토리지 시스템을 등록해야 합니다.
 
 * 연결된 모드의 vCenter의 경우 각 vCenter에 스토리지 시스템을 별도로 추가해야 합니다.
 * 스토리지 VM의 이름이 관리 LIF로 확인되어야 합니다.
@@ -50,15 +50,12 @@ SnapCenter에서 스토리지 VM 이름에 대한 ETC 호스트 항목을 추가
 +
 관리 LIF로 해결할 수 없는 이름의 스토리지 VM을 추가하는 경우 플러그인이 해당 스토리지 VM의 데이터 저장소 또는 볼륨을 검색할 수 없기 때문에 예약된 백업 작업이 실패합니다. 이 경우 스토리지 VM을 SnapCenter에 추가하고 관리 LIF를 지정하거나 스토리지 VM이 포함된 클러스터를 추가하고 클러스터 관리 LIF를 지정하십시오.
 
-* 스토리지 자격 증명은 SnapCenter VMware 플러그인의 여러 인스턴스 또는 Windows SnapCenter Server와 vCenter의 SnapCenter 플러그인 간에 공유되지 않습니다.
+* 스토리지 인증 세부 정보는 SnapCenter VMware 플러그인의 여러 인스턴스 또는 vCenter의 Windows SnapCenter Server와 SnapCenter 플러그인 간에 공유되지 않습니다.
 
 
 .단계
-. vSphere 웹 클라이언트의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭합니다.
+. vSphere 클라이언트의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭합니다.
 . 스토리지 시스템 페이지에서 을 클릭합니다 image:scpivs44_image6.png["오류: 그래픽 이미지가 없습니다"] * 추가 *.
-+
-image:scpivs44_image12.png["오류: 그래픽 이미지가 없습니다"]
-
 . 스토리지 시스템 추가 * 마법사에서 다음 표에 나열된 기본 스토리지 VM 또는 클러스터 정보를 입력합니다.
 +
 |===
@@ -71,10 +68,19 @@ image:scpivs44_image12.png["오류: 그래픽 이미지가 없습니다"]
 | 플랫폼 | 플랫폼을 선택합니다. 
 
 
-| 사용자 이름 | 스토리지 VM에 로그온하는 데 사용되는 ONTAP 사용자 이름을 입력합니다. 
+| 인증 방법 | 자격 증명 또는 인증서를 선택합니다. 다음 두 가지 유형의 인증서가 지원됩니다. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_configure_a_CA_signed_certificate_for_storage_system_authentication_with_SCV["CA 서명 인증서"^]- https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_configure_a_self-signed_certificate_for_storage_system_authentication_with_SCV["자체 서명된 인증서"^] 
 
 
-| 암호 | 스토리지 VM 로그온 암호를 입력합니다. 
+| 사용자 이름 | 인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM에 로그온하는 데 사용되는 ONTAP 사용자 이름을 입력합니다. 
+
+
+| 암호 | 인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM 로그온 암호를 입력합니다. 
+
+
+| 인증서 | 인증 방법으로 인증서를 선택하면 이 필드가 표시됩니다. 인증서 파일을 찾아 선택합니다. 
+
+
+| 개인 키 | 인증 방법으로 인증서를 선택하면 이 필드가 표시됩니다. 개인 키 파일을 찾아 선택합니다. 
 
 
 | 프로토콜 | 스토리지 프로토콜을 선택합니다. 
@@ -87,6 +93,9 @@ image:scpivs44_image12.png["오류: 그래픽 이미지가 없습니다"]
 
 
 | 기본 IP | 스토리지 VM에 둘 이상의 관리 IP 주소가 있는 경우 이 확인란을 선택하고 SnapCenter에서 사용할 IP 주소를 입력합니다. * 참고: * IP 주소를 입력할 때 대괄호([])를 사용하지 마십시오. 
+
+
+| 이벤트 관리 시스템(EMS) 및 AutoSupport 설정 | EMS 메시지를 스토리지 시스템 syslog에 보내거나, 적용된 보호, 완료된 복원 작업 또는 실패한 작업을 위해 스토리지 시스템으로 AutoSupport 메시지를 보내려면 해당 확인란을 선택합니다. 스토리지 시스템에 실패한 작업에 대한 * AutoSupport 알림 전송 * 확인란을 선택하고 * SnapCenter 서버 이벤트를 syslog * 로 로그 확인란을 선택하여 AutoSupport 알림을 설정합니다. 
 
 
 | SnapCenter 서버 이벤트를 syslog에 기록합니다 | SnapCenter VMware 플러그인에 대한 이벤트를 기록하려면 확인란을 선택합니다. 

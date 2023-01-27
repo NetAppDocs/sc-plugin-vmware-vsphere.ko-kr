@@ -42,10 +42,7 @@ summary: VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치
 
 . 브라우저 캐시를 지운 다음 GUI가 제대로 작동하는지 확인합니다.
 +
-문제가 지속되면 VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
-
-+
-image:scpivs44_image5.png["오류: 그래픽 이미지가 없습니다"]
+문제가 지속되면 VMware vSphere Client 서비스를 다시 시작합니다
 
 . vCenter에 로그인한 다음 도구 모음에서 * 메뉴 * 를 클릭하고 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.
 

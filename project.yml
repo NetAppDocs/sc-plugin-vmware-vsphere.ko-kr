@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SnapCenter Plug-in for VMware vSphere 4.7
+  name: SnapCenter Plug-in for VMware vSphere 4.8
   internal:
     pdf_enabled: true
   prod:
@@ -9,6 +9,9 @@ settings:
   versions:
   - name: VMware vSphere용 SnapCenter 플러그인
     url: "/sc-plugin-vmware-vsphere"
+    version-number: '4.8'
+  - name: VMware vSphere용 SnapCenter 플러그인
+    url: "/sc-plugin-vmware-vsphere-47"
     version-number: '4.7'
   - name: VMware vSphere용 SnapCenter 플러그인
     url: "/sc-plugin-vmware-vsphere-46"
@@ -19,7 +22,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,fr-fr,de-de
 sidebar:
   entries:
-  - title: VMware vSphere 4.7 docs용 SnapCenter 플러그인
+  - title: VMware vSphere 4.8 용 SnapCenter 플러그인 문서
     url: "/index.html"
   - title: 릴리스 정보
     url: "/scpivs44_release_notes.html"
@@ -53,23 +56,23 @@ sidebar:
       entries:
       - title: 배포 계획 및 요구 사항
         url: "/scpivs44_deployment_planning_and_requirements.html"
-      - title: 최소 ONTAP 권한이 필요합니다
+      - title: ONTAP 권한이 필요합니다
         url: "/scpivs44_minimum_ontap_privileges_required.html"
       - title: 최소 vCenter 권한이 필요합니다
         url: "/scpivs44_minimum_vcenter_privileges_required.html"
-    - title: VMware vSphere OVA용 SnapCenter 플러그인(오픈 가상 어플라이언스) 다운로드
-      url: "/scpivs44_download_the_snapcenter_plug-in_for_vmware_vsphere_ova_open_virtual_appliance.html"
+    - title: OVA(Open Virtual Appliance) 다운로드
+      url: "/scpivs44_download_the_ova_open_virtual_appliance.html"
     - title: VMware vSphere용 SnapCenter 플러그인 구축
       url: "/scpivs44_deploy_snapcenter_plug-in_for_vmware_vsphere.html"
     - title: 구축 후 필요한 작업 및 문제
       url: "/scpivs44_post_deployment_required_operations_and_issues.html"
-    - title: SnapCenter VMware vSphere 웹 클라이언트에 로그인합니다
+    - title: SnapCenter VMware vSphere Client에 로그인합니다
       url: "/scpivs44_log_in_to_the_snapcenter_vmware_vsphere_web_client.html"
   - title: 빠른 시작
     entries:
     - title: 개요
       url: "/scpivs44_quick_start_overview.html"
-    - title: OVA 다운로드(Open Virtual Appliance)
+    - title: OVA(Open Virtual Appliance) 다운로드
       url: "/scpivs44_download_the_ova_open_virtual_appliance.html"
     - title: VMware vSphere용 SnapCenter 플러그인 구축
       url: "/scpivs44_deploy_snapcenter_plug-in_for_vmware_vsphere_01.html"
@@ -93,6 +96,8 @@ sidebar:
       url: "/scpivs44_generate_a_support_bundle_from_the_snapcenter_plug-in_for_vmware_vsphere_gui.html"
     - title: 유지보수 콘솔에서 지원 번들을 생성합니다
       url: "/scpivs44_generate_a_support_bundle_from_the_maintenance_console.html"
+    - title: 감사 로그
+      url: "/scv48_audit_logs.html"
   - title: 스토리지 관리
     entries:
     - title: 스토리지 추가
@@ -151,6 +156,8 @@ sidebar:
       url: "/scpivs44_restore_the_most_recent_backup_of_the_mysql_database.html"
     - title: MySQL 데이터베이스의 특정 백업을 복원합니다
       url: "/scpivs44_restore_a_specific_backup_of_the_mysql_database.html"
+  - title: VMDK 연결 및 분리
+    entries:
     - title: VMDK를 VM 또는 VVol VM에 연결합니다
       url: "/scpivs44_attach_vmdks_to_a_vm.html"
     - title: 가상 디스크를 분리합니다
@@ -171,7 +178,7 @@ sidebar:
       url: "/scpivs44_guest_file_restore_scenarios_you_might_encounter.html"
   - title: VMware vSphere 어플라이언스인 SnapCenter 플러그인을 관리합니다
     entries:
-    - title: VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
+    - title: VMware vSphere Client 서비스를 다시 시작합니다
       url: "/scpivs44_restart_the_vmware_vsphere_web_client_service.html"
     - title: 유지보수 콘솔에 액세스합니다
       url: "/scpivs44_access_the_maintenance_console.html"
@@ -231,6 +238,8 @@ sidebar:
       url: "/scpivs44_rest_api_workflows__modify_built-in_schedules.html"
     - title: 중단된 작업을 실패로 표시하는 REST API
       url: "/scpivs44_rest_apis_fail_stuck_jobs.html"
+    - title: 감사 로그를 생성하는 REST API
+      url: "/scpivs48_rest_apis_audit_logs.html"
   - title: 업그레이드
     entries:
     - title: VMware vSphere용 SnapCenter 플러그인의 이전 릴리즈에서 업그레이드합니다
@@ -246,7 +255,7 @@ homepage:
   - title: 시작하십시오
     links:
     - title: 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2883356
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2885659
     - title: SCV에 대해 알아보십시오
       url: "/scpivs44_concepts_overview.html"
     - title: 구현할 수 있습니다

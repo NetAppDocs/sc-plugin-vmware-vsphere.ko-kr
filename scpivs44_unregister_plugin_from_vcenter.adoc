@@ -20,5 +20,5 @@ SnapCenter VMware 플러그인 확장을 수동으로 등록 취소해야 합니
 .단계
 . SnapCenter VMware 플러그인 서비스가 중지된 연결된 vCenter에서 MOB(Managed Object Reference) 관리자로 이동합니다.
 . 속성 옵션의 값 열에서 * content * 를 선택한 후 다음 화면에서 값 열에서 * ExtensionManager * 를 선택하여 등록된 확장명 목록을 표시합니다.
-. 확장자 com.netapp.scvm.webclient` 및 com.netapp.aegis` 등록을 취소합니다.
+. 확장 프로그램을 등록 취소합니다 `com.netapp.scv.client` 및 `com.netapp.aegis`.
 

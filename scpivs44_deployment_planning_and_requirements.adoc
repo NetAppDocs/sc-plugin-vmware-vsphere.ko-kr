@@ -22,10 +22,7 @@ summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항�
 
 VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 호스트 요구 사항을 숙지해야 합니다.
 
-* SnapCenter VMware 플러그인을 Linux VM으로 배포해야 합니다.
-+
-SnapCenter VMware 플러그인은 Windows 시스템 또는 Linux 시스템의 데이터를 보호하기 위해 플러그인을 사용하는지에 관계없이 Linux VM으로 배포됩니다.
-
+* SnapCenter VMware 플러그인은 Windows 시스템 또는 Linux 시스템의 데이터를 보호하기 위해 플러그인을 사용하는지에 관계없이 Linux VM으로 배포됩니다.
 * vCenter Server에 SnapCenter VMware 플러그인을 구축해야 합니다.
 +
 백업 스케줄은 SnapCenter VMware 플러그인이 구축된 시간대에서 실행됩니다. vCenter는 vCenter가 있는 표준 시간대의 데이터를 보고합니다. 따라서 SnapCenter VMware 플러그인과 vCenter가 서로 다른 시간대에 있는 경우 SnapCenter VMware 플러그인 대시보드의 데이터가 보고서의 데이터와 다를 수 있습니다.
@@ -110,10 +107,10 @@ VM 일관성을 사용하여 백업 생성
 | 항목 | 지원되는 버전 
 
 
-| vCenter vSphere를 참조하십시오 | HTML5 클라이언트: 6.5U2/U3, 6.7x, 7.0, 7.0U1, 7.0U2, 7.0U3 Flex 클라이언트는 지원되지 않습니다. 
+| vCenter vSphere를 참조하십시오 | 7.0U1 이상 
 
 
-| ESXi | 6.5U2 이상 
+| ESXi | 7.0U1 이상 
 
 
 | IP 주소 | IPv4, IPv6 
@@ -163,7 +160,7 @@ VM 일관성을 사용하여 백업 생성
 
 
 | VMware vSphere 포트용 SnapCenter 플러그인  a| 
-8144(HTTPS), 양방향 이 포트는 VMware vSphere 웹 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.
+8144(HTTPS), 양방향 이 포트는 VMware vSphere 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.
 
 참고: 포트 구성은 수정할 수 없습니다.
 

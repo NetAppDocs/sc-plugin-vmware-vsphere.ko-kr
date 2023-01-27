@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: scpivs44_manage_the_vmware_vsphere_web_client_service.html 
 keywords:  
-summary: SnapCenter VMware vSphere 웹 클라이언트가 제대로 작동하지 않으면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다. 
+summary: SnapCenter VMware vSphere Client가 잘못 작동하기 시작하면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 VMware vSphere Client 서비스를 다시 시작합니다. 
 ---
-= VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다
+= VMware vSphere Client 서비스를 다시 시작합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: SnapCenter VMware vSphere 웹 클라이언트가 제대로 작동하지
 
 
 [role="lead"]
-SnapCenter VMware vSphere 웹 클라이언트가 제대로 작동하지 않으면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 VMware vSphere 웹 클라이언트 서비스를 다시 시작합니다.
+SnapCenter VMware vSphere Client가 잘못 작동하기 시작하면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 VMware vSphere Client 서비스를 다시 시작합니다.
 
 
 
 == Linux vCenter에서 웹 클라이언트 서비스를 다시 시작합니다
 
-vCenter가 Linux 어플라이언스에 있는 경우 Linux 명령을 사용하여 SnapCenter VMware vSphere 웹 클라이언트 서비스를 다시 시작해야 합니다.
+vCenter가 Linux 어플라이언스에 있는 경우 Linux 명령을 사용하여 SnapCenter VMware vSphere 클라이언트 서비스를 다시 시작해야 합니다.
 
 .시작하기 전에
 vCenter 6.5 이상을 실행해야 합니다.
@@ -37,52 +37,14 @@ vCenter 6.5 이상을 실행해야 합니다.
 
 . 다음 HTML5 명령을 사용하여 vCenter에서 오래된 scvm 패키지를 모두 삭제합니다.
 +
-"etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/rm-rf com.netapp.scvm.webclient-<version_number>`
+`etc/vmware/vsphere-ui/vc-packages/vsphere-client-serenity/rm -rf com.netapp.scv.client-<version_number>`
 
 +
 
-IMPORTANT: VASA 또는 VSC7.x 이상 패키지를 제거하지 마십시오.
+IMPORTANT: VASA 또는 vCenter 7.x 이상 패키지를 제거하지 마십시오.
 
 . 다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 시작합니다.
 +
 'Service-control--start vSphere-UI'를 선택합니다
-
-
-
-
-
-== Windows vCenter에서 웹 클라이언트 서비스를 다시 시작합니다
-
-vCenter가 Windows 호스트에 있는 경우 Windows 명령을 사용하여 SnapCenter 웹 클라이언트 서비스를 다시 시작해야 합니다.
-
-.시작하기 전에
-vCenter 6.5 이상을 실행해야 합니다.
-
-.단계
-. 다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 중지합니다.
-+
-'Service-control--stop vSphere-UI
-
-+
-서비스 중지 요청 완료 메시지가 나타날 때까지 기다립니다.
-
-. 다음을 수행하여 vCenter에서 오래된 scvm 패키지를 모두 삭제합니다.
-+
-.. vCenter vSphere-client-en레니티/폴더로 이동합니다.
-+
-'C:\ProgramData\VMware\vCenterServer\cfg\vSphere-UI\VC-packages\vSphere-client-enarity\'
-
-.. 다음 이름의 모든 플러그인 폴더를 삭제합니다.
-+
-"com.netapp.scvm.webclient-<version_number>.`
-
-
-
-. 다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 다시 시작합니다.
-+
-'Service-control--start vSphere-UI'를 선택합니다
-
-+
-'서비스 시작 요청 완료' 메시지가 나타날 때까지 기다립니다.
 
 

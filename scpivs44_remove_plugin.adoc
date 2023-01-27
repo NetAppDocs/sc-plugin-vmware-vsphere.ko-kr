@@ -28,11 +28,7 @@ SnapCenter 데이터 보호 기능을 더 이상 사용할 필요가 없는 경�
 
 . 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 선택 취소하여 플러그인을 비활성화합니다.
 . VMware vSphere에 로그인합니다.
-. 왼쪽 탐색 화면에서 SnapCenter VMware 플러그인(가상 어플라이언스를 배포할 때 사용한 ".ova" 파일의 이름)의 인스턴스를 마우스 오른쪽 버튼으로 클릭하고 * Delete from Disk * 를 선택합니다.
-. "/etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/com.netapp.scvm.webclient-4.5.0.5942045/plugins` 로 이동하여 vCenter Server의 픽업 폴더에서 다음 파일을 수동으로 삭제합니다.
-+
-VSC-httpclient3-security.jar CV-api-model.jar's CVM_WebUI_service.jar's CVM_WebUI_UI.war'gson-2.5.jar
-
+. 왼쪽 탐색 화면에서 SnapCenter VMware 플러그인(의 이름)의 인스턴스를 마우스 오른쪽 버튼으로 클릭합니다 `.tar` 가상 어플라이언스를 구축할 때 사용된 파일)을 선택하고 * 디스크에서 삭제 * 를 선택합니다.
 . SnapCenter VMware 플러그인을 사용하여 애플리케이션 정합성 보장 백업을 위한 다른 SnapCenter 플러그인을 지원했다면 SnapCenter에 로그인하여 vSphere 호스트를 제거하십시오.
 
 

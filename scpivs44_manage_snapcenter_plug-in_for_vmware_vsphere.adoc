@@ -26,7 +26,7 @@ VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 사용하�
 SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.
 
 .이 작업에 대해
-* 기본값은 사용자 이름으로 "maint"이고 VMware vSphere용 SnapCenter 플러그인의 유지 관리 콘솔에 로그인하기 위한 암호로 "admin123"입니다.
+* 기본 사용자 이름과 암호가 제공됩니다.
 +
 
 TIP: 배포 후 기본 로그인 자격 증명을 수정합니다.
@@ -38,13 +38,10 @@ TIP: 배포 후 기본 로그인 자격 증명을 수정합니다.
 
 
 .단계
-. VMware vSphere 웹 클라이언트에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
+. VMware vSphere Client에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
 . VM을 마우스 오른쪽 단추로 클릭한 다음 가상 어플라이언스의 * 요약 * 탭에서 * 원격 콘솔 시작 * 을 클릭하여 유지보수 콘솔 창을 엽니다.
 +
-SnapCenter VMware 플러그인 유지 관리 콘솔의 로그온 기본값은 다음과 같습니다.
-
-+
-사용자 이름: 성자 비밀번호: admin123
+제공된 기본 유지 관리 콘솔 사용자 이름 및 암호를 사용하여 로그인합니다.
 
 +
 image:scpivs44_image11.png["오류: 그래픽 이미지가 없습니다"]
@@ -81,16 +78,13 @@ VMware vSphere 관리 GUI용 SnapCenter 플러그인의 admin 암호를 모르�
 SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.
 
 .이 작업에 대해
-SnapCenter VMware 플러그인의 유지보수 콘솔에 로그인하려면 사용자 이름으로 기본 ""maint""를 사용하고 암호로 "admin123"을 사용해야 합니다.
+기본 사용자 이름 암호를 사용하여 SnapCenter VMware 플러그인의 유지 관리 콘솔에 로그인합니다.
 
 .단계
-. VMware vSphere 웹 클라이언트에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
+. VMware vSphere Client에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
 . VM을 마우스 오른쪽 단추로 클릭한 다음 가상 어플라이언스의 * 요약 * 탭에서 * 원격 콘솔 시작 * 을 클릭하여 유지보수 콘솔 창을 엽니다.
 +
-SnapCenter VMware 플러그인 유지 관리 콘솔의 로그온 기본값은 다음과 같습니다.
-
-+
-사용자 이름: 성자 비밀번호: admin123
+제공된 기본 유지 관리 콘솔 사용자 이름 및 암호를 사용하여 로그인합니다.
 
 +
 image:scpivs44_image29.jpg["오류: 그래픽 이미지가 없습니다"]
@@ -120,7 +114,7 @@ SnapCenter VMware 플러그인 확장을 수동으로 등록 취소해야 합니
 .단계
 . SnapCenter VMware 플러그인 서비스가 중지된 연결된 vCenter에서 MOB(Managed Object Reference) 관리자로 이동합니다.
 . 속성 옵션에서 확장 관리자를 선택하여 등록된 내선 번호 목록을 표시합니다.
-. 확장자 com.netapp.scvm.webclient` 및 com.netapp.aegis` 등록을 취소합니다.
+. 확장 프로그램을 등록 취소합니다 `com.netapp.scv.client` 및 `com.netapp.aegis`.
 
 
 
@@ -188,7 +182,7 @@ SnapCenter 데이터 보호 기능을 더 이상 사용할 필요가 없는 경�
 
 . 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 선택 취소하여 플러그인을 비활성화합니다.
 . VMware vSphere에 로그인합니다.
-. 왼쪽 탐색 화면에서 SnapCenter VMware 플러그인(가상 어플라이언스를 배포할 때 사용한 ".ova" 파일의 이름)의 인스턴스를 마우스 오른쪽 버튼으로 클릭하고 * Delete from Disk * 를 선택합니다.
+. 왼쪽 탐색 화면에서 SnapCenter VMware 플러그인(의 이름)의 인스턴스를 마우스 오른쪽 버튼으로 클릭합니다 `.tar` 가상 어플라이언스를 구축할 때 사용된 파일)을 선택하고 * 디스크에서 삭제 * 를 선택합니다.
 . vCenter Server의 "/etc/vmware/vsphere-ui/vc-packages/vsphere-client-environment/com.netapp.scvm.webclient-4.5.0.5942045/plugins` 폴더에서 다음 파일을 수동으로 삭제합니다.
 +
 VSC-httpclient3-security.jar CV-api-model.jar's CVM_WebUI_service.jar's CVM_WebUI_UI.war'gson-2.5.jar

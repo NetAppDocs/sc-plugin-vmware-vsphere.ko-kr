@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: scpivs44_view_status_information.html 
 keywords:  
-summary: vSphere Web Client Dashboard에서 상태 정보를 볼 수 있습니다. 상태 정보는 한 시간에 한 번 업데이트됩니다. 
+summary: vSphere Client Dashboard에서 상태 정보를 볼 수 있습니다. 상태 정보는 한 시간에 한 번 업데이트됩니다. 
 ---
 = 상태 정보를 봅니다
 :hardbreaks:
@@ -13,13 +13,10 @@ summary: vSphere Web Client Dashboard에서 상태 정보를 볼 수 있습니�
 :imagesdir: ./media/
 
 
-vSphere Web Client Dashboard에서 상태 정보를 볼 수 있습니다. 상태 정보는 한 시간에 한 번 업데이트됩니다.
+vSphere Client Dashboard에서 상태 정보를 볼 수 있습니다. 상태 정보는 한 시간에 한 번 업데이트됩니다.
 
 .단계
-. vSphere 웹 클라이언트의 왼쪽 탐색 창에서 * Dashboard * 를 클릭하고 vCenter Server를 선택한 다음 * Status * 탭을 클릭합니다.
-+
-image:scpivs44_image7.png["오류: 그래픽 이미지가 없습니다"]
-
+. vSphere 클라이언트의 왼쪽 탐색 창에서 * Dashboard * 를 클릭하고 vCenter Server를 선택한 다음 대시보드 창에서 * Status * 탭을 클릭합니다.
 . 다음 표에 나열된 것처럼 개요 상태 정보를 보거나 링크를 클릭하여 자세한 내용을 확인하십시오.
 +
 |===

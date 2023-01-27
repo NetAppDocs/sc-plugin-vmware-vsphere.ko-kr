@@ -26,17 +26,13 @@ VMware vSphere용 SnapCenter 플러그인을 동일한 릴리즈의 새 패치�
 
 캐시는 서버 운영 체제의 유형에 따라 다음 위치에 있습니다.
 
-* Windows용 vCenter Server
-+
-'C:\ProgramData\VMware\vCenterServer\cfg\vSphere-client\VC-packages\vSphere-client-serenity\'
-
 * vCenter Server Linux 어플라이언스
 +
 '/etc/vmware/vsphere-client/vc-packages/vsphere-client-environment/'
 
 * Windows OS
 +
-'%ProgramFiles%/VMware/vSphere Web Client/VC-packages/vSphere-client-enesity/'
+`%PROGRAMFILES%/VMware/vSphere client/vc-packages/vsphere-client-serenity/`
 
 
 
@@ -52,12 +48,12 @@ SnapCenter VMware 플러그인을 구축하면 IP가 표시됩니다.
 +
 SnapCenter VMware 플러그인 서비스가 비활성화되고 vCenter에서 확장이 등록되지 않았습니다.
 
-. vSphere-client-en레니티 폴더를 찾은 후 com.netapp.scvm.webclient-<release-number>` 폴더를 찾아 삭제합니다.
+. 를 찾습니다 `vsphere-client-serenity` 폴더를 찾은 다음 를 찾습니다 `com.netapp.scv.client-<release-number>` 폴더를 삭제하고 삭제합니다.
 +
 각 릴리즈에 대한 폴더 이름이 변경됩니다.
 
 . vCenter Server를 다시 시작합니다.
-. VMware vSphere 웹 클라이언트에 로그인합니다.
+. VMware vSphere Client에 로그인합니다.
 . 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 활성화합니다.
 +
 SnapCenter VMware 플러그인 서비스가 설정되고 확장 기능이 vCenter에 등록됩니다.

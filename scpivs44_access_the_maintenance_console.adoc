@@ -20,10 +20,7 @@ VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 사용하�
 SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.
 
 .이 작업에 대해
-* VMware vSphere 4.6 이하용 SnapCenter 플러그인의 경우 기본값은 사용자 이름으로 "maint"이고 VMware vSphere용 SnapCenter 플러그인의 유지 관리 콘솔에 로그인하기 위한 암호로 "admin123"입니다.
-+
-VMware vSphere 4.6P1용 SnapCenter 플러그인부터 VMware vSphere용 SnapCenter 플러그인을 처음 설치할 때 암호를 지정해야 합니다. 릴리스 4.6 이하를 릴리스 4.6P1 이상으로 업그레이드하는 경우 이전 기본 암호가 허용됩니다.
-
+* VMware vSphere 4.6P1용 SnapCenter 플러그인에서 VMware vSphere용 SnapCenter 플러그인을 처음 설치할 때 암호를 지정해야 합니다. 릴리스 4.6 이하를 릴리스 4.6P1 이상으로 업그레이드하는 경우 이전 기본 암호가 허용됩니다.
 * 원격 진단을 활성화하는 동안 "diag" 사용자의 암호를 설정해야 합니다.
 +
 명령을 실행할 루트 사용자 권한을 얻으려면 sudo < command > 를 사용합니다.
@@ -31,13 +28,10 @@ VMware vSphere 4.6P1용 SnapCenter 플러그인부터 VMware vSphere용 SnapCent
 
 
 .단계
-. VMware vSphere 웹 클라이언트에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
+. VMware vSphere Client에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
 . VM을 마우스 오른쪽 단추로 클릭한 다음 가상 어플라이언스의 * 요약 * 탭에서 * 원격 콘솔 시작 * 을 클릭하여 유지보수 콘솔 창을 엽니다.
 +
-SnapCenter VMware 플러그인 유지 관리 콘솔의 로그온 기본값은 다음과 같습니다.
-
-+
-사용자 이름: 성자 비밀번호: admin123
+기본 유지 관리 콘솔 사용자 이름을 사용하여 로그인합니다 `maint` 및 설치 시 설정한 암호입니다.
 
 +
 image:scpivs44_image11.png["오류: 그래픽 이미지가 없습니다"]

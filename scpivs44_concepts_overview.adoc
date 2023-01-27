@@ -21,7 +21,7 @@ SnapCenter VMware 플러그인에는 사용자 환경에 다음과 같은 기능
 
 * VM 일관성 및 충돌 시에도 정합성 보장 데이터 보호 작업 지원
 +
-vCenter에서 VMware vSphere 웹 클라이언트 GUI를 사용하여 VMware 가상 머신(기존 VM 및 VVOL VM), VMDK 및 데이터 저장소의 모든 백업 및 복원 작업을 수행할 수 있습니다. VVOL VM(VVOL 데이터 저장소의 VM)의 경우 충돌 시에도 정합성 보장 백업만 지원됩니다. VM 및 VMDK를 복구하고 게스트 OS에 상주하는 파일 및 폴더를 복원할 수도 있습니다.
+vCenter에서 VMware vSphere Client GUI를 사용하여 VMware 가상 머신(기존 VM 및 VVOL VM), VMDK, 데이터 저장소의 모든 백업 및 복원 작업을 수행할 수 있습니다. VVOL VM(VVOL 데이터 저장소의 VM)의 경우 충돌 시에도 정합성 보장 백업만 지원됩니다. VM 및 VMDK를 복구하고 게스트 OS에 상주하는 파일 및 폴더를 복원할 수도 있습니다.
 
 +
 VM, VMDK 및 데이터 저장소를 백업할 때 플러그인은 RDM을 지원하지 않습니다. VM의 백업 작업은 RDM을 무시합니다. RDM을 백업해야 하는 경우에는 SnapCenter 애플리케이션 기반 플러그인을 사용해야 합니다.
@@ -37,11 +37,11 @@ SnapCenter GUI와 적절한 SnapCenter 애플리케이션 플러그인을 사용
 SnapCenter는 기본적으로 VMDK, RDM(Raw Device Mapping) 및 NFS 데이터 저장소의 모든 데이터 보호 작업에 SnapCenter VMware 플러그인을 활용합니다. 가상 어플라이언스가 구축된 후에는 플러그인이 vCenter와의 모든 상호 작용을 처리합니다. SnapCenter VMware 플러그인은 모든 SnapCenter 애플리케이션 기반 플러그인을 지원합니다.
 
 +
-SnapCenter은 데이터베이스와 VM의 단일 스냅샷 복사본을 함께 지원하지 않습니다. VM 및 데이터베이스의 백업은 별도로 예약 및 실행해야 하며, 데이터베이스와 VM이 동일한 볼륨에서 호스팅되는 경우에도 별도의 Snapshot 복사본이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약해야 하며, VMware vSphere 웹 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약해야 합니다.
+SnapCenter은 데이터베이스와 VM의 단일 스냅샷 복사본을 함께 지원하지 않습니다. VM 및 데이터베이스의 백업은 별도로 예약 및 실행해야 하며, 데이터베이스와 VM이 동일한 볼륨에서 호스팅되는 경우에도 별도의 Snapshot 복사본이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약해야 합니다.
 
 * VM의 일관된 스냅샷 복사본을 사용하려면 VMware 툴이 필요합니다
 +
-VMware Tools가 설치되어 실행되고 있지 않으면 파일 시스템이 중지되지 않고 장애 발생 시 정합성이 보장되는 스냅샷이 생성됩니다.
+VMware 툴이 설치 및 실행되지 않으면 파일 시스템이 정지되지 않고 장애 발생 시 정합성이 보장되는 스냅샷이 생성됩니다.
 
 * VMware Storage vMotion은 SAN(VMFS) 환경의 복구 작업에 필요합니다
 +
@@ -50,7 +50,7 @@ VMware 파일 시스템(VMFS)의 복구 워크플로에서는 VMware Storage vMo
 +
 NFS 환경에서 수행되는 대부분의 복구 작업은 네이티브 ONTAP 기능(예: 단일 파일 SnapRestore)을 사용하며 VMware Storage vMotion이 필요하지 않습니다.
 
-* VMware VVOL VM을 보호하려면 VMware vSphere용 ONTAP 툴이 필요합니다.
+* VMware VVOL VM을 구성하려면 VMware vSphere용 ONTAP 툴이 필요합니다.
 +
 ONTAP 툴을 사용하여 ONTAP 및 VMware 웹 클라이언트에서 VVOL의 스토리지를 프로비저닝하고 구성할 수 있습니다.
 

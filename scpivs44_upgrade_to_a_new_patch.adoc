@@ -26,7 +26,7 @@ summary: 동일한 릴리즈의 새 패치로 업그레이드하는 경우 vCent
 
 == 캐시를 지우는 단계입니다
 
-. vSphere-client-en레니티 폴더를 찾은 후 com.netapp.scvm.webclient-<release-number>` 폴더를 찾아 삭제합니다.
+. 를 찾습니다 `vsphere-client-serenity` 폴더를 찾은 다음 를 찾습니다 `com.netapp.scv.client-<release-number>` 폴더를 삭제하고 삭제합니다.
 +
 각 릴리즈에 대한 폴더 이름이 변경됩니다.
 

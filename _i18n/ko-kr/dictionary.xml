@@ -183,7 +183,6 @@
   <block id="04b18e199acb683e46cab62b7ed3b8ff" category="cell">디각 VMDK는 지정된 VMDK를 분리합니다. 1단계에서 * moref * 를 전달합니다. 3단계에서 * vmdkLocationsList * 세부 정보를 * vmdksToDetach * 속성으로 전달합니다.</block>
   <block id="f71bd0a1884e2547796a0669e5a44f10" category="summary">VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완료해야 합니다.</block>
   <block id="b3b58566d772ea091ad559ad7c722828" category="doc">구축 후 필요한 작업 및 문제</block>
-  <block id="624b86ee772b09351048910fc4a730dc" category="section-title">구축 후 필요한 작업</block>
   <block id="6888e60d18ef291e7b86bc7e530fe2a8" category="inline-link-macro">스토리지 추가</block>
   <block id="25d5b23dfd2418ca2f7bd81c33cc1638" category="paragraph">새 SnapCenter 사용자인 경우, 데이터 보호 작업을 수행하려면 먼저 SnapCenter에 스토리지 VM을 추가해야 합니다. 스토리지 VM을 추가할 때 관리 LIF를 지정합니다. 또한 클러스터를 추가하고 클러스터 관리 LIF를 지정할 수도 있습니다. 스토리지 추가에 대한 자세한 내용은 을 참조하십시오 <block ref="a83c5384e42700c13fcc0778429c0b28" category="inline-link-macro-rx"></block>.</block>
   <block id="40e6eca2154c52c78e678989d72d7903" category="section-title">발생할 수 있는 배포 문제</block>
@@ -277,7 +276,6 @@
   <block id="370cf061cf511b1663901c8a1fa77c6f" category="section-title">vCenter 관리자 역할에 필요한 권한</block>
   <block id="98b6d2abbb9e53348f4ee8d871b00548" category="paragraph">시스템.익명 시스템.시스템.읽기 데이터 저장소.이름 바꾸기 데이터 저장소 이동.데이터 저장소 삭제.FileManagement 데이터 저장소.AllocateSpace 네트워크.Assign Host.Config.Config.Storage Host.AdvancedConfig.Config.Config.Config.Settings 호스트.Config.Settings 호스트.Local.CreateVM Host.ReconesVM Host.Local.DeleteVM.VirtualMachine.VirtualMachine.VirtualExistExistExistExistExisteMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualRecommendeConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualRecommendeConfig.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualRecommendeConfig.VirtualRecommendeConfig.VirtualRecommendeConfig.VirtualMachine.VirtualRecommendecoCreate.VirtualResource.VirtualMachine.VirtualMachine.VirtualMachine.VirtualRecommendeConfig.VirtualRecommendation.VirtualMachine.VirtualMachine.VirtualRecommendation.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualReconf</block>
   <block id="84ecd316e231a4baee8cc1858eaf3625" category="section-title">VMware vCenter용 SnapCenter 플러그인과 관련된 필수 권한</block>
-  <block id="2777d3dbd2d8409457938c03042db88b" category="paragraph">넷SCV.Guest.RestoreFile 넷SCV.Recovery.MountUnMount 넷SCV.Backup.DeleteBackupJob netappSCV.Configure.netappConfigureStorageSystems.Delete 넷앱 SCV.Recovery.RecoverVM SCV.Configure.ConfigureStorageSystems.AddUpdate.SCV.Backup.Now.ScanteNow.ScBackupConfigure.SCBackupBackup.ScBackupedBackupConfigure.SCBackupBackup.ScBackupConfigure.SCBackupDataBackup.ScBackupConfigure.SCBackupDataBackup.ScBackupConfigure.SCBackupBackup.Sc</block>
   <block id="7a1b4c723db242b8b956bf9b625f088d" category="summary">VMware vSphere 관리 GUI용 SnapCenter 플러그인의 admin 암호를 모르는 경우 유지보수 콘솔에서 새 암호를 설정할 수 있습니다.</block>
   <block id="d5016d0bd467fba5c77e9ad2fb083138" category="doc">유지 관리 콘솔에서 SnapCenter VMware 플러그인 암호를 수정합니다</block>
   <block id="ec0274fc4ce000bdcf708ba23be51aae" category="paragraph">SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.</block>
@@ -481,8 +479,6 @@
   <block id="38ec29eae6d34ec9aee61eeb1750d41f" category="cell">SnapCenter 서버의 TLS</block>
   <block id="91a33043fc7eebee30634cb063fa6e2c" category="cell">VMware 애플리케이션 VAAI(vStorage API for Array Integration)</block>
   <block id="16e729ceefd4cd71e291d0800dd9e9c0" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 기능을 사용하여 복구 작업의 성능을 향상시킵니다. 또한 NFS 환경의 성능도 개선합니다.</block>
-  <block id="47ff422f78a776fed1a1b024f1205717" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 NetApp 상호 운용성 매트릭스 툴을 참조하십시오.</block>
-  <block id="272ac1abd82997e2442d32a79e6f5271" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="25eb2128e948e2544fabd66492bfb7a4" category="inline-link-rx"></block>.</block>
   <block id="18cd7192921dd5ac27a1a7c5ef795c20" category="section-title">요구사항을 충족해야 합니다</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="cell">요구 사항</block>
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">운영 체제</block>
@@ -861,7 +857,6 @@
   <block id="72c8e8b2c4182d2f87bf7a099f6cd054" category="paragraph"><block ref="3c0e59c30be73477fabcc51e4d3e87f6" category="inline-link-macro-rx"></block>.</block>
   <block id="7aba14c1c36be3f0d38307007b2d6dab" category="list-text">주 메뉴에서 옵션 * 1) 응용 프로그램 구성 * 을 입력합니다.</block>
   <block id="95e2baf17cf4a1bf632b4bd66673704a" category="list-text">응용 프로그램 구성 메뉴에서 옵션 * 6) MySQL 백업 및 복원 * 을 입력합니다.</block>
-  <block id="f364887b448d21019e9b625ba8ef09ab" category="list-text">MySQL 백업 및 복원 구성 메뉴에서 옵션 * 3) MySQL 백업 복원 * 을 입력합니다.</block>
   <block id="f213b5fa3c03b3dd0aa23afc2b6d6061" category="list-text">“가장 최근 백업을 사용하여 복원” 프롬프트에서 * y * 를 입력한 다음 * Enter * 를 누릅니다.</block>
   <block id="7ea045d5f9f1f71a21d66023c045129c" category="paragraph">백업 MySQL 데이터베이스가 원래 위치로 복원됩니다.</block>
   <block id="5c6e1d830c6aa20cbea2393e562369b7" category="summary">백업 리소스 그룹을 생성, 수정 및 삭제하고 리소스 그룹에 대한 백업 작업을 수행할 수 있습니다.</block>
@@ -1145,7 +1140,6 @@
   <block id="e2b253374500e2e93f1c334a2bb7ddd4" category="section-title">게스트 파일 복구 세션이 중단된 후에는 백업이 분리되지 않습니다</block>
   <block id="898c4d9cd797d45ca2066478fd269974" category="paragraph">이 문제는 VM 정합성 보장 백업에서 게스트 파일 복원 작업을 수행할 때 발생합니다. 게스트 파일 복구 세션이 활성 상태인 동안 동일한 VM에 대해 다른 VM 정합성 보장 백업이 수행됩니다. 24시간 후 게스트 파일 복구 세션의 연결이 수동으로 또는 자동으로 끊기면 세션의 백업이 분리되지 않습니다.</block>
   <block id="5857a2699c75798b2ae21bc0b06aff95" category="paragraph">이 문제를 해결하려면 활성 게스트 파일 복구 세션에서 연결된 VMDK를 수동으로 분리하십시오.</block>
-  <block id="ad33bb392843901d73fa5033f45bc6fe" category="list-text">데이터 센터, 폴더, 클러스터 또는 호스트와 같은 가상 머신의 유효한 상위 객체인 인벤토리 객체를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 을 선택하여 마법사를 시작합니다.</block>
   <block id="b1e9e42ee09ce6ea661a7c8aa97f209c" category="list-text">OVF 템플릿 선택 * 페이지에서 '.ova' 파일(다음 표에 나열되어 있음)의 위치를 지정하고 * 다음 * 을 클릭합니다.</block>
   <block id="6033b46c80eba511ea24319b744fe51a" category="cell">이 마법사 페이지에서…</block>
   <block id="2de89f426cb40a40a73e0dc57ba1d0b0" category="cell">이름과 폴더를 선택합니다</block>
@@ -1401,7 +1395,6 @@
   <block id="6a9e01d968ae5eb6da7525d4e8f4812f" category="paragraph">시작하기 전에 를 참조하십시오 <block ref="a00337a9991b14e4173adaeb83b5a3ec" category="inline-link-macro-rx"></block>.</block>
   <block id="41dcb7ab296603c71cf05a5848b7aa25" category="summary">VMware vSphere 관리 GUI용 SnapCenter 플러그인을 사용하여 VMware vSphere 어플라이언스인 SnapCenter 플러그인을 중지, 비활성화 또는 활성화해야 합니다.</block>
   <block id="b992827bd533fc4a30630d6e76a1d22a" category="doc">VMware vSphere용 SnapCenter 플러그인 관리</block>
-  <block id="3ce2085da7aea56d35b0dea2cb14d259" category="paragraph">SnapCenter 시작 또는 중지 VMware 플러그인 서비스 로그인 사용자 이름 또는 암호 변경 MySQL 암호 변경 MySQL 백업 구성 MySQL 백업 목록 MySQL 백업 복원 MySQL 백업 복원</block>
   <block id="67ad40a58006dca534f07accbe2d7049" category="inline-link">KB 문서: SnapCenter용 VMware 플러그인으로 SSL 인증서를 생성 및/또는 가져오는 방법</block>
   <block id="d7d0b066eaf1756a7561d33071d5f0dd" category="paragraph">SnapCenter VMware 플러그인은 클라이언트 브라우저와의 보안 통신을 위해 SSL 암호화를 사용합니다. 이렇게 하면 전체 전송 중에 암호화된 데이터를 사용할 수 있지만 자체 서명된 새 인증서를 만들거나 고유한 CA(인증 기관) 인프라 또는 타사 CA를 사용하여 사용자 환경에 맞는 고유한 인증서를 만들 수 있습니다. 를 참조하십시오<block ref="54c041cf960c8378efcb7c0d4625ab10" category="inline-link-rx"></block>.</block>
   <block id="3838730ff7436a6c06da54d4c8c58ec9" category="list-text">속성 옵션에서 확장 관리자를 선택하여 등록된 내선 번호 목록을 표시합니다.</block>
@@ -1731,10 +1724,6 @@
   <block id="007b03bd2ae7b16d42b53ba8a2330186" category="list-text">VM을 확장하는 VVOL 데이터 저장소는 지원되지 않습니다. VM의 연결된 VMDK는 VVOL 데이터 저장소에 백업되지 않으므로 복원된 VM에는 부분 VMDK만 포함됩니다.</block>
   <block id="3517efb765e07026ad62bc8e70a5e01a" category="list-text">VVOL을 대체 호스트로 복원할 수 없습니다.</block>
   <block id="c06551216ac3dfe9b7ff1f728845efe6" category="list-text">VVOL 자동 재조정은 지원되지 않습니다.</block>
-  <block id="2475c9dd54056833d6396fbed1f941d8" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 확인하십시오.</block>
-  <block id="ca3bf2cb39f62342194d0f6777ffe162" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block>.</block>
-  <block id="fb80b6fccf5f1cdcfd342989b34962c7" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="a1b283c4671de73f5e64651c8e98491f" category="inline-link-rx"></block>.</block>
-  <block id="a888ab84707631c86f5006309e186d1d" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="56392423f5d438aef305a97c794e0835" category="inline-link-rx"></block> (IMT).</block>
   <block id="0f928371dde9bb28b5372e8e7729ebb0" category="paragraph">백업에서 하나 이상의 데이터 저장소를 전역적으로 제외하려면 'scBR.override' 구성 파일의 'global.ds.exclusion.pattern' 속성에 데이터 저장소 이름을 지정해야 합니다. 을 참조하십시오 <block ref="37a0363725b373caf92b58503affefad" category="inline-xref-macro-rx"></block>.</block>
   <block id="ec6b0c2e1fb8998a9149b0e870ce2442" category="list-text">사용자 역할을 생성 및 관리하려면 클러스터 관리자여야 합니다. 사용자를 클러스터 스토리지 VM 또는 스토리지 VM에 연결할 수 있습니다.</block>
   <block id="2cb2843b629d315325aac076907ec4b9" category="cell">VMware ESXi Server 포트</block>
@@ -1834,7 +1823,6 @@
   <block id="6d47c5cf94534c631cda65b432ae3e1c" category="cell">EMS 메시지를 스토리지 시스템 syslog에 보내거나, 적용된 보호, 완료된 복원 작업 또는 실패한 작업을 위해 스토리지 시스템으로 AutoSupport 메시지를 보내려면 해당 확인란을 선택합니다. 스토리지 시스템에 실패한 작업에 대한 * AutoSupport 알림 전송 * 확인란을 선택하고 * SnapCenter 서버 이벤트를 syslog * 로 로그 확인란을 선택하여 AutoSupport 알림을 설정합니다.</block>
   <block id="f69439260ecee7ac85f815e8701071d9" category="list-text">VVOL VM(VMware VVOL 데이터 저장소의 VM)을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 VVOL을 위한 스토리지를 프로비저닝 및 구성합니다.</block>
   <block id="4c95edce583c0b5a02939269f1db3951" category="paragraph">자세한 내용은 을 참조하십시오<block ref="803b0580f102da00b07f33d2f17fdadb" category="inline-link-rx"></block></block>
-  <block id="6f50dc0b580db44cdc625526215696f4" category="paragraph">지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오<block ref="25eb2128e948e2544fabd66492bfb7a4" category="inline-link-rx"></block>.</block>
   <block id="7f48db72c7f9bf7951ba6e6012bf6991" category="cell">7.0U1 이상</block>
   <block id="652b6799454f23103801798b5880725b" category="cell">VMware용 ONTAP 툴</block>
   <block id="1c7a775c6faba262273ef5058ab0a74c" category="paragraph">8144(HTTPS), 양방향 이 포트는 VMware vSphere 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.</block>
@@ -1989,4 +1977,46 @@
   <block id="7f52ae2d13fc881eab436a11ad6556a4" category="paragraph"><block ref="ca3710e05c94c666b5609593ee562322" prefix="" category="inline-code"></block></block>
   <block id="3c1f7e3cd1e718101b83fa846ebee738" category="sidebar">VMware vSphere 4.8 용 SnapCenter 플러그인 문서</block>
   <block id="5b1407cb7656fff3e143180f583fb24f" category="sidebar">OVA(Open Virtual Appliance) 다운로드</block>
+  <block id="cbbfd63b6b7acbdfdb4330c539532abc" category="paragraph">1) VMware vSphere용 SnapCenter 플러그인 요약 표시 2) VMware vSphere 서비스용 SnapCenter 플러그인 시작 3) VMware vSphere 서비스용 SnapCenter 플러그인 중지 4) 사용자 이름 및 암호를 로그인 SnapCenter 플러그인으로 변경 VMware vSphere UI 5) MySQL 암호 변경 6) MySQL 백업 및 복원</block>
+  <block id="52e12dd3f28531c8e18fc3a23a8e52fb" category="paragraph">가상 머신 재부팅 2) 가상 머신 종료 3) '성인' 사용자 암호 변경 4) 시간대 변경 5) NTP 서버 변경 6) SSH 액세스 해제 7) 교도소 디스크 크기 증가(/유치장) 8) 업그레이드 9) VMware 툴 설치</block>
+  <block id="d41e7519495eb46654bcf9a2d9efe95f" category="paragraph">IP 주소 설정 표시 2) IP 주소 설정 변경 3) 도메인 이름 검색 설정 표시 4) 도메인 이름 검색 설정 변경 5) 정적 경로 표시 6) 정적 경로 변경 7) 변경 사항 적용 8) 호스트에 Ping 수행</block>
+  <block id="e37e18d5a4d5d72f5ad511446917425b" category="paragraph">1) 지원 번들 생성 2) 진단 셸 액세스 3) 원격 진단 액세스 활성화 4) 코어 덤프 번들 생성</block>
+  <block id="36e391315954a298b55333c0f1afcc71" category="paragraph">아래 단계에 따라 리소스 그룹을 생성합니다.</block>
+  <block id="6a03edb8ab46dff4278e3f5e0e5ebe46" category="list-text">VMware vCenter 7.0.3 이상 버전의 경우 의 단계를 따릅니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> vCenter로 인증서를 가져옵니다.</block>
+  <block id="28acc952a6abc3088dfdb90892152390" category="paragraph">지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오<block ref="78bb88f9abe535c4182359f981c4d0d5" category="inline-link-rx"></block>.</block>
+  <block id="f6587f6fadc744b8cb45803b6c80ebdf" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 를 참조하십시오<block ref="78bb88f9abe535c4182359f981c4d0d5" category="inline-link-rx"></block>.</block>
+  <block id="9fb61c301e687d6e94404c0e36e5e7dd" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="78bb88f9abe535c4182359f981c4d0d5" category="inline-link-rx"></block>.</block>
+  <block id="8775bf884912200ed43fd5a867b909a3" category="cell">* 권한 *</block>
+  <block id="5dcb8d6dcd6a728fca3f52275f7de381" category="cell">* 레이블 *</block>
+  <block id="63631c8f87166b2dd980c7dea2a958bf" category="cell">netscV.Guest.RestoreFile입니다</block>
+  <block id="18614d43e01f589b5cbab150b251a4e3" category="cell">게스트 파일 복원</block>
+  <block id="bcf772d5237a9b8a50c96506deaaea37" category="cell">NetApp SCV.Recovery.MountUnmount 를 참조하십시오</block>
+  <block id="143d9f21169e7e0e9bec461dd7e5d896" category="cell">마운트/마운트 해제</block>
+  <block id="c513fabed2e2a966f6577f0c621c4740" category="cell">netappSCV.Backup.DeleteBackupJob을 참조하십시오</block>
+  <block id="d49ac5b82e9eab9de9400622f3cda50c" category="cell">리소스 그룹/백업을 삭제합니다</block>
+  <block id="1aaea446328aa82cfe305f90f00c901d" category="cell">netappSCV.Configure.ConfigureStorageSystems.Delete를 참조하십시오</block>
+  <block id="2f6f3ba466a8aacf6e06bf757bfe35f7" category="cell">스토리지 시스템을 제거합니다</block>
+  <block id="c388397b819aae63151a79d9f5ac2e9e" category="cell">netappSCV.View를 참조하십시오</block>
+  <block id="4351cfebe4b61d8aa5efa1d020710005" category="cell">보기</block>
+  <block id="ca3f2ead17284710c1faf6e9db6ceb0b" category="cell">netappSCV.Recovery.RecoverVM</block>
+  <block id="3c17630715891eac246fa72d60b6c223" category="cell">VM 복구</block>
+  <block id="c8583cbbd5054f6c0b4ebada8d954132" category="cell">NetApp SCV.Configure.ConfigureStorageSystems.AddUpdate를 참조하십시오</block>
+  <block id="d18f05aa46baf7c8dd6ba80729699b10" category="cell">스토리지 시스템 추가/수정</block>
+  <block id="718a9acdd3797e80412934dd5c5ffbbf" category="cell">NetApp SCV.Backup.BackupNow</block>
+  <block id="9a9852432e1a7055c64fef6ff8f6dd65" category="cell">지금 백업</block>
+  <block id="720357e5c7abed8dd85206feb43672c6" category="cell">netappSCV.Guest.Configure를 참조하십시오</block>
+  <block id="49700bdfc1e3b3ad595f56cbffee281c" category="cell">게스트 구성</block>
+  <block id="f31010ab4c21afc391a4e14b85ae93ce" category="cell">NetApp SCV.Configure.ConfigureSnapCenterServer를 구성할 수 있습니다</block>
+  <block id="2cee59426cd90e54e996291d6569105e" category="cell">SnapCenter 서버를 구성합니다</block>
+  <block id="8ae2a90b3537ffffdf47288b1d345ad8" category="cell">NetApp SCV.Backup.Backuped가 예약됩니다</block>
+  <block id="8c6c52daf8bb0314493294539cb1fb1c" category="cell">리소스 그룹을 생성합니다</block>
+  <block id="7ce0ae0a4183f1b315340993a38afa59" category="list-text">MySQL 백업 및 복원 구성 메뉴에서 옵션 * 4) MySQL 백업 복원 * 을 입력합니다.</block>
+  <block id="a55d41893866118c93320ec3e7c63152" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오<block ref="642354ba07295cdff6111b1f7ed27dbd" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 확인하십시오.</block>
+  <block id="a70216f52adf1eb56f9c607820ec2859" category="paragraph">아래 지침에 따라 백업 정책을 생성합니다</block>
+  <block id="288cb2d6166f322fa3f277facda664f9" category="paragraph">VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완료해야 합니다. = 구축 후 필요한 작업</block>
+  <block id="0a631d60b99e22182e8049161c23edfe" category="paragraph">이 섹션의 단계를 따라 저장소를 추가합니다.</block>
+  <block id="6c8295efcbb45c1c61f419f14cc9f532" category="list-text">탐색 창에서 데이터 센터, 폴더, 클러스터 또는 호스트와 같은 가상 머신의 유효한 상위 객체인 인벤토리 객체를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 를 선택하여 VMware 구축 마법사를 시작합니다.</block>
+  <block id="516e6120468db109789fef9f29971da1" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="78bb88f9abe535c4182359f981c4d0d5" category="inline-link-rx"></block> (IMT).</block>
+  <block id="d67e652c45da4feeb66ffd284d7138ac" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="642354ba07295cdff6111b1f7ed27dbd" category="inline-link-rx"></block>.</block>
+  <block id="8b79e6914192b4dd6ecea019ae3a7b61" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="642354ba07295cdff6111b1f7ed27dbd" category="inline-link-rx"></block>.</block>
 </blocks>

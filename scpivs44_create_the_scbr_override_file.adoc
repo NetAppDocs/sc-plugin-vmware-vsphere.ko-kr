@@ -13,6 +13,9 @@ summary: 'SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원
 :imagesdir: ./media/
 
 
+[role="lead"]
+SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원하는 환경에서 SnapCenter Plug-in for VMware vSphere에 의해 'SCBR.override' 구성 파일이 사용됩니다.
+
 . '/opt/netapp/scvservice/standalone_aegis/etc/scbr/scbr.override-template'으로 이동합니다.
 . 'scBR.override-template' 파일을 '\opt\netapp\scvservice\standalone_aegis\etc\scbr' 디렉토리의 'scBR.override'라는 새 파일에 복사합니다.
 

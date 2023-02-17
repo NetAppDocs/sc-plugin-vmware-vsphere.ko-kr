@@ -13,6 +13,7 @@ summary: 이 섹션에서는 VMware vSphere용 SnapCenter 플러그인의 라이
 :imagesdir: ./media/
 
 
+[role="lead"]
 다음 스토리지 시스템을 사용 중인 경우 VMware vSphere용 SnapCenter 플러그인은 무료 제품입니다.
 
 * FAS

@@ -13,6 +13,7 @@ summary: VMware vSphere용 SnapCenter 플러그인에서 구성된 네트워크 
 :imagesdir: ./media/
 
 
+[role="lead"]
 VMware vSphere용 SnapCenter 플러그인에서 구성된 네트워크 설정을 수정할 수 있습니다. 이 설정은 플러그인에서 vCenter에 액세스하는 데 사용됩니다.
 
 .시작하기 전에

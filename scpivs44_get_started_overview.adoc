@@ -13,6 +13,7 @@ summary: SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저
 :imagesdir: ./media/
 
 
+[role="lead"]
 SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
 
 기존 SnapCenter 사용자는 새 SnapCenter 사용자의 다른 배포 워크플로를 사용해야 합니다.

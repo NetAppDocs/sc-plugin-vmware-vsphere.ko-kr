@@ -13,6 +13,7 @@ summary: SnapCenter VMware 플러그인을 구축하면 기본적으로 SSH가 �
 :imagesdir: ./media/
 
 
+[role="lead"]
 SnapCenter VMware 플러그인을 구축하면 기본적으로 SSH가 사용되지 않습니다.
 
 .단계

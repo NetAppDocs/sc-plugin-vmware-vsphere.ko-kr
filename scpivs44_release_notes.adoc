@@ -13,4 +13,5 @@ summary: 릴리즈 노트는 VMware vSphere용 SnapCenter 플러그인 릴리스
 :imagesdir: ./media/
 
 
+[role="lead"]
 릴리즈 노트는 VMware vSphere용 SnapCenter 플러그인 릴리스에 대한 라이센스 요구 사항, 알려진 문제, 주의 사항, 제한 사항 등을 포함하여 중요한 정보를 제공합니다. 및 모든 문서 업데이트 또는 수정. 자세한 내용은 을 참조하십시오 https://library.netapp.com/ecm/ecm_download_file/ECMLP2885659["VMware vSphere 4.8용 SnapCenter 플러그인 릴리즈 노트"^]

@@ -23,7 +23,7 @@ link:scpivs44_manage_snapcenter_plug-in_for_vmware_vsphere.html#access-the-maint
 
 . 주 메뉴에서 옵션 * 1) 응용 프로그램 구성 * 을 입력합니다.
 . 응용 프로그램 구성 메뉴에서 옵션 * 6) MySQL 백업 및 복원 * 을 입력합니다.
-. MySQL 백업 및 복원 구성 메뉴에서 옵션 * 3) MySQL 백업 복원 * 을 입력합니다.
+. MySQL 백업 및 복원 구성 메뉴에서 옵션 * 4) MySQL 백업 복원 * 을 입력합니다.
 . “가장 최근 백업을 사용하여 복원” 프롬프트에서 * y * 를 입력한 다음 * Enter * 를 누릅니다.
 +
 백업 MySQL 데이터베이스가 원래 위치로 복원됩니다.

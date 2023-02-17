@@ -13,6 +13,7 @@ summary: 연결된 모드에 있는 vCenter에서 SnapCenter VMware 플러그인
 :imagesdir: ./media/
 
 
+[role="lead"]
 연결된 모드에 있는 vCenter에서 SnapCenter VMware 플러그인 서비스를 중지하면 연결된 다른 vCenter에서 SnapCenter VMware 플러그인 서비스가 실행 중인 경우에도 리소스 그룹을 일부 연결된 vCenter에서 사용할 수 없습니다.
 
 SnapCenter VMware 플러그인 확장을 수동으로 등록 취소해야 합니다.

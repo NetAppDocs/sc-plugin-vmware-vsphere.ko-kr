@@ -26,4 +26,41 @@ VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 필요�
 
 == VMware vCenter용 SnapCenter 플러그인과 관련된 필수 권한
 
-넷SCV.Guest.RestoreFile 넷SCV.Recovery.MountUnMount 넷SCV.Backup.DeleteBackupJob netappSCV.Configure.netappConfigureStorageSystems.Delete 넷앱 SCV.Recovery.RecoverVM SCV.Configure.ConfigureStorageSystems.AddUpdate.SCV.Backup.Now.ScanteNow.ScBackupConfigure.SCBackupBackup.ScBackupedBackupConfigure.SCBackupBackup.ScBackupConfigure.SCBackupDataBackup.ScBackupConfigure.SCBackupDataBackup.ScBackupConfigure.SCBackupBackup.Sc
+|===
+
+
+| * 권한 * | * 레이블 * 
+
+
+| netscV.Guest.RestoreFile입니다 | 게스트 파일 복원 
+
+
+| NetApp SCV.Recovery.MountUnmount 를 참조하십시오 | 마운트/마운트 해제 
+
+
+| netappSCV.Backup.DeleteBackupJob을 참조하십시오 | 리소스 그룹/백업을 삭제합니다 
+
+
+| netappSCV.Configure.ConfigureStorageSystems.Delete를 참조하십시오 | 스토리지 시스템을 제거합니다 
+
+
+| netappSCV.View를 참조하십시오 | 보기 
+
+
+| netappSCV.Recovery.RecoverVM | VM 복구 
+
+
+| NetApp SCV.Configure.ConfigureStorageSystems.AddUpdate를 참조하십시오 | 스토리지 시스템 추가/수정 
+
+
+| NetApp SCV.Backup.BackupNow | 지금 백업 
+
+
+| netappSCV.Guest.Configure를 참조하십시오 | 게스트 구성 
+
+
+| NetApp SCV.Configure.ConfigureSnapCenterServer를 구성할 수 있습니다 | SnapCenter 서버를 구성합니다 
+
+
+| NetApp SCV.Backup.Backuped가 예약됩니다 | 리소스 그룹을 생성합니다 
+|===

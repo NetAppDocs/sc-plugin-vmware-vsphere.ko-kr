@@ -36,13 +36,13 @@ The OVA deployment is supported in VMware vCenter 7u1 and above.
 SnapCenter VMware 플러그인을 vCenter와 동일한 시간대에 구축합니다. 백업 스케줄은 SnapCenter VMware 플러그인이 구축된 시간대에서 실행됩니다. vCenter는 vCenter가 있는 표준 시간대의 데이터를 보고합니다. 따라서 SnapCenter VMware 플러그인과 vCenter가 서로 다른 시간대에 있는 경우 SnapCenter VMware 플러그인 대시보드의 데이터가 보고서의 데이터와 다를 수 있습니다.
 
 .단계
+. VMware vCenter 7.0.3 이상 버전의 경우 의 단계를 따릅니다 link:scpivs44_download_the_ova_open_virtual_appliance.html["OVA(Open Virtual Appliance) 다운로드"^] vCenter로 인증서를 가져옵니다.
 . 브라우저에서 VMware vSphere vCenter로 이동합니다.
 +
 
 NOTE: IPv6 HTML 웹 클라이언트의 경우 Chrome 또는 Firefox를 사용해야 합니다.
 
 . VMware vCenter Single Sign-On * 페이지에 로그인합니다.
-. VMware vCenter 7.0.3 이상 버전의 경우 의 단계를 따릅니다 link:scpivs44_download_the_ova_open_virtual_appliance.html["OVA(Open Virtual Appliance) 다운로드"^] vCenter로 인증서를 가져옵니다.
 . 탐색 창에서 데이터 센터, 클러스터 또는 호스트와 같은 가상 머신의 유효한 상위 객체인 인벤토리 객체를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 을 선택하여 VMware 배포 마법사를 시작합니다.
 . 로컬 시스템에 .ova 파일이 포함된 .tar 파일의 압축을 풉니다. OVF 템플릿 선택 * 페이지에서 의 위치를 지정합니다 `.ova` tar extracted 폴더 안의 파일입니다.
 . 다음 * 을 클릭합니다.

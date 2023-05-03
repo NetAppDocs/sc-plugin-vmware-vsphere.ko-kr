@@ -69,4 +69,4 @@ NOTE: VVOL 컨테이너 재조정 후에는 VVOL VM을 복원할 수 없습니�
 
 IMPORTANT: 복구 작업 중에 SCV에서 사전 복원을 호출하는 동안 "해결되지 않은 볼륨은 null임" 또는 "예외"라는 오류가 발생할 수 있습니다. 복제된 LUN을 데이터 저장소로 마운트하는 중 오류가 발생했습니다… 이 문제는 SnapCenter VMware 플러그인이 클론 재서명을 시도할 때 발생합니다. VMware 제한으로 인해 SnapCenter VMware 플러그인은 고급 ESXi 구성에서 자동 재서명 값을 제어할 수 없습니다.
 
-오류에 대한 자세한 내용은 {link-with-bunes} [KB 문서: SCV 클론 또는 복구가 실패하고 'Host unresolved volumes is null^] 오류가 표시됩니다.
+을 참조하십시오 https://kb.netapp.com/mgmt/SnapCenter/SCV_clone_or_restores_fail_with_error_'Host_Unresolved_volumes_is_null'#["KB 문서: 'Host unresolved volumes is null"^] 오류에 대한 자세한 내용은 를 참조하십시오.

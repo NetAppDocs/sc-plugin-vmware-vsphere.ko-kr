@@ -274,7 +274,6 @@
   <block id="b148e71859cffdb60779d0fd79307d95" category="summary">VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 필요한 최소 vCenter 권한이 있는지 확인해야 합니다.</block>
   <block id="e49b2704cb3fef8c492858dfc3f6dbce" category="doc">최소 vCenter 권한이 필요합니다</block>
   <block id="370cf061cf511b1663901c8a1fa77c6f" category="section-title">vCenter 관리자 역할에 필요한 권한</block>
-  <block id="98b6d2abbb9e53348f4ee8d871b00548" category="paragraph">시스템.익명 시스템.시스템.읽기 데이터 저장소.이름 바꾸기 데이터 저장소 이동.데이터 저장소 삭제.FileManagement 데이터 저장소.AllocateSpace 네트워크.Assign Host.Config.Config.Storage Host.AdvancedConfig.Config.Config.Config.Settings 호스트.Config.Settings 호스트.Local.CreateVM Host.ReconesVM Host.Local.DeleteVM.VirtualMachine.VirtualMachine.VirtualExistExistExistExistExisteMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualRecommendeConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualRecommendeConfig.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualRecommendeConfig.VirtualRecommendeConfig.VirtualRecommendeConfig.VirtualMachine.VirtualRecommendecoCreate.VirtualResource.VirtualMachine.VirtualMachine.VirtualMachine.VirtualRecommendeConfig.VirtualRecommendation.VirtualMachine.VirtualMachine.VirtualRecommendation.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualReconf</block>
   <block id="84ecd316e231a4baee8cc1858eaf3625" category="section-title">VMware vCenter용 SnapCenter 플러그인과 관련된 필수 권한</block>
   <block id="7a1b4c723db242b8b956bf9b625f088d" category="summary">VMware vSphere 관리 GUI용 SnapCenter 플러그인의 admin 암호를 모르는 경우 유지보수 콘솔에서 새 암호를 설정할 수 있습니다.</block>
   <block id="d5016d0bd467fba5c77e9ad2fb083138" category="doc">유지 관리 콘솔에서 SnapCenter VMware 플러그인 암호를 수정합니다</block>
@@ -1216,7 +1215,6 @@
   <block id="51a5d5da98cf5178b170023fee4cbe00" category="list-text">ONTAP 이전 버전에 대한 Storage VMotion을 사용하여 클론 및 마운트합니다</block>
   <block id="764c22e450dbc5e74f71923d5157420e" category="paragraph">게스트 파일 복원 작업은 NFS 및 VMFS 환경 모두에서 Storage VMotion이 아닌 클론 및 마운트 작업을 사용하여 수행됩니다.</block>
   <block id="d926b139950371ea24c296bdd377c68f" category="admonition">복구 작업 중에 SCV에서 사전 복원을 호출하는 동안 "해결되지 않은 볼륨은 null임" 또는 "예외"라는 오류가 발생할 수 있습니다. 복제된 LUN을 데이터 저장소로 마운트하는 중 오류가 발생했습니다… 이 문제는 SnapCenter VMware 플러그인이 클론 재서명을 시도할 때 발생합니다. VMware 제한으로 인해 SnapCenter VMware 플러그인은 고급 ESXi 구성에서 자동 재서명 값을 제어할 수 없습니다.</block>
-  <block id="749560c83bd9672bf5dd0ec151afa4bf" category="paragraph">오류에 대한 자세한 내용은 {link-with-bunes} [KB 문서: SCV 클론 또는 복구가 실패하고 'Host unresolved volumes is null^] 오류가 표시됩니다.</block>
   <block id="97174a595728ccf87cdcf62bf6d2b453" category="summary">SnapCenter 사용자이고 SnapCenter 백업이 있는 경우 이 워크플로우를 사용할 수 있습니다.</block>
   <block id="c4fe68d41e25e11a4876886c14d89a5a" category="doc">기존 사용자를 위한 배포 워크플로</block>
   <block id="da07a799965870e49261d180d4307b5f" category="paragraph">SnapCenter 사용자이고 SnapCenter 백업이 있는 경우 다음 워크플로우를 사용하여 시작합니다.</block>
@@ -1652,7 +1650,6 @@
   <block id="f87889e78c8188fffcbd96ceaef56759" category="sidebar">VM, VMDK 및 데이터 저장소 보호</block>
   <block id="222e11fb018a824c05f5fc6a922f5240" category="sidebar">데이터 보호</block>
   <block id="13f1397303dbc6596a7d0adff2836250" category="sidebar">REST API 사용</block>
-  <block id="26ad26eacebffe3e8571ecf8c6cc3eaf" category="sidebar">Windows 기반 SCV에서 마이그레이션</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
   <block id="8a49edffe2e22d8746e8c1676b54b1e5" category="sidebar">NetApp 블로그 – SCV</block>
   <block id="f62203a113eda99708c4011593033d16" category="sidebar">NetApp 커뮤니티 – SCV</block>
@@ -2027,4 +2024,7 @@
   <block id="28f971e28dfc95cd1f45e3f3e43cb5ae" category="list-text">각 인증서를 한 번에 하나씩 설치합니다.</block>
   <block id="cf76c520da4a702698c81207090e0cc9" category="list-text">인증서는 * 신뢰할 수 있는 루트 인증서 * 아래 패널에 추가됩니다. 인증서가 설치되면 OVA를 확인하고 배포할 수 있습니다.</block>
   <block id="6c0ad8767c3f6938eed064d72ff1e8e3" category="cell">SnapCenter VMware 플러그인에서 관리하는 VM 및 데이터 저장소에 대해 구성된 기간 동안 보호 상태에 대한 개요 정보를 표시합니다. 기본값은 7일입니다. 속성 파일의 값을 수정하려면 을 참조하십시오 <block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>. 기본 보호 차트에서 섹션/상태를 클릭하면 * Reports * 탭에서 해당 상태의 VM 또는 데이터 저장소 목록을 볼 수 있습니다. 보호된 VM 및 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 일 수, 최신 스냅샷 복사본 이름 및 최신 백업 실행에 대해 백업된 VM 또는 데이터 저장소의 이름이 표시됩니다. 보호되지 않는 VM 또는 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 기간 동안 백업이 성공하지 못한 VM 또는 데이터 저장소의 이름이 표시됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 이 보고서는 플러그인 캐시가 새로 고쳐지면 매시간마다 새로 고쳐집니다. 따라서 보고서에 최근에 백업된 VM 또는 데이터 저장소가 표시되지 않을 수 있습니다.</block>
+  <block id="db5fdb9b050a01b11abea23e40b9585d" category="inline-link">KB 문서: 'Host unresolved volumes is null</block>
+  <block id="ecb770a7a8cc6bd835e08ae2f656b56b" category="paragraph">을 참조하십시오<block ref="1077fe6ba26e5db8ea58ede2a1d4f949" category="inline-link-rx"></block> 오류에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="02794ea4bb0d5fb663080c701c897f97" category="paragraph">Machine.config.AdvancedConfig.VirtualVirtualConfig.VirtualMachine.VirtualInventory.Local.DeleteVM Host.Local.ReconesVM Network.Assign Resource.ExistenerResource.AddRecommendation.ExisteMachine.Machine.VirtualMachine.Create Machine.VirtualConfig.VirtualMachine.VirtualConfig.VirtualConfig.VirtualMachine.Create Host.Local.VirtualConfig.VirtualMachine.VirtualConfig.ExisteConfig.AddQueryResource Management Machine.ExisterCreation.ExisteMachine.Create Machine.VirtualMachine.Create Machine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualConfig.VirtualConfig.VirtualConfig.VirtualMachine.VirtualConfig.ExisterCreation.VirtualMachine.Create ExisterCreation.ExisteConfig.Create.Create</block>
 </blocks>

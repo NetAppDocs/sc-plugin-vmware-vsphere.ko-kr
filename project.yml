@@ -270,8 +270,6 @@ homepage:
       url: "/scpivs44_restore_from_backups_overview.html"
     - title: REST API 사용
       url: "/scpivs44_rest_apis_overview.html"
-    - title: Windows 기반 SCV에서 마이그레이션
-      url: "/scpivs44_migrate.html"
   - title: 블로그 커뮤니티
     links:
     - title: NetApp 블로그 – SCV

@@ -35,7 +35,7 @@ NOTE: 네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지
 
 . 업그레이드 '.iso' 파일을 다운로드합니다.
 +
-.. NetApp Support 사이트에 로그인합니다 (https://mysupport.netapp.com/products/index.html)[].
+.. NetApp Support 사이트에 로그인합니다 .
 .. 제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * download latest release * 버튼을 클릭합니다.
 .. VMware vSphere 업그레이드용 SnapCenter 플러그인 .iso 파일을 원하는 위치로 다운로드합니다.
 

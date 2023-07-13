@@ -43,7 +43,7 @@ SnapCenter VMware 플러그인은 직접 연결된 스토리지 VM과 스토리�
 NOTE: SnapCenter VMware 플러그인을 사용하여 VMDK에서 애플리케이션 기반 백업을 지원하는 경우 SnapCenter GUI를 사용하여 스토리지 인증 세부 정보를 입력하고 스토리지 시스템을 등록해야 합니다.
 
 * 연결된 모드의 vCenter의 경우 각 vCenter에 스토리지 시스템을 별도로 추가해야 합니다.
-* 스토리지 VM의 이름이 관리 LIF로 확인되어야 합니다.
+* SVM을 추가할 경우 스토리지 VM의 이름이 관리 LIF로 해석되어야 합니다.
 +
 SnapCenter에서 스토리지 VM 이름에 대한 ETC 호스트 항목을 추가한 경우 가상 어플라이언스에서 해당 항목을 확인할 수 있는지 확인해야 합니다.
 
@@ -55,7 +55,7 @@ SnapCenter에서 스토리지 VM 이름에 대한 ETC 호스트 항목을 추가
 
 .단계
 . vSphere 클라이언트의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭합니다.
-. 스토리지 시스템 페이지에서 을 클릭합니다 image:scpivs44_image6.png["오류: 그래픽 이미지가 없습니다"] * 추가 *.
+. 스토리지 시스템 페이지에서 * 추가 * 옵션을 선택합니다.
 . 스토리지 시스템 추가 * 마법사에서 다음 표에 나열된 기본 스토리지 VM 또는 클러스터 정보를 입력합니다.
 +
 |===
@@ -71,10 +71,10 @@ SnapCenter에서 스토리지 VM 이름에 대한 ETC 호스트 항목을 추가
 | 인증 방법 | 자격 증명 또는 인증서를 선택합니다. 다음 두 가지 유형의 인증서가 지원됩니다. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_configure_a_CA_signed_certificate_for_storage_system_authentication_with_SCV["CA 서명 인증서"^]- https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_configure_a_self-signed_certificate_for_storage_system_authentication_with_SCV["자체 서명된 인증서"^] 
 
 
-| 사용자 이름 | 인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM에 로그온하는 데 사용되는 ONTAP 사용자 이름을 입력합니다. 
+| 사용자 이름 | 인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM 또는 클러스터에 로그온하는 데 사용되는 ONTAP 사용자 이름을 입력합니다. 
 
 
-| 암호 | 인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM 로그온 암호를 입력합니다. 
+| 암호 | 인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM 또는 클러스터 로그인 암호를 입력합니다. 
 
 
 | 인증서 | 인증 방법으로 인증서를 선택하면 이 필드가 표시됩니다. 인증서 파일을 찾아 선택합니다. 

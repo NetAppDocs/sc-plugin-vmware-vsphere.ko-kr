@@ -16,4 +16,4 @@ summary: SnapCenter 사용자이고 SnapCenter 백업이 있는 경우 이 워�
 [role="lead"]
 SnapCenter 사용자이고 SnapCenter 백업이 있는 경우 다음 워크플로우를 사용하여 시작합니다.
 
-image:scpivs44_image3.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image3.png["구축 워크플로우"]

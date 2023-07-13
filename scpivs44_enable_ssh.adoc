@@ -23,7 +23,7 @@ SnapCenter VMware 플러그인을 구축하면 기본적으로 SSH가 사용되�
 유지보수 콘솔에 액세스 및 로그온하는 방법에 대한 자세한 내용은 을 참조하십시오 link:scpivs44_access_the_maintenance_console.html["유지보수 콘솔에 액세스합니다"^].
 
 +
-image:scpivs44_image11.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image11.png["유지보수 콘솔 창"]
 
 . 주 메뉴에서 메뉴 옵션 * 2) 시스템 구성 * 을 선택합니다.
 . 시스템 구성 메뉴에서 메뉴 옵션 * 6) SSH 액세스 활성화 * 를 선택한 다음 확인 프롬프트에 " * y * "를 입력합니다.

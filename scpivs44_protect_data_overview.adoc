@@ -30,4 +30,4 @@ MetroCluster 구성:
 
 다음 워크플로우 그림은 백업 작업을 수행해야 하는 순서를 보여 줍니다.
 
-image:scpivs44_image13.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image13.png["백업 작업 워크플로우"]

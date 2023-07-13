@@ -55,4 +55,4 @@ vSphere 관리자는 다음을 수행하여 vCenter Server RBAC를 설정합니�
 
 다음 그림에서는 RBAC 권한(vCenter 및 ONTAP)에 대한 검증 워크플로우를 개괄적으로 보여 줍니다.
 
-image:scpivs44_image1.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image1.png["RBAC 권한에 대한 검증 워크플로"]

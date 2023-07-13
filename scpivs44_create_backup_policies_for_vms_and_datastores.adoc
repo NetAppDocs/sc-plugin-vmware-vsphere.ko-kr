@@ -39,7 +39,7 @@ VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저�
 
 .단계
 . SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭합니다.
-. Policies * 페이지에서 를 클릭합니다 image:scpivs44_image6.png["오류: 그래픽 이미지가 없습니다"] * 생성 * 을 클릭하여 마법사를 시작합니다.
+. Policies * 페이지에서 * Create * 를 선택하여 마법사를 시작합니다.
 . 새 백업 정책 * 페이지에서 정책을 사용할 vCenter Server를 선택한 다음 정책 이름과 설명을 입력합니다.
 +
 ** 링크 모드

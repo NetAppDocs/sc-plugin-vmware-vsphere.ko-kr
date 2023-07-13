@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SnapCenter Plug-in for VMware vSphere 4.8
+  name: SnapCenter Plug-in for VMware vSphere 4.9
   internal:
     pdf_enabled: true
   prod:
@@ -9,6 +9,9 @@ settings:
   versions:
   - name: VMware vSphere용 SnapCenter 플러그인
     url: "/sc-plugin-vmware-vsphere"
+    version-number: '4.9'
+  - name: VMware vSphere용 SnapCenter 플러그인
+    url: "/sc-plugin-vmware-vsphere-48"
     version-number: '4.8'
   - name: VMware vSphere용 SnapCenter 플러그인
     url: "/sc-plugin-vmware-vsphere-47"
@@ -22,7 +25,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: VMware vSphere 4.8 용 SnapCenter 플러그인 문서
+  - title: VMware vSphere 4.9 docs용 SnapCenter 플러그인
     url: "/index.html"
   - title: 릴리스 정보
     url: "/scpivs44_release_notes.html"
@@ -255,7 +258,7 @@ homepage:
   - title: 시작하십시오
     links:
     - title: 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2885659
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2886207
     - title: SCV에 대해 알아보십시오
       url: "/scpivs44_concepts_overview.html"
     - title: 구현할 수 있습니다

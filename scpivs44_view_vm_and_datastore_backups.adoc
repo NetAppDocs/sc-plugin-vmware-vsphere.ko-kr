@@ -22,7 +22,7 @@ VM 또는 데이터 저장소를 백업 또는 복구할 준비가 되면 해당
 .단계
 . 메뉴 * 를 클릭하고 * 호스트 및 클러스터 * 메뉴 옵션을 선택한 다음 VM을 선택하고 * 구성 * 탭을 선택한 다음 * VMware vSphere용 SnapCenter 플러그인 섹션 * 에서 * 백업 * 을 클릭합니다.
 +
-image:scpivs44_image14.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image14.png["vSphere 클라이언트 UI"]
 
 . 보려는 백업을 클릭합니다.
 

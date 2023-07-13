@@ -21,6 +21,8 @@ swagger REST API 및 SCV 플러그인 사용자 인터페이스에서 감사 로
 . 4.1/감사/로그 가져오기: 모든 로그에 대한 감사 데이터를 가져옵니다
 . Get 4.1/audit/logs/{filename}: 특정 로그 파일에 대한 감사 데이터를 가져옵니다
 . 4.1 이후/감사/확인: 감사 로그 확인 트리거.
+. Get 4.1/audit/config: 감사 및 syslog 서버 구성을 가져옵니다
+. Put 4.1/audit/config: 감사 및 syslog 서버 구성을 업데이트합니다
 
 
 VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 클라이언트 작업에 대한 감사 로그를 생성하려면 VMware vSphere에 대한 REST API 호출을 사용해야 합니다.
@@ -40,4 +42,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSpher
 
 
 | `4.1/audit/verify` | 감사 검증을 트리거합니다 
+
+
+| `4.1/audit/syslogcert` | syslog 서버 인증서를 업데이트합니다 
 |===

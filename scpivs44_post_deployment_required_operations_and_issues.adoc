@@ -14,7 +14,11 @@ summary: VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치
 
 
 [role="lead"]
-VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완료해야 합니다. = 구축 후 필요한 작업
+VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완료해야 합니다.
+
+
+
+== 구축 후 필요한 작업
 
 새 SnapCenter 사용자인 경우, 데이터 보호 작업을 수행하려면 먼저 SnapCenter에 스토리지 VM을 추가해야 합니다. 스토리지 VM을 추가할 때 관리 LIF를 지정합니다. 또한 클러스터를 추가하고 클러스터 관리 LIF를 지정할 수도 있습니다. 스토리지 추가에 대한 자세한 내용은 을 참조하십시오 link:scpivs44_add_storage_01.html["스토리지 추가"^].
 
@@ -53,7 +57,7 @@ VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완�
 관리 자격 증명을 사용하지 않으면 VMware vSphere용 SnapCenter 플러그인을 배포하거나 마이그레이션한 후에 인증 오류가 발생할 수 있습니다. 인증 오류가 발생하면 서비스를 다시 시작해야 합니다.
 
 .단계
-. https://<appliance-IP-address>:8080` 형식으로 SnapCenter VMware 플러그인 관리 GUI에 로그온합니다.
+. 형식을 사용하여 SnapCenter VMware 플러그인 관리 GUI에 로그온합니다 `https://<appliance-IP-address>:8080`. admin 사용자 이름, 암호 및 MFA 토큰 세부 정보를 사용하여 로그인합니다. MFA 토큰은 유지보수 콘솔에서 생성할 수 있습니다.
 . 서비스를 다시 시작합니다.
 
 
@@ -101,7 +105,7 @@ SnapCenter(가상화된 데이터베이스 및 파일 시스템에 대한 애플
 +
 VM 호스트가 성공적으로 추가되면 Managed Hosts 탭에 표시됩니다.
 
-. 왼쪽 탐색 창에서 * 설정 * 을 클릭한 다음 * 자격 증명 * 탭을 클릭하고 을 클릭합니다 image:scpivs44_image6.png["오류: 그래픽 이미지가 없습니다"] * 가상 어플라이언스에 대한 자격 증명을 추가하려면 * 를 추가합니다.
+. 왼쪽 탐색 창에서 * 설정 * 을 클릭한 다음 * 자격 증명 * 탭을 클릭하고 * 추가 * 를 선택하여 가상 어플라이언스에 대한 자격 증명을 추가합니다.
 . VMware vSphere용 SnapCenter 플러그인을 구축하는 동안 지정된 자격 증명 정보를 제공합니다.
 +
 

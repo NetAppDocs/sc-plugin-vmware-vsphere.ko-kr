@@ -29,10 +29,10 @@ IMPORTANT: SnapCenter GUI를 사용하여 애플리케이션 기반 데이터 �
 
 .단계
 . SCV 플러그인의 왼쪽 탐색 창에서 * 저장소 시스템 * 을 클릭합니다.
-. 스토리지 시스템 * 페이지에서 수정할 스토리지 VM을 선택한 다음 을 클릭합니다 image:scpivs44_image25.png["오류: 그래픽 이미지가 없습니다"] * 편집 *.
+. 스토리지 시스템 * 페이지에서 수정할 스토리지 VM을 선택한 다음 * 편집 * 을 선택합니다.
 . Edit Storage System * 창에서 새 값을 입력한 다음 * Update * 를 클릭하여 변경 사항을 적용합니다.
 +
-image:scpivs44_image43.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image43.png["스토리지 시스템 편집 창"]
 
 
 

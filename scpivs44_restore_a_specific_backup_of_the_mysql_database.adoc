@@ -19,7 +19,7 @@ summary: '유지 관리 콘솔을 사용하여 VMware vSphere 가상 어플라�
 .단계
 . 유지보수 콘솔 창을 엽니다.
 +
-link:scpivs44_manage_snapcenter_plug-in_for_vmware_vsphere.html#access-the-maintenance-console["유지보수 콘솔에 액세스합니다"].
+link:scpivs44_access_the_maintenance_console.html["유지보수 콘솔에 액세스합니다"^].
 
 . 주 메뉴에서 옵션 * 1) 응용 프로그램 구성 * 을 입력합니다.
 . 응용 프로그램 구성 메뉴에서 옵션 * 6) MySQL 백업 및 복원 * 을 입력합니다.

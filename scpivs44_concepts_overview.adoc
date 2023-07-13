@@ -69,7 +69,7 @@ ONTAP 툴을 사용하여 ONTAP 및 VMware 웹 클라이언트에서 VVOL의 스
 
 이러한 주요 기능 외에도 VMware vSphere용 SnapCenter 플러그인은 NFS 3.0 및 4.1을 통한 iSCSI, 파이버 채널, FCoE, VMDK 및 VMFS 5.0 및 6.0을 통한 VMDK를 지원합니다.
 
-지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=108380;&solution=1257&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT).
+지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT).
 
 NFS 프로토콜 및 ESXi에 대한 자세한 내용은 VMware에서 제공하는 vSphere 스토리지 설명서를 참조하십시오.
 

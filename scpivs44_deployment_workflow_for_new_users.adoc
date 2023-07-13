@@ -16,4 +16,4 @@ summary: 이전에 SnapCenter를 사용하지 않았거나 SnapCenter 백업이 
 [role="lead"]
 이전에 SnapCenter를 사용한 적이 없고 SnapCenter 백업이 없는 경우 다음 워크플로우를 사용하여 시작합니다.
 
-image:scpivs44_image2.png["오류: 그래픽 이미지가 없습니다"]
+image:scpivs44_image2.png["새 사용자를 위한 배포 워크플로"]

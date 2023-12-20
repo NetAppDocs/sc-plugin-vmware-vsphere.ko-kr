@@ -241,23 +241,16 @@
   <block id="6086125ba3b16c9db6f89397f48fc616" category="paragraph">ESXi 서버, SnapCenter VMware 플러그인 및 각 vCenter를 동시에 동기화해야 합니다. 저장소를 추가하려고 하지만 vCenter의 시간 설정이 동기화되지 않은 경우 Java 인증서 오류로 인해 작업이 실패할 수 있습니다.</block>
   <block id="9aac8d0b8942f0e2048e58de3b7be108" category="paragraph">SnapCenter VMware 플러그인은 직접 연결된 스토리지 VM과 스토리지 클러스터의 스토리지 VM에서 백업 및 복원 작업을 수행합니다.</block>
   <block id="b99edf353b52c5792e35401298cc1119" category="list-text">연결된 모드의 vCenter의 경우 각 vCenter에 스토리지 시스템을 별도로 추가해야 합니다.</block>
-  <block id="9b0a1c41413ba0bd6082cc3e1b84f315" category="paragraph">SnapCenter에서 스토리지 VM 이름에 대한 ETC 호스트 항목을 추가한 경우 가상 어플라이언스에서 해당 항목을 확인할 수 있는지 확인해야 합니다.</block>
   <block id="f6bf07ac5479cd87c5bc2e1e1e185478" category="paragraph">관리 LIF로 해결할 수 없는 이름의 스토리지 VM을 추가하는 경우 플러그인이 해당 스토리지 VM의 데이터 저장소 또는 볼륨을 검색할 수 없기 때문에 예약된 백업 작업이 실패합니다. 이 경우 스토리지 VM을 SnapCenter에 추가하고 관리 LIF를 지정하거나 스토리지 VM이 포함된 클러스터를 추가하고 클러스터 관리 LIF를 지정하십시오.</block>
   <block id="913caa3ee179d1d56a0a5a1d647e72c2" category="list-text">스토리지 시스템 추가 * 마법사에서 다음 표에 나열된 기본 스토리지 VM 또는 클러스터 정보를 입력합니다.</block>
   <block id="f31303ddb8ada38aed08c2bb8f9d8e6c" category="cell">수행할 수 있습니다</block>
-  <block id="fad18723d417fce1e95c966edce6b387" category="cell">스토리지 클러스터 또는 스토리지 VM의 FQDN 또는 IP 주소를 입력합니다. SnapCenter VMware 플러그인은 서로 다른 클러스터에서 동일한 이름의 여러 스토리지 시스템을 지원하지 않습니다. SnapCenter가 지원하는 각 스토리지 시스템에는 고유한 데이터 LIF IP 주소가 있어야 합니다.</block>
-  <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">플랫폼</block>
-  <block id="cd5a35c139a8f0beea540baf32ecc554" category="cell">플랫폼을 선택합니다.</block>
   <block id="f6039d44b29456b20f8f373155ae4973" category="cell">사용자 이름</block>
   <block id="dc647eb65e6711e155375218212b3964" category="cell">암호</block>
   <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">프로토콜</block>
   <block id="cbb61ef47b30c9a254f01c17c56944ea" category="cell">스토리지 프로토콜을 선택합니다.</block>
   <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">포트</block>
-  <block id="62977e65c9be4b337db0dff68f2781a8" category="cell">vCenter와 통신하려면 포트 443(기본값) 또는 포트 80을 선택합니다. 포트 443은 VM 및 데이터 저장소 백업 및 복구 작업을 수행할 때 VMware vSphere용 SnapCenter 플러그인과 vCenter용 스토리지 VM 호스트 간의 통신에 사용됩니다. VVol VM을 보호하려는 경우 기본 포트 443을 선택해야 합니다.</block>
   <block id="c85a251cc457840f1e032f1b733e9398" category="cell">시간 초과</block>
-  <block id="c123e7ec944a655ce6b0eb1994987cd7" category="cell">vCenter가 작업 시간 초과 전에 대기해야 하는 시간(초)을 입력합니다. 기본값은 60초입니다.</block>
   <block id="13772e079123f6cc3b0a65f5912e0ac4" category="cell">기본 IP</block>
-  <block id="2870b54f4433265458cda5b06ab869ae" category="cell">스토리지 VM에 둘 이상의 관리 IP 주소가 있는 경우 이 확인란을 선택하고 SnapCenter에서 사용할 IP 주소를 입력합니다. * 참고: * IP 주소를 입력할 때 대괄호([])를 사용하지 마십시오.</block>
   <block id="15cb2b9c090bdc4868f38d74b1626bca" category="cell">SnapCenter 서버 이벤트를 syslog에 기록합니다</block>
   <block id="c5f67140b8ebc3ad63f626b837c93a28" category="cell">SnapCenter VMware 플러그인에 대한 이벤트를 기록하려면 확인란을 선택합니다.</block>
   <block id="0adf9b7ec7bd1bc34fa619474f6709e0" category="cell">스토리지 시스템에 실패한 작업에 대한 AutoSupport 알림을 보냅니다</block>
@@ -1731,7 +1724,6 @@
   <block id="aa4d783fee816f8d21f67950ef7dcc20" category="paragraph">SnapCenter VMware 플러그인이 활성화되어 있지 않으면 를 참조하십시오 <block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>.</block>
   <block id="1421137324c618036c21fb84413b93fd" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * Menu * 를 클릭하고 추가할 VM 또는 데이터 저장소로 이동합니다.</block>
   <block id="26dc1678973cf898baa325abda96cb6d" category="paragraph">VMware vSphere Client를 사용하여 스토리지를 추가합니다.</block>
-  <block id="1931a868e4e40f746c1be3fe292582d4" category="paragraph">먼저 VVol 스토리지 시스템을 VMware vSphere용 ONTAP 툴에 추가한 다음 VVol 스토리지 시스템을 VMware vSphere용 SnapCenter 플러그인에 추가해야 합니다.</block>
   <block id="ed9018b2e8611a3d2c03bb6a205b9715" category="inline-link">VMware vSphere용 ONTAP 툴</block>
   <block id="7598c46258085b3d4013c760f473771e" category="paragraph">자세한 내용은 을 참조하십시오<block ref="fdd966f4de047f12034d4cf35b0cc9b2" category="inline-link-rx"></block></block>
   <block id="de9e931cdaba9ca16191e1a4327cc0e8" category="admonition">SnapCenter VMware 플러그인을 사용하여 VMDK에서 애플리케이션 기반 백업을 지원하는 경우 SnapCenter GUI를 사용하여 스토리지 인증 세부 정보를 입력하고 스토리지 시스템을 등록해야 합니다.</block>
@@ -2073,4 +2065,15 @@ audit.log 에만 적용됩니다</block>
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="d0ea0acf98adef65d75abe323fe90376" category="admonition">ESXi에서 프록시 VM을 삭제하려면 먼저 VMware vSphere용 SnapCenter 플러그인 UI에서 프록시 VM을 삭제해야 합니다.</block>
+  <block id="a06bb07ae4f38addfa216f1bf6d50271" category="paragraph">먼저 VVol 스토리지 시스템을 VMware vSphere용 ONTAP 툴에 추가한 다음, VMware vSphere용 SnapCenter 플러그인에 추가해야 합니다.</block>
+  <block id="0d4068754a5316289f4fe4cb2c9f06ab" category="paragraph">SnapCenter에서 스토리지 VM 이름에 대한 항목을 _etc\hosts_file에 추가한 경우 가상 어플라이언스에서도 확인할 수 있는지 확인해야 합니다. 그렇지 않은 경우 어플라이언스 내의 _etc/hosts_file에 유사한 항목을 추가해야 합니다.</block>
+  <block id="ec152cd63150806755f263280e145f0b" category="cell">스토리지 클러스터 또는 스토리지 VM의 FQDN 또는 관리 LIF의 IP 주소를 입력합니다.
+SnapCenter VMware 플러그인은 다른 클러스터에서 같은 이름의 여러 스토리지 VM을 지원하지 않습니다.</block>
+  <block id="5c75867322c5948bda582697a669534b" category="cell">스토리지 시스템에서 허용하는 포트입니다.
+HTTPS 연결의 경우 -443
+HTTP 연결용 -80</block>
+  <block id="1c5f9a41c5507d4adb0d486ee3d2b620" category="cell">SnapCenter VMware 플러그인이 작업 시간 제한 전에 대기해야 하는 시간(초)을 입력합니다. 기본값은 60초입니다.</block>
+  <block id="2dc5e487794f729ff43e4206e76d5676" category="cell">스토리지 VM에 둘 이상의 관리 IP 주소가 있는 경우 이 확인란을 선택하고 SnapCenter VMware 플러그인에서 사용할 IP 주소를 입력합니다.
+* 참고: * IP 주소를 입력할 때 대괄호([])를 사용하지 마십시오.</block>
 </blocks>

@@ -1,14 +1,16 @@
 ---
 settings:
-  name: SnapCenter Plug-in for VMware vSphere 4.9
+  name: SnapCenter Plug-in for VMware vSphere 5.0
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '4.9'
+  - version-number: '5.0'
     url: "/sc-plugin-vmware-vsphere"
+  - version-number: '4.9'
+    url: "/sc-plugin-vmware-vsphere-49"
   - version-number: '4.8'
     url: "/sc-plugin-vmware-vsphere-48"
   - version-number: '4.7'
@@ -20,7 +22,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: VMware vSphere 4.9 docs용 SnapCenter 플러그인
+  - title: VMware vSphere 5.0 문서용 SnapCenter 플러그인
     url: "/index.html"
   - title: 릴리스 정보
     url: "/scpivs44_release_notes.html"
@@ -120,6 +122,8 @@ sidebar:
       url: "/scpivs44_add_a_single_vm_or_datastore_to_a_resource_group.html"
     - title: 리소스 그룹에 여러 VM 및 데이터 저장소를 추가합니다
       url: "/scpivs44_add_multiple_vms_and_datastores_to_a_resource_group.html"
+    - title: 저장소 이름을 바꿉니다
+      url: "/rename_storage.html"
     - title: 필요 시 리소스 그룹을 백업합니다
       url: "/scpivs44_back_up_resource_groups_on_demand.html"
     - title: MySQL 데이터베이스를 백업합니다
@@ -248,37 +252,3 @@ sidebar:
       url: "/scpivs44_information_not_displayed_after_upgrading_to_a_new_patch_of_the_same_release.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 시작하십시오
-    links:
-    - title: 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2886207
-    - title: SCV에 대해 알아보십시오
-      url: "/scpivs44_concepts_overview.html"
-    - title: 구현할 수 있습니다
-      url: "/scpivs44_deployment_planning_and_requirements.html"
-    - title: 빠른 시작
-      url: "/scpivs44_download_the_ova_open_virtual_appliance.html"
-  - title: VM, VMDK 및 데이터 저장소 보호
-    links:
-    - title: 데이터 보호
-      url: "/scpivs44_protect_data_overview.html"
-    - title: 백업에서 복원합니다
-      url: "/scpivs44_restore_from_backups_overview.html"
-    - title: REST API 사용
-      url: "/scpivs44_rest_apis_overview.html"
-  - title: 블로그 커뮤니티
-    links:
-    - title: NetApp 블로그 – SCV
-      url: https://blog.netapp.com/tag/snapcenter/
-    - title: NetApp 커뮤니티 – SCV
-      url: https://community.netapp.com/t5/forums/filteredbylabelpage/board-id/backup-and-restore-discussions/label-name/snapcenter
-  - title: 더 많은 리소스
-    links:
-    - title: SnapCenter 소프트웨어 설명서
-      url: https://docs.netapp.com/us-en/snapcenter/index.html
-    - title: 이전 버전의 SCV에 대한 문서
-      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=63240
-    - title: NetApp 기술 자료 – SCV
-      url: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter

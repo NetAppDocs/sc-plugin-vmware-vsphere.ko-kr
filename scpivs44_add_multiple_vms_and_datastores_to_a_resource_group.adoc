@@ -22,7 +22,7 @@ SnapCenter VMware vSphere Client 리소스 그룹 편집 마법사를 사용하�
 * FlexGroup 데이터 저장소 1개(스패닝 VM은 지원되지 않음)
 * 하나 이상의 FlexVol 데이터 저장소(스패닝 VM이 지원됨)
 * 하나 이상의 VVol VM.
-* 지정된 vCenter 태그가 있는 모든 VVol VM
+* 지정된 vSphere 태그가 있는 모든 VVol VM
 * 지정된 폴더에 있는 모든 VVol VM.
 
 

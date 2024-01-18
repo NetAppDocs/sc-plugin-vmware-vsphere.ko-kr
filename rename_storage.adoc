@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: rename_storage.html 
+keywords:  
+summary: REST API를 사용하여 스토리지 이름을 바꿀 수 있습니다. 
+---
+= 이름을 바꾼 스토리지의 백업을 복원합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+스토리지 이름이 바뀌면 이름 바꾸기 전에 생성된 백업을 사용하는 워크플로가 실패합니다. REST API를 통해서만 액세스할 수 있는 이름 바꾸기 백업 기능이 도입됨에 따라 이제 스토리지 이름을 바꾸기 전에 수행된 백업을 사용할 수 있습니다. REST API의 워크플로우 및 사용법에 대한 설명은 다음과 같습니다.
+
+.단계
+. 새 스토리지 연결을 추가하거나 업데이트하여 새 클러스터 또는 SVM 이름이 SCV에 반영되도록 합니다.
+. KB 문서에 설명된 대로 서비스를 다시 시작하여 캐시를 새로 고칩니다. https://kb.netapp.com/mgmt/SnapCenter/SCV_backups_fail_after_SVM_rename["SVM 이름 변경 후 SCV 백업이 실패합니다"]
+. 새 백업을 만듭니다.
+. 백업 세부 정보를 사용하여 이전 스토리지 이름과 새 스토리지 이름을 찾습니다.
+. vSphere Client의 * Backups * 화면에서 백업을 선택하여 세부 정보를 확인합니다.
+. 다음 URL에서 Swagger에 액세스합니다. https://<SCV-IP>:8144/api/swagger-ui/index.html[]
++
+다음 API를 사용하여 스토리지 이름을 변경합니다.
+
++
+패치
+/4.1/스토리지 시스템
+
++
+예:
+{
+  "존재 SVM":{
+    "이름":"문자열"
+  },
+  "newSVM":{
+    "이름":"문자열"
+  }
+}
+
++
+응답:
+
++
+{
+  "statusMessage":"OK",
+  "statusCode":200,
+  "responseMessage": [
+    "스토리지 시스템 이름이 변경되었습니다."
+  ]
+}
+
++
+이 API를 실행한 후에는 이전 백업에서 복원 작업을 포함한 모든 워크플로우를 실행할 수 있습니다.
+
+

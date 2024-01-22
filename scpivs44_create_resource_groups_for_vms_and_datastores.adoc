@@ -50,7 +50,7 @@ summary: 리소스 그룹은 보호할 VM, 데이터 저장소, vSphere 태그 �
 IMPORTANT: VMware vCLS(vSphere Cluster Service)를 사용하는 경우 SnapCenter VMware 플러그인 리소스 그룹에 vCLS로 관리되는 VM을 포함하지 마십시오.
 
 
-TIP: VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이트에서 최대 128TB의 대용량 LUN에서 데이터 저장소를 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.
+TIP: SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 최대 300TB의 볼륨을 가진 최대 128TB의 대용량 LUN 및 파일의 데이터 저장소를 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.
 
 
 IMPORTANT: 액세스할 수 없는 상태의 VM은 추가하지 마십시오. 액세스할 수 없는 VM이 포함된 리소스 그룹을 생성할 수는 있지만 해당 리소스 그룹의 백업은 실패합니다.
@@ -149,7 +149,11 @@ NOTE: 리소스 그룹에 연결된 각 정책에 대해 '_Recent' 백업이 생
 스냅샷 복사본 이름에 사용자 지정 형식을 사용하려면 이 확인란을 선택하고 이름 형식을 입력합니다.
 
 *** 기본적으로 이 기능은 비활성화되어 있습니다.
-*** 기본 스냅샷 복사본 이름은 '<ResourceGroup>_<Date-Timestamp>' 형식을 사용합니다. 그러나 $ResourceGroup, $Policy, $HostName, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다. $CustomText 를 선택하면 이름 형식은 "<CustomName>_<Date-timestamp>"입니다. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다. 참고: "_Recent" 접미어도 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 합니다. 따라서 $ResourceGroup 및 $Policy 변수를 이름에 추가해야 합니다.
+*** 기본 스냅샷 복사본 이름은 형식을 사용합니다 `<ResourceGroup>_<Date-TimeStamp>`
+그러나 $ResourceGroup, $Policy, $hostname, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다.
+$CustomText 를 선택하면 이름 형식은 입니다 `<CustomName>_<Date-TimeStamp>`. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다.
+[참고]:
+"_Recent" 접미사를 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 하므로 이름에 $ResourceGroup 및 $Policy 변수를 추가해야 합니다.
 *** 특수 문자 이름의 특수 문자 이름 필드에 지정된 것과 동일한 지침을 따릅니다.
 
 
@@ -169,7 +173,8 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
 * VM 폴더(지정된 폴더에 있는 모든 VVol VM, 팝업 필드에서 폴더가 있는 데이터 센터로 이동해야 함) 
 
 
-| 데이터 센터 | 추가할 VM 또는 데이터 저장소 또는 폴더로 이동합니다. 
+| 데이터 센터 | 추가할 VM 또는 데이터 저장소 또는 폴더로 이동합니다.
+리소스 그룹의 VM 및 데이터 저장소 이름은 고유해야 합니다. 
 
 
 | 사용 가능한 요소 | 보호하려는 자원을 선택한 다음 * > * 를 클릭하여 선택 항목을 선택한 요소 목록으로 이동합니다. 

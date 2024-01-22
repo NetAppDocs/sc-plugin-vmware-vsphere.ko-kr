@@ -80,12 +80,10 @@
   <block id="db483b4b52b624fc9163590680bfec11" category="cell">사용자 지정 스냅샷 형식</block>
   <block id="cdd24b9d1a277d3a5383ba07346b9f5a" category="paragraph">스냅샷 복사본 이름에 사용자 지정 형식을 사용하려면 이 확인란을 선택하고 이름 형식을 입력합니다.</block>
   <block id="424f6337d74c16c2d02e5cb2e6d97f82" category="list-text">기본적으로 이 기능은 비활성화되어 있습니다.</block>
-  <block id="b5fa0613e2fb44b25ee1739ace5e3746" category="list-text">기본 스냅샷 복사본 이름은 '&lt;ResourceGroup&gt;_&lt;Date-Timestamp&gt;' 형식을 사용합니다. 그러나 $ResourceGroup, $Policy, $HostName, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다. $CustomText 를 선택하면 이름 형식은 "&lt;CustomName&gt;_&lt;Date-timestamp&gt;"입니다. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다. 참고: "_Recent" 접미어도 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 합니다. 따라서 $ResourceGroup 및 $Policy 변수를 이름에 추가해야 합니다.</block>
   <block id="f6023484d4c2c1da1f8822ae43bc066a" category="list-text">특수 문자 이름의 특수 문자 이름 필드에 지정된 것과 동일한 지침을 따릅니다.</block>
   <block id="2b2620f1962d78eb23f6f754d96e6546" category="list-text">Resources * 페이지에서 다음을 수행합니다.</block>
   <block id="5d113f2038d289f391614c39043629e8" category="cell">범위</block>
   <block id="615707baa418ce315e44ac2a5d6164af" category="cell">데이터 센터</block>
-  <block id="d1fce2857d6a7747bc3a9e485e2cf30f" category="cell">추가할 VM 또는 데이터 저장소 또는 폴더로 이동합니다.</block>
   <block id="4c928d1c171b7d62d8f758ffa689710f" category="cell">사용 가능한 요소</block>
   <block id="0ae7bb79645eeb5721a499d2799dbf70" category="cell">보호하려는 자원을 선택한 다음 * &gt; * 를 클릭하여 선택 항목을 선택한 요소 목록으로 이동합니다.</block>
   <block id="749435efb6e9940bcadad406e3a36d76" category="paragraph">다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.</block>
@@ -1579,7 +1577,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="0834d3a187a3bdb67af7d3afee5ae7b7" category="paragraph">리소스 그룹에는 다음이 포함될 수 있습니다.</block>
   <block id="a1376c0215e5d8cf70e012954979bc39" category="paragraph">단일 FlexGroup 데이터 저장소 Spanning FlexGroup 데이터 저장소는 지원되지 않습니다. FlexGroup 데이터 저장소는 기존 VM 또는 데이터 저장소와 결합할 수 없습니다.</block>
-  <block id="c8e385cc7a112ebc9131fa51b5a3767b" category="admonition">VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이트에서 최대 128TB의 대용량 LUN에서 데이터 저장소를 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.</block>
   <block id="d2df0b923abc21af57a4dd120ecd6e47" category="admonition">리소스 그룹에 연결된 각 정책에 대해 '_Recent' 백업이 생성됩니다. 따라서 여러 정책을 가진 리소스 그룹에는 여러 개의 `_recent' 백업이 있습니다. 최근 백업의 이름을 수동으로 바꾸지 마십시오.</block>
   <block id="9b0bd68baf74fb3ad293c166090c7bc3" category="admonition">작업 로그 보존의 기본값은 30일입니다. 작업 보유의 기본값은 90일입니다. 구성된 보존보다 오래된 작업 로그 및 작업은 6시간마다 삭제됩니다. 구성 REST API를 사용하여 작업 및 작업 로그가 유지되는 기간을 수정할 수 있습니다. 삭제 일정은 수정할 수 없습니다.</block>
   <block id="6dd906abac50c0e38ec5790fd42b32f0" category="cell">1.2, 1.3</block>
@@ -2121,4 +2118,12 @@ IP 주소 설정을 표시하거나 변경합니다
   <block id="8857a92c9dd7ad8b9a97a4565e945efb" category="paragraph"><block ref="8857a92c9dd7ad8b9a97a4565e945efb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8c6c8a7a8f9e330585c15378277631e" category="sidebar">VMware vSphere 5.0 문서용 SnapCenter 플러그인</block>
   <block id="9f4e4670e68c9e84125d82202a3b5d12" category="sidebar">저장소 이름을 바꿉니다</block>
+  <block id="8cf2f0f05d235c9fc28a55c8caf77bb9" category="admonition">SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 최대 300TB의 볼륨을 가진 최대 128TB의 대용량 LUN 및 파일의 데이터 저장소를 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.</block>
+  <block id="ca70c61465600177453c8557e7c34dfb" category="list-text">기본 스냅샷 복사본 이름은 형식을 사용합니다<block ref="ba8f4cc4ace4f3315ea21bd52fbde9d9" prefix=" " category="inline-code"></block>
+그러나 $ResourceGroup, $Policy, $hostname, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다.
+$CustomText 를 선택하면 이름 형식은 입니다<block ref="ad231838859064f0fe437a9669c0d36f" prefix=" " category="inline-code"></block>. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다.
+[참고]:
+"_Recent" 접미사를 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 하므로 이름에 $ResourceGroup 및 $Policy 변수를 추가해야 합니다.</block>
+  <block id="d07079db3fe1ac66c315b010e4b99b35" category="cell">추가할 VM 또는 데이터 저장소 또는 폴더로 이동합니다.
+리소스 그룹의 VM 및 데이터 저장소 이름은 고유해야 합니다.</block>
 </blocks>

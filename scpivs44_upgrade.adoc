@@ -18,8 +18,27 @@ NOTE: SCV 5.0으로의 업그레이드는 VMware vCenter Server 7 업데이트 1
 
 SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사용하는 경우 최신 릴리즈로 업그레이드할 수 있습니다. 업그레이드 프로세스에서는 기존 플러그인의 등록을 해제하고 vSphere 7.0U1 이상 버전에서만 호환되는 플러그인을 구축합니다.
 
-를 참조하십시오 link:scpivs44_release_notes.html["VMware vSphere용 SnapCenter 플러그인 릴리즈 노트"] 지원되는 업그레이드 경로에 대한 자세한 내용은 를 참조하십시오.
 
+
+== 업그레이드 경로
+
+|===
+
+
+| VMware vSphere(SCV) 버전용 SnapCenter 플러그인 사용 중인 경우... | VMware vSphere용 SnapCenter 플러그인을 다음으로 직접 업그레이드할 수 있습니다. 
+
+
+| SCV 4.9 | SCV 5.0으로 업그레이드하십시오 
+
+
+| SCV 4.8 | SCV 4.9 및 SCV 5.0으로 업그레이드하십시오 
+
+
+| SCV 4.7 을 참조하십시오 | SCV 4.8 및 SCV 4.9로 업그레이드하십시오 
+
+
+| SCV 4.6 | SCV 4.7 및 SCV 4.8로 업그레이드하십시오 
+|===
 
 TIP: 업그레이드를 시작하기 전에 VMware vSphere OVA용 SnapCenter 플러그인을 백업합니다.
 

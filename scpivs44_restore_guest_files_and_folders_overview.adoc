@@ -58,7 +58,7 @@ SnapCenter는 VMware 툴의 정보를 사용하여 VMware 게스트 OS에 대한
 
 * Windows 게스트 OS는 Windows Server 2008 R2 이상을 실행해야 합니다.
 +
-지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^].
+지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^].
 
 * 대상 VM의 자격 증명은 기본 제공 도메인 관리자 계정 또는 기본 제공 로컬 관리자 계정을 지정해야 합니다. 사용자 이름은 "관리자"여야 합니다. 복구 작업을 시작하기 전에 가상 디스크를 연결할 VM에 대해 자격 증명을 구성해야 합니다. 연결 작업과 후속 복구 작업 모두에 자격 증명이 필요합니다. 작업 그룹 사용자는 기본 제공 로컬 관리자 계정을 사용할 수 있습니다.
 +
@@ -83,7 +83,7 @@ VMware vSphere용 SnapCenter 플러그인은 복구할 파일 또는 폴더 검�
 
 * Linux 게스트 OS에서 복구는 지원되지 않습니다
 +
-Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^].
+Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^].
 
 
 
@@ -98,7 +98,7 @@ Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 �
 * 게스트 파일 찾아보기 페이지에는 필터링할 수 없는 숨겨진 파일 및 폴더가 표시됩니다.
 * Linux 게스트 OS에서 복원할 수 없습니다.
 +
-Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^].
+Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^].
 
 * NTFS 파일 시스템에서 FAT 파일 시스템으로 복원할 수 없습니다.
 +

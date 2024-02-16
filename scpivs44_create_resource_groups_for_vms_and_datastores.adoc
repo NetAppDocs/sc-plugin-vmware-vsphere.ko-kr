@@ -50,7 +50,7 @@ summary: 리소스 그룹은 보호할 VM, 데이터 저장소, vSphere 태그 �
 IMPORTANT: VMware vCLS(vSphere Cluster Service)를 사용하는 경우 SnapCenter VMware 플러그인 리소스 그룹에 vCLS로 관리되는 VM을 포함하지 마십시오.
 
 
-TIP: SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 최대 300TB의 볼륨을 가진 최대 128TB의 대용량 LUN 및 파일의 데이터 저장소를 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.
+TIP: SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 대용량 LUN의 데이터 저장소와 최대 128TB의 파일에 최대 300TB의 볼륨을 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.
 
 
 IMPORTANT: 액세스할 수 없는 상태의 VM은 추가하지 마십시오. 액세스할 수 없는 VM이 포함된 리소스 그룹을 생성할 수는 있지만 해당 리소스 그룹의 백업은 실패합니다.
@@ -261,7 +261,7 @@ SnapCenter 리소스 그룹을 만들려고 할 때 호환성 검사를 수행�
 SnapCenter 버전 4.x는 ONTAP 8.3.1 이상을 지원합니다.
 
 +
-VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] SnapCenter 지원에 대한 최신 정보를 확인하십시오.
+VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] SnapCenter 지원에 대한 최신 정보를 확인하십시오.
 
 * 공유 PCI 장치가 VM에 연결되어 있습니다.
 * SnapCenter에서 기본 IP가 구성되지 않았습니다.

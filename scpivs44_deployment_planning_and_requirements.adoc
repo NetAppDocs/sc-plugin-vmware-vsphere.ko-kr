@@ -45,7 +45,7 @@ VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 호스�
 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere용 ONTAP 툴"^]
 
 +
-지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
+지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
 
 * SnapCenter VMware 플러그인은 스토리지 vMotion을 지원하는 가상 머신의 제한으로 인해 공유 PCI 또는 PCIe 장치(예: NVIDIA Grid GPU)를 제한적으로 지원합니다. 자세한 내용은 공급업체의 VMware 배포 가이드 문서를 참조하십시오.
 +
@@ -125,9 +125,9 @@ VM 일관성을 사용하여 백업 생성
 | VMware 애플리케이션 VAAI(vStorage API for Array Integration) | VMware vSphere용 SnapCenter 플러그인은 이 기능을 사용하여 복구 작업의 성능을 향상시킵니다. 또한 NFS 환경의 성능도 개선합니다. 
 
 
-| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]. 
+| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]. 
 |===
-지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=112310;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
+지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
 
 
 

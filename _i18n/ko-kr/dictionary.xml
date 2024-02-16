@@ -674,7 +674,6 @@
   <block id="ba9184cb661fa8aa1f1e6f33c3d4f7b2" category="paragraph">를 참조하십시오<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block>.</block>
   <block id="015b635404a717ebcfa72500098a5d70" category="summary">SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사용하는 경우 최신 릴리즈로 업그레이드할 수 있습니다.</block>
   <block id="331b48aba7178950c3dc14c31a21f9c0" category="doc">VMware vSphere용 SnapCenter 플러그인의 이전 릴리즈에서 업그레이드합니다</block>
-  <block id="2d611cef8c845765881d408c7f4ca34d" category="paragraph">를 참조하십시오 <block ref="7b21f43f6f2c3f2cfd7e9a930ea43d44" category="inline-link-macro-rx"></block> 지원되는 업그레이드 경로에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="5550f9423496c2c9ab880e725d34e0e5" category="admonition">업그레이드를 시작하기 전에 VMware vSphere OVA용 SnapCenter 플러그인을 백업합니다.</block>
   <block id="ae40a6aa6dbafd02a1a6877c0cd95c90" category="admonition">네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지원되지 않습니다.</block>
   <block id="a115e2512005f81c492d368a9613ee58" category="list-text">VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하여 업그레이드를 준비합니다.</block>
@@ -1883,7 +1882,6 @@
   <block id="d90d97c73d9c4c24dc7be83a35c1ab51" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 * 생성 * 을 선택합니다.</block>
   <block id="f39d1b5ce3c4df954b444643fe062bd4" category="inline-image-macro">재생 아이콘</block>
   <block id="388b702f54518810e19e7ac7da349911" category="paragraph">를 선택하여 * 리소스 그룹 * 페이지에서 필요 시 백업을 수행할 수 있습니다 <block ref="3b0d2a888e66a4061c822e3f42e77666" category="inline-image-macro-rx" type="image"></block> * 지금 실행 *.</block>
-  <block id="efc0b04f06a29088ceba47c01100d18a" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="afaa5c2ff662f28d0c8c3429effcad87" category="inline-link-rx"></block> (IMT).</block>
   <block id="837adfe579e9f6e54bb71e607139e89e" category="paragraph"><block ref="837adfe579e9f6e54bb71e607139e89e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bac80dc0b6b539e2676fb6e2f1e66985" category="inline-image-macro">유지보수 콘솔 창</block>
   <block id="b6b7c58249919c09c14b897be2947b59" category="paragraph"><block ref="b6b7c58249919c09c14b897be2947b59" category="inline-image-macro-rx" type="image"></block></block>
@@ -1904,12 +1902,8 @@
   <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">Create * 를 선택합니다.</block>
   <block id="2d9c6a052b962f45f8525e4ec1dec880" category="inline-image-macro">Create resource group(리소스 그룹 생성) 창</block>
   <block id="3ec7abcc0f628e9d54f81021b20cd0b8" category="paragraph"><block ref="3ec7abcc0f628e9d54f81021b20cd0b8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="27622cb89e7a8739e00f582918ccbbf9" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오<block ref="d081994606edbb1b5fb4741bf9627763" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 확인하십시오.</block>
   <block id="0a9ba38bb4f35a4cc659e9264312419d" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭한 다음 * New Policy * 를 선택합니다.</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">추가 * 를 선택합니다.</block>
-  <block id="daa784a8a1fa3539432d36b3cba74c8f" category="paragraph">지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오<block ref="afaa5c2ff662f28d0c8c3429effcad87" category="inline-link-rx"></block>.</block>
-  <block id="7a1850db5de77ac7debf2683475ac36d" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 를 참조하십시오<block ref="afaa5c2ff662f28d0c8c3429effcad87" category="inline-link-rx"></block>.</block>
-  <block id="138ca37c88473f8732582e7a16c36cdd" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="afaa5c2ff662f28d0c8c3429effcad87" category="inline-link-rx"></block>.</block>
   <block id="cf0ab757341ba6d3dc7ba387b7608080" category="inline-image-macro">지원되는 구성 그래픽 표현입니다</block>
   <block id="9dfe68c8c0e7d63c6014f412ad6f64f4" category="paragraph"><block ref="9dfe68c8c0e7d63c6014f412ad6f64f4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8ef8968610fbd3a0de9ce23482e5a914" category="list-text">스토리지 시스템 * 페이지에서 수정할 스토리지 VM을 선택한 다음 * 편집 * 을 선택합니다.</block>
@@ -1981,8 +1975,6 @@ audit.log 에만 적용됩니다</block>
   <block id="c3794c98b162b9ad9268737618829c92" category="list-text">스토리지 시스템 추가 대화 상자에서 기본 SVM 또는 클러스터 정보를 입력하고 * 추가 * 를 선택합니다.</block>
   <block id="ab3ccb0be518e752d20f706d36d252c9" category="inline-image-macro">구축 워크플로우</block>
   <block id="c26ad7db9fdd9afcec80cb243992f363" category="paragraph"><block ref="c26ad7db9fdd9afcec80cb243992f363" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0c815b7acb1c06a9fdce13c84db10d63" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="d081994606edbb1b5fb4741bf9627763" category="inline-link-rx"></block>.</block>
-  <block id="09a955bc17c83be6473e1db023f65598" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="d081994606edbb1b5fb4741bf9627763" category="inline-link-rx"></block>.</block>
   <block id="07469a3427540cc9f743a04851332eb8" category="paragraph">VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그인 자격 증명을 알고 있어야 합니다. 또한 유지보수 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.</block>
   <block id="bd891b75b7b195d1b26cc7dc247e67f0" category="paragraph"><block ref="bd891b75b7b195d1b26cc7dc247e67f0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f30c6912958443264ac38c6e96e6c0b1" category="inline-image-macro">백업 작업 워크플로우</block>
@@ -2008,7 +2000,6 @@ audit.log 에만 적용됩니다</block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="d0ea0acf98adef65d75abe323fe90376" category="admonition">ESXi에서 프록시 VM을 삭제하려면 먼저 VMware vSphere용 SnapCenter 플러그인 UI에서 프록시 VM을 삭제해야 합니다.</block>
-  <block id="a06bb07ae4f38addfa216f1bf6d50271" category="paragraph">먼저 VVol 스토리지 시스템을 VMware vSphere용 ONTAP 툴에 추가한 다음, VMware vSphere용 SnapCenter 플러그인에 추가해야 합니다.</block>
   <block id="0d4068754a5316289f4fe4cb2c9f06ab" category="paragraph">SnapCenter에서 스토리지 VM 이름에 대한 항목을 _etc\hosts_file에 추가한 경우 가상 어플라이언스에서도 확인할 수 있는지 확인해야 합니다. 그렇지 않은 경우 어플라이언스 내의 _etc/hosts_file에 유사한 항목을 추가해야 합니다.</block>
   <block id="ec152cd63150806755f263280e145f0b" category="cell">스토리지 클러스터 또는 스토리지 VM의 FQDN 또는 관리 LIF의 IP 주소를 입력합니다.
 SnapCenter VMware 플러그인은 다른 클러스터에서 같은 이름의 여러 스토리지 VM을 지원하지 않습니다.</block>
@@ -2118,7 +2109,6 @@ IP 주소 설정을 표시하거나 변경합니다
   <block id="8857a92c9dd7ad8b9a97a4565e945efb" category="paragraph"><block ref="8857a92c9dd7ad8b9a97a4565e945efb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8c6c8a7a8f9e330585c15378277631e" category="sidebar">VMware vSphere 5.0 문서용 SnapCenter 플러그인</block>
   <block id="9f4e4670e68c9e84125d82202a3b5d12" category="sidebar">저장소 이름을 바꿉니다</block>
-  <block id="8cf2f0f05d235c9fc28a55c8caf77bb9" category="admonition">SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 최대 300TB의 볼륨을 가진 최대 128TB의 대용량 LUN 및 파일의 데이터 저장소를 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.</block>
   <block id="ca70c61465600177453c8557e7c34dfb" category="list-text">기본 스냅샷 복사본 이름은 형식을 사용합니다<block ref="ba8f4cc4ace4f3315ea21bd52fbde9d9" prefix=" " category="inline-code"></block>
 그러나 $ResourceGroup, $Policy, $hostname, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다.
 $CustomText 를 선택하면 이름 형식은 입니다<block ref="ad231838859064f0fe437a9669c0d36f" prefix=" " category="inline-code"></block>. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다.
@@ -2126,4 +2116,25 @@ $CustomText 를 선택하면 이름 형식은 입니다<block ref="ad23183885906
 "_Recent" 접미사를 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 하므로 이름에 $ResourceGroup 및 $Policy 변수를 추가해야 합니다.</block>
   <block id="d07079db3fe1ac66c315b010e4b99b35" category="cell">추가할 VM 또는 데이터 저장소 또는 폴더로 이동합니다.
 리소스 그룹의 VM 및 데이터 저장소 이름은 고유해야 합니다.</block>
+  <block id="854a748f8563eb3099b0bfa18a176d34" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="045f3ddde5c3413f11a91218d71b4b1a" category="inline-link-rx"></block>.</block>
+  <block id="1a455fa606ca1378d17326c892e16c90" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를 참조하십시오<block ref="045f3ddde5c3413f11a91218d71b4b1a" category="inline-link-rx"></block>.</block>
+  <block id="772cc7fa822f49dc4b192692e0632437" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="b52a20f044306968704839d484981363" category="inline-link-rx"></block>
+[NetApp 상호 운용성 매트릭스 툴](IMT).</block>
+  <block id="a5760e04dea15becd0f211df3320ab07" category="paragraph">스토리지 클러스터를 VMware vSphere용 SnapCenter 플러그인과 VMware vSphere용 ONTAP 툴에 추가하여 VVOL 데이터 보호를 작동해야 합니다.</block>
+  <block id="db9f46474186d8c960347226166c2a57" category="admonition">SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 대용량 LUN의 데이터 저장소와 최대 128TB의 파일에 최대 300TB의 볼륨을 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.</block>
+  <block id="8e1e7b095ff12bdad81e079afe30b615" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 버전 8.2.1 및 이전 버전에만 적용됩니다. 따라서 항상 을 참조하십시오<block ref="045f3ddde5c3413f11a91218d71b4b1a" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 확인하십시오.</block>
+  <block id="e614f4fd5db40ad1197def61d63aaeef" category="section-title">업그레이드 경로</block>
+  <block id="8f5cac67a5239c3412476c9eee5d843b" category="cell">VMware vSphere(SCV) 버전용 SnapCenter 플러그인 사용 중인 경우...</block>
+  <block id="c6000eccbb9d2d80f767a17144086162" category="cell">VMware vSphere용 SnapCenter 플러그인을 다음으로 직접 업그레이드할 수 있습니다.</block>
+  <block id="d6efd9a0701d44c2a386de616f0467d8" category="cell">SCV 4.9</block>
+  <block id="fb7a6940ca16530832134b6d1fc68dd0" category="cell">SCV 5.0으로 업그레이드하십시오</block>
+  <block id="bfa55b54891f35acedca543067d8d978" category="cell">SCV 4.8</block>
+  <block id="d50d1b713f54e3b00e5a58cb07663ae1" category="cell">SCV 4.9 및 SCV 5.0으로 업그레이드하십시오</block>
+  <block id="57c532701e1b9a6e91035127c990e2d5" category="cell">SCV 4.7 을 참조하십시오</block>
+  <block id="9e3312df8e6fea31816b8ec7d06d6943" category="cell">SCV 4.8 및 SCV 4.9로 업그레이드하십시오</block>
+  <block id="3baea5f2b6a39ee42e75af8ff8dffaf8" category="cell">SCV 4.6</block>
+  <block id="1bc72f3e2c1f0294eeae251d150eadaf" category="cell">SCV 4.7 및 SCV 4.8로 업그레이드하십시오</block>
+  <block id="be62a39629f9bf44c0b7764858df7180" category="paragraph">지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오<block ref="f480f082c29fcf628f934199402ad852" category="inline-link-rx"></block>.</block>
+  <block id="574bca4b9d134d315e5eca84b213c9cf" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 를 참조하십시오<block ref="f480f082c29fcf628f934199402ad852" category="inline-link-rx"></block>.</block>
+  <block id="0c94c2c3fa58ffce83643eed644bb1ad" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="f480f082c29fcf628f934199402ad852" category="inline-link-rx"></block>.</block>
 </blocks>

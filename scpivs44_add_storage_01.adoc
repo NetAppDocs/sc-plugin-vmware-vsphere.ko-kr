@@ -26,7 +26,7 @@ VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이트�
 
 * VVOL(VMware 가상 볼륨)
 +
-먼저 VVol 스토리지 시스템을 VMware vSphere용 ONTAP 툴에 추가한 다음, VMware vSphere용 SnapCenter 플러그인에 추가해야 합니다.
+스토리지 클러스터를 VMware vSphere용 SnapCenter 플러그인과 VMware vSphere용 ONTAP 툴에 추가하여 VVOL 데이터 보호를 작동해야 합니다.
 
 +
 자세한 내용은 을 참조하십시오 https://docs.netapp.com/vapp-98/index.jsp["VMware vSphere용 ONTAP 툴"^]

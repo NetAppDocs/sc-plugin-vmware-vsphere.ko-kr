@@ -2128,8 +2128,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="e4876fb0bd486e69e6d18f00ad595613" category="paragraph"><block ref="40ab977cb91f6614f74434651bca5a18" prefix="" category="inline-code"></block></block>
   <block id="5d4f06f4da45c0078547e4432bbcf0fa" category="paragraph"><block ref="40ab977cb91f6614f74434651bca5a18" prefix="" category="inline-code"></block><block ref="95e74a55a904a66f18be251d45fb5889" prefix=" " category="inline-code"></block></block>
   <block id="80f3158028945baa03dee7b07e5ba849" category="paragraph">각 REST API에 대해 REST API 앞에 \https://&lt;server&gt;:&lt;port&gt;'를 추가하여 전체 엔드포인트를 형성합니다.</block>
-  <block id="bee8a2c870d9f36561d79948bcc7f115" category="paragraph">SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
-의 지침을 따릅니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> 페이지를 클릭하여 OVA 파일을 다운로드합니다.</block>
   <block id="89c7e4a6f50b68ec3ede15d1584a492e" category="paragraph">형식을 사용합니다<block ref="cf854de4a942e42c016ef31d206a66c3" prefix=" " category="inline-code"></block> 관리 GUI에 액세스합니다.</block>
   <block id="4dacb1d80a643a937acb6c45a683ec1b" category="admonition">SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지정된 역할 기반 액세스를 가진 모든 ONTAP 사용자에 대한 사용자 로그인 방법으로 HTTP 및 ONTAPI 유형의 응용 프로그램을 추가해야 합니다. 이러한 애플리케이션에 액세스하지 않으면 백업이 실패합니다. ONTAP 사용자 로그인 방법의 변경 사항을 인식하려면 SCV 서비스를 다시 시작해야 합니다.</block>
   <block id="73bad5beeda4a2a6bd01d97def1d4e67" category="cell">클러스터 ID가 표시됩니다</block>
@@ -2172,4 +2170,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="47d51cdb9bee4f5be50bff68bef7f005" category="paragraph">각 REST API에 를 추가합니다<block ref="3a8f2c381c875eef37ad96b7d70fc1a1" prefix=" " category="inline-code"></block> REST API의 전면에서 전체 끝점을 형성합니다.</block>
   <block id="cf924216c679ed55d0b692e5bd6f4b14" category="list-text">형식을 사용하여 SnapCenter VMware 플러그인 관리 GUI에 로그인합니다<block ref="3dfacd84c996ac983963942e2712a0bf" prefix=" " category="inline-code"></block>. 배포 시 설정된 admin 사용자 이름과 암호 및 유지보수 콘솔을 사용하여 생성된 MFA 토큰으로 로그인합니다.</block>
   <block id="5b845076b112586b7fff13b10d9f0612" category="cell">로 이동합니다<block ref="7c61e9e4b133f96dbd184942bce35796" prefix=" " category="inline-code"></block></block>
+  <block id="e4a70196caccbfc6c6d2c0d9df5e3013" category="paragraph">SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
+를 클릭합니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> 페이지는 OVA 파일을 다운로드하는 지침을 제공합니다.</block>
 </blocks>

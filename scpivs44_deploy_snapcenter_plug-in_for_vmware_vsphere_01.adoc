@@ -15,7 +15,7 @@ summary:
 
 [role="lead"]
 SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
-의 지침을 따릅니다 link:scpivs44_download_the_ova_open_virtual_appliance.html["OVA(Open Virtual Appliance) 다운로드"^] 페이지를 클릭하여 OVA 파일을 다운로드합니다.
+를 클릭합니다 link:scpivs44_download_the_ova_open_virtual_appliance.html["OVA(Open Virtual Appliance) 다운로드"^] 페이지는 OVA 파일을 다운로드하는 지침을 제공합니다.
 
 . VMware vCenter 7.0.3 이상 버전의 경우 의 단계를 따릅니다 link:scpivs44_download_the_ova_open_virtual_appliance.html["OVA(Open Virtual Appliance) 다운로드"^] vCenter로 인증서를 가져옵니다.
 . 브라우저에서 VMware vSphere vCenter로 이동합니다.

@@ -16,7 +16,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMwa
 [role="lead"]
 VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 클라이언트 작업에 대한 작업 ID를 찾으려면 VMware vSphere에 대한 REST API 호출을 사용해야 합니다. 이러한 REST API는 SnapCenter Plug-in for VMware vSphere 4.4에 추가되었습니다.
 
-각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+각 REST API에 대해 REST API 앞에 \https://<server>:<port>'를 추가하여 전체 엔드포인트를 형성합니다.
 
 작업 섹션의 다음 REST API를 사용하여 실행 중 상태로 고착된 작업을 실패 상태로 변경합니다.
 

@@ -16,13 +16,14 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM �
 [role="lead"]
 VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 백업에 대한 복구 작업을 수행하려면 규정된 REST API 호출 순서를 따라야 합니다.
 
-각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+각 REST API에 를 추가합니다 `\https://<server>:<port>` REST API의 전면에서 전체 끝점을 형성합니다.
 
 |===
 | 단계 | REST API | 설명 
 
 
-| 1 | http://<vCenter-IP>/mob` 참조하십시오 | VMware Managed Objects URL에서 VM UUID를 찾습니다. 복원할 VM의 * uuid * 를 확인합니다. 
+| 1 | 로 이동합니다
+`\http://<vCenter-IP>/mob` | VMware Managed Objects URL에서 VM UUID를 찾습니다. 복원할 VM의 * uuid * 를 확인합니다. 
 
 
 | 2 | '/4.1/VM/{uuuid}/백업' | VM 백업 가져오기지정된 VM의 백업 목록을 가져옵니다. 1단계에서 * uuid * 를 전달합니다. 복원하려는 백업의 * backupId * 를 기록해 둡니다. 

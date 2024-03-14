@@ -22,7 +22,7 @@ summary: REST API를 사용하여 스토리지 이름을 바꿀 수 있습니다
 . 새 백업을 만듭니다.
 . 백업 세부 정보를 사용하여 이전 스토리지 이름과 새 스토리지 이름을 찾습니다.
 . vSphere Client의 * Backups * 화면에서 백업을 선택하여 세부 정보를 확인합니다.
-. 다음 URL에서 Swagger에 액세스합니다. https://<SCV-IP>:8144/api/swagger-ui/index.html[]
+. 다음 URL에서 Swagger에 액세스합니다. `\https://<SCV-IP>:8144/api/swagger-ui/index.html`
 +
 다음 API를 사용하여 스토리지 이름을 변경합니다.
 

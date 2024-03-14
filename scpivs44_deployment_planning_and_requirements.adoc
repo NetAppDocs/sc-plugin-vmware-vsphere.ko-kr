@@ -20,7 +20,7 @@ summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항�
 
 == 호스트 요구 사항
 
-VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 호스트 요구 사항을 숙지해야 합니다.
+SCV(SnapCenter Plug-in for VMware vSphere) 구축을 시작하기 전에 호스트 요구 사항을 잘 알고 있어야 합니다.
 
 * SnapCenter VMware 플러그인은 Windows 시스템 또는 Linux 시스템의 데이터를 보호하기 위해 플러그인을 사용하는지에 관계없이 Linux VM으로 배포됩니다.
 * vCenter Server에 SnapCenter VMware 플러그인을 구축해야 합니다.

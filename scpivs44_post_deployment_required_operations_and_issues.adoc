@@ -57,7 +57,7 @@ VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완�
 관리 자격 증명을 사용하지 않으면 VMware vSphere용 SnapCenter 플러그인을 배포하거나 마이그레이션한 후에 인증 오류가 발생할 수 있습니다. 인증 오류가 발생하면 서비스를 다시 시작해야 합니다.
 
 .단계
-. 형식을 사용하여 SnapCenter VMware 플러그인 관리 GUI에 로그온합니다 `https://<appliance-IP-address>:8080`. admin 사용자 이름, 암호 및 MFA 토큰 세부 정보를 사용하여 로그인합니다. MFA 토큰은 유지보수 콘솔에서 생성할 수 있습니다.
+. 형식을 사용하여 SnapCenter VMware 플러그인 관리 GUI에 로그온합니다 `\https://<appliance-IP-address>:8080`. admin 사용자 이름, 암호 및 MFA 토큰 세부 정보를 사용하여 로그인합니다. MFA 토큰은 유지보수 콘솔에서 생성할 수 있습니다.
 . 서비스를 다시 시작합니다.
 
 

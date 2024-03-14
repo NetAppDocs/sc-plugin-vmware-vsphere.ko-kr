@@ -16,7 +16,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 리�
 [role="lead"]
 VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 리소스 그룹 작업을 생성하고 수정하려면 규정된 REST API 호출 순서를 따라야 합니다.
 
-각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+각 REST API에 를 추가합니다 `\https://<server>:<port>` REST API의 전면에서 전체 끝점을 형성합니다.
 
 리소스 그룹을 만들려면 다음 워크플로를 따릅니다.
 

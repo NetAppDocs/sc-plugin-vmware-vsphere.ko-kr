@@ -16,7 +16,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMwa
 [role="lead"]
 VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 클라이언트 작업에 대한 보고서를 생성하고 로그를 다운로드하려면 VMware vSphere에 대한 REST API 호출을 사용해야 합니다.
 
-각 REST API에 REST API 앞에 https://<server>:<port>` 추가하여 전체 단말 장치를 구성합니다.
+각 REST API에 를 추가합니다 `\https://<server>:<port>` REST API의 전면에서 전체 끝점을 형성합니다.
 
 
 

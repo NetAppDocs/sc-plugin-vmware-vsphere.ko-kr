@@ -17,19 +17,29 @@ summary: 필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중�
 필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중인 SnapCenter 플러그인에 따라 다릅니다.
 
 
+NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지정된 역할 기반 액세스를 가진 모든 ONTAP 사용자에 대한 사용자 로그인 방법으로 HTTP 및 ONTAPI 유형의 응용 프로그램을 추가해야 합니다. 이러한 애플리케이션에 액세스하지 않으면 백업이 실패합니다. ONTAP 사용자 로그인 방법의 변경 사항을 인식하려면 SCV 서비스를 다시 시작해야 합니다.
+
+
 
 == 최소 ONTAP 권한이 필요합니다
 
 모든 SnapCenter 플러그인에는 다음과 같은 최소 권한이 필요합니다.
 
 |===
+
+
 | All-access 명령: ONTAP 8.3 이상에서 필요한 최소 권한 
+
+
+| 클러스터 ID가 표시됩니다 
 
 
 | event generate-autosupport-log입니다 
 
 
-| 작업 기록은 작업 중지를 표시합니다 
+| 작업 기록이 표시됩니다
+작업 표시
+작업 중지 
 
 
 | LUN LUN LUN 생성 LUN 삭제 LUN igroup 추가 LUN igroup 생성 LUN igroup 삭제 lun igroup 이름 변경 lun mapping add-reporting-nodes lun mapping 생성 LUN 매핑 삭제 lun mapping remove-reporting-nodes lun mapping show lun modify lun move-in-volume lun offline lun persistent-reservation LUN serial LUN 표시 
@@ -41,7 +51,32 @@ summary: 필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중�
 | 버전 
 
 
-| 볼륨 클론 생성 볼륨 클론 생성 show volume clone split start volume clone split stop volume destroy volume file clone create volume file show-disk-usage volume offline volume online volume qtree create volume qtree delete volume qtree modify volume qtree show volume srestrict volume show volume show volume show volume show snapshot create 볼륨 스냅샷 삭제 볼륨 스냅샷 수정 볼륨 스냅샷 이름 변경 볼륨 스냅샷 복구 볼륨 스냅샷 복구 - 파일 볼륨 스냅샷 표시 볼륨 마운트 해제 
+| 볼륨 클론 생성
+볼륨 클론 표시
+볼륨 클론 분할 시작이 있습니다
+볼륨 클론 분할 중지
+볼륨 생성
+볼륨 삭제
+볼륨 제거
+볼륨 파일 클론 생성
+볼륨 파일 show-disk-usage 를 참조하십시오
+볼륨이 오프라인 상태입니다
+볼륨을 온라인으로 설정합니다
+볼륨 수정
+볼륨 qtree 생성
+볼륨 qtree 삭제
+볼륨 qtree 수정
+볼륨 qtree 표시
+볼륨 제한
+볼륨 표시
+볼륨 스냅샷 생성
+볼륨 스냅숏 삭제
+볼륨 스냅숏 수정
+볼륨 스냅숏 이름 바꾸기
+볼륨 스냅샷 복원
+볼륨 스냅샷 복원 - 파일
+볼륨 스냅샷 표시
+볼륨 마운트 해제 
 
 
 | SVM CIFS vServer CIFS 공유 create vserver cifs share create vserver cifs shadowcopy show vserver cifs shifs show vserver cifs export-policy vserver export -policy vserver export -policy rule create vserver export -policy rule show vserver iscsi connection show vserver show network interface 를 참조하십시오 네트워크 인터페이스 페일오버 그룹 네트워크 인터페이스가 표시됩니다 

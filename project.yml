@@ -72,8 +72,6 @@ sidebar:
     entries:
     - title: 개요
       url: "/scpivs44_quick_start_overview.html"
-    - title: OVA(Open Virtual Appliance) 다운로드
-      url: "/scpivs44_download_the_ova_open_virtual_appliance.html"
     - title: VMware vSphere용 SnapCenter 플러그인 구축
       url: "/scpivs44_deploy_snapcenter_plug-in_for_vmware_vsphere_01.html"
     - title: 스토리지 추가

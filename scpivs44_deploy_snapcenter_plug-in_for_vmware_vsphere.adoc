@@ -140,7 +140,7 @@ VMware 툴은 SnapCenter VMware 플러그인이 구축된 VM에 설치됩니다.
 
 . 구축 화면에 표시된 IP 주소와 구축 마법사에서 제공한 자격 증명을 사용하여 SnapCenter VMware 플러그인 관리 GUI에 로그인한 다음 대시보드에서 SnapCenter VMware 플러그인이 vCenter에 성공적으로 연결되고 활성화되었는지 확인합니다.
 +
-관리 GUI에 액세스하려면 https://<appliance-IP-address>:8080` 형식을 사용합니다.
+형식을 사용합니다 `\https://<appliance-IP-address>:8080` 관리 GUI에 액세스합니다.
 
 +
 배포 시 설정된 admin 사용자 이름과 암호 및 유지보수 콘솔을 사용하여 생성된 MFA 토큰으로 로그인합니다.

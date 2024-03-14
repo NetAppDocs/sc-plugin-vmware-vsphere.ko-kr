@@ -27,7 +27,7 @@ NOTE: 플러그인은 타사 애플리케이션과의 통합을 위해 REST API�
 .단계
 . 브라우저에서 URL을 입력하여 플러그인 Swagger 웹 페이지에 액세스합니다.
 +
-`https://<SCV_IP>:8144/api/swagger-ui/index.html`
+`\https://<SCV_IP>:8144/api/swagger-ui/index.html`
 
 +
 
@@ -38,8 +38,8 @@ IMPORTANT: REST API URL에 +, 문자를 사용하지 마십시오. , % 및 &.
 SnapCenter VMware 플러그인 REST API 액세스:
 
 +
-`https://<SCV_IP>:8144/api/swagger-ui/index.html`
-`https://OVAhost:8144/api/swagger-ui/index.html`
+`\https://<SCV_IP>:8144/api/swagger-ui/index.html`
+`\https://OVAhost:8144/api/swagger-ui/index.html`
 
 +
 로그인 vCenter 인증 메커니즘을 사용하여 토큰을 생성합니다.

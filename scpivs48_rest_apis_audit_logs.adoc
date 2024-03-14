@@ -27,7 +27,7 @@ swagger REST API 및 SCV 플러그인 사용자 인터페이스에서 감사 로
 
 VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 클라이언트 작업에 대한 감사 로그를 생성하려면 VMware vSphere에 대한 REST API 호출을 사용해야 합니다.
 
-각 REST API에 를 추가합니다 `https://<server>:<port>/api` REST API의 전면에서 전체 끝점을 형성합니다.
+각 REST API에 를 추가합니다 `\https://<server>:<port>/api` REST API의 전면에서 전체 끝점을 형성합니다.
 
 작업에 대한 자세한 정보를 보려면 작업 섹션에서 다음 REST API를 사용하십시오.
 

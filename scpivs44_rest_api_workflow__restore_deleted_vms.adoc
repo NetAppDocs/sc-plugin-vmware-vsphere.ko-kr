@@ -29,7 +29,9 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 백업에 
 | 2 | '/4.1/VM/{uuuid}/백업' | VM 백업 가져오기지정된 VM의 백업 목록을 가져옵니다. 1단계에서 * uuid * 를 전달합니다. 복원하려는 백업의 * backupId * 를 기록해 둡니다. 
 
 
-| 3 | "/4.1/vm/backups/{backupId}/snapshotlocations" | "Get snapshot locations"는 지정된 백업에 대한 스냅샷 복사본의 위치를 가져옵니다. 2단계에서 * backupId * 를 전달합니다. snapshotLocationsList* 정보를 확인합니다. 
+| 3 | "/4.1/vm/backups/{backupId}/snapshotlocations" | `Get snapshot locations` 지정된 백업의 스냅샷 위치를 가져옵니다.
+2단계에서 * backupId * 를 전달합니다.
+snapshotLocationsList* 정보를 확인합니다. 
 
 
 | 4 | '/4.1/vm/{moref}/backups/availability.xhosts' | Get Available ESX Hosts는 백업이 저장된 호스트에 대한 정보를 가져옵니다. 사용 가능한 EsableEsHostsList* 정보를 확인합니다. 

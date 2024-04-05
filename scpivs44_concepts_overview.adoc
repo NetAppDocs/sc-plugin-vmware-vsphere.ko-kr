@@ -41,9 +41,9 @@ SnapCenter GUI와 적절한 SnapCenter 애플리케이션 플러그인을 사용
 SnapCenter는 기본적으로 VMDK, RDM(Raw Device Mapping) 및 NFS 데이터 저장소의 모든 데이터 보호 작업에 SnapCenter VMware 플러그인을 활용합니다. 가상 어플라이언스가 구축된 후에는 플러그인이 vCenter와의 모든 상호 작용을 처리합니다. SnapCenter VMware 플러그인은 모든 SnapCenter 애플리케이션 기반 플러그인을 지원합니다.
 
 +
-SnapCenter은 데이터베이스와 VM의 단일 스냅샷 복사본을 함께 지원하지 않습니다. VM 및 데이터베이스의 백업은 별도로 예약 및 실행해야 하며, 데이터베이스와 VM이 동일한 볼륨에서 호스팅되는 경우에도 별도의 Snapshot 복사본이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약하고, VMware vSphere 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약합니다.
+SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약하고, VMware vSphere 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약합니다.
 
-* VM의 일관된 스냅샷 복사본을 사용하려면 VMware 툴이 필요합니다
+* VM 정합성 보장 스냅샷을 사용하려면 VMware 툴이 필요합니다
 +
 VMware 툴이 설치 및 실행되지 않으면 파일 시스템이 정지되지 않고 장애 발생 시 정합성이 보장되는 스냅샷이 생성됩니다.
 

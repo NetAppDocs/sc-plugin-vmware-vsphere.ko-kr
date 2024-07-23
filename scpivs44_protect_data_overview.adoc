@@ -20,11 +20,11 @@ SnapCenter vSphere Client를 사용하여 VM, VMDK 및 데이터 저장소에 �
 
 동일한 리소스 그룹에서 백업 및 복원 작업을 동시에 수행할 수 없습니다.
 
-SnapCenter VMware 플러그인이 어떤 기능을 제공하고 지원하지 않는 지에 대한 정보를 검토해야 합니다.link:scpivs44_deployment_planning_and_requirements.html["배포 계획 및 요구 사항"]
+SnapCenter Plug-in for VMware vSphere의 기능과 지원하지 않는 기능에 대한 정보를 검토해야 합니다. link:scpivs44_deployment_planning_and_requirements.html["배포 계획 및 요구 사항"]
 
 MetroCluster 구성:
 
-* SnapCenter VMware 플러그인은 페일오버 후 보호 관계를 감지하지 못할 수 있습니다. 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/Unable_to_detect_SnapMirror_or_SnapVault_relationship_after_MetroCluster_failover["KB 문서: MetroCluster 페일오버 후 SnapMirror 또는 SnapVault 관계를 감지할 수 없습니다"^].
+* VMware vSphere용 SnapCenter 플러그인은 페일오버 후 보호 관계를 감지하지 못할 수 있습니다. 자세한 내용은 을 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/Unable_to_detect_SnapMirror_or_SnapVault_relationship_after_MetroCluster_failover["KB 문서: MetroCluster 페일오버 후 SnapMirror 또는 SnapVault 관계를 감지할 수 없습니다"^] 참조하십시오.
 * 백업이 실패하고 "SCV:<xxx>...에서 리소스를 검색할 수 없습니다."라는 오류가 표시됩니다 스위치오버/스위치백 후 NFS 및 VMFS VM의 경우 유지 관리 콘솔에서 SnapCenter VMware 서비스를 다시 시작합니다.
 
 

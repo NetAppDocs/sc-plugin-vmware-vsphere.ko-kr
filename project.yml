@@ -1,14 +1,16 @@
 ---
 settings:
-  name: SnapCenter Plug-in for VMware vSphere 5.0
+  name: SnapCenter Plug-in for VMware vSphere 6.0
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '5.0'
+  - version-number: '6.0'
     url: "/sc-plugin-vmware-vsphere"
+  - version-number: '5.0'
+    url: "/sc-plugin-vmware-vsphere-50"
   - version-number: '4.9'
     url: "/sc-plugin-vmware-vsphere-49"
   - version-number: '4.8'
@@ -22,7 +24,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: VMware vSphere 5.0 문서용 SnapCenter 플러그인
+  - title: VMware vSphere 6.0용 SnapCenter 플러그인
     url: "/index.html"
   - title: 릴리스 정보
     url: "/scpivs44_release_notes.html"
@@ -138,7 +140,7 @@ sidebar:
       url: "/scpivs44_mount_a_backup.html"
     - title: 백업을 마운트 해제합니다
       url: "/scpivs44_unmount_a_backup.html"
-  - title: 백업에서 복원합니다
+  - title: 백업을 복원합니다
     entries:
     - title: 개요
       url: "/scpivs44_restore_from_backups_overview.html"
@@ -182,7 +184,7 @@ sidebar:
       url: "/scpivs44_restart_the_vmware_vsphere_web_client_service.html"
     - title: 유지보수 콘솔에 액세스합니다
       url: "/scpivs44_access_the_maintenance_console.html"
-    - title: 유지 관리 콘솔에서 SnapCenter VMware 플러그인 암호를 수정합니다
+    - title: 유지보수 콘솔에서 SnapCenter Plug-in for VMware vSphere 암호를 수정합니다
       url: "/scpivs44_modify_plugin_password.html"
     - title: 인증서를 만들고 가져옵니다
       url: "/scpivs44_create_and_import_certificates.html"

@@ -17,9 +17,9 @@ summary: 'ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VM
 ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다.
 
 
-NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지정된 역할 기반 액세스를 가진 모든 ONTAP 사용자에 대한 사용자 로그인 방법으로 HTTP 및 ONTAPI 유형의 응용 프로그램을 추가해야 합니다. 이러한 애플리케이션에 액세스하지 않으면 백업이 실패합니다. ONTAP 사용자 로그인 방법의 변경 사항을 인식하려면 SCV 서비스를 다시 시작해야 합니다. 로그인 계정 생성 또는 수정에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/authentication/config-worksheets-reference.html["관리자 인증 및 RBAC 구성을 위한 워크시트"].
+NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지정된 역할 기반 액세스를 가진 모든 ONTAP 사용자에 대한 사용자 로그인 방법으로 HTTP 및 ONTAPI 유형의 응용 프로그램을 추가해야 합니다. 이러한 애플리케이션에 액세스하지 않으면 백업이 실패합니다. ONTAP 사용자 로그인 방법의 변경 사항을 인식하려면 SCV 서비스를 다시 시작해야 합니다. 로그인 계정 생성 또는 수정에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/authentication/config-worksheets-reference.html["관리자 인증 및 RBAC 구성을 위한 워크시트"]참조하십시오.
 
-SnapCenter VMware 플러그인과 함께 사용하려면 스토리지 시스템에서 ONTAP RBAC를 구성해야 합니다. ONTAP 내에서 다음 작업을 수행해야 합니다.
+VMware vSphere용 SnapCenter 플러그인과 함께 사용하려면 스토리지 시스템에서 ONTAP RBAC를 구성해야 합니다. ONTAP 내에서 다음 작업을 수행해야 합니다.
 
 * 단일 역할을 생성합니다.
 +
@@ -27,10 +27,10 @@ https://docs.netapp.com/us-en/ontap/concepts/administrator-authentication-rbac-c
 
 * ONTAP에서 역할에 대한 사용자 이름 및 암호(스토리지 시스템 자격 증명)를 생성합니다.
 +
-SnapCenter VMware 플러그인용 스토리지 시스템을 구성하려면 이 스토리지 시스템 자격 증명이 필요합니다. 플러그인에서 자격 증명을 입력하여 이 작업을 수행합니다. 이러한 자격 증명을 사용하여 스토리지 시스템에 로그인할 때마다 자격 증명을 생성할 때 ONTAP에서 설정한 SnapCenter 기능 집합이 표시됩니다.
+이 스토리지 시스템 자격 증명은 VMware vSphere용 SnapCenter 플러그인에 대한 스토리지 시스템을 구성하는 데 필요합니다. 이 작업은 플러그인에 자격 증명을 입력하여 수행합니다. 이러한 자격 증명을 사용하여 스토리지 시스템에 로그인할 때마다 자격 증명을 생성할 때 ONTAP에서 설정한 SnapCenter 기능이 표시됩니다.
 
 
 
 관리자 또는 루트 로그인을 사용하여 모든 SnapCenter 작업에 액세스할 수 있지만, ONTAP에서 제공하는 RBAC 기능을 사용하여 액세스 권한이 제한된 사용자 지정 계정을 하나 이상 생성하는 것이 좋습니다.
 
-자세한 내용은 을 참조하십시오 link:scpivs44_minimum_ontap_privileges_required.html["최소 ONTAP 권한이 필요합니다"^].
+자세한 내용은 을 link:scpivs44_minimum_ontap_privileges_required.html["최소 ONTAP 권한이 필요합니다"^]참조하십시오.

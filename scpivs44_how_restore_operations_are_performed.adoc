@@ -67,6 +67,6 @@ NOTE: VVOL 컨테이너 재조정 후에는 VVOL VM을 복원할 수 없습니�
 게스트 파일 복원 작업은 NFS 및 VMFS 환경 모두에서 Storage VMotion이 아닌 클론 및 마운트 작업을 사용하여 수행됩니다.
 
 
-IMPORTANT: 복구 작업 중에 SCV에서 사전 복원을 호출하는 동안 "해결되지 않은 볼륨은 null임" 또는 "예외"라는 오류가 발생할 수 있습니다. 복제된 LUN을 데이터 저장소로 마운트하는 중 오류가 발생했습니다… 이 문제는 SnapCenter VMware 플러그인이 클론 재서명을 시도할 때 발생합니다. VMware 제한으로 인해 SnapCenter VMware 플러그인은 고급 ESXi 구성에서 자동 재서명 값을 제어할 수 없습니다.
+IMPORTANT: 복구 작업 중에 오류가 발생하거나 VMware vSphere용 SnapCenter 플러그인이 클론을 재서명하려고 할 때 이 오류가 발생할 수 `Host unresolved volumes is null` 있습니다. `Exception while calling pre-restore on SCV….Error mounting cloned LUN as datastore…` VMware 제한으로 인해 VMware vSphere용 SnapCenter 플러그인은 고급 ESXi 호스트 구성에서 자동 재서명 값을 제어할 수 없습니다. NVMe over TCP 저장소의 경우 새 하위 시스템이 추가될 때 SCV가 컨트롤러를 동적으로 추가할 수 없습니다. 마운트 작업 전에 필요한 매핑을 만들어야 합니다.
 
-을 참조하십시오 https://kb.netapp.com/mgmt/SnapCenter/SCV_clone_or_restores_fail_with_error_'Host_Unresolved_volumes_is_null'#["KB 문서: 'Host unresolved volumes is null"^] 오류에 대한 자세한 내용은 를 참조하십시오.
+오류에 대한 자세한 내용은 을 https://kb.netapp.com/mgmt/SnapCenter/SCV_clone_or_restores_fail_with_error_'Host_Unresolved_volumes_is_null'#["KB 문서: 'Host unresolved volumes is null"^] 참조하십시오.

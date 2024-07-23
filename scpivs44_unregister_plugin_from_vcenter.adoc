@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: scpivs44_unregister_plugin_from_vcenter.html 
 keywords:  
-summary: 연결된 모드에 있는 vCenter에서 SnapCenter VMware 플러그인 서비스를 중지하면 연결된 다른 vCenter에서 SnapCenter VMware 플러그인 서비스가 실행 중인 경우에도 리소스 그룹을 일부 연결된 vCenter에서 사용할 수 없습니다. SnapCenter VMware 플러그인 확장을 수동으로 등록 취소해야 합니다. 
+summary: 연결 모드에 있는 vCenter에서 SnapCenter Plug-in for VMware vSphere 서비스를 중지하면 연결된 다른 vCenter에서 SnapCenter Plug-in for VMware vSphere 서비스가 실행 중인 경우에도 리소스 그룹을 연결된 모든 vCenter에서 사용할 수 없습니다. SnapCenter Plug-in for VMware vSphere Extensions의 등록을 수동으로 취소해야 합니다. 
 ---
 = vCenter에서 VMware vSphere용 SnapCenter 플러그인 등록을 취소합니다
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: 연결된 모드에 있는 vCenter에서 SnapCenter VMware 플러그인
 
 
 [role="lead"]
-연결된 모드에 있는 vCenter에서 SnapCenter VMware 플러그인 서비스를 중지하면 연결된 다른 vCenter에서 SnapCenter VMware 플러그인 서비스가 실행 중인 경우에도 리소스 그룹을 일부 연결된 vCenter에서 사용할 수 없습니다.
+연결 모드에 있는 vCenter에서 SnapCenter Plug-in for VMware vSphere 서비스를 중지하면 연결된 다른 vCenter에서 SnapCenter Plug-in for VMware vSphere 서비스가 실행 중인 경우에도 리소스 그룹을 연결된 모든 vCenter에서 사용할 수 없습니다.
 
-SnapCenter VMware 플러그인 확장을 수동으로 등록 취소해야 합니다.
+SnapCenter Plug-in for VMware vSphere Extensions의 등록을 수동으로 취소해야 합니다.
 
 .단계
-. SnapCenter VMware 플러그인 서비스가 중지된 연결된 vCenter에서 MOB(Managed Object Reference) 관리자로 이동합니다.
+. SnapCenter Plug-in for VMware vSphere 서비스가 중지된 연결된 vCenter에서 MOB(Managed Object Reference) 관리자로 이동합니다.
 . 속성 옵션의 값 열에서 * content * 를 선택한 후 다음 화면에서 값 열에서 * ExtensionManager * 를 선택하여 등록된 확장명 목록을 표시합니다.
 . 확장 프로그램을 등록 취소합니다 `com.netapp.scv.client` 및 `com.netapp.aegis`.
 

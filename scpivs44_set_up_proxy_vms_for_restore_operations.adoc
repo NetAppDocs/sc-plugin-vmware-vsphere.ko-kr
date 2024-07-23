@@ -17,7 +17,8 @@ summary: 게스트 파일 복원 작업을 위해 가상 디스크를 연결하�
 게스트 파일 복원 작업을 위해 가상 디스크를 연결하는 데 프록시 VM을 사용하려면 복구 작업을 시작하기 전에 프록시 VM을 설정해야 합니다. 언제든지 프록시 VM을 설정할 수 있지만 플러그인 배포가 완료된 직후 프록시 VM을 설정하는 것이 더 편리할 수 있습니다.
 
 .단계
-. VMware vSphere 클라이언트에서 * 게스트 파일 복원 * 을 클릭합니다.
+. vSphere Client 바로 가기 창의 플러그인에서 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.
+. 왼쪽 탐색 창에서 * Guest File Restore * 를 선택합니다.
 . 자격 증명으로 실행 * 섹션에서 다음 중 하나를 수행합니다.
 +
 |===
@@ -36,7 +37,7 @@ summary: 게스트 파일 복원 작업을 위해 가상 디스크를 연결하�
 
 |===
 +
-SnapCenter VMware 플러그인은 선택한 자격 증명을 사용하여 선택한 프록시 VM에 로그인합니다.
+VMware vSphere용 SnapCenter 플러그인은 선택한 자격 증명을 사용하여 선택한 프록시 VM에 로그인합니다.
 
 +
 자격 증명으로 실행 은 Windows 또는 기본 제공 로컬 관리자가 제공하는 기본 도메인 관리자여야 합니다. 작업 그룹 사용자는 기본 제공 로컬 관리자 계정을 사용할 수 있습니다.
@@ -46,4 +47,4 @@ SnapCenter VMware 플러그인은 선택한 자격 증명을 사용하여 선택
 
 
 
-NOTE: ESXi에서 프록시 VM을 삭제하려면 먼저 VMware vSphere용 SnapCenter 플러그인 UI에서 프록시 VM을 삭제해야 합니다.
+NOTE: ESXi 호스트에서 프록시 VM을 삭제하려면 먼저 VMware vSphere용 SnapCenter 플러그인 UI에서 프록시 VM을 삭제해야 합니다.

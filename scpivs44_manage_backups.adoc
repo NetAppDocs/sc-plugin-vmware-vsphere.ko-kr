@@ -44,7 +44,7 @@ VM, 데이터 저장소, 정책, 백업 또는 리소스 그룹 이름에 & * $#
 마운트된 백업은 삭제할 수 없습니다. 백업을 삭제하려면 먼저 마운트 해제해야 합니다.
 
 .이 작업에 대해
-보조 스토리지의 스냅샷은 SnapCenter VMware 플러그인이 아닌 ONTAP 보존 설정에 의해 관리됩니다. 따라서 SnapCenter VMware 플러그인을 사용하여 백업을 삭제하면 기본 스토리지의 스냅샷은 삭제되지만 보조 스토리지의 스냅샷은 삭제되지 않습니다. 스냅샷이 보조 스토리지에 여전히 존재하는 경우 SnapCenter VMware 플러그인은 복구 요청을 지원하기 위해 백업과 관련된 메타데이터를 유지합니다. ONTAP 보존 프로세스가 보조 스냅샷을 삭제하면 SnapCenter VMware 플러그인은 정기적으로 실행되는 제거 작업을 사용하여 메타데이터를 삭제합니다.
+보조 스토리지의 스냅샷은 VMware vSphere용 SnapCenter 플러그인이 아닌 ONTAP 보존 설정에 의해 관리됩니다. 따라서 VMware vSphere용 SnapCenter 플러그인을 사용하여 백업을 삭제하면 운영 스토리지의 스냅샷은 삭제되지만 보조 스토리지의 스냅샷은 삭제되지 않습니다. 보조 스토리지에 스냅샷이 여전히 존재하는 경우 VMware vSphere용 SnapCenter 플러그인은 복구 요청을 지원하기 위해 백업과 관련된 메타데이터를 유지합니다. ONTAP 보존 프로세스가 보조 스냅샷을 삭제하면 VMware vSphere용 SnapCenter 플러그인은 정기적으로 실행되는 제거 작업을 사용하여 메타데이터를 삭제합니다.
 
 . Menu * 를 클릭하고 * Hosts and Clusters * 메뉴 옵션을 선택한 다음 VM을 선택하고 * Configure * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.
 +

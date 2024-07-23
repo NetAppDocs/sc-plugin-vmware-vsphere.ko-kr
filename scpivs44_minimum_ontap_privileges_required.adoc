@@ -28,10 +28,7 @@ NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지�
 |===
 
 
-| All-access 명령: ONTAP 8.3 이상에서 필요한 최소 권한 
-
-
-| 클러스터 ID가 표시됩니다 
+| All-access 명령: ONTAP 8.3 이상에 필요한 최소 권한. 
 
 
 | event generate-autosupport-log입니다 
@@ -79,13 +76,13 @@ NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지�
 볼륨 마운트 해제 
 
 
-| SVM CIFS vServer CIFS 공유 create vserver cifs share create vserver cifs shadowcopy show vserver cifs shifs show vserver cifs export-policy vserver export -policy vserver export -policy rule create vserver export -policy rule show vserver iscsi connection show vserver show network interface 를 참조하십시오 네트워크 인터페이스 페일오버 그룹 네트워크 인터페이스가 표시됩니다 
+| SVM CIFS SVM CIFS 공유 생성 SVM CIFS 공유 삭제 SVM CIFS 섀도우 복제본 표시 SVM CIFS 표시 SVM 보기 SVM 내보내기 정책 SVM 내보내기 정책 생성 SVM 내보내기 정책 삭제 정책 규칙 생성 SVM 내보내기 정책 규칙 보기 SVM 내보내기 정책 보기 SVM 내보내기 정책 보기 SVM 내보내기 정책 보기 SVM 보기 iSCSI SVM iSCSI SVM 연결 보기 가상 서버 NVMe 서브시스템 컨트롤러 SVM NVMe 서브시스템 컨트롤러 표시 SVM NVMe 서브시스템 맵 SVM NVMe 서브시스템 맵 표시 SVM NVMe 서브시스템 맵 추가 SVM NVMe 서브시스템 맵 제거 SVM NVMe 서브시스템 호스트 표시 SVM NVMe 서브시스템 호스트 추가 SVM NVMe 서브시스템 호스트 제거 SVM NVMe 서브시스템 보기 SVM NVMe 서브시스템 삭제 SVM NVMe 네임스페이스 네트워크 인터페이스 네트워크 인터페이스 페일오버 그룹을 표시합니다 
 |===
 |===
 | 읽기 전용 명령: ONTAP 8.3 이상에 필요한 최소 권한 
 
 
-| SVM SVM 피어 
+| 클러스터 identity show network interface show vServer 피어 vserver show 
 |===
 
 NOTE: 지원되지 않는 vServer 명령에 대한 경고 메시지는 무시해도 됩니다.
@@ -103,14 +100,15 @@ VMware vSphere 작업을 위한 SnapCenter 플러그인에 적절한 권한을 �
 위 표에 나열된 최소 권한을 가진 역할이나 "vsadmin"으로 로그인해야 합니다.
 
 * 사용자 역할을 생성 및 관리하려면 클러스터 관리자여야 합니다. 사용자를 클러스터 스토리지 VM 또는 스토리지 VM에 연결할 수 있습니다.
-* SnapMirror Business Continuity(SM-BC) 기능을 사용하려면 ONTAP 9.12.1 이상 버전이 필요합니다.
+* SnapMirror 활성 동기화 기능을 사용하려면 ONTAP 9.12.1 이상 버전이 필요합니다.
 * TPS(변조 방지 스냅샷) 기능을 사용하려면:
 +
 ** SAN용 ONTAP 9.13.1 이상 버전이 필요합니다
 ** NFS용 ONTAP 9.12.1 이상 버전이 필요합니다
 
 
+* NVMe over TCP 프로토콜의 경우 ONTAP 9.10.1 이상이 필요합니다.
 
 
 
-NOTE: ONTAP 버전 9.11.1 이상에서는 REST API를 통해 ONTAP 클러스터에 통신합니다. ONTAP 사용자는 http 애플리케이션을 사용할 수 있어야 합니다. 그러나 ONTAP REST API에서 문제가 발견될 경우 구성 키 'force_ZAPI'를 사용하여 기존 ZAPI 워크플로우로 전환할 수 있습니다. config API를 사용하여 이 키를 추가하거나 업데이트하고 true로 설정해야 할 수 있습니다. KB 문서, https://kb.netapp.com/mgmt/SnapCenter/How_to_use_RestAPI_to_edit_configuration_parameters_in_SCV["RestAPI를 사용하여 SCV에서 구성 매개 변수를 편집하는 방법"].
+NOTE: ONTAP 버전 9.11.1부터 ONTAP 클러스터에 대한 통신은 REST API를 통해 이루어집니다. ONTAP 사용자는 http 애플리케이션을 사용할 수 있어야 합니다. 그러나 ONTAP REST API에서 문제가 발견될 경우 구성 키 'force_ZAPI'를 사용하여 기존 ZAPI 워크플로우로 전환할 수 있습니다. config API를 사용하여 이 키를 추가하거나 업데이트하고 true로 설정해야 할 수 있습니다. 자세한 내용은 KB 문서를 https://kb.netapp.com/mgmt/SnapCenter/How_to_use_RestAPI_to_edit_configuration_parameters_in_SCV["RestAPI를 사용하여 SCV에서 구성 매개 변수를 편집하는 방법"] 참조하십시오.

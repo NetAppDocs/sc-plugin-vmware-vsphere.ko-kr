@@ -22,21 +22,21 @@ summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항�
 
 SCV(SnapCenter Plug-in for VMware vSphere) 구축을 시작하기 전에 호스트 요구 사항을 잘 알고 있어야 합니다.
 
-* SnapCenter VMware 플러그인은 Windows 시스템 또는 Linux 시스템의 데이터를 보호하기 위해 플러그인을 사용하는지에 관계없이 Linux VM으로 배포됩니다.
-* vCenter Server에 SnapCenter VMware 플러그인을 구축해야 합니다.
+* VMware vSphere용 SnapCenter 플러그인은 Windows 시스템의 데이터를 보호하는 데 플러그인 사용 여부와 관계없이 Linux VM으로 구축됩니다.
+* vCenter Server에 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
 +
-백업 스케줄은 SnapCenter VMware 플러그인이 구축된 시간대에서 실행됩니다. vCenter는 vCenter가 있는 표준 시간대의 데이터를 보고합니다. 따라서 SnapCenter VMware 플러그인과 vCenter가 서로 다른 시간대에 있는 경우 SnapCenter VMware 플러그인 대시보드의 데이터가 보고서의 데이터와 다를 수 있습니다.
+백업 스케줄은 VMware vSphere용 SnapCenter 플러그인이 구축되는 표준 시간대에서 실행됩니다. vCenter는 vCenter가 있는 시간대의 데이터를 보고합니다. 따라서 VMware vSphere 및 vCenter용 SnapCenter 플러그인이 서로 다른 시간대에 있는 경우 VMware vSphere용 SnapCenter 플러그인 대시보드의 데이터가 보고서의 데이터와 같지 않을 수 있습니다.
 
-* 특수 문자가 있는 폴더에 SnapCenter VMware 플러그인을 배포해서는 안 됩니다.
+* VMware vSphere용 SnapCenter 플러그인을 특수 문자가 포함된 폴더에 배포하면 안 됩니다.
 +
 폴더 이름에는 $!@#%^&()_+{}';., *?"<>| 같은 특수 문자가 포함될 수 없습니다
 
-* 각 vCenter Server에 대해 SnapCenter VMware 플러그인의 고유한 개별 인스턴스를 구축하고 등록해야 합니다.
+* 각 vCenter Server에 대해 VMware vSphere용 SnapCenter 플러그인의 고유한 개별 인스턴스를 구축하고 등록해야 합니다.
 +
-** 각 vCenter Server가 연결 모드에 있는지 여부에 관계없이 SnapCenter VMware 플러그인의 별도의 인스턴스와 페어링해야 합니다.
-** SnapCenter VMware 플러그인의 각 인스턴스는 별도의 Linux VM으로 구축해야 합니다.
+** 각 vCenter Server가 연결 모드에 있는지 여부에 관계없이 VMware vSphere용 SnapCenter 플러그인의 개별 인스턴스와 페어링되어야 합니다.
+** VMware vSphere용 SnapCenter 플러그인의 각 인스턴스는 별도의 Linux VM으로 배포해야 합니다.
 +
-예를 들어 vCenter Server의 서로 다른 인스턴스 6개에서 백업을 수행하려면 SnapCenter VMware 플러그인을 호스트 6개에 구축해야 하며 각 vCenter Server는 SnapCenter VMware 플러그인의 고유한 인스턴스와 페어링되어야 합니다.
+예를 들어, vCenter Server의 서로 다른 6개 인스턴스에서 백업을 수행하려면 6개의 호스트에 VMware vSphere용 SnapCenter 플러그인을 구축해야 하며 각 vCenter Server는 VMware vSphere용 SnapCenter 플러그인의 고유한 인스턴스와 페어링되어야 합니다.
 
 
 
@@ -45,9 +45,9 @@ SCV(SnapCenter Plug-in for VMware vSphere) 구축을 시작하기 전에 호스�
 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere용 ONTAP 툴"^]
 
 +
-지원되는 ONTAP 도구 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
+지원되는 ONTAP 도구 버전에 대한 최신 정보는 을 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
 
-* SnapCenter VMware 플러그인은 스토리지 vMotion을 지원하는 가상 머신의 제한으로 인해 공유 PCI 또는 PCIe 장치(예: NVIDIA Grid GPU)를 제한적으로 지원합니다. 자세한 내용은 공급업체의 VMware 배포 가이드 문서를 참조하십시오.
+* VMware vSphere용 SnapCenter 플러그인은 Storage vMotion을 지원하는 가상 머신의 제한으로 인해 공유 PCI 또는 PCIe 장치(예: NVIDIA Grid GPU)를 제한적으로 지원합니다. 자세한 내용은 공급업체의 VMware 배포 가이드 문서를 참조하십시오.
 +
 ** 지원 내용:
 +
@@ -77,7 +77,7 @@ VM 일관성을 사용하여 백업 생성
 
 
 
-* SnapCenter VMware 플러그인 제한 사항에 대한 자세한 목록은 를 참조하십시오 link:scpivs44_release_notes.html["VMware vSphere용 SnapCenter 플러그인 릴리즈 노트"^].
+* VMware vSphere용 SnapCenter 플러그인 제한 사항에 대한 자세한 목록은 섹션을 참조하십시오 link:scpivs44_release_notes.html["VMware vSphere용 SnapCenter 플러그인 릴리즈 노트"^].
 
 
 
@@ -110,7 +110,7 @@ VM 일관성을 사용하여 백업 생성
 | vCenter vSphere를 참조하십시오 | 7.0U1 이상 
 
 
-| ESXi | 7.0U1 이상 
+| ESXi 서버 | 7.0U1 이상 
 
 
 | IP 주소 | IPv4, IPv6 
@@ -119,15 +119,26 @@ VM 일관성을 사용하여 백업 생성
 | VMware TLS | 1.2, 1.3 
 
 
-| SnapCenter 서버의 TLS | 1.2, 1.3 SnapCenter 서버는 이를 사용하여 VMDK 데이터 보호 작업을 통해 애플리케이션을 위한 SnapCenter VMware 플러그인과 통신합니다. 
+| SnapCenter 서버의 TLS | 1.2, 1.3 SnapCenter Server는 이 기능을 사용하여 VMDK 데이터 보호 작업을 통해 애플리케이션을 위한 VMware vSphere용 SnapCenter 플러그인과 통신합니다. 
 
 
 | VMware 애플리케이션 VAAI(vStorage API for Array Integration) | VMware vSphere용 SnapCenter 플러그인은 이 기능을 사용하여 복구 작업의 성능을 향상시킵니다. 또한 NFS 환경의 성능도 개선합니다. 
 
 
-| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]. 
+| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 을 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]참조하십시오. 
 |===
-지원되는 버전에 대한 최신 정보는 를 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^].
+지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=117018;&solution=1259&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]참조하십시오.
+
+
+
+==== NVMe over TCP 프로토콜 요구사항
+
+NVMe over TCP 프로토콜 지원을 위한 최소 소프트웨어 요구사항은 다음과 같습니다.
+
+* vCenter vSphere 7.0U3
+* ESXi 7.0U3
+* ONTAP 9.10.1
+
 
 
 
@@ -210,4 +221,4 @@ vCenter 관리자 계정에는 다음 표에 나와 있는 대로 필요한 vCen
 
 == AutoSupport
 
-VMware vSphere용 SnapCenter 플러그인은 플러그인 URL을 비롯하여 사용 현황을 추적하기 위한 최소한의 정보를 제공합니다. AutoSupport에는 AutoSupport 뷰어에 표시되는 설치된 플러그인 테이블이 포함되어 있습니다.
+VMware vSphere용 SnapCenter 플러그인은 플러그인 URL을 포함하여 사용량을 추적하기 위한 최소한의 정보를 제공합니다. AutoSupport에는 AutoSupport 뷰어에 표시되는 설치된 플러그인 테이블이 포함되어 있습니다.

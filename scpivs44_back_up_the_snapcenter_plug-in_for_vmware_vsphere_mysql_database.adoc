@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: scpivs44_back_up_the_snapcenter_plug-in_for_vmware_vsphere_mysql_database.html 
 keywords:  
-summary: 'SnapCenter VMware 플러그인에는 플러그인에서 수행하는 모든 작업의 메타데이터를 포함하는 MySQL 데이터베이스(NSM 데이터베이스라고도 함)가 포함되어 있습니다. 이 리포지토리를 정기적으로 백업해야 합니다.' 
+summary: 'VMware vSphere용 SnapCenter 플러그인에는 플러그인에서 수행하는 모든 작업에 대한 메타데이터가 포함된 MySQL 데이터베이스(NSM 데이터베이스라고도 함)가 포함되어 있습니다. 이 리포지토리는 정기적으로 백업해야 합니다.' 
 ---
 = VMware vSphere MySQL 데이터베이스용 SnapCenter 플러그인을 백업합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'SnapCenter VMware 플러그인에는 플러그인에서 수행하는 �
 
 
 [role="lead"]
-SnapCenter VMware 플러그인에는 플러그인에서 수행하는 모든 작업의 메타데이터를 포함하는 MySQL 데이터베이스(NSM 데이터베이스라고도 함)가 포함되어 있습니다. 이 리포지토리를 정기적으로 백업해야 합니다.
+VMware vSphere용 SnapCenter 플러그인에는 플러그인에서 수행하는 모든 작업에 대한 메타데이터가 포함된 MySQL 데이터베이스(NSM 데이터베이스라고도 함)가 포함되어 있습니다. 이 리포지토리는 정기적으로 백업해야 합니다.
 
 또한 마이그레이션이나 업그레이드를 수행하기 전에 리포지토리를 백업해야 합니다.
 
@@ -22,8 +22,8 @@ SnapCenter VMware 플러그인에는 플러그인에서 수행하는 모든 작�
 필요 시 백업 작업이 이미 실행 중인 경우 MySQL 데이터베이스 백업 작업을 시작하지 마십시오.
 
 .단계
-. VMware vSphere Client에서 SnapCenter VMware 플러그인이 있는 VM을 선택합니다.
-. VM을 마우스 오른쪽 단추로 클릭한 다음 가상 어플라이언스의 * 요약 * 탭에서 * 원격 콘솔 시작 * * 또는 웹 콘솔 시작 * 을 클릭하여 유지보수 콘솔 창을 엽니다.
+. VMware vSphere Client에서 VMware vSphere용 SnapCenter 플러그인이 있는 VM을 선택합니다.
+. 가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * * 또는 Launch Web Console * 을 클릭하여 유지 관리 콘솔 창을 엽니다.
 +
 image:scpivs44_image21.png["유지보수 콘솔 윈도우"]
 

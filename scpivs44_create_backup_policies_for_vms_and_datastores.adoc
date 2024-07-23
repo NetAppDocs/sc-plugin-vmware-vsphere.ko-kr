@@ -27,22 +27,22 @@ VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저�
 이 문제를 해결하려면 최대 스냅샷 제한에 도달하지 않도록 보조 스토리지에 대한 SnapMirror 보존 정책을 구성하십시오.
 
 +
-관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/snapcenter/concept/concept_types_of_role_based_access_control_in_snapcenter.html["역할 기반 액세스 제어 사용에 대한 SnapCenter 정보"^].
+관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/snapcenter/concept/concept_types_of_role_based_access_control_in_snapcenter.html["역할 기반 액세스 제어 사용에 대한 SnapCenter 정보"^]참조하십시오.
 
 
 
 * VM 정합성 보장 백업을 원할 경우 VMware 도구가 설치되어 실행 중이어야 합니다. VM을 중지하려면 VMware 툴이 필요합니다. VM 일치 백업은 VVOL VM에 대해 지원되지 않습니다.
-* SnapMirror 비즈니스 연속성(SM-BC)을 사용하면 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으며, 2차 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.
+* SnapMirror 액티브 동기화를 사용하면 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으므로 보조 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.
 +
 
-NOTE: SM-BC는 VMFS 데이터 저장소에만 지원됩니다.
+NOTE: SnapMirror 활성 동기화는 VMFS 데이터 저장소에만 지원됩니다.
 
 +
-SM-BC 구축 시 VMFS 데이터 저장소를 보호하려면 SnapCenter 관리자로서 다음을 수행해야 합니다.
+SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 SnapCenter 관리자로서 다음을 수행해야 합니다.
 
 +
-** 기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다. https://www.netapp.com/pdf.html?item=/media/21888-tr-4878.pdf["TR-4878: SnapMirror 비즈니스 연속성"].
-** VMFS 데이터 저장소와 연결된 볼륨을 정합성 보장 그룹에 추가하고 두 ONTAP 스토리지 시스템 간에 _AutomatedFailOver_protection 정책을 사용하여 데이터 보호 관계를 생성합니다.
+** 기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다 https://www.netapp.com/pdf.html?item=/media/21888-tr-4878.pdf["TR-4878: SnapMirror Active Sync(이전의 SMBC)"].
+** VMFS 데이터 저장소와 연결된 볼륨을 정합성 보장 그룹에 추가하고 두 ONTAP 스토리지 시스템 간에 _AutomatedFailOver_or_AutomatedFailOverDuplex_protection 정책을 사용하여 데이터 보호 관계를 생성합니다. _AutomatedFailOverDuplex_policy는 ONTAP 9.15.1 릴리스 이후에 지원됩니다.
 
 
 
@@ -95,7 +95,7 @@ NOTE: 최대 보존 값은 ONTAP 9.4 이상의 리소스에 대한 1018 백업�
 NOTE: 이 옵션은 VMware vSphere 4.5 이상 버전용 SnapCenter 플러그인의 FlexGroup 볼륨에 있는 데이터 저장소에 대해 지원됩니다.
 
 
-NOTE: SM-BC 배포에서 VMFS 데이터 저장소를 보호하려면 _ Before you begin _ 섹션에 나와 있는 사전 요구 사항을 완료하고 * Update SnapMirror after backup * 을 설정해야 합니다.
+NOTE: SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 _ Before begin_ 섹션에 나와 있는 사전 요구 사항을 완료하고 * Update SnapMirror after backup * 을 설정해야 합니다.
 
 
 
@@ -130,7 +130,7 @@ NOTE: 스냅샷 레이블에는 최대 31자를 사용할 수 있습니다.
 이 옵션은 VVOL에 대해 지원되지 않습니다. VVOL VM의 경우 충돌 시에도 정합성 보장 백업만 수행됩니다.
 
 
-IMPORTANT: VM 정합성 보장 백업을 수행하려면 VM에서 실행 중인 VMware 툴이 있어야 합니다. VMware Tools가 실행되고 있지 않으면 장애 발생 시 정합성이 보장되는 백업이 대신 수행됩니다.
+IMPORTANT: VM 정합성 보장 백업을 수행하려면 VM에서 실행 중인 VMware 툴이 있어야 합니다. VMware 툴이 실행되고 있지 않으면 충돌 시에도 정합성이 보장되는 백업이 대신 수행됩니다.
 
 
 NOTE: VM 일관성 상자를 선택하면 백업 작업에 더 많은 시간이 걸리고 더 많은 스토리지 공간이 필요할 수 있습니다. 이 시나리오에서는 VM이 먼저 중지된 다음 VMware가 VM 정합성 보장 스냅샷을 수행한 다음 SnapCenter가 백업 작업을 수행한 다음 VM 작업이 다시 시작됩니다. VM 게스트 메모리는 VM 정합성 보장 스냅샷에 포함되지 않습니다.
@@ -141,7 +141,7 @@ NOTE: VM 일관성 상자를 선택하면 백업 작업에 더 많은 시간이 
 
 
 | 스크립트  a| 
-백업 작업 전후에 SnapCenter VMware 플러그인을 실행할 처방이나 PS의 정규화된 경로를 입력합니다. 예를 들어 스크립트를 실행하여 SNMP 트랩을 업데이트하고, 경고를 자동화하고, 로그를 보낼 수 있습니다. 스크립트 경로는 스크립트가 실행될 때 검증됩니다.
+VMware vSphere용 SnapCenter 플러그인을 백업 작업 전후에 실행할 규정 또는 PS의 정규화된 경로를 입력합니다. 예를 들어 스크립트를 실행하여 SNMP 트랩을 업데이트하고, 경고를 자동화하고, 로그를 보낼 수 있습니다. 스크립트 경로는 스크립트가 실행될 때 검증됩니다.
 
 
 NOTE: 사전 스크립트 및 사후 스크립트는 가상 어플라이언스 VM에 있어야 합니다. 여러 스크립트를 입력하려면 각 스크립트 경로 뒤에 * Enter * 를 눌러 각 스크립트를 별도의 줄에 나열합니다. ";" 문자는 허용되지 않습니다.

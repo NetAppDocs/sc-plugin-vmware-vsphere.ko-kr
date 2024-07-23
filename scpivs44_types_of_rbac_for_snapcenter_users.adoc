@@ -20,9 +20,9 @@ VMware vSphere용 SnapCenter 플러그인을 사용하는 경우 vCenter Server�
 
 == vCenter Server RBAC
 
-이 보안 메커니즘은 VM 일관성, VM 장애 발생 시 정합성이 보장되는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업을 포함하는 SnapCenter VMware 플러그인에서 수행하는 모든 작업에 적용됩니다. 이 RBAC 레벨은 vSphere 사용자가 VM(가상 머신) 및 데이터 저장소와 같은 vSphere 객체에서 SnapCenter VMware 플러그인 작업을 수행할 수 있도록 제한합니다.
+이 보안 메커니즘은 VM 정합성 보장, VM 충돌 일관성 및 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업을 포함하여 VMware vSphere용 SnapCenter 플러그인에서 수행하는 모든 작업에 적용됩니다. 이 RBAC 수준은 vSphere 사용자가 VM(가상 머신) 및 데이터 저장소와 같은 vSphere 객체에서 VMware vSphere용 SnapCenter 플러그인 작업을 수행할 수 있도록 제한합니다.
 
-SnapCenter VMware 플러그인 구축 시 vCenter에서 SnapCenter 작업에 대해 다음과 같은 역할이 생성됩니다.
+VMware vSphere 구축용 SnapCenter 플러그인은 vCenter에서 SnapCenter 작업에 대해 다음과 같은 역할을 생성합니다.
 
 CV 관리자 CV 백업 CV 게스트 파일 복원 CV 복원 CV 보기
 

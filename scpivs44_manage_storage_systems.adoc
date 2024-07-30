@@ -53,6 +53,6 @@ NOTE: SnapCenter GUI를 사용하여 애플리케이션 기반 데이터 보호 
 . 스토리지 시스템 * 페이지에서 제거할 스토리지 VM을 선택한 다음 * 삭제 * 를 클릭합니다.
 . 스토리지 시스템 제거 * 확인 상자에서 * 스토리지 시스템 삭제 * 확인란을 선택한 다음 * 예 * 를 클릭하여 확인합니다. *참고:* ESXi 호스트 7.0U1 이상 릴리즈만 지원됩니다.
 +
-link:scpivs44_manage_the_vmware_vsphere_web_client_service.html["VMware vSphere Client 서비스를 다시 시작합니다"].
+link:scpivs44_restart_the_vmware_vsphere_web_client_service.html["VMware vSphere Client 서비스를 다시 시작합니다"]..
 
 

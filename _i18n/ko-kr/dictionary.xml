@@ -420,14 +420,11 @@
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="section-title">AutoSupport</block>
   <block id="0a4a3719bc7519d1162060e0f0e08f8a" category="doc">백업 정책을 생성합니다</block>
   <block id="2043baf4baf43c498171aa6ce5844280" category="list-text">새 백업 정책 * 페이지에서 정책 구성 정보를 입력한 다음 * 추가 * 를 클릭합니다.</block>
-  <block id="fc5672573975422a722953bf5496e5ad" category="section-title">Linux vCenter에서 웹 클라이언트 서비스를 다시 시작합니다</block>
-  <block id="df005eed1212d84ddce99431a04fc779" category="paragraph">vCenter 6.5 이상을 실행해야 합니다.</block>
   <block id="d9ac8e6076d4e4d7529e26c9238771a4" category="list-text">SSH를 사용하여 vCenter Server Appliance에 루트로 로그인합니다.</block>
   <block id="263de88bd463a408f8eabe4c8a4ace37" category="list-text">다음 명령을 사용하여 어플라이언스 셸 또는 Bash Shell에 액세스합니다.</block>
   <block id="ad288d5d0843f98ebb574a6ae9d65a4e" category="paragraph">'지옥'입니다</block>
   <block id="76acab39397c08b9a6f90dc3612ad3b4" category="list-text">다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 중지합니다.</block>
   <block id="fe179a5e6c3cce08786099d7d4f4c814" category="paragraph">'Service-control--stop vSphere-UI</block>
-  <block id="4c09019cb803ffc62d7d0666df0def34" category="list-text">다음 HTML5 명령을 사용하여 vCenter에서 오래된 scvm 패키지를 모두 삭제합니다.</block>
   <block id="1ee241c7544c04de9f1ca46058beb4cb" category="list-text">다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 시작합니다.</block>
   <block id="6b76a32b7668e5fed9b8e910943fdee7" category="paragraph">'Service-control--start vSphere-UI'를 선택합니다</block>
   <block id="f3a07562dfcba402848f7481f951cabf" category="summary">VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저장소를 백업하려면 먼저 백업 정책을 생성해야 합니다.</block>
@@ -1416,7 +1413,6 @@
   <block id="ca1e84c5fdfae2e245ce6dbdbd1c628f" category="paragraph">클러스터(암시적 스토리지 VM라고도 함)의 일부로 자동 추가된 스토리지 VM을 수정하는 경우 해당 스토리지 VM은 명시적 스토리지 VM으로 변경되며 해당 클러스터의 나머지 스토리지 VM을 변경하지 않고 개별적으로 삭제할 수 있습니다. 스토리지 시스템 페이지에서 인증 방법이 인증서를 통해 사용되는 경우 사용자 이름이 N/A로 표시됩니다. 사용자 이름은 클러스터 목록의 명시적 스토리지 VM에만 표시되고 ExplicitSVM 플래그가 TRUE로 설정되어 있습니다. 모든 스토리지 VM은 항상 연결된 클러스터 아래에 나열됩니다.</block>
   <block id="bebc6d6c31f801875b9e77f07bdb01e7" category="paragraph">VMware vSphere Client를 사용하여 vCenter의 인벤토리에서 스토리지 VM을 제거할 수 있습니다.</block>
   <block id="47407cf5b03fece3c5c171eab2b9b01a" category="inline-link-macro">VMware vSphere Client 서비스를 다시 시작합니다</block>
-  <block id="d1bcb651c16c1e49822b4f7c61910214" category="paragraph"><block ref="882f890d3418627cf43cd6225ef7eb22" category="inline-link-macro-rx"></block>.</block>
   <block id="2d70acf0a1999b3558f2c043c08ac3b6" category="paragraph">최소한 모든 사용자는 vCenter 객체를 볼 수 있어야 합니다. 이 권한이 없으면 사용자가 VMware vSphere 클라이언트 GUI에 액세스할 수 없습니다.</block>
   <block id="57ece9f7f3b3d9621593aeee1cb35996" category="summary">인증서와 함께 서명된 아티팩트를 신뢰하려면 인증 기관의 루트 및 중간 인증서를 VMware vCenter에 추가합니다.</block>
   <block id="ee28a4160e701596abbbfdd58c421736" category="doc">VMware 인증서 저장소에 인증서를 추가합니다</block>
@@ -1550,9 +1546,6 @@
   <block id="36139d788258b0f7f760e90a7e475cfb" category="list-text">VMware 도구를 설치하고 실행해야 합니다.</block>
   <block id="7a6f0192e4916d4a7238add9c2d4e982" category="paragraph">SnapCenter는 VMware 툴의 정보를 사용하여 VMware 게스트 OS에 대한 연결을 설정합니다.</block>
   <block id="48e30f31b43c0ce0d7b2ae5cff7665bc" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 클릭한 후 다음 중 하나를 수행합니다.</block>
-  <block id="15522b8dcb225880b816b8456110deaf" category="summary">SnapCenter VMware vSphere Client가 잘못 작동하기 시작하면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 VMware vSphere Client 서비스를 다시 시작합니다.</block>
-  <block id="bbbb4a3d88d4a0dafc319898d6206ae7" category="paragraph">vCenter가 Linux 어플라이언스에 있는 경우 Linux 명령을 사용하여 SnapCenter VMware vSphere 클라이언트 서비스를 다시 시작해야 합니다.</block>
-  <block id="7f52ae2d13fc881eab436a11ad6556a4" category="paragraph"><block ref="ca3710e05c94c666b5609593ee562322" prefix="" category="inline-code"></block></block>
   <block id="36e391315954a298b55333c0f1afcc71" category="paragraph">아래 단계에 따라 리소스 그룹을 생성합니다.</block>
   <block id="6a03edb8ab46dff4278e3f5e0e5ebe46" category="list-text">VMware vCenter 7.0.3 이상 버전의 경우 의 단계를 따릅니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> vCenter로 인증서를 가져옵니다.</block>
   <block id="8775bf884912200ed43fd5a867b909a3" category="cell">* 권한 *</block>
@@ -2223,4 +2216,5 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="c0407ba9e12515280efc0fea9f89e131" category="sidebar">백업을 복원합니다</block>
   <block id="1fe3b3d815ea6fb48fb7d036907904e3" category="sidebar">VMware vSphere 6.0용 SnapCenter 플러그인</block>
   <block id="fd03aeb9f7de3aae10e07664eb1cd6c6" category="sidebar">VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성합니다</block>
+  <block id="b02541bab3f320c7517f41f638f6ef31" category="paragraph"><block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>..</block>
 </blocks>

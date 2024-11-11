@@ -29,7 +29,7 @@ VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이트�
 스토리지 클러스터를 VMware vSphere용 SnapCenter 플러그인과 VMware vSphere용 ONTAP 툴에 추가하여 VVOL 데이터 보호를 작동해야 합니다.
 
 +
-자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere용 ONTAP 툴"^]
+자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
 
 
 

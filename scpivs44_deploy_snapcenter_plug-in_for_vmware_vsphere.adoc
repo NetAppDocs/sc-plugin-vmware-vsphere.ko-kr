@@ -32,7 +32,7 @@ NOTE:  OVA 구축은 VMware vCenter 7u1 이상에서 지원됩니다.
 * SnapCenter Plug-in for VMware vSphere를 배포하는 동안 브라우저 캐시 문제가 발생하지 않도록 vSphere Client의 모든 브라우저 세션을 로그아웃했다가 닫고 브라우저 캐시를 삭제해야 합니다.
 * vCenter에서 TLS(Transport Layer Security)를 활성화해야 합니다. VMware 설명서를 참조하십시오.
 * SnapCenter Plug-in for VMware vSphere가 구축된 vCenter 이외의 vCenter에서 백업을 수행하려면 ESXi 서버, VMware vSphere용 SnapCenter 플러그인 및 각 vCenter를 동시에 동기화해야 합니다.
-* VVOL 데이터 저장소에서 VM을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. VMware vSphere 버전 9.10 이상용 ONTAP 툴이 지원됩니다. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 스토리지를 프로비저닝하고 구성합니다.
+* VVOL 데이터 저장소에서 VM을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. 지원되는 ONTAP 도구 버전에 대한 최신 정보는 을 참조하십시오 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 스토리지를 프로비저닝하고 구성합니다.
 
 
 vCenter와 동일한 시간대에 VMware vSphere용 SnapCenter 플러그인을 구축합니다. 백업 스케줄은 VMware vSphere용 SnapCenter 플러그인이 구축되는 표준 시간대에서 실행됩니다. vCenter는 vCenter가 있는 시간대의 데이터를 보고합니다. 따라서 VMware vSphere 및 vCenter용 SnapCenter 플러그인이 서로 다른 시간대에 있는 경우 VMware vSphere용 SnapCenter 플러그인 대시보드의 데이터가 보고서의 데이터와 같지 않을 수 있습니다.

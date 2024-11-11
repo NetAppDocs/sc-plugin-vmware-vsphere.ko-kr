@@ -84,6 +84,8 @@ NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지�
 
 | 클러스터 identity show network interface show vServer 피어 vserver show 
 |===
+데이터 가상 서버와 연결할 역할을 생성할 때 _cluster identity show_cluster level 명령은 무시해도 됩니다.
+
 
 NOTE: 지원되지 않는 vServer 명령에 대한 경고 메시지는 무시해도 됩니다.
 

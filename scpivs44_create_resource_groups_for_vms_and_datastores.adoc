@@ -49,6 +49,8 @@ summary: 리소스 그룹은 보호할 VM, 데이터 저장소, vSphere 태그 �
 
 IMPORTANT: vCLS(VMware vSphere Cluster Service)를 사용하는 경우 VMware vSphere 리소스 그룹용 SnapCenter 플러그인에 vCLS로 관리되는 VM을 포함하지 마십시오.
 
+자세한 내용은 을 참조하십시오 https://kb.netapp.com/data-mgmt/SnapCenter/SC_KBs/SCV_unable_to_backup_vCLS_VMs_after_updating_vCenter_to_7.0.x["vCenter를 7.0.x로 업데이트한 후 SCV에서 vCLS VM을 백업할 수 없습니다"]
+
 
 TIP: SnapCenter Plug-in for VMware vSphere 4.5 이상에서는 대용량 LUN의 데이터 저장소와 최대 128TB의 파일에 최대 300TB의 볼륨을 지원합니다. 대규모 LUN을 보호하는 경우 일반 프로비저닝된 LUN만 사용하여 지연 시간을 방지합니다.
 
@@ -58,7 +60,7 @@ IMPORTANT: 액세스할 수 없는 상태의 VM은 추가하지 마십시오. �
 .시작하기 전에
 VVOL VM이 포함된 리소스 그룹을 생성하기 전에 VMware용 ONTAP 툴을 구축해야 합니다.
 
-자세한 내용은 을 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["VMware vSphere용 ONTAP 툴"^]참조하십시오.
+자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
 
 .이 작업에 대해
 언제든지 자원 그룹에서 자원을 추가하거나 제거할 수 있습니다.

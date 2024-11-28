@@ -109,7 +109,7 @@ VMware vSphere 작업을 위한 SnapCenter 플러그인에 적절한 권한을 �
 ** NFS용 ONTAP 9.12.1 이상 버전이 필요합니다
 
 
-* NVMe over TCP 프로토콜의 경우 ONTAP 9.10.1 이상이 필요합니다.
+* NVMe over TCP 및 NVMe over FC 프로토콜의 경우 ONTAP 9.10.1 이상이 필요합니다.
 
 
 

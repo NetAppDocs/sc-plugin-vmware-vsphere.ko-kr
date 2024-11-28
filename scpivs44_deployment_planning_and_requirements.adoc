@@ -128,9 +128,9 @@ VM 일관성을 사용하여 백업 생성
 
 
 
-==== NVMe over TCP 프로토콜 요구사항
+==== NVMe over TCP 및 NVMe over FC 프로토콜에 대한 요구사항
 
-NVMe over TCP 프로토콜 지원을 위한 최소 소프트웨어 요구사항은 다음과 같습니다.
+NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨어 요구사항은 다음과 같습니다.
 
 * vCenter vSphere 7.0U3
 * ESXi 7.0U3

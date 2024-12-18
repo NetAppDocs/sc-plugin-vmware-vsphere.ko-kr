@@ -2206,5 +2206,46 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="f6599049db87ec18cb4b8b124bbae9bb" category="admonition">복구 작업 중에 오류가 발생하거나 VMware vSphere용 SnapCenter 플러그인이 클론을 재서명하려고 할 때 이 오류가 발생할 수<block ref="8bca5bf79dc6a0592d8b28b7fc9c19a9" prefix=" " category="inline-code"></block> 있습니다.<block ref="9e17d1b629230b07cfa91237bf97bfc3" prefix=" " category="inline-code"></block> VMware 제한으로 인해 VMware vSphere용 SnapCenter 플러그인은 고급 ESXi 호스트 구성에서 자동 재서명 값을 제어할 수 없습니다. NVMe over TCP 및 NVMe over FC 스토리지의 경우 새 서브시스템이 추가될 때 SCV에서 컨트롤러를 동적으로 추가할 수 없습니다. 마운트 작업 전에 필요한 매핑을 만들어야 합니다.</block>
   <block id="c2ad807051aed38647dbaf48da9bc4e7" category="list-text">NVMe over TCP 및 NVMe over FC 프로토콜의 경우 ONTAP 9.10.1 이상이 필요합니다.</block>
   <block id="ec1055ea33266617a541d92dfa6e5b67" category="inline-link">VMware vSphere 6.0 및 6.0.1 릴리즈 노트용 SnapCenter 플러그인</block>
-  <block id="23ea4d7ccec896acdd587b616d6cc4ee" category="paragraph">릴리즈 노트는 VMware vSphere용 SnapCenter 플러그인 릴리스에 대한 라이센스 요구 사항, 알려진 문제, 주의 사항, 제한 사항 등을 포함하여 중요한 정보를 제공합니다. 및 모든 문서 업데이트 또는 수정. 자세한 내용은 을 참조하십시오<block ref="1433bf204e910686ea87dd6be31fd4c0" category="inline-link-rx"></block></block>
+  <block id="2233cc73f35f4d66a36bbbeebab35281" category="doc">VMware vSphere용 SnapCenter 플러그인 릴리즈 노트</block>
+  <block id="297142e178601173053624e9ef12f108" category="paragraph">VMware vSphere 6.0.1 및 6.0용 SnapCenter 플러그인에서 사용할 수 있는 새로운 기능과 향상된 기능에 대해 알아보십시오.</block>
+  <block id="3b3c714cc3d97185d38b7de5a06604eb" category="paragraph">알려진 문제점, 제한 사항 및 해결된 문제에 대한 자세한 내용은 을 참조하십시오<block ref="1433bf204e910686ea87dd6be31fd4c0" category="inline-link-rx"></block>. 릴리스 정보에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.</block>
+  <block id="c5dcd35af16918a17ee9c3a5c153f0af" category="inline-link">IMT</block>
+  <block id="2d15261526cfe20309636c59ec64f54e" category="paragraph">지원되는 버전에 대한 최신 정보는 NetApp 상호 운용성 매트릭스 툴을 <block ref="b3ca33d6c3d8c65c6db17cc2a6a779f0" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="ccbdf0b4f3977d9d972b8053561475b1" category="summary">VMware vSphere 6.0용 SnapCenter 플러그인에서 사용할 수 있는 새로운 기능에 대해 알아보십시오.</block>
+  <block id="4ab6fdda3b84dfae82088c2bc01040ec" category="doc">VMware vSphere 6.0.1용 SnapCenter 플러그인의 새로운 기능</block>
+  <block id="06933067aafd48425d67bcb01bba5cb6" category="cell">업데이트</block>
+  <block id="42740cd9317367a2589caeffd362cff0" category="inline-link">NVMe over FC 프로토콜 지원</block>
+  <block id="50be082c76f5c49324bb5bd7608ae3b2" category="paragraph"><block ref="50be082c76f5c49324bb5bd7608ae3b2" category="inline-link-rx"></block></block>
+  <block id="5ba878c4a46b0a8571800aaa6e8445a7" category="paragraph">VMware vSphere 6.0.1용 SnapCenter 플러그인은 이제 VMFS 데이터 저장소에 대한 NVMe over FC 프로토콜을 지원하여 성능을 최적화하고 비용을 절감하며 지속적인 성능을 보장합니다.</block>
+  <block id="1c7703c1d060b65ce6fd3a75ba50400e" category="inline-link">VMware vSphere 10.x용 ONTAP 툴과 SCV 6.0.1의 통합</block>
+  <block id="0d1fedc1c92b2bac1ad8d29266340940" category="paragraph"><block ref="0d1fedc1c92b2bac1ad8d29266340940" category="inline-link-rx"></block></block>
+  <block id="41d114a9720ad1ac299b2dffec2f7186" category="paragraph">VMware vSphere 10.x용 ONTAP 툴을 사용하면 VMware vSphere 가상 볼륨을 구성할 수 있습니다. 이 통합을 사용하면 NFS 기반 VVol 데이터 저장소에 있는 가상 머신을 구성, 백업 및 복원할 수 있습니다.</block>
+  <block id="704fc5c8ea6982e3179f495b7b832121" category="doc">VMware vSphere 6.0용 SnapCenter 플러그인의 새로운 기능</block>
+  <block id="05355694c1b9a07fdbe4cd953d66f950" category="inline-link">NVMe over TCP 프로토콜 지원</block>
+  <block id="537b09dbac250171d06580c68b67b2f2" category="paragraph"><block ref="537b09dbac250171d06580c68b67b2f2" category="inline-link-rx"></block></block>
+  <block id="a629ec953583fe39117309ef9a508a81" category="paragraph">VMware vSphere 6.0용 SnapCenter 플러그인은 이제 VMFS 데이터 저장소에 대해 NVMe over TCP 프로토콜을 지원합니다.</block>
+  <block id="ead1e4398d30de28a2a5ea2f82cb8d47" category="paragraph">NVMe over TCP 프로토콜을 배포하기 위해 추가 하드웨어가 필요하지 않아 간단하고 비용 효율적입니다.</block>
+  <block id="b154808e6bcc13034e613c359731ad79" category="paragraph">iSCSI와 마찬가지로, NVMe over TCP 프로토콜을 사용하는 VMFS 데이터 저장소는 모든 이더넷 NIC 및 스위치를 사용할 수 있으며 백업, 복구, 마운트, 연결 및 분리 등의 모든 표준 작업을 지원합니다.</block>
+  <block id="4f53b479c6b47d73b1fdb28f399b1301" category="inline-link">SnapMirror 활성 동기화를 지원합니다</block>
+  <block id="a3dde13a3e6b0437cbcc67d81b0b023f" category="paragraph"><block ref="a3dde13a3e6b0437cbcc67d81b0b023f" category="inline-link-rx"></block></block>
+  <block id="88ae2479bcea5ca16281e31626f2f8d8" category="paragraph">이제 VMware vSphere용 SnapCenter 플러그인을 사용하여 제로 복구 지점 목표(RPO), 복구 시간 목표(RTO) 및 무중단 애플리케이션 페일오버와 같은 SnapMirror 활성 동기화 기능을 구성할 수 있습니다.</block>
+  <block id="6884e6f09d7d01f963a72f6d4b4dee73" category="paragraph">SnapMirror 액티브 동기화는 VMFS 데이터 저장소에만 지원됩니다.</block>
+  <block id="ee8f5755a6e1671a63e8da1209dc860f" category="paragraph">업그레이드할 수 있는 SCV(SnapCenter Plug-in for VMware vSphere) 버전은 현재 실행 중인 버전에 따라 다릅니다.</block>
+  <block id="4181b34482469dce169449ef3b643b27" category="paragraph">VMware vSphere(SCV) 4.8 이상용 SnapCenter 플러그인으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. 버전 7 업데이트 1 이전의 VMware vCenter Server에서는 SCV 4.7을 계속 사용해야 합니다.</block>
+  <block id="e369a7ee41a72fa8a44419a1129cc575" category="cell">당신은 SCV 버전에 있다면 ...</block>
+  <block id="189db0c09008fdcd0e2cc9be6b313231" category="cell">당신은 직접 SCV를 업그레이드 할 수 있습니다.</block>
+  <block id="1ad22725dc59b3f21bd032fe84861bc1" category="paragraph">SCV 6.0 를 참조하십시오</block>
+  <block id="f4448feccabcefa77ecd89689a4f8422" category="paragraph">SCV 5.0 및 SCV 6.0</block>
+  <block id="f7223e4d64308089fc60a4ed6aef55f1" category="paragraph">SCV 4.9 및 SCV 5.0</block>
+  <block id="b29558d756ecb0469c1e18fb8ffb2428" category="paragraph">SCV 4.8 및 SCV 4.9</block>
+  <block id="36112713b4999c5619fad06e104ac585" category="paragraph">SnapCenter와 통합된 가상화 데이터베이스 및 파일 시스템의 경우 다음 업그레이드 경로가 됩니다.</block>
+  <block id="a8167c30d181002ec48569e2d6c3ceb1" category="cell">를 사용하는 경우</block>
+  <block id="204326f9ae1f832298654cd349f16dcc" category="cell">VMware 플러그인이 ....인 경우</block>
+  <block id="d63b9d0523105aa499fd355a5431da08" category="cell">직접 업그레이드 할 수 있습니다.</block>
+  <block id="13c1ef900fc885a20b94324d41ba496e" category="paragraph">SnapCenter 6.0 을 참조하십시오</block>
+  <block id="8e07dd0a7cef005f474929f3ccd8ab15" category="paragraph">SnapCenter 5.0 을 참조하십시오</block>
+  <block id="07d190428eb856174f602dfb1555b388" category="paragraph">SnapCenter 4.9 을 참조하십시오</block>
+  <block id="7e35de6c484fe702e7c4fe21538ac2a4" category="paragraph">SnapCenter 4.8 을 참조하십시오</block>
+  <block id="9fb9e3e27a3792a16059036c9b877598" category="sidebar">VMware vSphere 6.0.1용 SnapCenter 플러그인의 새로운 기능</block>
+  <block id="43e9871fb2ac1e50ad02c9c15dce6a93" category="sidebar">VMware vSphere 6.0용 SnapCenter 플러그인의 새로운 기능</block>
 </blocks>

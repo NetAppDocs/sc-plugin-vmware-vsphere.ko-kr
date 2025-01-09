@@ -23,6 +23,6 @@ VMware vSphere 6.0.1용 SnapCenter 플러그인은 이제 VMFS 데이터 저장�
  a| 
 https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_concepts_overview.html["VMware vSphere 10.x용 ONTAP 툴과 SCV 6.0.1의 통합"]
  a| 
-VMware vSphere 10.x용 ONTAP 툴을 사용하면 VMware vSphere 가상 볼륨을 구성할 수 있습니다. 이 통합을 사용하면 NFS 기반 VVol 데이터 저장소에 있는 가상 머신을 구성, 백업 및 복원할 수 있습니다.
+VMware vSphere 10.x용 ONTAP 툴을 사용하면 VMware vSphere 가상 볼륨을 구성할 수 있습니다. 이러한 통합을 통해 NFS 기반 VVol 데이터 저장소에 있는 가상 머신을 구성, 백업 및 복원할 수 있습니다.
 
 |===

@@ -2219,7 +2219,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="5ba878c4a46b0a8571800aaa6e8445a7" category="paragraph">VMware vSphere 6.0.1용 SnapCenter 플러그인은 이제 VMFS 데이터 저장소에 대한 NVMe over FC 프로토콜을 지원하여 성능을 최적화하고 비용을 절감하며 지속적인 성능을 보장합니다.</block>
   <block id="1c7703c1d060b65ce6fd3a75ba50400e" category="inline-link">VMware vSphere 10.x용 ONTAP 툴과 SCV 6.0.1의 통합</block>
   <block id="0d1fedc1c92b2bac1ad8d29266340940" category="paragraph"><block ref="0d1fedc1c92b2bac1ad8d29266340940" category="inline-link-rx"></block></block>
-  <block id="41d114a9720ad1ac299b2dffec2f7186" category="paragraph">VMware vSphere 10.x용 ONTAP 툴을 사용하면 VMware vSphere 가상 볼륨을 구성할 수 있습니다. 이 통합을 사용하면 NFS 기반 VVol 데이터 저장소에 있는 가상 머신을 구성, 백업 및 복원할 수 있습니다.</block>
   <block id="704fc5c8ea6982e3179f495b7b832121" category="doc">VMware vSphere 6.0용 SnapCenter 플러그인의 새로운 기능</block>
   <block id="05355694c1b9a07fdbe4cd953d66f950" category="inline-link">NVMe over TCP 프로토콜 지원</block>
   <block id="537b09dbac250171d06580c68b67b2f2" category="paragraph"><block ref="537b09dbac250171d06580c68b67b2f2" category="inline-link-rx"></block></block>
@@ -2228,7 +2227,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="b154808e6bcc13034e613c359731ad79" category="paragraph">iSCSI와 마찬가지로, NVMe over TCP 프로토콜을 사용하는 VMFS 데이터 저장소는 모든 이더넷 NIC 및 스위치를 사용할 수 있으며 백업, 복구, 마운트, 연결 및 분리 등의 모든 표준 작업을 지원합니다.</block>
   <block id="4f53b479c6b47d73b1fdb28f399b1301" category="inline-link">SnapMirror 활성 동기화를 지원합니다</block>
   <block id="a3dde13a3e6b0437cbcc67d81b0b023f" category="paragraph"><block ref="a3dde13a3e6b0437cbcc67d81b0b023f" category="inline-link-rx"></block></block>
-  <block id="88ae2479bcea5ca16281e31626f2f8d8" category="paragraph">이제 VMware vSphere용 SnapCenter 플러그인을 사용하여 제로 복구 지점 목표(RPO), 복구 시간 목표(RTO) 및 무중단 애플리케이션 페일오버와 같은 SnapMirror 활성 동기화 기능을 구성할 수 있습니다.</block>
   <block id="6884e6f09d7d01f963a72f6d4b4dee73" category="paragraph">SnapMirror 액티브 동기화는 VMFS 데이터 저장소에만 지원됩니다.</block>
   <block id="ee8f5755a6e1671a63e8da1209dc860f" category="paragraph">업그레이드할 수 있는 SCV(SnapCenter Plug-in for VMware vSphere) 버전은 현재 실행 중인 버전에 따라 다릅니다.</block>
   <block id="4181b34482469dce169449ef3b643b27" category="paragraph">VMware vSphere(SCV) 4.8 이상용 SnapCenter 플러그인으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. 버전 7 업데이트 1 이전의 VMware vCenter Server에서는 SCV 4.7을 계속 사용해야 합니다.</block>
@@ -2248,4 +2246,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="7e35de6c484fe702e7c4fe21538ac2a4" category="paragraph">SnapCenter 4.8 을 참조하십시오</block>
   <block id="9fb9e3e27a3792a16059036c9b877598" category="sidebar">VMware vSphere 6.0.1용 SnapCenter 플러그인의 새로운 기능</block>
   <block id="43e9871fb2ac1e50ad02c9c15dce6a93" category="sidebar">VMware vSphere 6.0용 SnapCenter 플러그인의 새로운 기능</block>
+  <block id="2c1653c7d21f34b83ac4f6c2e6d95617" category="paragraph">VMware vSphere 10.x용 ONTAP 툴을 사용하면 VMware vSphere 가상 볼륨을 구성할 수 있습니다. 이러한 통합을 통해 NFS 기반 VVol 데이터 저장소에 있는 가상 머신을 구성, 백업 및 복원할 수 있습니다.</block>
+  <block id="260461e32230b11c5e5f1e46e498eb6d" category="paragraph">이제 VMware vSphere용 SnapCenter 플러그인을 사용하여 제로 복구 시점 목표(RPO), RTO(복구 시간 목표) 및 투명한 애플리케이션 페일오버와 같은 SnapMirror 활성 동기화 기능을 구성할 수 있습니다.</block>
 </blocks>

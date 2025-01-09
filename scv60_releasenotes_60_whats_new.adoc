@@ -27,7 +27,7 @@ iSCSI와 마찬가지로, NVMe over TCP 프로토콜을 사용하는 VMFS 데이
  a| 
 https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_create_backup_policies_for_vms_and_datastores.html["SnapMirror 활성 동기화를 지원합니다"]
  a| 
-이제 VMware vSphere용 SnapCenter 플러그인을 사용하여 제로 복구 지점 목표(RPO), 복구 시간 목표(RTO) 및 무중단 애플리케이션 페일오버와 같은 SnapMirror 활성 동기화 기능을 구성할 수 있습니다.
+이제 VMware vSphere용 SnapCenter 플러그인을 사용하여 제로 복구 시점 목표(RPO), RTO(복구 시간 목표) 및 투명한 애플리케이션 페일오버와 같은 SnapMirror 활성 동기화 기능을 구성할 수 있습니다.
 
 SnapMirror 액티브 동기화는 VMFS 데이터 저장소에만 지원됩니다.
 

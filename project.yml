@@ -1,14 +1,16 @@
 ---
 settings:
-  name: SnapCenter Plug-in for VMware vSphere 6.0
+  name: SnapCenter Plug-in for VMware vSphere 6.1
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '6.0'
+  - version-number: '6.1'
     url: "/sc-plugin-vmware-vsphere"
+  - version-number: '6.0'
+    url: "/sc-plugin-vmware-vsphere-60"
   - version-number: '5.0'
     url: "/sc-plugin-vmware-vsphere-50"
   - version-number: '4.9'
@@ -24,18 +26,16 @@ settings:
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: VMware vSphere 6.0용 SnapCenter 플러그인
+  - title: VMware vSphere 6.1용 SnapCenter 플러그인
     url: "/index.html"
   - title: 릴리스 정보
     entries:
     - title: VMware vSphere용 SnapCenter 플러그인 릴리즈 노트
       url: "/scpivs44_release_notes.html"
-    - title: VMware vSphere 6.0.1용 SnapCenter 플러그인의 새로운 기능
-      url: "/scv60_releasenotes_601_whats_new.html"
-    - title: VMware vSphere 6.0용 SnapCenter 플러그인의 새로운 기능
-      url: "/scv60_releasenotes_60_whats_new.html"
+    - title: VMware vSphere 6.1용 SnapCenter 플러그인의 새로운 기능
+      url: "/scv_releasenotes_whats_new.html"
     - title: 업그레이드 경로
-      url: "/scv60_rn_upgrade_paths.html"
+      url: "/scv_rn_upgrade_paths.html"
   - title: 개념
     entries:
     - title: 제품 개요

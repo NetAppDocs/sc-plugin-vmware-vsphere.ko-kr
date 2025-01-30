@@ -22,6 +22,9 @@ SnapCenter Plug-in for VMware vSphere에서 수행한 백업의 이름을 바꾸
 
 검색 기능을 향상시키기 위해 더 나은 이름을 제공하려면 VMware vSphere 백업용 SnapCenter 플러그인의 이름을 바꿀 수 있습니다.
 
+
+NOTE: ASA R2 스토리지 시스템은 백업 이름 변경을 지원하지 않습니다.
+
 .단계
 . Menu * 를 클릭하고 * Hosts and Clusters * 메뉴 옵션을 선택한 다음 VM을 선택하고 * Configure * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.
 +

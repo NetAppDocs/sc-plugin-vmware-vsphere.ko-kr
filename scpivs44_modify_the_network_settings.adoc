@@ -33,7 +33,7 @@ VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그온 
 +
 image:scpivs44_image31.png["VMware vSphere 관리 GUI용 SnapCenter 플러그인"]
 
-. 설정 * 페이지의 * 네트워크 설정 * 섹션에서 * IPv4 * 또는 * IPv6 * 를 클릭한 다음 * 편집 * 을 클릭합니다.
+. 설정 * 페이지의 * 네트워크 설정 * 섹션에서 * IPv4 * 또는 * IPv6 * 주소를 클릭한 다음 * 편집 * 을 클릭합니다.
 +
 새 정보를 입력하고 * 저장 * 을 클릭합니다.
 
@@ -46,4 +46,4 @@ image:scpivs44_image31.png["VMware vSphere 관리 GUI용 SnapCenter 플러그인
 
 
 
-NOTE: IPv4와 IPv6를 모두 사용하는 경우 두 네트워크 설정을 모두 제거할 수 없습니다. 나머지 네트워크는 DNS 서버 및 검색 도메인 필드를 지정해야 합니다.
+NOTE: IPv4 주소와 IPv6 주소를 모두 사용하는 경우 네트워크 설정을 모두 제거할 수 없습니다. 나머지 네트워크는 DNS 서버 및 검색 도메인 필드를 지정해야 합니다.

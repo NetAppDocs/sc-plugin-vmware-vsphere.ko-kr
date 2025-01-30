@@ -14,7 +14,7 @@ summary: SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사�
 
 
 
-NOTE: SCV 6.0으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. VMware vCenter Server 버전 7 업데이트 1 이전의 경우 SCV 4.7을 계속 사용해야 합니다. 지원되지 않는 버전의 VMware vCenter Server에서는 업그레이드가 중단될 수 있습니다.
+NOTE: SCV 6.1으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. VMware vCenter Server 버전 7 업데이트 1 이전의 경우 SCV 4.7을 계속 사용해야 합니다. 지원되지 않는 버전의 VMware vCenter Server에서는 업그레이드가 중단될 수 있습니다.
 
 SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사용하는 경우 최신 릴리즈로 업그레이드할 수 있습니다. 업그레이드 프로세스에서는 기존 플러그인의 등록을 해제하고 vSphere 7.0U1 이상 버전에서만 호환되는 플러그인을 구축합니다.
 
@@ -28,7 +28,10 @@ SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사용하는 
 | SCV(SnapCenter Plug-in for VMware vSphere) 버전을 사용 중인 경우... | SnapCenter Plug-in for VMware vSphere를 다음과 같이 직접 업그레이드할 수 있습니다. 
 
 
-| SCV 5.0 를 참조하십시오 | SCV 6.0으로 업그레이드하십시오 
+| SCV 6.0 를 참조하십시오 | SCV 6.1으로 업그레이드하십시오 
+
+
+| SCV 5.0 를 참조하십시오 | SCV 6.0 및 SCV 6.1로 업그레이드하십시오 
 
 
 | SCV 4.9 | SCV 5.0 및 SCV 6.0로 업그레이드하십시오 
@@ -47,6 +50,8 @@ TIP: 업그레이드를 시작하기 전에 VMware vSphere OVA용 SnapCenter 플
 
 
 NOTE: 네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지원되지 않습니다.
+
+지원되는 버전에 대한 최신 정보는 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT)를 참조하십시오.
 
 .단계
 . VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하여 업그레이드를 준비합니다.

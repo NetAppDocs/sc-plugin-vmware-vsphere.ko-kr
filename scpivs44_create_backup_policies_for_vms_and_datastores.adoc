@@ -43,13 +43,12 @@ SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호�
 +
 ** 기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다 https://www.netapp.com/pdf.html?item=/media/21888-tr-4878.pdf["TR-4878: SnapMirror Active Sync(이전의 SMBC)"].
 ** VMFS 데이터 저장소와 연결된 볼륨을 정합성 보장 그룹에 추가하고 두 ONTAP 스토리지 시스템 간에 _AutomatedFailOver_or_AutomatedFailOverDuplex_protection 정책을 사용하여 데이터 보호 관계를 생성합니다. _AutomatedFailOverDuplex_policy는 ONTAP 9.15.1 릴리스 이후에 지원됩니다.
-+
+
+
+
+
 
 NOTE: 팬아웃 구성에서는 3차 사이트에 대해 정합성 보장 그룹이 지원되지 않습니다.
-
-
-
-
 
 .이 작업에 대해
 이 마법사 페이지의 대부분의 필드는 설명이 필요 없습니다. 다음 정보는 안내가 필요할 수 있는 일부 필드에 대해 설명합니다.

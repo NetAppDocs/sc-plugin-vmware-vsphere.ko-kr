@@ -14,7 +14,7 @@ summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항�
 
 
 [role="lead"]
-가상 어플라이언스를 구축하기 전에 구축 요구 사항을 숙지해야 합니다. 배포 요구 사항은 다음 표에 나와 있습니다.
+SCV(SnapCenter Plug-in for VMware vSphere)를 구축하기 전에 다음 요구 사항을 숙지해야 합니다.
 
 
 
@@ -22,21 +22,21 @@ summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항�
 
 SCV(SnapCenter Plug-in for VMware vSphere) 구축을 시작하기 전에 호스트 요구 사항을 잘 알고 있어야 합니다.
 
-* VMware vSphere용 SnapCenter 플러그인은 Windows 시스템의 데이터를 보호하는 데 플러그인 사용 여부와 관계없이 Linux VM으로 구축됩니다.
+* VMware vSphere용 SnapCenter 플러그인은 Windows 또는 Linux 시스템의 데이터를 보호하는 데 사용되는지 여부와 관계없이 Linux VM으로 구축됩니다.
 * vCenter Server에 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
 +
-백업 스케줄은 VMware vSphere용 SnapCenter 플러그인이 구축되는 표준 시간대에서 실행됩니다. vCenter는 vCenter가 있는 시간대의 데이터를 보고합니다. 따라서 VMware vSphere 및 vCenter용 SnapCenter 플러그인이 서로 다른 시간대에 있는 경우 VMware vSphere용 SnapCenter 플러그인 대시보드의 데이터가 보고서의 데이터와 같지 않을 수 있습니다.
+백업 스케줄은 SnapCenter Plug-in for VMware vSphere가 구축된 표준 시간대에서 실행되며 vCenter는 해당 시간대의 데이터를 보고합니다. 따라서 VMware vSphere 및 vCenter용 SnapCenter 플러그인이 서로 다른 시간대에 있는 경우 VMware vSphere용 SnapCenter 플러그인 대시보드의 데이터가 보고서의 데이터와 같지 않을 수 있습니다.
 
-* VMware vSphere용 SnapCenter 플러그인을 특수 문자가 포함된 폴더에 배포하면 안 됩니다.
+* 특수 문자가 포함된 이름의 폴더에 VMware vSphere용 SnapCenter 플러그인을 배포하면 안 됩니다.
 +
 폴더 이름에는 $!@#%^&()_+{}';., *?"<>| 같은 특수 문자가 포함될 수 없습니다
 
 * 각 vCenter Server에 대해 VMware vSphere용 SnapCenter 플러그인의 고유한 개별 인스턴스를 구축하고 등록해야 합니다.
 +
-** 각 vCenter Server가 연결 모드에 있는지 여부에 관계없이 VMware vSphere용 SnapCenter 플러그인의 개별 인스턴스와 페어링되어야 합니다.
+** 연결 모드에 있든 없든 각 vCenter Server는 VMware vSphere용 SnapCenter 플러그인의 개별 인스턴스와 페어링되어야 합니다.
 ** VMware vSphere용 SnapCenter 플러그인의 각 인스턴스는 별도의 Linux VM으로 배포해야 합니다.
 +
-예를 들어, vCenter Server의 서로 다른 6개 인스턴스에서 백업을 수행하려면 6개의 호스트에 VMware vSphere용 SnapCenter 플러그인을 구축해야 하며 각 vCenter Server는 VMware vSphere용 SnapCenter 플러그인의 고유한 인스턴스와 페어링되어야 합니다.
+예를 들어 vCenter Server의 서로 다른 6개 인스턴스에서 백업을 수행하려는 경우를 가정해 봅니다. 이 경우 6개의 호스트에 VMware vSphere용 SnapCenter 플러그인을 구축해야 하며 각 vCenter Server는 VMware vSphere용 SnapCenter 플러그인의 고유한 인스턴스와 페어링되어야 합니다.
 
 
 
@@ -88,7 +88,7 @@ VM 일관성을 사용하여 백업 생성
 | ONTAP | 다음 중 하나: SnapMirror 또는 SnapVault(관계 유형에 관계없이 2차 데이터 보호를 위해) 
 
 
-| 추가 제품 | vSphere Standard, Enterprise 또는 Enterprise Plus 복구 작업을 수행하려면 Storage vMotion을 사용하는 vSphere 라이센스가 필요합니다. vSphere Essentials 또는 Essentials Plus 라이센스에는 Storage vMotion이 포함되지 않습니다. 
+| 추가 제품 | vSphere Standard, Enterprise 또는 Enterprise Plus Storage vMotion을 사용하여 복구 작업을 수행하려면 vSphere 라이센스가 필요합니다. vSphere Essentials 또는 Essentials Plus 라이센스에는 Storage vMotion이 포함되지 않습니다. 
 
 
 | 주 대상 | SnapCenter 표준: VMware SnapRestore을 통해 애플리케이션 기반 보호를 수행하는 데 필요: VMware VM 및 데이터 저장소에 대해서만 복구 작업을 수행하는 데 필요 FlexClone: VMware VM 및 데이터 저장소에서 마운트 및 연결 작업에만 사용 
@@ -145,9 +145,6 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 | 항목 | 요구 사항 
 
 
-| 운영 체제 | 리눅스 
-
-
 | 권장 CPU 수 | 8개 코어 
 
 
@@ -164,14 +161,14 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 == 연결 및 포트 요구 사항
 
 |===
-| 포트의 유형입니다 | 사전 구성된 포트 
+| 포트의 유형입니다 | 사전 구성된 포트입니다 
 
 
 | VMware ESXi Server 포트 | 443(HTTPS), 양방향 게스트 파일 복원 기능은 이 포트를 사용합니다. 
 
 
 | VMware vSphere 포트용 SnapCenter 플러그인  a| 
-8144(HTTPS), 양방향 이 포트는 VMware vSphere 클라이언트 및 SnapCenter Server와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.
+8144(HTTPS), 양방향 포트는 VMware vSphere 클라이언트와 SnapCenter 서버와의 통신에 사용됩니다. 8080 양방향 이 포트는 가상 어플라이언스를 관리하는 데 사용됩니다.
 
 참고: SCV 호스트를 SnapCenter에 추가하기 위한 사용자 지정 포트가 지원됩니다.
 
@@ -180,13 +177,13 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 | VMware vSphere vCenter Server 포트입니다 | VVol VM을 보호하는 경우 포트 443을 사용해야 합니다. 
 
 
-| 스토리지 클러스터 또는 스토리지 VM 포트입니다 | 443(HTTPS), 양방향 80(HTTP), 양방향 이 포트는 가상 어플라이언스와 스토리지 VM이 포함된 클러스터 간 통신에 사용됩니다. 
+| 스토리지 클러스터 또는 스토리지 VM 포트입니다 | 443(HTTPS), 양방향 80(HTTP), 양방향 포트는 가상 어플라이언스와 스토리지 VM 또는 스토리지 VM이 포함된 클러스터 간의 통신에 사용됩니다. 
 |===
 
 
 == 구성 지원
 
-각 플러그인 인스턴스는 하나의 vCenter Server만 지원합니다. 연결된 모드의 vCenter가 지원됩니다. 여러 플러그인 인스턴스가 다음 그림과 같이 동일한 SnapCenter 서버를 지원할 수 있습니다.
+각 플러그인 인스턴스는 연결 모드에 있는 vCenter Server를 하나만 지원합니다. 그러나 다음 그림과 같이 여러 플러그인 인스턴스가 동일한 SnapCenter 서버를 지원할 수 있습니다.
 
 image:scpivs44_image4.png["지원되는 구성 그래픽 표현입니다"]
 
@@ -194,7 +191,7 @@ image:scpivs44_image4.png["지원되는 구성 그래픽 표현입니다"]
 
 == RBAC 권한이 필요합니다
 
-vCenter 관리자 계정에는 다음 표에 나와 있는 대로 필요한 vCenter 권한이 있어야 합니다.
+vCenter 관리자 계정에는 다음 표에 나열된 필수 vCenter Privileges가 있어야 합니다.
 
 |===
 | 이 작업을 수행하려면… | 이러한 vCenter 권한이 있어야 합니다. 

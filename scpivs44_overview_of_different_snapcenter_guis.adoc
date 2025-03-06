@@ -18,7 +18,7 @@ SnapCenter 환경에서는 데이터 보호 및 관리 작업을 수행하기 �
 
 VMware vSphere용 SnapCenter 플러그인은 다른 SnapCenter 플러그인과 다른 독립 실행형 플러그인입니다. VM, VMDK 및 데이터 저장소에 대한 모든 백업 및 복구 작업을 수행하려면 vCenter에서 VMware vSphere Client GUI를 사용해야 합니다. 또한 웹 클라이언트 GUI 대시보드를 사용하여 보호 VM 및 보호되지 않는 VM 목록을 모니터링할 수 있습니다. 백업, 복원, 작업 모니터링과 같은 다른 모든 SnapCenter 플러그인(애플리케이션 기반 플러그인) 작업에는 SnapCenter GUI를 사용합니다.
 
-VM 및 데이터 저장소를 보호하려면 VMware vSphere Client 인터페이스를 사용합니다. 웹 클라이언트 GUI는 스토리지 시스템의 NetApp Snapshot 기술과 통합됩니다. 이를 통해 몇 초 내에 VM 및 데이터 저장소를 백업하고 ESXi 호스트를 오프라인으로 전환하지 않고도 VM을 복구할 수 있습니다.
+VM 및 데이터 저장소를 보호하려면 VMware vSphere Client 인터페이스를 사용합니다. 웹 클라이언트 GUI는 스토리지 시스템의 NetApp 스냅샷 기술과 통합됩니다. 이를 통해 몇 초 내에 VM 및 데이터 저장소를 백업하고 ESXi 호스트를 오프라인으로 전환하지 않고도 VM을 복구할 수 있습니다.
 
 VMware vSphere용 SnapCenter 플러그인에서 관리 작업을 수행하는 관리 GUI도 있습니다.
 
@@ -41,4 +41,4 @@ VMware vSphere용 SnapCenter 플러그인에서 관리 작업을 수행하는 �
 |===
 VM 정합성이 보장되는 백업 및 복구 작업의 경우 VMware vSphere Client GUI를 사용해야 합니다. 데이터 저장소를 마운트하거나 이름을 바꾸는 등의 일부 작업은 VMware 툴을 사용하여 수행할 수 있지만 이러한 작업은 SnapCenter 저장소에 등록되지 않으며 인식되지 않습니다.
 
-SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약하고 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 애플리케이션 기반 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 정합성 보장 백업을 예약해야 합니다.
+SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 애플리케이션 기반 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 정합성 보장 백업을 예약해야 합니다.

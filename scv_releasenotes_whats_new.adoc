@@ -23,3 +23,7 @@ VMware vSphere 6.1용 SnapCenter 플러그인은 이제 ASA R2 시스템에서 V
 NOTE: 보조 보호는 ONTAP 9.16.1 이상 버전에서만 지원됩니다
 
 
+
+* 보조 변조 방지 스냅샷(TPS) 지원 *
+
+VMware vSphere용 SnapCenter 플러그인은 보조 TPS를 지원하므로 랜섬웨어 공격자나 악성 관리자가 보조 스냅샷 복사본을 삭제 또는 변경하지 못하도록 보호하고 공격 후에도 사용할 수 있게 합니다.

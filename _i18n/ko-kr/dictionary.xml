@@ -68,8 +68,6 @@
   <block id="c63a88a6e42f1cea88a31cbb2987791e" category="cell">알림을 받을 사람의 이메일 주소를 입력합니다. 받는 사람이 여러 명인 경우 쉼표를 사용하여 전자 메일 주소를 구분합니다.</block>
   <block id="80ab38b942fb2da88ca496f8bbe237f7" category="cell">이메일 제목</block>
   <block id="33d090cfef78f60a9e7e106bb140a048" category="cell">알림 이메일에 사용할 제목을 입력합니다.</block>
-  <block id="7de3288fd2437e3f9a0393ef772632c0" category="cell">최근 스냅샷 이름입니다</block>
-  <block id="db483b4b52b624fc9163590680bfec11" category="cell">사용자 지정 스냅샷 형식</block>
   <block id="424f6337d74c16c2d02e5cb2e6d97f82" category="list-text">기본적으로 이 기능은 비활성화되어 있습니다.</block>
   <block id="f6023484d4c2c1da1f8822ae43bc066a" category="list-text">특수 문자 이름의 특수 문자 이름 필드에 지정된 것과 동일한 지침을 따릅니다.</block>
   <block id="2b2620f1962d78eb23f6f754d96e6546" category="list-text">Resources * 페이지에서 다음을 수행합니다.</block>
@@ -251,9 +249,6 @@
   <block id="33b94a1ec93c882ce8636e3839ce0198" category="list-text">RestoreToDatastore 속성에서 5단계의 DatastoreNameList 에서 정보를 전달합니다.</block>
   <block id="fe5a15ae670c4a446e877ef3f375fe1f" category="summary">VM 또는 데이터 저장소를 백업 또는 복구할 준비가 되면 해당 리소스에 사용할 수 있는 모든 백업을 확인하고 해당 백업에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="d076807af778318099a7f649b1a2425a" category="doc">VM 및 데이터 저장소 백업을 봅니다</block>
-  <block id="27b2e549cc51fb06281af543965846c2" category="paragraph">10K 파일 폴더와 같은 대용량 파일 폴더를 검색하는 데 1분 이상 걸릴 수 있습니다. 후속 탐색 세션은 시간이 적게 소요됩니다.</block>
-  <block id="bb46ac4338fc50ace325640971d87b41" category="list-text">메뉴 * 를 클릭하고 * 호스트 및 클러스터 * 메뉴 옵션을 선택한 다음 VM을 선택하고 * 구성 * 탭을 선택한 다음 * VMware vSphere용 SnapCenter 플러그인 섹션 * 에서 * 백업 * 을 클릭합니다.</block>
-  <block id="7f9834a181f8fd15bc168c47caf536e3" category="list-text">보려는 백업을 클릭합니다.</block>
   <block id="ab42b9e9b4193a75fa82be2377e494fa" category="doc">VMware vSphere용 SnapCenter 플러그인용 SSH를 설정합니다</block>
   <block id="fb8c4c80c42556fa8dabc6cab29bc009" category="list-text">주 메뉴에서 메뉴 옵션 * 2) 시스템 구성 * 을 선택합니다.</block>
   <block id="4ed299908114215d69a50f34f8a3cc73" category="list-text">시스템 구성 메뉴에서 메뉴 옵션 * 6) SSH 액세스 활성화 * 를 선택한 다음 확인 프롬프트에 " * y * "를 입력합니다.</block>
@@ -286,7 +281,6 @@
   <block id="35317c90c50ee8180041c9d51a4f8af2" category="list-text">VMDK가 VM에서 삭제되거나 분리된 경우 복원 작업은 VMDK를 VM에 연결합니다.</block>
   <block id="1e6537897e726c537f77519264b64453" category="list-text">VM이 있는 FabricPool의 스토리지 계층을 사용할 수 없는 경우 복구 작업이 실패할 수 있습니다.</block>
   <block id="d5abdff77ff28e7e91bddda62c7529ef" category="list-text">복원 * 마법사의 백업 선택 페이지에서 복원할 백업 복사본을 선택합니다.</block>
-  <block id="1fb9fd8a0fdffb5af1849f79f84bf103" category="paragraph">특정 백업 이름 또는 부분 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하여 백업 목록을 필터링할 수 있습니다. 또한 VMware 스냅샷을 포함하는 백업의 마운트 여부, 및 운영 또는 2차 위치에 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
   <block id="2a38f504911ad62ae867f66c2974aef0" category="list-text">범위 선택 * 페이지에서 복구 대상을 선택합니다.</block>
   <block id="a5daf42def68b7a4c33242cbfca9efcf" category="cell">복원 대상</block>
   <block id="7ff99aff75a4ffc74b705fb26d592f75" category="cell">복원 대상 지정…</block>
@@ -318,7 +312,6 @@
   <block id="994320a63a6c23552d170605431389f6" category="paragraph">데이터 저장소를 복구할 수는 없지만 데이터 저장소의 VM을 복구할 수는 있습니다.</block>
   <block id="6b70c2c0edc7d0754172c628cb3bfc2b" category="list-text">VM에 대한 VMware 정합성 보장 스냅샷 장애가 발생했습니다</block>
   <block id="9bc06664020c3544933597c45b308bce" category="paragraph">VM에 대한 VMware 정합성 보장 스냅샷이 실패하더라도 VM은 백업됩니다. 복구 마법사에서 백업 복사본에 포함된 엔터티를 보고 복구 작업에 사용할 수 있습니다.</block>
-  <block id="3808b1e272e7712ca9f90b82529f9ca1" category="paragraph">특정 백업 이름 또는 부분 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷을 포함하는 백업 여부, 마운트된 백업 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
   <block id="8d75e6a09efb228ca1289deaf2a7a40b" category="list-text">범위 선택 * 페이지의 * 범위 복원 * 필드에서 * 전체 가상 시스템 * 을 선택한 다음 복원 위치를 선택하고 백업을 마운트할 대상 정보를 입력합니다.</block>
   <block id="cb20f8f94249850e0d68df73de19b747" category="paragraph">VM name* 필드에 동일한 VM 이름이 있으면 새 VM 이름 형식은 "&lt;VM_name&gt;_&lt;timestamp&gt;"입니다.</block>
   <block id="9d7f2f9bd72cb1eb66d906abadf682b1" category="paragraph">부분 백업을 복원할 때 복원 작업은 * 범위 선택 * 페이지를 건너뜁니다.</block>
@@ -417,7 +410,6 @@
   <block id="020c68712d58d0c6ae79d6422851ae45" category="list-text">2차 스토리지 관계가 구성되어 있어야 합니다.</block>
   <block id="585f74b2337dcf50d5f84248087dbc7a" category="inline-link">역할 기반 액세스 제어 사용에 대한 SnapCenter 정보</block>
   <block id="567ee5fafb197286f35c17cbadbca640" category="paragraph">이 마법사 페이지의 대부분의 필드는 설명이 필요 없습니다. 다음 정보는 안내가 필요할 수 있는 일부 필드에 대해 설명합니다.</block>
-  <block id="dcac92a09611b2662a02b0b9aa5734c2" category="list-text">새 백업 정책 * 페이지에서 정책을 사용할 vCenter Server를 선택한 다음 정책 이름과 설명을 입력합니다.</block>
   <block id="1d92d0cbfdf6166c05997268d3378fe0" category="list-text">링크 모드</block>
   <block id="35f1c688325b0062756b2d7b0d00be28" category="paragraph">연결 모드에서는 각 vCenter에 별도의 가상 어플라이언스가 있습니다. 따라서 vCenter 전체에서 중복 이름을 사용할 수 있습니다. 그러나 리소스 그룹과 동일한 vCenter에서 정책을 생성해야 합니다.</block>
   <block id="9efc9e0c08da510b5195bb9dc4b1b7c2" category="list-text">지원되지 않는 문자입니다</block>
@@ -439,7 +431,6 @@
   <block id="a7ef08fff5cdd9899a1574f69f5c4428" category="cell">VM 일관성</block>
   <block id="c5622748b0dae394073783566c4253de" category="paragraph">백업 작업이 실행될 때마다 VM을 중지하고 VMware 스냅샷을 생성하려면 이 확인란을 선택합니다.</block>
   <block id="166fcfb07f657d1f99605d258bb5bfcb" category="paragraph">이 옵션은 VVOL에 대해 지원되지 않습니다. VVOL VM의 경우 충돌 시에도 정합성 보장 백업만 수행됩니다.</block>
-  <block id="20d4f4be2ccc6c4f003a0063fa83d6a7" category="admonition">VM 일관성 상자를 선택하면 백업 작업에 더 많은 시간이 걸리고 더 많은 스토리지 공간이 필요할 수 있습니다. 이 시나리오에서는 VM이 먼저 중지된 다음 VMware가 VM 정합성 보장 스냅샷을 수행한 다음 SnapCenter가 백업 작업을 수행한 다음 VM 작업이 다시 시작됩니다. VM 게스트 메모리는 VM 정합성 보장 스냅샷에 포함되지 않습니다.</block>
   <block id="d29d1dc03e0823975f46be5259a9780c" category="cell">독립 디스크가 있는 데이터 저장소를 포함합니다</block>
   <block id="495ad64d2a6a40cfac27d689d4edd34b" category="cell">임시 데이터를 포함하는 독립 디스크가 있는 모든 데이터 저장소를 백업에 포함하려면 이 확인란을 선택합니다.</block>
   <block id="a83f1ca5ad00b39773d9e6a26b0e70b2" category="cell">스크립트</block>
@@ -922,9 +913,7 @@
   <block id="de710b6ccc72b5f1a8613565f846ddac" category="section-title">해결 방법 캐시를 지우기 전에 이미 업그레이드한 경우</block>
   <block id="78fdbaed854859eecaeb3fcabe834dcb" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 비활성화합니다.</block>
   <block id="e25beeff1b30b84b27263789cd7a51a5" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 활성화합니다.</block>
-  <block id="508fd664c51b81e70c2be429237ee2ef" category="summary">VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Storage VMotion을 사용하여 클론 및 마운트 작업을 사용하여 복구 작업을 수행합니다. NFS 환경의 경우 플러그인은 네이티브 ONTAP SFSR(Single File SnapRestore)을 사용하여 대부분의 복구 작업에 더 높은 효율성을 제공합니다. VVOL VM의 경우 플러그인은 복원 작업에 ONTAP 단일 파일 스냅샷 복원 및 SnapMirror 복원을 사용합니다.</block>
   <block id="6312ee9320a2e7d34bcaf52de5c06f78" category="doc">복원 작업 수행 방법</block>
-  <block id="ea823eece32dabf410d5f215cf99d2cb" category="paragraph">VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Storage VMotion을 사용하여 클론 및 마운트 작업을 사용하여 복구 작업을 수행합니다. NFS 환경의 경우 플러그인은 네이티브 ONTAP SFSR(Single File SnapRestore)을 사용하여 대부분의 복구 작업에 더 높은 효율성을 제공합니다. VVOL VM의 경우 플러그인은 복원 작업을 위해 ONTAP 단일 파일 스냅샷 복원(ONTAP SFSR) 및 SnapMirror 복원을 사용합니다. 다음 표에는 복원 작업이 수행되는 방법이 나와 있습니다.</block>
   <block id="f5843b30a2a766ab4eace2681fcbee4a" category="cell">복원 작업</block>
   <block id="5da618e8e4b89c66fe86e32cdafde142" category="cell">보낸 사람</block>
   <block id="9f8f555cd6d2412cf59d8fe435cc9568" category="cell">를 사용하여 수행됩니다</block>
@@ -1110,7 +1099,6 @@
   <block id="10cdb4feb2dea4da0fb0c500304666b9" category="list-text">백업을 두 번 클릭하여 백업에 포함된 모든 VM 목록을 표시합니다.</block>
   <block id="721dbd87e9ecd1ae54c0718f20cae8fc" category="list-text">백업 목록에서 삭제된 VM을 선택하고 * 복원 * 을 클릭합니다.</block>
   <block id="63cef9780576628d2ececde8d6316073" category="list-text">복원 * 마법사의 * 백업 선택 * 페이지에서 복원할 백업 복사본을 선택합니다.</block>
-  <block id="43bf8720e765e5ec5249782941ceb574" category="paragraph">특정 백업 이름 또는 부분 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷을 포함하는 백업 여부, 마운트된 백업 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
   <block id="7d095eee366e6f2ce831a4097c5c2c23" category="paragraph">NFS 데이터 저장소의 VM을 ESXi 클러스터에 있는 대체 ESXi 호스트에 복구하는 경우 VM이 복구된 후 대체 호스트에 등록됩니다.</block>
   <block id="2b8952e2a3eecf608f1229e12bda5009" category="list-text">위치 선택 * 페이지에서 복원할 백업 위치(기본 또는 보조)를 선택합니다.</block>
   <block id="3ea1027d3f48da653af6e3aa5536c419" category="summary">게스트 파일 복원 작업을 위해 가상 디스크를 연결하는 데 프록시 VM을 사용하려면 복구 작업을 시작하기 전에 프록시 VM을 설정해야 합니다. 언제든지 프록시 VM을 설정할 수 있지만 플러그인 배포가 완료된 직후 프록시 VM을 설정하는 것이 더 편리할 수 있습니다.</block>
@@ -1510,7 +1498,6 @@
   <block id="d79bec3408f76d1eefc90b767b93cabf" category="summary">SnapCenter VMware vSphere Client 리소스 그룹 편집 마법사를 사용하여 기존 리소스 그룹에 여러 리소스를 추가할 수 있습니다.</block>
   <block id="fbfbbb98438908f6278b91f3e912dd4f" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 클릭한 다음 드롭다운 목록에서 * 호스트 및 클러스터 * 를 선택합니다.</block>
   <block id="3ec87b09fd664417b12e12d452b57325" category="paragraph">vCenter에서 VMware vSphere Client GUI를 사용하여 VMware 가상 머신(기존 VM 및 VVOL VM), VMDK, 데이터 저장소의 모든 백업 및 복원 작업을 수행할 수 있습니다. VVOL VM(VVOL 데이터 저장소의 VM)의 경우 충돌 시에도 정합성 보장 백업만 지원됩니다. VM 및 VMDK를 복구하고 게스트 OS에 상주하는 파일 및 폴더를 복원할 수도 있습니다.</block>
-  <block id="c8fc1db15ada67618adabf802e158c27" category="paragraph">VMware 툴이 설치 및 실행되지 않으면 파일 시스템이 정지되지 않고 장애 발생 시 정합성이 보장되는 스냅샷이 생성됩니다.</block>
   <block id="ab9f567063d45a42b5368e31b1fa1ee5" category="paragraph">ONTAP 툴을 사용하여 ONTAP 및 VMware 웹 클라이언트에서 VVOL의 스토리지를 프로비저닝하고 구성할 수 있습니다.</block>
   <block id="c9424bce718e9e3deaedf0943d2692ad" category="summary">VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 클라이언트 작업에 대한 기본 제공 일정을 수정하려면 규정된 REST API 호출 순서를 따라야 합니다.</block>
   <block id="16b3a864bb42d236668a11066dea0959" category="paragraph"><block ref="bc46521e0125f4721a271fb06915aeb5" prefix="" category="inline-code"></block></block>
@@ -1566,9 +1553,7 @@
   <block id="b6b7c58249919c09c14b897be2947b59" category="paragraph"><block ref="b6b7c58249919c09c14b897be2947b59" category="inline-image-macro-rx" type="image"></block></block>
   <block id="babb657a1390e215cc6322a94325a49a" category="paragraph">보고서에 포함할 시간 범위, 작업 상태 유형, 자원 그룹 및 정책을 수정하려면 필터 아이콘을 선택합니다.</block>
   <block id="e56f6654e80f4662afbca93ea23b2214" category="paragraph">다운로드 아이콘을 클릭하여 플러그인 로그를 다운로드할 수도 있습니다.</block>
-  <block id="d2fe9562864357eed887b91a56a42a0e" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷을 포함하는 백업 여부, 마운트된 백업 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭합니다.</block>
   <block id="44040e214e919d86d6a1f3f26db3d22c" category="inline-image-macro">편집 아이콘</block>
-  <block id="67b5e7cdb9f6fc8b9cf2e5acd6f703b8" category="inline-image-macro">vSphere 클라이언트 UI</block>
   <block id="5f6ae733d2ed961dcd2c41c04be8a70d" category="paragraph"><block ref="5f6ae733d2ed961dcd2c41c04be8a70d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6d90000405f5209bdfcbf03157cf4e4" category="paragraph">VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그온하려면 IP 주소와 로그인 자격 증명을 알고 있어야 합니다. 또한 유지보수 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.</block>
   <block id="0a94cca6404e40338ea941d1db3fab5e" category="list-text">유지 관리 콘솔 시스템 구성 옵션을 사용하여 6자리 MFA 토큰을 생성합니다.</block>
@@ -1668,7 +1653,6 @@ HTTP 연결용 -80</block>
   <block id="fe6c30a4fa66ded7dfa8e85bf0500684" category="list-text">vSphere 태그</block>
   <block id="76114b07bad3bfc30596ae551a44e2a6" category="paragraph">지정된 vSphere 태그가 지정된 모든 VM 및 데이터 저장소(VVOL 데이터 저장소 제외)</block>
   <block id="69e6b23ed013e0011d69b00b06dfb367" category="paragraph">백업 정책 없이 리소스 그룹을 생성할 수 있지만 데이터 보호 작업은 리소스 그룹에 하나 이상의 정책이 연결된 경우에만 가능합니다. 리소스 그룹 생성 프로세스 중에 기존 정책을 사용하거나 새 정책을 생성할 수 있습니다.</block>
-  <block id="492eb88027a90161462dae716848e606" category="admonition">스냅샷 잠금 기간이 있는 백업 정책을 선택하는 경우 ONTAP 9.12.1 이상 버전을 선택해야 합니다.</block>
   <block id="4ddaa4a24ea8e29ccbdc33077a2ff02e" category="cell">보호할 리소스 유형 선택:
 * 데이터 저장소(하나 이상의 지정된 데이터 저장소에 있는 모든 기존 VM) VVOL 데이터 저장소는 선택할 수 없습니다.
 * 가상 머신(개별 기존 또는 VVOL VM, 해당 필드에서 VM 또는 VVol VM이 포함된 데이터 저장소로 이동해야 함)
@@ -1685,7 +1669,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="b49cf949bc4e3959497059a7bfdd0369" category="inline-link">RestAPI를 사용하여 SCV에서 구성 매개 변수를 편집하는 방법</block>
   <block id="ec6b0202082dc6ee78a9636f86e0717d" category="list-text">지정된 vSphere 태그가 있는 모든 VVol VM</block>
   <block id="2260cf040531c2852db89dceca3fdeb9" category="list-text">VMware VVOL VM을 구성하려면 VMware vSphere용 ONTAP 툴이 필요합니다.</block>
-  <block id="9fa3adb07ccab8c66f18c216f4901022" category="paragraph"><block ref="9fa3adb07ccab8c66f18c216f4901022" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3f72758cf0a8156e66fa0d7b643122f" category="summary">REST API를 사용하여 스토리지 이름을 바꿀 수 있습니다.</block>
   <block id="16ceb93d669340dd2ab2325671f71daf" category="doc">이름을 바꾼 스토리지의 백업을 복원합니다</block>
   <block id="a52fd082737b9604d73b0ea5362cc5bd" category="paragraph">스토리지 이름이 바뀌면 이름 바꾸기 전에 생성된 백업을 사용하는 워크플로가 실패합니다. REST API를 통해서만 액세스할 수 있는 이름 바꾸기 백업 기능이 도입됨에 따라 이제 스토리지 이름을 바꾸기 전에 수행된 백업을 사용할 수 있습니다. REST API의 워크플로우 및 사용법에 대한 설명은 다음과 같습니다.</block>
@@ -1721,7 +1704,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="f7c526081094fe672e5be23f02e38b76" category="cell">* 리소스 *</block>
   <block id="f85e08b125832fc8dae732e6790fa120" category="cell">* 운영 *</block>
   <block id="bf59ac9161d0f4561a155103d8ea2d10" category="list-text">Audit Log Settings * 창에서 감사 로그 파일의 최대 수와 감사 로그 파일 크기 제한을 입력합니다.</block>
-  <block id="beebc895773b56339a9e46c0233ba7cd" category="list-text">스냅샷 잠금을 설정하려면 * 잠금 기간 * 확인란을 선택합니다. 스냅샷 잠금 기간을 일/월/년으로 선택할 수 있습니다.</block>
   <block id="716306984040e1bf7dc3b8c1b0a05422" category="paragraph">참고: SCV 호스트를 SnapCenter에 추가하기 위한 사용자 지정 포트가 지원됩니다.</block>
   <block id="06c615df2f8ec55473b26eed4f5eedbd" category="paragraph">다음 표에는 SnapCenter GUI에서 수행하는 작업이 나와 있습니다.</block>
   <block id="ac3ea74e69b4d64c5b8bf99577a62f58" category="cell">VMware vSphere Client GUI를 사용한 VM 및 데이터 저장소 백업</block>
@@ -1763,63 +1745,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="5b845076b112586b7fff13b10d9f0612" category="cell">로 이동합니다<block ref="7c61e9e4b133f96dbd184942bce35796" prefix=" " category="inline-code"></block></block>
   <block id="e4a70196caccbfc6c6d2c0d9df5e3013" category="paragraph">SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
 를 클릭합니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> 페이지는 OVA 파일을 다운로드하는 지침을 제공합니다.</block>
-  <block id="e36d64fc51e56fd0361e1824369bf78b" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약하고, VMware vSphere 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약합니다.</block>
-  <block id="82cae014f28918df8bf16d2dffbc6ae7" category="list-text">VM 정합성 보장 스냅샷을 사용하려면 VMware 툴이 필요합니다</block>
-  <block id="bf8d701c477c13e534e6d20e0696950a" category="paragraph">VM 및 데이터 저장소를 보호하려면 VMware vSphere Client 인터페이스를 사용합니다. 웹 클라이언트 GUI는 스토리지 시스템의 NetApp Snapshot 기술과 통합됩니다. 이를 통해 몇 초 내에 VM 및 데이터 저장소를 백업하고 ESXi 호스트를 오프라인으로 전환하지 않고도 VM을 복구할 수 있습니다.</block>
-  <block id="de09c59b7c20ebde6241f016a1040952" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약하고 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 애플리케이션 기반 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 정합성 보장 백업을 예약해야 합니다.</block>
-  <block id="4695e455608ec835ee8afbf8897a2f9c" category="list-text">스냅샷 최적화 중</block>
-  <block id="f46c0979021c8025122fff51faa81bd8" category="paragraph">스냅샷을 최적화하려면 동일한 볼륨에 연결된 VM 및 데이터 저장소를 하나의 리소스 그룹으로 그룹화해야 합니다.</block>
-  <block id="ddc15f81cd36a8510f67cf58cea9fdb1" category="paragraph">최근 스냅샷에 접미사 "_Recent"를 추가하려면 이 확인란을 선택합니다. “_Recent” 접미사는 날짜 및 타임스탬프를 대체합니다.</block>
-  <block id="723b537ef97ac7ce95d53da5a816b3d8" category="paragraph">스냅샷 이름에 사용자 지정 형식을 사용하려면 이 확인란을 선택하고 이름 형식을 입력합니다.</block>
-  <block id="2a41ff5a92e3ebd527bb827dc47335ba" category="list-text">기본 스냅샷 이름은 형식을 사용합니다<block ref="ba8f4cc4ace4f3315ea21bd52fbde9d9" prefix=" " category="inline-code"></block>
-그러나 $ResourceGroup, $Policy, $hostname, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다.
-$CustomText 를 선택하면 이름 형식은 입니다<block ref="ad231838859064f0fe437a9669c0d36f" prefix=" " category="inline-code"></block>. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다.
-[참고]:
-"_Recent" 접미사를 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 하므로 이름에 $ResourceGroup 및 $Policy 변수를 추가해야 합니다.</block>
-  <block id="72b644d7b8a7568e076044cf69d95fbf" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 원하는지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭합니다.</block>
-  <block id="5f4cf09d9b2b9a7a5e0f5ded931a3aa3" category="cell"><block ref="af62a8975e8577db87448344c585507f" prefix="" category="inline-code"></block> 지정된 백업의 스냅샷 위치를 가져옵니다.
-2단계에서 * backupId * 를 전달합니다.
-snapshotLocationsList* 정보를 확인합니다.</block>
-  <block id="71ef781dae45cfbf666fbb693d3227ac" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 정책을 수정할 수 있습니다.  정책이 리소스 그룹에 연결되어 있는 동안 빈도, 복제 옵션, 스냅샷 보존 설정 또는 스크립트 정보를 수정할 수 있습니다.</block>
-  <block id="63135ded402e94eb90e91d3b29c03007" category="list-text">복원할 백업 스냅샷과 VMDK를 알고 있어야 합니다.</block>
-  <block id="8dd3af98abb3e4b7c4a2824e64cd30d2" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 복구할 파일 또는 폴더 검색을 지원하지 않습니다. 따라서 시작하기 전에 스냅샷 및 해당 VMDK와 관련된 파일 또는 폴더의 위치를 알아야 합니다.</block>
-  <block id="f7f98b33a00dd6478600c36dc25fcf40" category="list-text">위치 선택 * 페이지에서 복원할 스냅샷(기본 또는 보조)을 선택합니다.</block>
-  <block id="18c22e30c39ace97af7ec9f62038e710" category="paragraph">복구 대상은 SnapCenter에 추가된 ESXi 호스트일 수 있습니다. 이 옵션은 VM이 지정된 시간 및 날짜를 사용하여 스냅샷에서 상주하는 선택한 백업의 내용을 복원합니다. 이 옵션을 선택하면 * Restart VM *(VM 다시 시작 *) 확인란이 선택되어 있고 VM의 전원이 켜집니다.</block>
-  <block id="d67967470b9c73c5afb040931a7e6578" category="paragraph">모든 리소스 그룹 삭제 작업은 강제 삭제로 수행됩니다. 삭제 작업을 수행하면 vCenter 리소스 그룹에서 모든 정책이 분리되고, VMware vSphere용 SnapCenter 플러그인에서 리소스 그룹이 제거되며, 리소스 그룹의 모든 백업과 스냅샷이 삭제됩니다.</block>
-  <block id="2e98fb5c5d12bcc1fb0bdf89d865b603" category="admonition">SnapVault 관계에서는 마지막 스냅샷을 삭제할 수 없으므로 리소스 그룹을 삭제할 수 없습니다. SnapVault 관계에 포함된 리소스 그룹을 삭제하기 전에 OnCommand System Manager를 사용하거나 ONTAP CLI를 사용하여 SnapVault 관계를 제거해야 하며 마지막 스냅샷을 삭제해야 합니다.</block>
-  <block id="9ed765e8e957bd37870392d8e17ee242" category="paragraph">생성된 총 스냅샷, SnapVault 및 SnapMirror 스냅샷 수와 기본 및 보조 스냅샷에 사용되는 스토리지의 양 선형 그래프는 롤링 90일 동안 1차 및 2차 스토리지 소비를 일 단위로 각각 플롯합니다. 스토리지 정보는 24시간마다 오전 1시 8분에 한 번씩 업데이트됩니다
-스토리지 절감 비율은 운영 스토리지의 물리적 용량 대비 논리적 용량(스냅샷 절약 비율 + 사용된 스토리지)의 비율입니다. 막대 차트는 스토리지 절약 효과를 보여 줍니다.</block>
-  <block id="3da92a184b003bf8d8e0c383eabc1d01" category="admonition">SnapCenter Plug-in for VMware vSphere 이외의 소프트웨어로 수행된 VM의 스냅샷이 있는 경우 복구 작업을 완료할 수 없습니다.</block>
-  <block id="59793dbbf73242ccdd32deff8d4d7c0b" category="paragraph">VM에 대한 복구 작업은 원래 VM의 등록을 취소하고 백업 스냅샷에서 VM을 복원하며 복원된 VM을 동일한 ESXi 서버에 동일한 이름 및 구성으로 등록합니다. 복구 후 리소스 그룹에 VM을 수동으로 추가해야 합니다.</block>
-  <block id="a4c18c73748d0715312a439bad78189e" category="list-text">복원 * 마법사의 * 백업 선택 * 페이지에서 복원하려는 백업 스냅샷을 선택합니다.</block>
-  <block id="0063a09a9fbca08e1c4b484a0bc2f44e" category="list-text">미러 또는 볼트 보조 스토리지로 스냅샷을 복제하는 경우 관계를 구성해야 하며 SnapCenter 관리자가 소스 볼륨과 대상 볼륨 모두에 대해 스토리지 VM을 할당해야 합니다.</block>
-  <block id="f388a512c05d28e7ac94288c4bd5da97" category="list-text">NFS 또는 VMFS 데이터 저장소에서 Version-FlexibleMirror 관계를 위해 스냅샷을 보조 스토리지로 전송하려면 SnapMirror 정책 유형이 Asynchronous Mirror이고 "all_source_snapshots" 옵션이 선택되어 있는지 확인하십시오.</block>
-  <block id="3ce9db2a38b1f87c4fb955db8882eed6" category="list-text">보조 스토리지(미러 볼트)의 스냅샷 수가 최대 제한에 도달하면 백업 작업에서 백업을 등록하고 보존을 적용하는 작업이 실패하고 다음 오류가 발생합니다.<block ref="30496723c454b60aabe26e3e2608097f" prefix=" " category="inline-code"></block></block>
-  <block id="901c681d3a288c3808f21d058d8434d7" category="admonition">SnapVault 복제를 사용하도록 설정하려는 경우 보존 수를 백업 2개 이상으로 설정해야 합니다. 보존 개수를 1개의 백업으로 설정하면 보존 작업이 실패할 수 있습니다. 첫 번째 스냅샷은 새 스냅샷이 타겟에 복제될 때까지 SnapVault 관계에 대한 참조 스냅샷이기 때문입니다.</block>
-  <block id="1d923d5ae6e4db3dca056c9a5b89c97f" category="paragraph">이 정책으로 생성된 SnapVault 및 SnapMirror 스냅샷에 추가할 선택적 사용자 지정 레이블을 입력합니다.
-스냅샷 레이블을 사용하면 이 정책으로 생성된 스냅샷을 보조 스토리지 시스템의 다른 스냅샷과 구분할 수 있습니다.</block>
-  <block id="6cb0b8338ef71274b378652e10e95076" category="admonition">스냅샷 레이블에는 최대 31자를 사용할 수 있습니다.</block>
-  <block id="30f4f6955fba03a8013c2694049c90b8" category="cell">백업 작업에 대한 개요 데이터를 표시합니다. 그래프의 섹션/상태를 클릭하면 * 보고서 * 탭에서 해당 상태의 작업 목록을 볼 수 있습니다.
-
-각 작업에 대해 보고서에는 작업 ID, 해당 리소스 그룹, 백업 정책, 시작 시간 및 기간, 상태, 작업 완료 시 작업 이름(스냅샷 이름) 및 경고 또는 오류 메시지가 포함된 작업 세부 정보가 나열됩니다.
-
-보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.
-삭제된 백업은 보고서에 포함되지 않습니다.</block>
-  <block id="9c4a4bb63bd5e1a0810596b78da4baef" category="cell">마운트 작업에 대한 개요 데이터를 표시합니다. 그래프의 섹션/상태를 클릭하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다.
-
-각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다.
-
-예를 들면 다음과 같습니다.<block ref="5885e660153b51d912f9f11bb4649003" prefix=" " category="inline-code"></block>
-
-보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다.
-
-또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
-  <block id="36c9a2b98b205327142a9e705c4b9572" category="cell">복원 작업에 대한 개요 상태 정보를 표시합니다. 그래프의 섹션/상태를 클릭하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다.
-각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들면 다음과 같습니다.<block ref="13d80bb12ac7353f6e745081e5946c14" prefix=" " category="inline-code"></block>
-
-보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
-  <block id="48c532a91a39978d27f7f4a9a7f5991b" category="paragraph">SnapVault 스케줄로 보호되고 ONTAP 8.3을 실행 중인 SnapVault 대상 볼륨에 연결 또는 마운트 작업을 수행하는 경우 연결 또는 마운트 대화 상자 화면에 추가 스냅샷이 표시될 수 있습니다. 이 문제는 연결 또는 마운트 작업에서 SnapVault 대상 볼륨을 클론하고 ONTAP에서 새 스냅샷을 생성하여 볼륨을 업데이트하기 때문에 발생합니다.</block>
-  <block id="c37f70b28958723ba6b25680a8a14c5c" category="paragraph">볼륨을 클론 복제할 때 새 스냅샷이 생성되지 않도록 하려면 SnapVault 볼륨에 대한 ONTAP 스케줄을 해제합니다. 이전의 기존 스냅샷은 삭제되지 않습니다.</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
   <block id="e726fb41e1d7a22426e4a9637075810c" category="sidebar">SCV에 대해 알아보십시오</block>
   <block id="ff31982aef870d546d52f49bb30ef34b" category="sidebar">구현할 수 있습니다</block>
@@ -1836,7 +1761,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="b07f5a589dfba9c50331d3753c44828e" category="list-text">vCenter Client 바로 가기 페이지에서 SnapCenter Plug-in for VMware vSphere (SCV) 를 선택합니다.</block>
   <block id="cb2dc08c39241837cb4a00bc68a28171" category="list-text">SCV의 왼쪽 탐색 창에서 * 대시보드 * &gt; * 보고서 * 탭을 선택합니다.</block>
   <block id="74f69e9b1980c384917fc2295036ad1e" category="admonition">백업 스케줄은 VMware vSphere용 SnapCenter 플러그인이 구축되는 표준 시간대에서 실행됩니다. vCenter는 vCenter가 있는 시간대의 데이터를 보고합니다. 따라서 VMware vSphere용 SnapCenter 플러그인과 vCenter가 서로 다른 시간대에 있는 경우 VMware vSphere Client 대시보드의 데이터가 보고서의 데이터와 같지 않을 수 있습니다.</block>
-  <block id="b9c6040e19e979fdcb513c0fd37529ee" category="cell">VMware vSphere용 SnapCenter 플러그인에서 관리하는 VM 및 데이터 저장소의 구성된 기간 동안 보호 상태에 대한 개요 정보를 표시합니다. 기본값은 7일입니다. 속성 파일의 값을 수정하려면 을 <block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>참조하십시오. 기본 보호 차트에서 섹션/상태를 클릭하면 * Reports * 탭에서 해당 상태의 VM 또는 데이터 저장소 목록을 볼 수 있습니다. 보호된 VM 및 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 일 수 동안 백업된 VM 또는 데이터 저장소의 이름, 최신 스냅샷 이름, 최신 백업 실행 시작 및 종료 시간이 표시됩니다. 보호되지 않는 VM 또는 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 기간 동안 백업이 성공하지 못한 VM 또는 데이터 저장소의 이름이 표시됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 이 보고서는 플러그인 캐시가 새로 고쳐지면 매시간마다 새로 고쳐집니다. 따라서 보고서에 최근에 백업된 VM 또는 데이터 저장소가 표시되지 않을 수 있습니다.</block>
   <block id="4cfec9964bf84a35be4d941696759bca" category="summary">REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 SnapCenter 서버 또는 VMware vSphere REST API용 SnapCenter 플러그인을 표시하고 API 호출을 수동으로 실행할 수 있습니다. VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저장소에 대한 보호 작업을 수행할 수 있습니다.</block>
   <block id="930080270cd7b9a56b6c02b7abc28d36" category="paragraph">REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 SnapCenter 서버 또는 VMware vSphere REST API용 SnapCenter 플러그인을 표시하고 API 호출을 수동으로 실행할 수 있습니다. VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저장소에서 작업을 수행할 수 있습니다.</block>
   <block id="b8b4302f87de5162c5bd15a1e5ed1b44" category="paragraph">VMware vSphere REST API용 SnapCenter 플러그인의 경우 VMware vSphere용 SnapCenter 플러그인의 IP 주소 또는 호스트 이름을 알고 있어야 합니다.</block>
@@ -1893,7 +1817,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="110328d238985c18e0a7947b09b1ff0f" category="summary">VMware vSphere용 SnapCenter 플러그인은 클라이언트 브라우저와의 안전한 통신을 위해 SSL 암호화를 사용합니다. 이렇게 하면 전체 전송 중에 암호화된 데이터가 활성화되거나, 새 자체 서명된 인증서를 만들거나, 고유한 CA(인증 기관) 인프라 또는 타사 CA를 사용하여 인증서를 만들 수 있지만, 이 경우 사용자 환경에 맞는 고유한 인증서가 보장됩니다.</block>
   <block id="6886be2ac69a368a307204ccfa1e00d9" category="paragraph">자세한 내용은 을<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="dbda93db9be6e33e4445e8182fe70414" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭한 다음 * New Policy * 를 선택합니다.</block>
-  <block id="b0131629306c9240f3789f9e15396c3b" category="paragraph">이 문제를 해결하려면 최대 스냅샷 제한에 도달하지 않도록 보조 스토리지에 대한 SnapMirror 보존 정책을 구성하십시오.</block>
   <block id="6371946f7a59bb407f5608582531db43" category="paragraph">관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 을<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="e90ae72a4d203cde9c1d660d983bec13" category="list-text">SnapMirror 액티브 동기화를 사용하면 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으므로 보조 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.</block>
   <block id="c2bc8f54778a0e6f72a8fa3f9c96aae7" category="admonition">SnapMirror 활성 동기화는 VMFS 데이터 저장소에만 지원됩니다.</block>
@@ -2005,7 +1928,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="a3e4b86e8fdd43957e1a1f48d820b4db" category="paragraph">SnapCenter Plug-in for VMware vSphere 서비스가 해제되고 vCenter에서 확장이 등록되지 않습니다.</block>
   <block id="936704873dbea48e7a0f75de807fbb87" category="paragraph">SnapCenter Plug-in for VMware vSphere 서비스가 설정되고 확장이 vCenter에 등록됩니다.</block>
   <block id="064b0490f1eed446111789f518543b18" category="admonition">로그인 * 버튼을 클릭합니다. 알려진 VMware 문제로 인해 Enter 키를 사용하여 로그인하지 마십시오. 자세한 내용은 ESXi 내장 호스트 클라이언트 문제에 대한 VMware 설명서를 참조하십시오.</block>
-  <block id="12e0d65e7b7974e70338d764c2d9f665" category="paragraph">보조 스토리지의 스냅샷은 VMware vSphere용 SnapCenter 플러그인이 아닌 ONTAP 보존 설정에 의해 관리됩니다. 따라서 VMware vSphere용 SnapCenter 플러그인을 사용하여 백업을 삭제하면 운영 스토리지의 스냅샷은 삭제되지만 보조 스토리지의 스냅샷은 삭제되지 않습니다. 보조 스토리지에 스냅샷이 여전히 존재하는 경우 VMware vSphere용 SnapCenter 플러그인은 복구 요청을 지원하기 위해 백업과 관련된 메타데이터를 유지합니다. ONTAP 보존 프로세스가 보조 스냅샷을 삭제하면 VMware vSphere용 SnapCenter 플러그인은 정기적으로 실행되는 제거 작업을 사용하여 메타데이터를 삭제합니다.</block>
   <block id="edd7c130c7f64f441111f5f435cc5ffe" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에서 정책을 분리하여 리소스에 대한 데이터 보호를 더 이상 관리하지 않도록 할 수 있습니다. 정책을 제거하거나 스케줄 빈도를 수정하기 전에 먼저 정책을 분리해야 합니다.</block>
   <block id="514256d366ab9270c353228b4adf19a4" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에서 정책을 분리하는 지침은 SnapCenter 리소스 그룹에 대한 지침과 다릅니다. VMware vSphere Client 리소스 그룹의 경우 모든 정책을 분리할 수 있으며, 정책 없이 리소스 그룹을 그대로 둡니다. 그러나 해당 리소스 그룹에 대해 데이터 보호 작업을 수행하려면 적어도 하나의 정책을 연결해야 합니다.</block>
   <block id="d1111de96ba88256d9e1e5433bd9114d" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 리소스 그룹을 선택하고 * 편집 * 을 클릭합니다.</block>
@@ -2158,7 +2080,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="7e35de6c484fe702e7c4fe21538ac2a4" category="paragraph">SnapCenter 4.8 을 참조하십시오</block>
   <block id="2acd783e8dee0eed27b40328899eef19" category="inline-link">VMware vSphere 6.1용 SnapCenter 플러그인에 대한 고지 사항</block>
   <block id="8ebd9207a610e17e383416d90951290e" category="paragraph"><block ref="8ebd9207a610e17e383416d90951290e" category="inline-link-rx"></block></block>
-  <block id="f8a96ad66100bda7d69f0d2cf5b27f72" category="admonition">ASA R2 스토리지 시스템은 _ 최근 스냅샷 명명 기능을 지원하지 않습니다.</block>
   <block id="414f994a73d1f79098abf3d5d51e5555" category="list-text">요약 * 페이지가 나타날 때까지 * 다음 * 을 클릭한 다음 요약을 검토하고 * 마침 * 을 클릭합니다.</block>
   <block id="9329e69bb4e74e1c55c47a7b13b20c73" category="admonition">ASA R2 백업은 정합성 보장 그룹 스냅샷을 생성하고 지정된 리소스에 없는 경우 운영 정합성 보장 그룹을 프로비저닝합니다.</block>
   <block id="94e5f239a67b0bdbb293ad6d93a70fae" category="list-text">리소스 그룹 생성 마법사의 각 페이지에 필요한 정보를 입력하고 리소스 그룹에 포함할 VM 및 데이터 저장소를 선택한 다음 리소스 그룹에 적용할 백업 정책을 선택합니다. 원격 보조 보호 세부 정보를 추가하고 백업 일정을 지정합니다.</block>
@@ -2167,7 +2088,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="29d5d806d07657990827260e1cb0e2f6" category="list-text">리소스 그룹에 대한 보조 보호를 생성합니다</block>
   <block id="d2c627ac86e99bf486f92df0e01e564d" category="paragraph">보조 보호는 리소스 그룹에 추가된 리소스에 대한 복제 관계를 생성합니다. 1차 클러스터의 지정된 정책을 사용하여 1차 클러스터 및 SVM에서 일관성 그룹 기반 SnapMirror 관계를 생성해야 합니다. 보조 보호는 ASA R2 시스템 기반 데이터 저장소 및 가상 머신에 대해서만 지원됩니다. 클러스터 피어링과 SVM 피어링은 사전 구성해야 한다. 보조 보호에서는 비동기식 SnapMirror 정책만 허용합니다. 보조 보호를 생성할 때 정합성 보장 그룹 접미사를 제공해야 합니다.</block>
   <block id="1aa6cfe25429fc4eec3c516dcd2dc639" category="paragraph">보조 보호는 리소스 그룹에 추가된 리소스에 대한 복제 관계를 생성합니다.</block>
-  <block id="d225ffa0857e0c1621ca548327cac09f" category="admonition">ASA R2 스토리지 시스템은 스냅샷 이름 변경을 지원하지 않으므로 SCV의 이름 바꾸기 백업 및 _ 최근 스냅샷 이름 지정 기능이 지원되지 않습니다.</block>
   <block id="581b0ff55ddecb82a36105092c53ed37" category="cell">목록에서 하나 이상의 정책을 선택합니다. 보조 보호는 SnapMirror 및 SnapVault 업데이트를 모두 선택한 기존 및 새 정책에 적용됩니다.</block>
   <block id="4a9546a9033ba87fc7117a1294a5e336" category="list-text">2차 보호 * 페이지에서 선택한 리소스 목록이 해당 보호 상태와 함께 표시됩니다. 보호되지 않는 리소스를 보호하려면 드롭다운에서 복제 정책 유형, 정합성 보장 그룹 접미사, 대상 클러스터 및 대상 SVM을 선택합니다. 리소스 그룹을 생성하면 보조 보호를 위해 별도의 작업이 생성되며 작업 모니터 창에서 이 작업을 볼 수 있습니다.</block>
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="cell">필드를 선택합니다</block>
@@ -2219,7 +2139,6 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="21d5f6e174bd644ffb485588eaf88aa1" category="paragraph">* ASA R2 시스템에서 VM 및 VMFS 데이터 저장소 지원 *</block>
   <block id="4ff1c74f59c8af7628ad4bba73e7a214" category="paragraph">VMware vSphere 6.1용 SnapCenter 플러그인은 이제 ASA R2 시스템에서 VM(가상 머신) 및 VMFS 데이터 저장소의 프로비저닝을 지원합니다. ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. VMware vSphere 6.1용 SnapCenter 플러그인 ASA R2 시스템의 VM, 데이터 저장소 및 VMDK(Virtual Machine Disk Format)에서 지원되는 기능은 다음과 같습니다.</block>
   <block id="58750fe248e0ff18b9fc2f1aef5f3790" category="list-text">기본 보호를 위한 정합성 보장 그룹 프로비저닝</block>
-  <block id="aa90edd6232295850b0461777246c50b" category="list-text">정합성 보장 그룹 기반 백업</block>
   <block id="9a1901c6fb175880508a4835b0898446" category="list-text">워크플로 복제</block>
   <block id="d4fc87c71eab8d183e02273ad78a7c04" category="list-text">워크플로 복원</block>
   <block id="bfb1fb42df848164986651f570a11d61" category="list-text">리소스 그룹을 생성하거나 수정할 때 2차 보호 프로비저닝을 수행합니다.</block>
@@ -2242,4 +2161,68 @@ snapshotLocationsList* 정보를 확인합니다.</block>
   <block id="ffa5dd2af4873dbfd89f9ae07a815104" category="cell">443(HTTPS), 양방향 80(HTTP), 양방향 포트는 가상 어플라이언스와 스토리지 VM 또는 스토리지 VM이 포함된 클러스터 간의 통신에 사용됩니다.</block>
   <block id="822926837c6e218e71716b72e1a7017f" category="paragraph">각 플러그인 인스턴스는 연결 모드에 있는 vCenter Server를 하나만 지원합니다. 그러나 다음 그림과 같이 여러 플러그인 인스턴스가 동일한 SnapCenter 서버를 지원할 수 있습니다.</block>
   <block id="1c0894625a89e433ba87d14aebdc6088" category="paragraph">vCenter 관리자 계정에는 다음 표에 나열된 필수 vCenter Privileges가 있어야 합니다.</block>
+  <block id="80d239c54104b637db16d32ddcf6ff89" category="admonition">ASA R2 스토리지 시스템은 _ 최근 스냅샷 명명 기능을 지원하지 않습니다.</block>
+  <block id="68e34cb9e3a60830aed69c89f5c923aa" category="cell">백업 작업에 대한 개요 데이터를 표시합니다. 그래프의 섹션/상태를 클릭하면 * 보고서 * 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 해당 리소스 그룹, 백업 정책, 시작 시간 및 기간, 상태, 작업 완료 시 작업 이름(스냅샷 이름) 및 경고 또는 오류 메시지가 포함된 작업 세부 정보가 나열됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 삭제된 백업은 보고서에 포함되지 않습니다.</block>
+  <block id="b509945ce76230a5eeff2083503f5495" category="cell">마운트 작업에 대한 개요 데이터를 표시합니다. 그래프의 섹션/상태를 클릭하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들어<block ref="5885e660153b51d912f9f11bb4649003" prefix=" " category="inline-code"></block> , HTML 또는 CSV 형식으로 보고서 표를 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
+  <block id="fe39f815c00ab0cdc48133dd4394febe" category="cell">복원 작업에 대한 개요 상태 정보를 표시합니다. 그래프의 섹션/상태를 클릭하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들어<block ref="13d80bb12ac7353f6e745081e5946c14" prefix=" " category="inline-code"></block> , HTML 또는 CSV 형식으로 보고서 표를 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
+  <block id="5d6ca3a9d35eb5459130306f5807c2f3" category="cell">VMware vSphere용 SnapCenter 플러그인에서 관리하는 VM 및 데이터 저장소의 구성된 기간 동안 보호 상태에 대한 개요 정보를 표시합니다. 기본값은 7일입니다. 속성 파일의 값을 수정하려면 을 <block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>참조하십시오. 기본 보호 차트에서 섹션/상태를 클릭하면 * Reports * 탭에서 해당 상태의 VM 또는 데이터 저장소 목록을 볼 수 있습니다. 보호된 VM 및 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 일 수 동안 백업된 VM 또는 데이터 저장소의 이름, 최신 스냅샷 이름, 최신 백업 실행 시작 및 종료 시간이 표시됩니다. 보호되지 않는 VM 또는 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 기간 동안 백업이 성공하지 못한 VM 또는 데이터 저장소의 이름이 표시됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 이 보고서는 플러그인 캐시가 새로 고쳐지면 매시간마다 새로 고쳐집니다. 따라서 보고서에 최근에 백업된 VM 또는 데이터 저장소가 표시되지 않을 수 있습니다.</block>
+  <block id="a3f8064d6a9d17254355b89f290da65d" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭합니다.</block>
+  <block id="75df3e6b9f46cc58a0ff9c56046b0977" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약하고, VMware vSphere 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약합니다.</block>
+  <block id="c0d9eeb671fe20a76e29ca04e5053b74" category="list-text">VM 정합성 보장 스냅샷을 사용하려면 VMware 툴이 필요합니다</block>
+  <block id="78f7815c68e90eaacbd9cc9cc5e128c5" category="paragraph">VMware 툴이 설치 및 실행되지 않으면 파일 시스템이 정지되지 않고 충돌 시에도 정합성이 보장되는 스냅샷이 생성됩니다.</block>
+  <block id="7e568888fb10657f9473564c7d777f02" category="list-text">미러 또는 볼트 보조 스토리지로 스냅샷을 복제하는 경우 관계를 구성해야 하며 SnapCenter 관리자가 소스 볼륨과 대상 볼륨 모두에 대해 스토리지 VM을 할당해야 합니다.</block>
+  <block id="f06fe1377f87aa8df44d2ee3312293a0" category="list-text">NFS 또는 VMFS 데이터 저장소의 Version-FlexibleMirror 관계를 위해 스냅샷을 보조 스토리지로 전송하려면 SnapMirror 정책 유형이 Asynchronous Mirror이고 "all_source_snapshots" 옵션이 선택되어 있는지 확인하십시오.</block>
+  <block id="a39157e0ac589845c37cbdc729254197" category="list-text">보조 스토리지(미러 볼트)의 스냅샷 수가 최대 한도에 도달하면 백업 작업에 백업을 등록하고 보존을 적용하는 작업이 실패하고 다음 오류가 발생합니다.<block ref="a3059186481cd77c6852e6ddd88e84af" prefix=" " category="inline-code"></block></block>
+  <block id="a106499a896f7e52f3025e26415785ae" category="paragraph">이 문제를 해결하려면 최대 스냅샷 제한에 도달하지 않도록 보조 스토리지에 대한 SnapMirror 보존 정책을 구성하십시오.</block>
+  <block id="2e88e0aaabba73198bea2bc09ded1f6e" category="list-text">새 백업 정책 * 페이지에서 정책 이름과 설명을 입력합니다.</block>
+  <block id="bf596bbc0d9d0d247cb65bc521d4c4dd" category="list-text">스냅샷 잠금을 설정하려면 * 잠금 기간 * 확인란을 선택합니다. 운영 및 보조 스냅샷 잠금 기간을 일/월/년으로 선택할 수 있습니다.</block>
+  <block id="338eff3cf3ea538d4dddcb15d34cf9f5" category="admonition">ONTAP SnapMirror 정책에 설정된 보존 값과 관계없이 보조 스냅샷 복사본은 지정된 보조 스냅샷 잠금 기간 전에 삭제되지 않습니다.</block>
+  <block id="867d3cae1de1c2aa933faf18ecf34efe" category="admonition">SnapVault 복제를 사용하도록 설정하려는 경우 보존 수를 백업 2개 이상으로 설정해야 합니다. 보존 개수를 1개의 백업으로 설정하면 보존 작업이 실패할 수 있습니다. 이는 새 스냅샷이 타겟으로 복제될 때까지 첫 번째 스냅샷이 SnapVault 관계에 대한 참조 스냅샷이기 때문입니다.</block>
+  <block id="8187d70c0911a1d7b0d72f813e3de707" category="paragraph">이 정책으로 생성된 SnapVault 및 SnapMirror 스냅샷에 추가할 선택적 사용자 지정 레이블을 입력합니다. 스냅샷 레이블을 사용하면 이 정책으로 생성된 스냅샷을 보조 스토리지 시스템의 다른 스냅샷과 구별할 수 있습니다.</block>
+  <block id="c96b78ab3b546f1c6350447b6b0b69e9" category="admonition">스냅샷 레이블에는 최대 31자를 사용할 수 있습니다.</block>
+  <block id="e7c088e25fc4bf9f423f53697a7ebc9f" category="admonition">VM 일관성 상자를 선택하면 백업 작업에 더 많은 시간이 걸리고 더 많은 스토리지 공간이 필요할 수 있습니다. 이 시나리오에서는 VM이 먼저 중지된 다음 VMware가 VM 정합성 보장 스냅샷을 수행한 다음 SnapCenter가 백업 작업을 수행한 다음 VM 작업이 다시 시작됩니다. VM 게스트 메모리는 VM 정합성 보장 스냅샷에 포함되지 않습니다.</block>
+  <block id="1d8fc89c22ffba017784a94c288acc73" category="list-text">스냅샷 최적화 중</block>
+  <block id="f2f64708aa812b59278d786b60b3b7d7" category="paragraph">스냅샷을 최적화하려면 동일한 볼륨에 연결된 VM 및 데이터 저장소를 하나의 리소스 그룹으로 그룹화해야 합니다.</block>
+  <block id="7d637f0545a627149d95ca39f96e3f50" category="admonition">스냅샷 잠금 기간이 있는 백업 정책을 선택하는 경우 ONTAP 9.12.1 이상 버전을 선택해야 합니다.</block>
+  <block id="003fe3722b3d94694e8082a2ccce7d4e" category="cell">최신 스냅샷 이름입니다</block>
+  <block id="ef7c1c422fafb269a96680a835f28111" category="paragraph">최근 스냅샷에 접미사 "_Recent"를 추가하려면 이 확인란을 선택합니다. “_Recent” 접미사는 날짜 및 타임스탬프를 대체합니다.</block>
+  <block id="b048816ac59c8bb52848d42e3d20198b" category="admonition">ASA R2 스토리지 시스템은 스냅샷 이름 변경을 지원하지 않으므로 SCV의 이름 바꾸기 백업 및 _ 최근 스냅샷 이름 지정 기능이 지원되지 않습니다.</block>
+  <block id="e8e16f80b6cc95f387b7be62fa0f532e" category="cell">사용자 지정 스냅샷 형식</block>
+  <block id="284b15bb42ed466d7ea099d41647444d" category="paragraph">스냅샷 이름에 사용자 지정 형식을 사용하려면 이 확인란을 선택하고 이름 형식을 입력합니다.</block>
+  <block id="88d5f42bbf75213962df2697649c497f" category="list-text">기본 스냅샷 이름에는 형식을<block ref="ba8f4cc4ace4f3315ea21bd52fbde9d9" prefix=" " category="inline-code"></block> 사용하지만 $ResourceGroup, $Policy, $hostname, $ScheduleType 및 $CustomText 변수를 사용하여 사용자 지정 형식을 지정할 수 있습니다. 사용자 정의 이름 필드의 드롭다운 목록을 사용하여 사용할 변수와 변수를 사용하는 순서를 선택합니다. $CustomText 를 선택하면 이름 형식은<block ref="ad231838859064f0fe437a9669c0d36f" prefix=" " category="inline-code"></block>입니다. 제공된 추가 상자에 사용자 지정 텍스트를 입력합니다. [참고]: "_Recent" 접미사를 선택하는 경우 사용자 지정 스냅샷 이름이 데이터 저장소에서 고유한지 확인해야 합니다. 따라서 이름에 $ResourceGroup 및 $Policy 변수를 추가해야 합니다.</block>
+  <block id="c2c8a1e1f67b255a6abf4fc5fc809a95" category="summary">VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Storage VMotion을 사용하여 클론 및 마운트 작업을 사용하여 복구 작업을 수행합니다. NFS 환경의 경우 플러그인은 네이티브 ONTAP SFSR(Single File SnapRestore)을 사용하여 대부분의 복구 작업에 더 높은 효율성을 제공합니다. VVOL VM의 경우 플러그인에서 복원 작업에 ONTAP 단일 파일 스냅샷 복원 및 SnapMirror 복원을 사용합니다.</block>
+  <block id="f82af7cf32f7be8c379046b826f182bc" category="paragraph">VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Storage VMotion을 사용하여 클론 및 마운트 작업을 사용하여 복구 작업을 수행합니다. NFS 환경의 경우 플러그인은 네이티브 ONTAP SFSR(Single File SnapRestore)을 사용하여 대부분의 복구 작업에 더 높은 효율성을 제공합니다. VVOL VM의 경우 플러그인에서 ONTAP 복원 작업을 위해 ONTAP SFSR(Single File Snapshot Restore) 및 SnapMirror 복원을 사용합니다. 다음 표에는 복원 작업이 수행되는 방법이 나와 있습니다.</block>
+  <block id="b2ca7b7f9ce9a9907bcc75c5514315e5" category="paragraph">보조 스토리지의 스냅샷은 VMware vSphere용 SnapCenter 플러그인이 아닌 ONTAP 보존 설정에 의해 관리됩니다. 따라서 VMware vSphere용 SnapCenter 플러그인을 사용하여 백업을 삭제하면 운영 스토리지의 스냅샷은 삭제되지만 보조 스토리지의 스냅샷은 삭제되지 않습니다. 스냅샷이 보조 스토리지에 여전히 존재하는 경우 VMware vSphere용 SnapCenter 플러그인은 복구 요청을 지원하기 위해 백업과 관련된 메타데이터를 유지합니다. ONTAP 보존 프로세스가 보조 스냅샷을 삭제하면 VMware vSphere용 SnapCenter 플러그인은 정기적으로 실행되는 제거 작업을 사용하여 메타데이터를 삭제합니다.</block>
+  <block id="73de513c4d9b5d1aede9f09e6412115d" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 정책을 수정할 수 있습니다. 정책이 리소스 그룹에 연결되어 있는 동안 빈도, 복제 옵션, 스냅샷 보존 설정 또는 스크립트 정보를 수정할 수 있습니다.</block>
+  <block id="ae969b2c3623f7b712e8dc90ea64bc7e" category="paragraph">모든 리소스 그룹 삭제 작업은 강제 삭제로 수행됩니다. 삭제 작업을 수행하면 vCenter 리소스 그룹에서 모든 정책이 분리되고, VMware vSphere용 SnapCenter 플러그인에서 리소스 그룹이 제거되며, 리소스 그룹의 모든 백업과 스냅샷이 삭제됩니다.</block>
+  <block id="9211a296b4cd2f3f54ffbe3156475a01" category="admonition">SnapVault 관계에서는 마지막 스냅샷을 삭제할 수 없으므로 리소스 그룹을 삭제할 수 없습니다. SnapVault 관계에 포함된 리소스 그룹을 삭제하기 전에 OnCommand System Manager 또는 ONTAP CLI를 사용하여 SnapVault 관계를 제거한 다음 마지막 스냅샷을 삭제해야 합니다.</block>
+  <block id="ce2c264a7f2ac0d42d9d859e550d04e7" category="paragraph">SnapVault 스케줄로 보호되고 ONTAP 8.3을 실행 중인 SnapVault 대상 볼륨에서 연결 또는 마운트 작업을 수행하는 경우 연결 또는 마운트 대화 상자 화면에 추가 스냅샷이 표시될 수 있습니다. 이 문제는 연결 또는 마운트 작업에서 SnapVault 대상 볼륨을 클론하고 ONTAP에서 새 스냅샷을 생성하여 볼륨을 업데이트하기 때문에 발생합니다.</block>
+  <block id="84ade123b589aaaa8cb58a5dc5af2c14" category="paragraph">볼륨을 클론 복제할 때 새 스냅샷이 생성되지 않도록 하려면 SnapVault 볼륨에 대한 ONTAP 스케줄을 해제합니다. 이전의 기존 스냅샷은 삭제되지 않습니다.</block>
+  <block id="7aa7ae49984d77593e48b6fd70844775" category="paragraph">VM 및 데이터 저장소를 보호하려면 VMware vSphere Client 인터페이스를 사용합니다. 웹 클라이언트 GUI는 스토리지 시스템의 NetApp 스냅샷 기술과 통합됩니다. 이를 통해 몇 초 내에 VM 및 데이터 저장소를 백업하고 ESXi 호스트를 오프라인으로 전환하지 않고도 VM을 복구할 수 있습니다.</block>
+  <block id="b68c25841ace1ebf87dee9af54aa2e69" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 애플리케이션 기반 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 정합성 보장 백업을 예약해야 합니다.</block>
+  <block id="1471fa425a9c79f7e8a4a4bc34704d6a" category="cell"><block ref="af62a8975e8577db87448344c585507f" prefix="" category="inline-code"></block> 지정된 백업의 스냅샷 위치를 가져옵니다. 2단계에서 * backupId * 를 전달합니다. snapshotLocationsList* 정보를 확인합니다.</block>
+  <block id="c61b48c7cee87295644b3139e3651375" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
+  <block id="8b740d927c7014ac116bad7dac5e90f3" category="paragraph">복구 대상은 SnapCenter에 추가된 ESXi 호스트일 수 있습니다. 이 옵션은 VM이 지정된 시간 및 날짜를 사용하여 스냅숏에서 상주하는 선택한 백업의 내용을 복원합니다. 이 옵션을 선택하면 * Restart VM *(VM 다시 시작 *) 확인란이 선택되어 있고 VM의 전원이 켜집니다.</block>
+  <block id="8eb1b908e8b622c31068641ddc091252" category="list-text">복원할 백업 스냅샷과 VMDK를 알고 있어야 합니다.</block>
+  <block id="cd38aa1b745074ce7b3e671b2737e16f" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 복구할 파일 또는 폴더 검색을 지원하지 않습니다. 따라서 시작하기 전에 스냅샷 및 해당 VMDK와 관련된 파일 또는 폴더의 위치를 알아야 합니다.</block>
+  <block id="3307c3ba0f8faacd2a6ad53d834854b4" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 원하는지 또는 보조 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
+  <block id="c497b5cdfb468a78f47eeead674d8de4" category="list-text">위치 선택 * 페이지에서 복원할 스냅샷(기본 또는 보조)을 선택합니다.</block>
+  <block id="f1e1ac5eb6498170a571f7c9baa59473" category="admonition">SnapCenter Plug-in for VMware vSphere 이외의 소프트웨어로 수행된 VM의 스냅샷이 있는 경우 복구 작업을 완료할 수 없습니다.</block>
+  <block id="848e6a50c59fc9f63956382b0072922e" category="paragraph">VM에 대한 복구 작업은 원래 VM의 등록을 취소하고 백업 스냅샷에서 VM을 복원하며 복원된 VM을 동일한 ESXi 서버에 동일한 이름 및 구성으로 등록합니다. 복구 후 리소스 그룹에 VM을 수동으로 추가해야 합니다.</block>
+  <block id="2e0cc418cfa86596897965026b31e6df" category="list-text">복원 * 마법사의 * 백업 선택 * 페이지에서 복원할 백업 스냅샷을 선택합니다.</block>
+  <block id="8f35b8f7de8f7e8d9b02e6a422cc70cb" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
+  <block id="a1954b7ef0b95a152868596fad609446" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭합니다.</block>
+  <block id="7cd13333ae1cedbd3aa5baace69fd245" category="paragraph">생성된 스냅샷, SnapVault 및 SnapMirror 스냅샷의 총 수와 운영 및 보조 스냅샷에 사용되는 스토리지의 양입니다. 선형 그래프는 롤링 90일 동안 1차 및 2차 스토리지 소비를 일 단위로 각각 플롯합니다. 스토리지 정보는 24시간마다 오전 1시 08분에 한 번씩 업데이트됩니다. 스토리지 절약은 운영 스토리지의 물리적 용량에 대한 논리적 용량(스냅샷 절약 + 사용된 스토리지)의 비율입니다. 막대 차트는 스토리지 절약 효과를 보여 줍니다.</block>
+  <block id="186f10ad0ae1bb6638a07f29fcf47c80" category="paragraph">VM 또는 데이터 저장소를 백업하거나 복구할 준비를 할 때 해당 리소스에 사용할 수 있는 모든 백업을 확인하고 해당 백업의 세부 정보를 확인해야 할 수 있습니다.</block>
+  <block id="51857ca23f1dc86274f568542e984fe5" category="paragraph">10K 파일 폴더와 같은 대용량 파일 폴더를 탐색하는 데 처음 1분 이상 걸릴 수 있습니다. 후속 탐색 세션은 시간이 적게 소요됩니다.</block>
+  <block id="a270592232d9d6514ce0ee979df39631" category="list-text">vCenter Server에 로그인합니다.</block>
+  <block id="4fb4ce8111ab842297ec1ee06f128e55" category="list-text">Inventory * 페이지로 이동하여 데이터 저장소 또는 VM을 선택합니다.</block>
+  <block id="f961fdd56c58ceb684e1bc66c0048696" category="list-text">오른쪽 창에서 * Configure * &gt; * SnapCenter Plug-in for VMware vSphere * &gt; * Backups * 를 선택합니다.</block>
+  <block id="272dbc82d7ded4803d59e20847c18877" category="inline-image-macro">Backups 보기</block>
+  <block id="cf1dafd1cdfffc3ffd25de8f579759be" category="paragraph"><block ref="cf1dafd1cdfffc3ffd25de8f579759be" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="58d2e74d546e138eca3824144c5ce719" category="paragraph">정책 생성 단계에서 * Enable Secondary Snapshot Locking * 옵션을 선택하지 않으면 * Enable Primary Snapshot Locking * 옵션에 설정된 값이 기본적으로 사용됩니다. 백업 목록에서 * Secondary Snapshot Lock Expiration * 필드의 하이픈은 기본 잠금 기간과 보조 잠금 기간이 모두 동일함을 나타냅니다.</block>
+  <block id="e59481e00b5fbf25c9d83bb6cf1e1fc6" category="list-text">보려는 백업을 선택합니다.</block>
+  <block id="10816353eaa2dd5ab8374ef58f982e29" category="list-text">정합성 보장 그룹 기반 백업</block>
+  <block id="7282e5c8f3184e4f914d701f82b621ff" category="paragraph">* 보조 변조 방지 스냅샷(TPS) 지원 *</block>
+  <block id="553dc280ed86f90ffb054d20f311a8f9" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 보조 TPS를 지원하므로 랜섬웨어 공격자나 악성 관리자가 보조 스냅샷 복사본을 삭제 또는 변경하지 못하도록 보호하고 공격 후에도 사용할 수 있게 합니다.</block>
 </blocks>

@@ -35,7 +35,7 @@ link:scpivs44_back_up_the_snapcenter_plug-in_for_vmware_vsphere_mysql_database.h
 +
 플러그인을 구축할 때 VMware vSphere용 SnapCenter 플러그인의 IP 주소가 표시됩니다.
 
-. 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 선택 취소하여 플러그인을 비활성화합니다.
+. 왼쪽 탐색 창에서 * Configuration * 을 선택한 다음 * Plug-in Details * 섹션에서 Service 옵션의 선택을 취소하여 플러그인을 비활성화합니다.
 . 선택 사항을 확인합니다.
 +
 ** VM 정합성 보장 백업을 수행하기 위해 VMware vSphere용 SnapCenter 플러그인만 사용한 경우

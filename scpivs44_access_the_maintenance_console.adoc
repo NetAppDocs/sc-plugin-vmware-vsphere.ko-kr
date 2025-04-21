@@ -29,7 +29,7 @@ SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하
 
 .단계
 . VMware vSphere Client에서 VMware vSphere용 SnapCenter 플러그인이 있는 VM을 선택합니다.
-. 가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * 을 클릭하여 유지 관리 콘솔 창을 엽니다.
+. 가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * 을 선택하여 유지 관리 콘솔 창을 엽니다.
 +
 기본 유지 관리 콘솔 사용자 이름을 사용하여 로그인합니다 `maint` 및 설치 시 설정한 암호입니다.
 

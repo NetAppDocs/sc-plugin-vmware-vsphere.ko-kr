@@ -24,7 +24,7 @@ vCenter에서 TLS(전송 계층 보안)를 활성화해야 합니다. VMware 설
 . VMware vCenter Single Sign-On * 페이지에 로그인합니다.
 +
 
-IMPORTANT: 로그인 * 버튼을 클릭합니다. 알려진 VMware 문제로 인해 Enter 키를 사용하여 로그인하지 마십시오. 자세한 내용은 ESXi 내장 호스트 클라이언트 문제에 대한 VMware 설명서를 참조하십시오.
+IMPORTANT: 로그인 * 버튼을 선택합니다. 알려진 VMware 문제로 인해 Enter 키를 사용하여 로그인하지 마십시오. 자세한 내용은 ESXi 내장 호스트 클라이언트 문제에 대한 VMware 설명서를 참조하십시오.
 
-. VMware vSphere Client * 페이지의 도구 모음에서 메뉴 를 클릭한 다음 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.
+. VMware vSphere Client * 페이지의 도구 모음에서 메뉴 를 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.
 

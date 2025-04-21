@@ -51,43 +51,43 @@ TIP: 업그레이드를 시작하기 전에 VMware vSphere OVA용 SnapCenter 플
 
 NOTE: 네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지원되지 않습니다.
 
-지원되는 버전에 대한 최신 정보는 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT)를 참조하십시오.
+지원되는 버전에 대한 최신 정보는 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT)를 참조하십시오.
 
 .단계
 . VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하여 업그레이드를 준비합니다.
 +
 .. VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그인합니다. IP 주소는 VMware vSphere용 SnapCenter 플러그인을 구축할 때 표시됩니다.
-.. 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 플러그인 세부 정보 섹션에서 * 서비스 * 옵션을 클릭하여 플러그인을 비활성화합니다.
+.. 왼쪽 탐색 창에서 * 구성 * 을 선택한 다음 플러그인 세부 정보 섹션에서 * 서비스 * 옵션을 선택하여 플러그인을 비활성화합니다.
 
 
 . 업그레이드 '.iso' 파일을 다운로드합니다.
 +
 .. NetApp Support 사이트에 로그인합니다 .
-.. 제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * download latest release * 버튼을 클릭합니다.
+.. 제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * download latest release * 버튼을 선택합니다.
 .. VMware vSphere 업그레이드용 SnapCenter 플러그인 .iso 파일을 원하는 위치로 다운로드합니다.
 
 
 . 업그레이드를 설치합니다.
 +
 .. 브라우저에서 VMware vSphere vCenter로 이동합니다.
-.. vCenter GUI에서 * vSphere 클라이언트(HTML) * 를 클릭합니다.
+.. vCenter GUI에서 * vSphere Client (HTML) * 를 선택합니다.
 .. VMware vCenter Single Sign-On * 페이지에 로그인합니다.
-.. 탐색기 창에서 업그레이드하려는 VM을 클릭한 다음 * 요약 * 탭을 클릭합니다.
-.. Related Objects * 창의 목록에서 데이터 저장소를 클릭한 다음 * Summary * 탭을 클릭합니다.
-.. 선택한 데이터 저장소의 * Files * 탭에서 목록의 폴더를 클릭한 다음 * Upload files * 를 클릭합니다.
-.. 업로드 팝업 화면에서 '.iso' 파일을 다운로드한 위치로 이동한 다음 '.iso' 파일 이미지를 클릭하고 * 열기 * 를 클릭합니다. 파일이 데이터 저장소에 업로드됩니다.
-.. 업그레이드하려는 VM으로 다시 이동한 다음 * 요약 * 탭을 클릭합니다. VM 하드웨어* 창의 CD/DVD 필드에서 값은 "연결 해제"되어야 합니다.
-.. CD/DVD 필드에서 연결 아이콘을 클릭하고 * 데이터 저장소의 CD/DVD 이미지에 연결 * 을 선택합니다.
+.. 탐색기 창에서 업그레이드하려는 VM을 선택한 다음 * 요약 * 탭을 선택합니다.
+.. Related Objects * 창에서 목록에서 데이터 저장소를 선택한 다음 * Summary * 탭을 선택합니다.
+.. 선택한 데이터 저장소에 대한 * 파일 * 탭에서 목록의 아무 폴더나 선택한 다음 * 파일 업로드 * 를 선택합니다.
+.. 업로드 팝업 화면에서 파일을 다운로드한 위치로 이동한 `.iso` 다음 파일 이미지에서 를 선택한 다음 * 열기 * 를 선택합니다 `.iso`. 파일이 데이터 저장소에 업로드됩니다.
+.. 업그레이드하려는 VM으로 돌아가서 * Summary * 탭을 선택합니다. VM 하드웨어* 창의 CD/DVD 필드에서 값은 "연결 해제"되어야 합니다.
+.. CD/DVD 필드에서 연결 아이콘을 선택하고 * 데이터 저장소에서 CD/DVD 이미지에 연결 * 을 선택합니다.
 +
 image:scpivs44_image42.png["vCenter UI"]
 
 .. 마법사에서 다음을 수행합니다.
 +
 ... datastores 열에서 '.iso' 파일을 업로드한 데이터 저장소를 선택합니다.
-... 목차 열에서 업로드한 ".iso" 파일로 이동하여 파일 형식 필드에서 "iso image"가 선택되어 있는지 확인한 다음 * 확인 * 을 클릭합니다. 필드에 "연결됨" 상태가 표시될 때까지 기다립니다.
+... Contents 열에서 `.iso` 업로드한 파일로 이동하여 File Type 필드에서 "ISO image"가 선택되어 있는지 확인한 다음 * OK * 를 선택합니다. 필드에 "연결됨" 상태가 표시될 때까지 기다립니다.
 
 
-.. 가상 어플라이언스의 * 요약 * 탭에 액세스하여 유지보수 콘솔에 로그인한 다음 녹색 실행 화살표를 클릭하여 유지보수 콘솔을 시작합니다.
+.. 가상 어플라이언스의 * Summary * 탭에 액세스하여 유지 관리 콘솔에 로그온한 다음 녹색 run 화살표를 선택하여 유지 관리 콘솔을 시작합니다.
 .. 시스템 구성에 * 2 * 를 입력한 다음 업그레이드에 * 8 * 을 입력합니다.
 .. y * 를 입력하여 업그레이드를 계속합니다.
 

@@ -23,7 +23,7 @@ VMware vSphere용 SnapCenter 플러그인에는 플러그인에서 수행하는 
 
 .단계
 . VMware vSphere Client에서 VMware vSphere용 SnapCenter 플러그인이 있는 VM을 선택합니다.
-. 가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * * 또는 Launch Web Console * 을 클릭하여 유지 관리 콘솔 창을 엽니다.
+. 가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * * 또는 Launch Web Console * 을 선택하여 유지 관리 콘솔 창을 엽니다.
 +
 image:scpivs44_image21.png["유지보수 콘솔 윈도우"]
 

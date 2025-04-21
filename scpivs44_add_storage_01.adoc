@@ -29,7 +29,7 @@ VMware vSphere 4.5 이상용 SnapCenter 플러그인은 ASA 애그리게이트�
 스토리지 클러스터를 VMware vSphere용 SnapCenter 플러그인과 VMware vSphere용 ONTAP 툴에 추가하여 VVOL 데이터 보호를 작동해야 합니다.
 
 +
-자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
+자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
 
 
 
@@ -103,7 +103,7 @@ HTTP 연결용 -80
 
 | 스토리지 시스템에 실패한 작업에 대한 AutoSupport 알림을 보냅니다 | 실패한 데이터 보호 작업에 대한 AutoSupport 알림을 사용하려면 확인란을 선택합니다. 또한 스토리지 VM에서 AutoSupport를 설정하고 AutoSupport e-메일 설정을 구성해야 합니다. 
 |===
-. 추가 * 를 클릭합니다.
+. 추가 * 를 선택합니다.
 +
 스토리지 클러스터를 추가하면 해당 클러스터의 모든 스토리지 VM이 자동으로 추가됩니다. 자동으로 추가된 스토리지 VM(일명 "암시적" 스토리지 VM)은 사용자 이름 대신 하이픈(-)과 함께 클러스터 요약 페이지에 표시됩니다. 사용자 이름은 명시적 스토리지 엔터티에 대해서만 표시됩니다.
 

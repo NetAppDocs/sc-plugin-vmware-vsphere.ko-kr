@@ -22,14 +22,14 @@ VMware vCenter 7.0.3 이상 버전에서는 Entrust 인증서에 의해 서명�
 . VMware용 SnapCenter 플러그인을 다운로드하려면 다음을 수행하십시오.
 +
 ** NetApp Support 사이트( 에 로그인합니다 https://mysupport.netapp.com/products/index.html["https://mysupport.netapp.com/products/index.html"^])를 클릭합니다.
-** 제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * 최신 릴리스 다운로드 * 버튼을 클릭합니다.
+** 제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * 최신 릴리즈 다운로드 * 버튼을 선택합니다.
 ** VMware vSphere용 SnapCenter 플러그인을 다운로드하십시오 `.tar` 파일을 원하는 위치에 저장합니다.
 
 
 . tar 파일의 압축을 풉니다. tar 파일에는 OVA 및 certs 폴더가 포함되어 있습니다. 인증서 폴더에는 Entrust 루트 및 중간 인증서가 들어 있습니다.
 . vSphere Client를 사용하여 vCenter Server에 로그인합니다.
 . Administration > Certificates > Certificate Management * 로 이동합니다.
-. 신뢰할 수 있는 루트 인증서 * 옆에 있는 * 추가 * 를 클릭합니다
+. 신뢰할 수 있는 루트 인증서 * 옆에 있는 * 추가 * 를 선택합니다
 +
 ** certs_folder로 이동합니다.
 ** Entrust Root 및 Intermediate 인증서를 선택합니다.

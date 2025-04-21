@@ -74,8 +74,6 @@
   <block id="5d113f2038d289f391614c39043629e8" category="cell">범위</block>
   <block id="615707baa418ce315e44ac2a5d6164af" category="cell">데이터 센터</block>
   <block id="4c928d1c171b7d62d8f758ffa689710f" category="cell">사용 가능한 요소</block>
-  <block id="0ae7bb79645eeb5721a499d2799dbf70" category="cell">보호하려는 자원을 선택한 다음 * &gt; * 를 클릭하여 선택 항목을 선택한 요소 목록으로 이동합니다.</block>
-  <block id="749435efb6e9940bcadad406e3a36d76" category="paragraph">다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.</block>
   <block id="eaedab9c594e1aeb86de4b70aee0ef7b" category="list-text">Spanning disks * 페이지에서 여러 데이터 저장소에 걸쳐 VMDK가 여러 개인 VM의 옵션을 선택합니다.</block>
   <block id="132ea0655a055ab5c66e879c0cecfd43" category="list-text">포함할 스패닝 데이터 저장소를 수동으로 선택합니다</block>
   <block id="731942548689f6a5287491346edb98a1" category="paragraph">FlexGroup 및 VVOL 데이터 저장소에는 스패닝 VM이 지원되지 않습니다.</block>
@@ -88,8 +86,6 @@
   <block id="5049311e411f306df5ef01765b9dc8ec" category="list-text">Schedules * 페이지에서 선택한 각 정책에 대한 백업 스케줄을 구성합니다.</block>
   <block id="67b9c02e71508024192e407aa7425aa2" category="inline-link-macro">백업에 대한 시간대를 수정합니다</block>
   <block id="381ccd52bbe70b77caebf5b7721bc854" category="paragraph"><block ref="a1b611f7f1d7d8197cb1d43fb49ccfda" category="inline-link-macro-rx"></block>.</block>
-  <block id="00c4e348fbc4d70b3f20028f27a0b2ab" category="paragraph">마침 * 을 클릭하기 전에 마법사의 모든 페이지로 돌아가서 정보를 변경할 수 있습니다.</block>
-  <block id="c32889f5fe21a50841ec14f3184ac30b" category="paragraph">마침 * 을 클릭하면 새 리소스 그룹이 리소스 그룹 목록에 추가됩니다.</block>
   <block id="2ff2dc58f2ec2635705f09ff662f69ce" category="admonition">백업 중인 VM에 대해 중지 작업이 실패하면 선택한 정책에 VM 정합성이 선택되어 있더라도 백업이 VM 정합성이 보장되지 않음 으로 표시됩니다. 이 경우 일부 VM이 중지되었을 수 있습니다.</block>
   <block id="a7bc6073f1cfb01ebf8ceadae0d43b14" category="section-title">호환성 검사 실패 관리</block>
   <block id="cf1527bd9ad516f4468aa9b7475269a6" category="paragraph">SnapCenter 리소스 그룹을 만들려고 할 때 호환성 검사를 수행합니다.</block>
@@ -156,7 +152,6 @@
   <block id="4fa13494fd3dbaf358f71d6c97ee016f" category="list-text">2개의 NIC가 있습니다.</block>
   <block id="647d788e610e73ba524ca460bf9fe8c0" category="paragraph">이러한 문제를 해결하려면 다음을 수행하십시오.</block>
   <block id="a8e1186a873472e75dc70e92bde98015" category="list-text">브라우저 캐시를 지운 다음 GUI가 제대로 작동하는지 확인합니다.</block>
-  <block id="35b1d03715ac4629a7f97ac927ec0b8c" category="list-text">vCenter에 로그인한 다음 도구 모음에서 * 메뉴 * 를 클릭하고 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.</block>
   <block id="386fa36a68315fc02c7ac2bf9e955caa" category="section-title">인증 오류를 관리합니다</block>
   <block id="679d7a71de914eeb2ace02116cab18d2" category="list-text">서비스를 다시 시작합니다.</block>
   <block id="c7539b4d81e5bd1390decadb68fb08e5" category="section-title">VMware vSphere용 SnapCenter 플러그인을 SnapCenter 서버에 등록합니다</block>
@@ -168,16 +163,13 @@
   <block id="3f90a051ae4853526629991aad7c3085" category="list-text">SnapCenter GUI를 사용하여 "vSphere" 유형 호스트를 추가하여 SnapCenter 서버에 VMware vSphere용 SnapCenter 플러그인을 등록합니다.</block>
   <block id="f84217315ca1bc8cd21e87ac07c218df" category="paragraph">동일한 SnapCenter 서버에서 VMware vSphere용 SnapCenter 플러그인의 여러 인스턴스를 등록하여 VM에서 애플리케이션 기반 데이터 보호 작업을 지원할 수 있습니다. 여러 SnapCenter Server에서 동일한 VMware vSphere용 SnapCenter 플러그인을 등록할 수 없습니다.</block>
   <block id="630fdf771d5b4701ba7ad4a60d60d039" category="list-text">연결된 모드의 vCenter의 경우 각 vCenter에 대해 VMware vSphere용 SnapCenter 플러그인을 등록해야 합니다.</block>
-  <block id="5b83ed8ca664f98ef4884a8f49bcba46" category="list-text">SnapCenter GUI 왼쪽 탐색 창에서 * 호스트 * 를 클릭합니다.</block>
   <block id="d27f20937ce09235c9c83cd5834fc281" category="list-text">맨 위에 * Managed Hosts * 탭이 선택되어 있는지 확인한 다음 가상 어플라이언스 호스트 이름을 찾아 SnapCenter 서버에서 확인합니다.</block>
-  <block id="65c7f769b5e4012e8f85088906afe74d" category="list-text">추가 * 를 클릭하여 마법사를 시작합니다.</block>
   <block id="0feed548b5a6f23910292fdd68f8eb7a" category="list-text">다음 표에 나열된 대로 * 호스트 추가 * 대화 상자에서 SnapCenter 서버에 추가할 호스트를 지정합니다.</block>
   <block id="c2ece9a18147c056e75e4008644a9526" category="cell">호스트 유형</block>
   <block id="ef4878f9e259973215365eae80890d67" category="cell">호스트 유형으로 * vSphere * 를 선택합니다.</block>
   <block id="dae4a538d4ca7b6c0789932062fe718d" category="cell">호스트 이름입니다</block>
   <block id="a7e1f4661cdc46bdb73751501d52c709" category="cell">가상 어플라이언스의 IP 주소를 확인합니다.</block>
   <block id="03bc142e6422dbb9b288ad2cabee08c7" category="cell">자격 증명</block>
-  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">제출 * 을 클릭합니다.</block>
   <block id="c6b4daa6b597794d6e4a1ae57d307c6d" category="paragraph">VM 호스트가 성공적으로 추가되면 Managed Hosts 탭에 표시됩니다.</block>
   <block id="6ad0f7acf9ee8321077924b25436fe63" category="list-text">VMware vSphere용 SnapCenter 플러그인을 구축하는 동안 지정된 자격 증명 정보를 제공합니다.</block>
   <block id="4716d63e659e56ce16a2f7359955e0e2" category="admonition">인증 필드에 Linux를 선택해야 합니다.</block>
@@ -207,7 +199,6 @@
   <block id="15cb2b9c090bdc4868f38d74b1626bca" category="cell">SnapCenter 서버 이벤트를 syslog에 기록합니다</block>
   <block id="0adf9b7ec7bd1bc34fa619474f6709e0" category="cell">스토리지 시스템에 실패한 작업에 대한 AutoSupport 알림을 보냅니다</block>
   <block id="eca627e1bcebe95b4732e8113bfb0ba7" category="cell">실패한 데이터 보호 작업에 대한 AutoSupport 알림을 사용하려면 확인란을 선택합니다. 또한 스토리지 VM에서 AutoSupport를 설정하고 AutoSupport e-메일 설정을 구성해야 합니다.</block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
   <block id="68db6c72e1ca65960795aee487114a61" category="paragraph">스토리지 클러스터를 추가하면 해당 클러스터의 모든 스토리지 VM이 자동으로 추가됩니다. 자동으로 추가된 스토리지 VM(일명 "암시적" 스토리지 VM)은 사용자 이름 대신 하이픈(-)과 함께 클러스터 요약 페이지에 표시됩니다. 사용자 이름은 명시적 스토리지 엔터티에 대해서만 표시됩니다.</block>
   <block id="b148e71859cffdb60779d0fd79307d95" category="summary">VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 필요한 최소 vCenter 권한이 있는지 확인해야 합니다.</block>
   <block id="e49b2704cb3fef8c492858dfc3f6dbce" category="doc">최소 vCenter 권한이 필요합니다</block>
@@ -285,10 +276,7 @@
   <block id="a5daf42def68b7a4c33242cbfca9efcf" category="cell">복원 대상</block>
   <block id="7ff99aff75a4ffc74b705fb26d592f75" category="cell">복원 대상 지정…</block>
   <block id="cbb42e8a1e30a5617b85b703b275a35a" category="cell">원래 데이터 저장소입니다</block>
-  <block id="4168cedfe7de9b5c17ed84cfb9e9d3fc" category="cell">드롭다운 목록에서 * 특정 디스크 * 를 선택한 후 * 다음 * 을 클릭합니다. 데이터스토어 선택 표에서 VMDK를 선택하거나 선택 취소할 수 있습니다.</block>
   <block id="46ddbb26d4adb6887d8fc9f992672ea7" category="cell">대체 위치에 있는 대체 데이터 저장소입니다</block>
-  <block id="b1b5deb6a79469cf24ab15c74c8d0fd5" category="cell">대상 데이터 저장소를 클릭하고 목록에서 다른 데이터 저장소를 선택합니다.</block>
-  <block id="ea5b9f5c973a98f6f3a6964373da57b1" category="list-text">요약 페이지를 검토한 다음 * 마침 * 을 클릭합니다.</block>
   <block id="92ebc27a2cd9d1ab4039f811c8ddafc4" category="list-text">선택 사항: 화면 하단의 * Recent Tasks * 를 클릭하여 작업 진행 상황을 모니터링합니다.</block>
   <block id="14dae1427bcb2f84e900779dbbccd66f" category="list-text">업데이트된 정보를 표시하려면 화면을 새로 고칩니다.</block>
   <block id="041b4550a0ec6359f99eb2257afd1afa" category="summary">VM을 복원할 때 선택한 백업 복사본으로 기존 콘텐츠를 덮어쓰거나 VM의 복사본을 만들 수 있습니다.</block>
@@ -324,16 +312,13 @@
   <block id="af51f3aeebe6d4f453d54d5e7913e96b" category="paragraph">VM이 복원되지만 이전 리소스 그룹에 자동으로 추가되지 않습니다. 따라서 복원된 VM을 해당 리소스 그룹에 수동으로 추가해야 합니다.</block>
   <block id="a1be052a01bc67bde49a959fd379c2c0" category="doc">구성된 스토리지 시간 제한을 수정합니다</block>
   <block id="b82dc3c0be53110c5df24ad73a595788" category="paragraph">"SCV에서 리소스를 검색할 수 없습니다. 데이터 저장소에 대한 저장소 세부 정보를 가져올 수 없습니다.&lt;xxx&gt;…" 오류가 발생할 수 있습니다</block>
-  <block id="988e2ba186db5a08e3e106e58853aef1" category="list-text">스토리지 시스템 페이지에서 수정할 스토리지 시스템을 선택하고 * Edit * 를 클릭합니다.</block>
   <block id="41545bf454b2d0546b006d90a29e618f" category="list-text">시간 초과 필드에서 초 수를 늘립니다.</block>
   <block id="4d8a7d10f3159e6591e093a5ebc629b3" category="admonition">대규모 환경에서는 180초가 권장됩니다.</block>
   <block id="6fc948db6bfb5ca3b3b32b543334051c" category="summary">개별 파일을 복원하기 위해 가상 디스크를 연결한 후 상위 VM에서 가상 디스크를 분리할 수 있습니다.</block>
   <block id="656b1941061949fe21d495b2d2fa4764" category="doc">가상 디스크를 분리합니다</block>
-  <block id="b770a8b6f72e90aaf11d1b36e3181dec" category="list-text">가상 디스크 분리 * 화면에서 분리할 디스크를 하나 이상 선택한 다음 * 선택한 디스크 분리 * 확인란을 선택하고 * 분리 * 를 클릭합니다.</block>
   <block id="a9357c4b073010dc4965ae4a7730f181" category="admonition">올바른 가상 디스크를 선택했는지 확인합니다. 잘못된 디스크를 선택하면 운영 작업에 영향을 줄 수 있습니다.</block>
   <block id="3a258a61f1abdb721cb6de8642d42eb3" category="list-text">선택 사항: * Recent Tasks * 섹션에서 작업 진행률을 모니터링합니다.</block>
   <block id="bbdcfd9257f4afda91a64894f3ae3263" category="list-text">다음을 수행하여 가상 디스크가 분리되었는지 확인합니다.</block>
-  <block id="2b47e47a91e8d341f2ea5083a977170c" category="list-text">도구 모음에서 * 메뉴 * 를 클릭한 다음 드롭다운 목록에서 * VM 및 템플릿 * 을 선택합니다.</block>
   <block id="53458ddf4cca411e8218b9e8a4d2abea" category="list-text">Edit Settings * (설정 편집 *) 창에서 각 하드 디스크의 목록을 확장하여 디스크 파일 목록을 봅니다.</block>
   <block id="4df04d3e4973fee8ddd4d518a8e88a4e" category="paragraph">Edit Settings * (설정 편집 *) 페이지에는 VM의 디스크가 나열됩니다. 각 하드 디스크의 세부 정보를 확장하여 연결된 가상 디스크 목록을 볼 수 있습니다.</block>
   <block id="3a3bfcea804c014276e7672b06f18879" category="summary">가상 어플라이언스를 구축하기 전에 구축 요구 사항을 숙지해야 합니다.</block>
@@ -396,7 +381,6 @@
   <block id="08ebede0b14e7c6dc6d105ad5b41ff3d" category="cell">SCV 관리자 SCV 백업 SCV 게스트 파일 복원 SCV 복원 SCV 보기 vCenter 루트에서 권한을 할당해야 합니다.</block>
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="section-title">AutoSupport</block>
   <block id="0a4a3719bc7519d1162060e0f0e08f8a" category="doc">백업 정책을 생성합니다</block>
-  <block id="2043baf4baf43c498171aa6ce5844280" category="list-text">새 백업 정책 * 페이지에서 정책 구성 정보를 입력한 다음 * 추가 * 를 클릭합니다.</block>
   <block id="d9ac8e6076d4e4d7529e26c9238771a4" category="list-text">SSH를 사용하여 vCenter Server Appliance에 루트로 로그인합니다.</block>
   <block id="263de88bd463a408f8eabe4c8a4ace37" category="list-text">다음 명령을 사용하여 어플라이언스 셸 또는 Bash Shell에 액세스합니다.</block>
   <block id="ad288d5d0843f98ebb574a6ae9d65a4e" category="paragraph">'지옥'입니다</block>
@@ -435,7 +419,6 @@
   <block id="495ad64d2a6a40cfac27d689d4edd34b" category="cell">임시 데이터를 포함하는 독립 디스크가 있는 모든 데이터 저장소를 백업에 포함하려면 이 확인란을 선택합니다.</block>
   <block id="a83f1ca5ad00b39773d9e6a26b0e70b2" category="cell">스크립트</block>
   <block id="97f2e18675f1fe6e8581123e483430db" category="admonition">사전 스크립트 및 사후 스크립트는 가상 어플라이언스 VM에 있어야 합니다. 여러 스크립트를 입력하려면 각 스크립트 경로 뒤에 * Enter * 를 눌러 각 스크립트를 별도의 줄에 나열합니다. ";" 문자는 허용되지 않습니다.</block>
-  <block id="5289185cda6b3fc469161fc0d841232d" category="list-text">추가 * 를 클릭합니다</block>
   <block id="0e966e38f37db4fe0a9b1d6f014e044c" category="paragraph">정책 페이지에서 정책을 선택하여 정책이 생성되었는지 확인하고 정책 구성을 검토할 수 있습니다.</block>
   <block id="a02ede43aaa42f2a26c5541e91dcb505" category="doc">리소스 그룹에 여러 VM 및 데이터 저장소를 추가합니다</block>
   <block id="af2a2437815cf790764b4bc70d839e2b" category="list-text">기존 VM과 SAN, NAS 데이터 저장소(VVOL 데이터 저장소는 지원되지 않음)의 조합입니다.</block>
@@ -445,7 +428,6 @@
   <block id="6d42a41dd23c8c525acb6572dc671ba2" category="list-text">지정된 폴더에 있는 모든 VVol VM.</block>
   <block id="a055e53f0d72ccb2f68db894ad65a4cf" category="list-text">리소스 * 페이지에서 다음을 수행합니다.</block>
   <block id="99f6fd129ebef0c9ba4fbbfc952c2d3f" category="list-text">Datastores 필드에서 추가할 VM 또는 데이터 저장소로 이동합니다.</block>
-  <block id="ccdaf65f600f0c505b15315d8df78297" category="paragraph">기본적으로 사용 가능한 엔터티 목록에는 데이터 센터 개체가 표시됩니다. 데이터 저장소를 클릭하여 데이터 저장소 내의 VM을 보고 리소스 그룹에 추가할 수 있습니다.</block>
   <block id="bea0ca05b5e1fc971afeba63c277ff99" category="list-text">추가할 각 VM 또는 데이터 저장소에 대해 2단계를 반복합니다.</block>
   <block id="f1abae2f40d33bbd71a1d0a29cc016cc" category="summary">VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 백업에 대한 복구 작업을 수행하려면 규정된 REST API 호출 순서를 따라야 합니다.</block>
   <block id="65a91d7522ffd995abc5f568b5990c03" category="doc">VM 복원을 위한 REST API 워크플로우</block>
@@ -481,24 +463,16 @@
   <block id="bf9e24405a55af7324d119fef8472392" category="cell">"스토리지 시스템 수정"은 지정된 스토리지 VM을 수정합니다. 다른 모든 필수 속성과 함께 1단계에서 * 이름 * 을 전달합니다.</block>
   <block id="58a095d28f14349299e54bd7a6d4ee7f" category="summary">VMware vSphere용 SnapCenter 플러그인에서 구성된 vCenter 로그온 자격 증명을 수정할 수 있습니다. 이 설정은 플러그인에서 vCenter에 액세스하는 데 사용됩니다.</block>
   <block id="d82c01fa5382768b8cbd7e452412b872" category="doc">vCenter 로그온 자격 증명을 수정합니다</block>
-  <block id="227bef74f33f1265145922d0fce4a983" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭합니다.</block>
-  <block id="c317117ae96d40cbc0da75810ffc4b64" category="list-text">구성 * 페이지의 * vCenter * 섹션에서 * 편집 * 을 클릭합니다.</block>
-  <block id="a2290148c6c2289984364a0caea11e70" category="list-text">새 암호를 입력한 다음 * 저장 * 을 클릭합니다.</block>
   <block id="d9a651242a5b8ae831d8957f135ebd64" category="paragraph">포트 번호를 수정하지 마십시오.</block>
   <block id="e10df4c314c4c935099e8c940a5cdf02" category="summary">SnapCenter Plug-in for VMware vSphere에서 수행한 백업의 이름을 바꾸고 삭제할 수 있습니다. 여러 백업을 동시에 삭제할 수도 있습니다.</block>
   <block id="65d964d49665477bbec39032d9f3ca8a" category="doc">백업 관리</block>
   <block id="b6821d00a7bc4a6fcfe3d073cec911ab" category="section-title">백업 이름을 바꿉니다</block>
   <block id="b069e722ad8d29f7eec823ae5a4a95a6" category="paragraph">검색 기능을 향상시키기 위해 더 나은 이름을 제공하려면 VMware vSphere 백업용 SnapCenter 플러그인의 이름을 바꿀 수 있습니다.</block>
-  <block id="7dfbd23642b0ecfb6212dd0d0137923d" category="list-text">Menu * 를 클릭하고 * Hosts and Clusters * 메뉴 옵션을 선택한 다음 VM을 선택하고 * Configure * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.</block>
-  <block id="1d25235da54411fda3f47e1c47b94db2" category="list-text">구성 탭에서 백업을 선택하고 * 이름 바꾸기 * 를 클릭합니다.</block>
-  <block id="27947ec6e4013d1b08faee7e509cae9e" category="list-text">백업 이름 바꾸기 * 대화 상자에서 새 이름을 입력하고 * 확인 * 을 클릭합니다.</block>
   <block id="f8ffb952d62ac560c6adb8ac7e15a58e" category="paragraph">VM, 데이터 저장소, 정책, 백업 또는 리소스 그룹 이름에 &amp; * $#@! /: *? "&lt;&gt;-|;',. 밑줄 문자(_)를 사용할 수 있습니다.</block>
   <block id="de00c1e27be1485dd099e4cd2aaa554d" category="section-title">백업을 삭제합니다</block>
   <block id="811a38ca6a4a37270419c2834515cf5c" category="paragraph">다른 데이터 보호 작업을 위한 백업이 더 이상 필요하지 않은 경우 VMware vSphere 백업을 위한 SnapCenter 플러그인을 삭제할 수 있습니다. 하나의 백업을 삭제하거나 여러 백업을 동시에 삭제할 수 있습니다.</block>
   <block id="4b3cb5948249f5d59292e97ced52522d" category="paragraph">마운트된 백업은 삭제할 수 없습니다. 백업을 삭제하려면 먼저 마운트 해제해야 합니다.</block>
-  <block id="057ce6a4f3ab47ccdfeafe4dab712fc3" category="list-text">하나 이상의 백업을 선택하고 * Delete * 를 클릭합니다.</block>
   <block id="e8f28d5b9bdfd45d62e73866daa7c7c7" category="paragraph">삭제할 백업을 최대 40개까지 선택할 수 있습니다.</block>
-  <block id="f809d02c43aa772a2083da0e92f722e2" category="list-text">확인 * 을 클릭하여 삭제 작업을 확인합니다.</block>
   <block id="8dd89a625f95fb62c70506be2c26dc97" category="list-text">왼쪽 vSphere 메뉴 표시줄에서 새로 고침 아이콘을 클릭하여 백업 목록을 새로 고칩니다.</block>
   <block id="ff0b9d3ee8a2cd0beece57057a3e20e8" category="summary">대시보드에서 하나 이상의 작업에 대한 보고서를 요청할 수 있습니다.</block>
   <block id="8d439860690384ca88cb73005c6b5476" category="doc">보고서에 액세스합니다</block>
@@ -507,7 +481,6 @@
   <block id="5cfd050ff3fdacd39226ea32997183d0" category="list-text">보고서를 수정합니다</block>
   <block id="ebcc70edf553801db3d5acb1ad069a20" category="list-text">세부 보고서를 생성합니다</block>
   <block id="014e67ea8ddcf4504fea98057c700b45" category="paragraph">작업을 두 번 클릭하여 해당 작업에 대한 상세 보고서를 생성합니다.</block>
-  <block id="28484678176f28b183c137f40e336d9f" category="list-text">옵션: 보고서 탭에서 * 다운로드 * 를 클릭하고 형식(HTML 또는 CSV)을 선택합니다.</block>
   <block id="7329f4c302ee9ba463379d73f374c423" category="paragraph">대시보드에는 마이그레이션 후 백업을 수행한 후에만 마이그레이션된 백업에 대한 정보가 표시됩니다.</block>
   <block id="67617c3dd7048bff7de2a5db0e9bb12c" category="cell">보고서 유형</block>
   <block id="347242fe4a580f39a58e63bf5a9a87b1" category="cell">백업 보고서</block>
@@ -519,7 +492,6 @@
   <block id="78d2a696f9b9f71eb637f30f0020bdbf" category="doc">필요 시 리소스 그룹을 백업합니다</block>
   <block id="92ae04a417b2b1bf95cb914953f21cce" category="paragraph">정책이 연결된 리소스 그룹을 만들어야 합니다.</block>
   <block id="c7cf19dde0a4f0c65a5e383de57d33c1" category="list-text">리소스 그룹에 여러 정책이 구성되어 있는 경우 * 지금 백업 * 대화 상자에서 이 백업 작업에 사용할 정책을 선택합니다.</block>
-  <block id="bb7ace492245c1393f1fa7650b5650f0" category="list-text">OK * 를 클릭하여 백업을 시작합니다.</block>
   <block id="8bf5cf5dea41cc14b69ffe6c6732b880" category="list-text">선택 사항: 자세한 내용은 창 하단의 * 최근 작업 * 을 클릭하거나 대시보드 * 작업 모니터 * 를 클릭하여 작업 진행 상황을 모니터링합니다. 결과</block>
   <block id="c9f88dac59bd7db8545fafc230d3c135" category="paragraph">백업 중인 VM에 대해 중지 작업이 실패하면 백업이 경고와 함께 완료되고 선택한 정책에 VM 정합성이 선택되어 있어도 VM 정합성이 보장되지 않음 으로 표시됩니다. 이 경우 일부 VM이 중지되었을 수 있습니다. 작업 모니터에서 실패한 VM 세부 정보에 중지 가 실패로 표시됩니다.</block>
   <block id="5bb67bc2606ffec4f4a2898e8e5fdcee" category="summary">운영 효율을 높이기 위해 'SCBR.OVERRIDE' 설정 파일을 수정하여 기본값을 변경할 수 있습니다.</block>
@@ -528,7 +500,6 @@
   <block id="92d37724657724129ae0451584c728aa" category="doc">VMware vSphere용 SnapCenter 플러그인을 제거합니다</block>
   <block id="159a080365af1cc94e243b73531b0b72" category="list-text">관리자 권한이 있어야 합니다.</block>
   <block id="502b0645b39e83a780af1d7a09c61d26" category="list-text">실행 중인 SnapCenter 작업이 없는지 확인합니다.</block>
-  <block id="d8e8dbc850d07dc581f77f4e5633db4e" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 선택 취소하여 플러그인을 비활성화합니다.</block>
   <block id="c72da7e3fabb3a5670b26ae6fee4836f" category="list-text">VMware vSphere에 로그인합니다.</block>
   <block id="4226443be37b8a9b27f73b04fe77055d" category="summary">SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원하는 환경에서 SnapCenter Plug-in for VMware vSphere에 의해 'SCBR.override' 구성 파일이 사용됩니다.</block>
   <block id="dfce913ba7fb36d1a82530d994b8aac6" category="doc">scbr.override 구성 파일을 만듭니다</block>
@@ -541,23 +512,14 @@
   <block id="5550f9423496c2c9ab880e725d34e0e5" category="admonition">업그레이드를 시작하기 전에 VMware vSphere OVA용 SnapCenter 플러그인을 백업합니다.</block>
   <block id="ae40a6aa6dbafd02a1a6877c0cd95c90" category="admonition">네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지원되지 않습니다.</block>
   <block id="a115e2512005f81c492d368a9613ee58" category="list-text">VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하여 업그레이드를 준비합니다.</block>
-  <block id="5a592b098bb4ff9afd0933fb55dbd6a6" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 플러그인 세부 정보 섹션에서 * 서비스 * 옵션을 클릭하여 플러그인을 비활성화합니다.</block>
   <block id="47ad474a6a92b78b6ce74b61fe8b6bbb" category="list-text">업그레이드 '.iso' 파일을 다운로드합니다.</block>
   <block id="b41450a0b1e390fd09941d73050688f9" category="list-text">NetApp Support 사이트에 로그인합니다 <block ref="5a6885c3943ab3435f9bf287b1025062" category="inline-link-rx"></block>.</block>
-  <block id="186741bf5d776ef0cdc89239ec5d6b01" category="list-text">제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * download latest release * 버튼을 클릭합니다.</block>
   <block id="7dfb2dcb3c7621537351eac0e0c6d1af" category="list-text">VMware vSphere 업그레이드용 SnapCenter 플러그인 .iso 파일을 원하는 위치로 다운로드합니다.</block>
   <block id="f5b0696bfd02863abb2d114ef575a203" category="list-text">업그레이드를 설치합니다.</block>
   <block id="1ced0a64a9eacafaada35a9482d31c57" category="list-text">브라우저에서 VMware vSphere vCenter로 이동합니다.</block>
   <block id="8d668d142d0f3d31fe81d5725d775268" category="list-text">VMware vCenter Single Sign-On * 페이지에 로그인합니다.</block>
-  <block id="3630c5d0152e5c45485f4ec788813d5f" category="list-text">Related Objects * 창의 목록에서 데이터 저장소를 클릭한 다음 * Summary * 탭을 클릭합니다.</block>
-  <block id="631f7a55ba587cf28cc9704e056a8268" category="list-text">선택한 데이터 저장소의 * Files * 탭에서 목록의 폴더를 클릭한 다음 * Upload files * 를 클릭합니다.</block>
-  <block id="676af74d42b5995bafca42439f8636c2" category="list-text">업로드 팝업 화면에서 '.iso' 파일을 다운로드한 위치로 이동한 다음 '.iso' 파일 이미지를 클릭하고 * 열기 * 를 클릭합니다. 파일이 데이터 저장소에 업로드됩니다.</block>
-  <block id="04013b162f2255bf56495f81a626a58d" category="list-text">업그레이드하려는 VM으로 다시 이동한 다음 * 요약 * 탭을 클릭합니다. VM 하드웨어* 창의 CD/DVD 필드에서 값은 "연결 해제"되어야 합니다.</block>
-  <block id="9bdc956870fb4f8eda0fc93c8639dda1" category="list-text">CD/DVD 필드에서 연결 아이콘을 클릭하고 * 데이터 저장소의 CD/DVD 이미지에 연결 * 을 선택합니다.</block>
   <block id="4e36d9630c525be29c9f2b987c378c3a" category="list-text">마법사에서 다음을 수행합니다.</block>
   <block id="ebf9f38f50130a70990face9a5c161e5" category="list-text">datastores 열에서 '.iso' 파일을 업로드한 데이터 저장소를 선택합니다.</block>
-  <block id="bded2e9e7d05afa125da2349004527d3" category="list-text">목차 열에서 업로드한 ".iso" 파일로 이동하여 파일 형식 필드에서 "iso image"가 선택되어 있는지 확인한 다음 * 확인 * 을 클릭합니다. 필드에 "연결됨" 상태가 표시될 때까지 기다립니다.</block>
-  <block id="5fea1438d24805d16252f31901b003c8" category="list-text">가상 어플라이언스의 * 요약 * 탭에 액세스하여 유지보수 콘솔에 로그인한 다음 녹색 실행 화살표를 클릭하여 유지보수 콘솔을 시작합니다.</block>
   <block id="1b9c2951979b9427336de3c6b89e109a" category="list-text">시스템 구성에 * 2 * 를 입력한 다음 업그레이드에 * 8 * 을 입력합니다.</block>
   <block id="3fa27d5cda1efe2ca10c0731abce440c" category="list-text">y * 를 입력하여 업그레이드를 계속합니다.</block>
   <block id="883fd3a999b576424bc7a7ce53cc2e8a" category="doc">다양한 SnapCenter GUI의 개요</block>
@@ -577,7 +539,6 @@
   <block id="7b8b1a9a67a203282713e5b5002f77d4" category="doc">게스트 파일 복구 세션의 시간을 확장합니다</block>
   <block id="01823f78f13ea58a21539f8be54541e0" category="paragraph">기본적으로 연결된 게스트 파일 복원 VMDK는 24시간 동안 사용 가능하며 자동으로 분리됩니다. 게스트 구성 * 페이지에서 시간을 연장할 수 있습니다.</block>
   <block id="27144775462c760fbd9654eed5365006" category="paragraph">나중에 연결된 VMDK에서 추가 파일 또는 폴더를 복구하려는 경우 게스트 파일 복구 세션을 확장할 수 있습니다. 그러나 게스트 파일 복구 세션은 많은 리소스를 사용하므로 세션 시간을 연장하는 작업은 자주 수행해야 합니다.</block>
-  <block id="603547b05e5b88111ffe2fad9e1f7a7b" category="list-text">게스트 파일 복구 세션을 선택한 다음 게스트 세션 모니터 제목 표시줄에서 선택한 게스트 세션 확장 아이콘을 클릭합니다.</block>
   <block id="a4afedd11ba623efd60c952a1f1b8270" category="paragraph">세션이 24시간 더 연장됩니다.</block>
   <block id="07b89cf973d20a53bb1c4f114173833d" category="doc">VMware vSphere용 SnapCenter 플러그인의 ONTAP RBAC 기능</block>
   <block id="62c153944b551093e94afc341d32cd86" category="paragraph">ONTAP RBAC는 스토리지 시스템에 액세스하고 VM 백업과 같은 스토리지와 관련된 SnapCenter 작업을 수행하는 경우에만 적용됩니다. 특정 스토리지 시스템에 적합한 ONTAP RBAC 권한이 없는 경우 해당 스토리지 시스템에 호스팅된 vSphere 개체에 대한 작업을 수행할 수 없습니다.</block>
@@ -594,7 +555,6 @@
   <block id="78f1e90e675a66cb2a884cded1ec1e11" category="section-title">정책을 분리합니다</block>
   <block id="b215e4d6682eae092d0edbb35a888ab7" category="list-text">리소스 그룹 편집 * 마법사의 * 정책 * 페이지에서 분리할 정책 옆에 있는 확인 표시를 지웁니다.</block>
   <block id="a3123051c7309d8a5b39a7de4e9f9ba8" category="paragraph">정책을 확인하여 리소스 그룹에 정책을 추가할 수도 있습니다.</block>
-  <block id="cbd35673a02f04d4a8686fa03491191d" category="list-text">마법사의 나머지 부분에서 리소스 그룹을 추가로 수정한 후 * Finish * 를 클릭합니다.</block>
   <block id="8a83564fb6cc1ce1968a698b16797b87" category="section-title">정책을 수정합니다</block>
   <block id="1cba6481a8dfe62a6732da61855667eb" category="paragraph">복제 또는 보존 설정을 수정하기 전에 가능한 결과를 고려해야 합니다.</block>
   <block id="8cde2f45172b8235e7b298986bf25883" category="list-text">복제 또는 보존 설정을 높입니다</block>
@@ -602,12 +562,10 @@
   <block id="f11482bf98ab6b5ac5791efa023f6f68" category="list-text">복제 또는 보존 설정을 줄입니다</block>
   <block id="77a0736814eccd39d8f8c9a8efab7037" category="paragraph">새 설정을 초과하는 백업은 다음 백업을 수행할 때 삭제됩니다.</block>
   <block id="93b6b60b04c992e93d8ce39ea4cfbfbd" category="list-text">정책 필드를 수정합니다.</block>
-  <block id="b15ade0f189045b567a7ac22ebe68db3" category="list-text">완료되면 * 업데이트 * 를 클릭합니다.</block>
   <block id="c8751b3fa4d94d962d436dc4eb5506de" category="paragraph">변경 사항은 다음 예약 백업을 수행할 때 적용됩니다.</block>
   <block id="af5b784334cc5cfd8f61f1fa34d0aca5" category="section-title">정책을 삭제합니다</block>
   <block id="b98184ffbf0791656c3e0abd1cb06e0a" category="paragraph">VMware vSphere용 SnapCenter 플러그인에 대해 구성된 백업 정책이 더 이상 필요하지 않은 경우 이를 삭제할 수 있습니다.</block>
   <block id="187457d2283e9d316d286284849a5944" category="paragraph">SnapCenter를 삭제하려면 먼저 가상 어플라이언스의 모든 리소스 그룹에서 정책을 분리해야 합니다.</block>
-  <block id="140125da12b57457249da3f51f95f9fe" category="list-text">확인 대화 상자에서 * 확인 * 을 클릭합니다.</block>
   <block id="bbb99087c1b7afbe7385f4e0f05bceaa" category="summary">데이터 보호 작업의 일부로 사용자 지정 처방과 사후 스크립트를 사용할 수 있습니다. 이러한 스크립트를 사용하면 데이터 보호 작업 전 또는 이후에 자동화를 수행할 수 있습니다.</block>
   <block id="7322146fa0278b7076d42a67da3ca68f" category="doc">사전 스크립트 및 포스트스크립트</block>
   <block id="61f6987ebe8ac6f46f0b880c5ae59a51" category="paragraph">데이터 보호 작업의 일부로 사용자 지정 처방과 사후 스크립트를 사용할 수 있습니다. 이러한 스크립트를 사용하면 데이터 보호 작업 전 또는 이후에 자동화를 수행할 수 있습니다. 예를 들어 데이터 보호 작업 장애 또는 경고를 자동으로 알리는 스크립트를 포함할 수 있습니다. 처방전과 소인을 설정하기 전에 이러한 스크립트를 만들기 위한 몇 가지 요구 사항을 이해해야 합니다.</block>
@@ -675,31 +633,23 @@
   <block id="55410cc294634878d1b4f9650ea5f30c" category="admonition">리소스 그룹을 VSC(가상 스토리지 콘솔)에서 백업 작업이라고 합니다.</block>
   <block id="5f7ed1f226c86386e9dacf795c70c408" category="section-title">자원 그룹에 대한 작업을 일시 중지하고 다시 시작합니다</block>
   <block id="48129b679d2c53338de87c9e4b3109b2" category="paragraph">자원 그룹에서 예약된 작업을 시작하는 것을 일시적으로 해제할 수 있습니다. 나중에 원하는 경우 이러한 작업을 활성화할 수 있습니다.</block>
-  <block id="ea30754960d01cb1a62d6587ebb573e2" category="list-text">확인 상자에서 * 확인 * 을 클릭하여 확인합니다.</block>
   <block id="ebc6fd207253a9937a91421caf66ef04" category="paragraph">자원 그룹 페이지에서 일시 중단된 자원의 작업 상태는 "Under_Maintenance"입니다. 작업 상태 열을 보려면 테이블 오른쪽으로 스크롤해야 할 수 있습니다.</block>
   <block id="ceb1d43290e660f3a229e77ca6a6e67c" category="paragraph">백업 작업이 재개되면 작업 상태가 운영 상태로 변경됩니다.</block>
   <block id="86f5d700774abd1b4b1161e6afcd312e" category="section-title">리소스 그룹을 수정합니다</block>
   <block id="1850764f60496630a671ed4a4ca36a90" category="paragraph">vCenter의 리소스 그룹에서 리소스를 제거 또는 추가하거나 정책을 분리 또는 첨부하거나 스케줄을 수정하거나 다른 리소스 그룹 옵션을 수정할 수 있습니다.</block>
   <block id="683a572529e7ee01c3f3b2f6e84ee453" category="paragraph">리소스 그룹의 이름을 수정하려면 VM, 데이터 저장소, 정책, 백업 또는 리소스 그룹 이름에 다음 특수 문자를 사용하지 마십시오.</block>
   <block id="bf6bb853aafb837a490acb97d9acbf87" category="paragraph">%&amp; * $#@! /: *? "&lt;&gt;-|;',.</block>
-  <block id="bc967eed1e1f8494f71a02de0d06a1ba" category="list-text">리소스 그룹 편집 * 마법사의 왼쪽 목록에서 수정할 범주를 클릭하고 변경 내용을 입력합니다.</block>
-  <block id="cb0503d668bf3e03dd4da3d424936f20" category="list-text">요약 페이지가 나타날 때까지 * 다음 * 을 클릭한 다음 * 마침 * 을 클릭합니다.</block>
   <block id="ad9a47e46e4ad7c3e60285f394572957" category="section-title">리소스 그룹을 삭제합니다</block>
   <block id="16b1a35ba7401a13d918126c70a9b4e4" category="paragraph">리소스 그룹의 리소스를 더 이상 보호할 필요가 없는 경우 vCenter에서 리소스 그룹을 삭제할 수 있습니다. vCenter에서 VMware vSphere용 SnapCenter 플러그인을 제거하려면 먼저 모든 리소스 그룹이 삭제되었는지 확인해야 합니다.</block>
-  <block id="689c8a8dce8d8ad4077d2a59cced9fda" category="list-text">Delete resource group *(리소스 그룹 삭제 *) 확인 상자에서 * OK * 를 클릭하여 확인합니다.</block>
   <block id="ac36de8058d77452b8ef42af1bdcdbea" category="doc">상태 정보를 봅니다</block>
-  <block id="68e34ecd3d8c4f14cf216f7488191f5a" category="list-text">다음 표에 나열된 것처럼 개요 상태 정보를 보거나 링크를 클릭하여 자세한 내용을 확인하십시오.</block>
   <block id="17e247c4b37c5b35b9bbd2ca94ace88a" category="cell">이 대시보드 타일…</block>
   <block id="55994322f040ea24c55d069129729fa1" category="cell">다음 정보를 표시합니다.</block>
   <block id="97e5d93de418540c4c7c4acf36353718" category="paragraph">최근 작업 활동</block>
   <block id="11cb316613261228e053ee2d9bb8189b" category="paragraph">가장 최근의 백업, 복원 및 마운트 작업 3~5개</block>
-  <block id="13e9f1a7a5d0862f0b810aecb163d1e6" category="list-text">해당 작업에 대한 자세한 내용을 보려면 작업 ID를 클릭하십시오.</block>
-  <block id="37344e629a37dc7f7bb66a9abb0af323" category="list-text">모든 작업에 대한 자세한 내용을 보려면 * 모두 보기 * 를 클릭하여 작업 모니터 탭으로 이동하십시오.</block>
   <block id="12ceff2290bb9039beaa8f36d5dec226" category="paragraph">작업</block>
   <block id="ab2f3ca51c7d2f57c959387c555b9ace" category="paragraph">선택한 기간 내에 수행된 각 작업 유형(백업, 복구 및 마운트)의 수입니다. 차트 섹션 위로 커서를 가져가면 해당 범주에 대한 자세한 정보를 볼 수 있습니다.</block>
   <block id="d99a5786ad85001e24562511072e0438" category="paragraph">최신 보호 요약</block>
   <block id="fa9bbf8059aa0fec45f4a49ea0b894ae" category="paragraph">선택한 기간 내에 운영 VM 및 보조 VM 또는 데이터 저장소의 데이터 보호 상태를 요약한 것입니다.</block>
-  <block id="857078b2c455bf6dacb50f057dbe162f" category="list-text">드롭다운 메뉴를 클릭하여 * VMS * 또는 * 데이터 저장소 * 를 선택합니다.</block>
   <block id="75f90da62852e56efdfb58f23a5a6b41" category="list-text">보조 스토리지의 경우 * SnapVault * 또는 * SnapMirror * 를 선택합니다.</block>
   <block id="f8ba147e83a03f05e3419dac65404386" category="list-text">차트 섹션 위로 커서를 가져가면 해당 범주의 VM 또는 데이터 저장소 수가 표시됩니다. Successful 범주에는 각 리소스에 대해 가장 최근의 백업이 나열됩니다.</block>
   <block id="dcd4d838eca9843ffd6ec1f3e29709c6" category="inline-link-macro">구성을 사용자 지정합니다</block>
@@ -710,7 +660,6 @@
   <block id="5f5ba9130776790de2145fb2332ae6d9" category="paragraph">차트의 한 줄 위로 커서를 가져가면 상세한 일별 결과를 볼 수 있습니다.</block>
   <block id="096ea6f3f334f93dc0a0d1a707e8a4cf" category="doc">작업 로그를 다운로드합니다</block>
   <block id="1101d50ae81430281bce448efa2ea34a" category="paragraph">아이콘을 보려면 오른쪽으로 스크롤해야 할 수도 있습니다.</block>
-  <block id="982db1e132a71740aa27e495c99316f2" category="paragraph">작업을 두 번 클릭하여 작업 세부 정보 창에 액세스한 다음 * 작업 로그 다운로드 * 를 클릭할 수도 있습니다.</block>
   <block id="ce2a9d19a9ae205749d6e91959e3b4f4" category="paragraph">작업 로그를 다운로드하려고 했지만 오류 메시지에 명명된 로그 파일이 삭제된 경우 "HTTP error 500 problem 액세스/export-scV-logs" 오류가 발생할 수 있습니다. 이 오류를 해결하려면 오류 메시지에 명명된 파일에 대한 파일 액세스 상태 및 권한을 확인하고 액세스 문제를 해결하십시오.</block>
   <block id="35b654fd14f12a33551c1993b5321fcb" category="summary">VMware vSphere(SCV)용 SnapCenter 플러그인은 Linux 기반 가상 어플라이언스입니다. 독립 실행형으로서 VM, 데이터 저장소 및 VMDK에 대해 빠르고 공간 효율적이며 장애 발생 시 정합성이 보장되는 백업 및 복원 작업을 제공합니다. 또한 SnapCenter Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인을 위한 VMware 환경에서 애플리케이션 기반 백업 및 복구 작업을 지원합니다.</block>
   <block id="8c3d0c00ea667e3e0723e5cdc6473a09" category="doc">VMware vSphere용 SnapCenter 플러그인 설명서</block>
@@ -818,9 +767,7 @@
   <block id="d7abac8c42099a1c04f6ca3248730570" category="paragraph">VVOL 데이터 저장소는 마운트할 수 없습니다.</block>
   <block id="482372f5186290234c8109307262c7be" category="list-text">대체 ESXi 호스트가 스토리지에 접속할 수 있는지 확인합니다</block>
   <block id="49f24ccdfcbcf169f269c90155c78746" category="paragraph">데이터 저장소가 있는 FabricPool의 스토리지 계층을 사용할 수 없는 경우 마운트 작업이 실패할 수 있습니다.</block>
-  <block id="82f42c7fdb77aab3c0d3c6c04c6148de" category="list-text">데이터 저장소 마운트 * 페이지에서 백업 및 백업 위치(운영 또는 보조)를 선택한 다음 * 마침 * 을 클릭합니다.</block>
   <block id="18641fac10a89302c14853de671e8f34" category="list-text">선택 사항: 데이터 저장소가 마운트되었는지 확인하려면 다음을 수행하십시오.</block>
-  <block id="3e67fbd13b6c5bc4e91e14df35bb4faf" category="list-text">도구 모음에서 * 메뉴 * 를 클릭한 다음 드롭다운 목록에서 * 저장소 * 를 선택합니다.</block>
   <block id="ce6d088abcea43c594e7a9f4cfba2fd5" category="summary">SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.</block>
   <block id="04e7bb0411c1c8f56ca4fc8000c62ad8" category="doc">VMware vSphere용 SnapCenter 플러그인 구축</block>
   <block id="d59a15e753c2787c0b1006e6c681e3d8" category="list-text">구축 요구 사항을 읽어야 합니다.</block>
@@ -828,9 +775,7 @@
   <block id="0efacb73c35dfad8adbb34de54b95af2" category="list-text">vCenter Server 환경을 구성하고 설정해야 합니다.</block>
   <block id="8ba7fa3d7ed705b172a2802a36085538" category="list-text">vCenter에서 TLS(Transport Layer Security)를 활성화해야 합니다. VMware 설명서를 참조하십시오.</block>
   <block id="9e6343514537d0d6a99bafe616c5aa86" category="list-text">브라우저에서 VMware vSphere vCenter로 이동합니다.</block>
-  <block id="796f03d0e85998488ac1646dc2223f74" category="list-text">이름 및 폴더 선택 * 페이지에서 VM 또는 vApp의 고유한 이름을 입력하고 구축 위치를 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="610a764205314eed9d2cb112d7d4fe17" category="paragraph">VM의 기본 배포 위치는 마법사를 시작한 인벤토리 객체입니다.</block>
-  <block id="fd38bfaa138a173dbe8f06d29d48ca2d" category="list-text">리소스 선택 * 페이지에서 배포된 VM 템플릿을 실행할 리소스를 선택하고 * 다음 * 을 클릭합니다.</block>
   <block id="636c2e0b88f6a682d77d3838726c2fe8" category="list-text">License Agreement * 페이지에서 * I accept all license Agreement * 확인란을 선택합니다.</block>
   <block id="703b009db2355e8887ba2886f86ab2ec" category="list-text">Select storage * 페이지에서 배포된 OVF 템플릿에 대한 파일의 저장 위치 및 방법을 정의합니다.</block>
   <block id="55cce6bfbb9d17ae1682863fc7a7764b" category="list-text">VMDK의 디스크 형식을 선택합니다.</block>
@@ -850,7 +795,6 @@
   <block id="a8b8a57e48b9ffeadf52134384793930" category="paragraph">사용자 이름 * 필드에 로컬 사용자 이름을 입력합니다. 도메인 세부 정보는 포함하지 마십시오.</block>
   <block id="da8ca49d9d20bd0409b70809cfef56bc" category="admonition">네트워크 구성으로 DHCP를 계속 진행하려면 이 단계를 건너뛰고 * 네트워크 속성 설정 * 섹션에서 항목을 비워 둘 수 있습니다.</block>
   <block id="71f9ed6b3799a05b8e015c69367cfb37" category="list-text">Setup Date and Time * 에서 vCenter가 있는 시간대를 선택합니다.</block>
-  <block id="e69d6a911676da089c14c8e8f2935510" category="list-text">완료 준비 완료 * 페이지에서 페이지를 검토하고 * 마침 * 을 클릭합니다.</block>
   <block id="e60fd866a673df28143ec78f1ec5e5c6" category="paragraph">모든 호스트는 IP 주소로 구성되어야 합니다(FQDN 호스트 이름은 지원되지 않음). 배포 작업을 수행해도 사용자 입력의 유효성을 검사하지 않습니다.</block>
   <block id="76785e5d8d7ceebbb25a3306d19d777e" category="paragraph">OVF 가져오기 및 배포 작업이 완료될 때까지 기다리는 동안 Recent Tasks 창에서 구축 진행률을 볼 수 있습니다.</block>
   <block id="7c6544e77cfe7de3aa3b9fb500330658" category="paragraph">호스트 이름이 'UnifiedVSC/SCV'인 경우 어플라이언스를 다시 시작합니다. 어플라이언스를 다시 시작해도 호스트 이름이 지정된 호스트 이름으로 변경되지 않으면 어플라이언스를 다시 설치해야 합니다.</block>
@@ -859,8 +803,6 @@
   <block id="824107dbad8e3882e5944fdc7db863f5" category="doc">리소스 그룹에 단일 VM 또는 데이터 저장소를 추가합니다</block>
   <block id="975652e8f125ca81c2e1b1c65ac8b2c9" category="paragraph">SAN 및 NAS 데이터 저장소를 추가할 수 있지만 VSAN 또는 VVol 데이터 저장소는 추가할 수 없습니다.</block>
   <block id="637c74025d9d0e63eef84433b19400e3" category="paragraph">시스템은 먼저 SnapCenter가 관리하고 선택한 VM이 있는 스토리지 시스템과 호환되는지 확인한 다음 * 리소스 그룹에 추가 * 페이지를 표시합니다. "SnapCenter 호환성 오류" 메시지가 표시되면 선택한 VM이 SnapCenter와 호환되지 않으므로 먼저 적절한 스토리지 VM을 SnapCenter에 추가해야 합니다.</block>
-  <block id="9c79945a4d74c408a6c29ef69b1e18a8" category="list-text">자원 그룹에 추가 * 페이지에서 자원 그룹을 선택한 다음 * 확인 * 을 클릭합니다.</block>
-  <block id="289dd1d46bc09a4c09ae4f67d3725336" category="paragraph">OK * 를 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다.</block>
   <block id="a6f4d54cf73e6e376bec67151132228e" category="summary">게스트 파일을 복구하려고 할 때 게스트 파일 복구 세션이 비어 있거나, 게스트 파일 복구 연결 디스크 작업이 실패하거나, 게스트 파일 복구 세션이 중단된 후 백업이 분리되지 않는 경우가 발생할 수 있습니다.</block>
   <block id="bae48c03de5f124681616acb43a40d20" category="doc">발생할 수 있는 게스트 파일 복원 시나리오</block>
   <block id="e186535e6f6fedaa3e8c07a0dda81d24" category="paragraph">게스트 파일을 복원하려고 할 때 다음 시나리오가 발생할 수 있습니다.</block>
@@ -875,7 +817,6 @@
   <block id="e2b253374500e2e93f1c334a2bb7ddd4" category="section-title">게스트 파일 복구 세션이 중단된 후에는 백업이 분리되지 않습니다</block>
   <block id="898c4d9cd797d45ca2066478fd269974" category="paragraph">이 문제는 VM 정합성 보장 백업에서 게스트 파일 복원 작업을 수행할 때 발생합니다. 게스트 파일 복구 세션이 활성 상태인 동안 동일한 VM에 대해 다른 VM 정합성 보장 백업이 수행됩니다. 24시간 후 게스트 파일 복구 세션의 연결이 수동으로 또는 자동으로 끊기면 세션의 백업이 분리되지 않습니다.</block>
   <block id="5857a2699c75798b2ae21bc0b06aff95" category="paragraph">이 문제를 해결하려면 활성 게스트 파일 복구 세션에서 연결된 VMDK를 수동으로 분리하십시오.</block>
-  <block id="b1e9e42ee09ce6ea661a7c8aa97f209c" category="list-text">OVF 템플릿 선택 * 페이지에서 '.ova' 파일(다음 표에 나열되어 있음)의 위치를 지정하고 * 다음 * 을 클릭합니다.</block>
   <block id="6033b46c80eba511ea24319b744fe51a" category="cell">이 마법사 페이지에서…</block>
   <block id="2de89f426cb40a40a73e0dc57ba1d0b0" category="cell">이름과 폴더를 선택합니다</block>
   <block id="62e55ff28b155b578c5083d0d1bde52d" category="cell">VM 또는 vApp의 고유한 이름을 입력하고 구축 위치를 선택합니다.</block>
@@ -893,8 +834,6 @@
   <block id="8758eb3a255efe6f58966e7aa99c668c" category="paragraph">Register to existing vcenter * 에서 vCenter 자격 증명을 입력합니다. VMware vSphere 자격 증명용 SnapCenter 플러그인 생성 * 에서 VMware vSphere 자격 증명용 SnapCenter 플러그인을 입력합니다.</block>
   <block id="9406005cdd4e477521fef1d01f0b607f" category="admonition">지정한 사용자 이름과 암호를 기록해 둡니다. 나중에 VMware vSphere용 SnapCenter 플러그인 구성을 수정하려면 이러한 자격 증명을 사용해야 합니다.</block>
   <block id="e0bc55081d1f53a4d0589d96fbc8c57c" category="cell">완료 준비 완료</block>
-  <block id="ca71a8ec60f9c7b8aa07dbd317919f87" category="cell">페이지를 검토하고 * Finish * 를 클릭합니다.</block>
-  <block id="05f682de80179c0aadcfd997d1abae48" category="list-text">vCenter HTML5 클라이언트에 로그인한 다음 도구 모음에서 * 메뉴 * 를 클릭하고 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다</block>
   <block id="96d3df7390b7be70b8296f4a2c4cbf9d" category="doc">VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하고 설정합니다</block>
   <block id="85e247490732cf2283f10a25a19b86bd" category="paragraph"><block ref="b215fa58a923b57bc1819a3bd9422ce5" category="inline-link-macro-rx"></block>.</block>
   <block id="ea0fe2eb469462f6d0ecac203bd00b85" category="list-text">선택 사항을 확인합니다.</block>
@@ -911,8 +850,6 @@
   <block id="8df0ac6cf880c226b0f50cd18e4cf922" category="paragraph">'/etc/vmware/vsphere-client/vc-packages/vsphere-client-environment/'</block>
   <block id="926b0c3371c863e07e1ecfa4396bbc45" category="list-text">Windows OS</block>
   <block id="de710b6ccc72b5f1a8613565f846ddac" category="section-title">해결 방법 캐시를 지우기 전에 이미 업그레이드한 경우</block>
-  <block id="78fdbaed854859eecaeb3fcabe834dcb" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 비활성화합니다.</block>
-  <block id="e25beeff1b30b84b27263789cd7a51a5" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 활성화합니다.</block>
   <block id="6312ee9320a2e7d34bcaf52de5c06f78" category="doc">복원 작업 수행 방법</block>
   <block id="f5843b30a2a766ab4eace2681fcbee4a" category="cell">복원 작업</block>
   <block id="5da618e8e4b89c66fe86e32cdafde142" category="cell">보낸 사람</block>
@@ -944,10 +881,7 @@
   <block id="bcabdeee08dde31f4ff80e26f3556805" category="cell">백업 보기</block>
   <block id="38202e8729f0d79500aed84b77347e1b" category="cell">다음을 수행합니다.</block>
   <block id="d3d9fdef0e91fc4aba18e57475fd74ea" category="cell">VM</block>
-  <block id="10ca4c803b99638c7eb9454d79d6dd42" category="cell">호스트 및 클러스터 * 메뉴 옵션을 클릭하고 VM을 선택한 다음 * 구성 * 탭을 클릭하고 * SnapCenter Plug-in for VMware vSphere 섹션 * 에서 * 백업 * 을 클릭합니다.</block>
   <block id="eff845e03ea7f765e5646b3de0aa3188" category="cell">데이터 저장소</block>
-  <block id="26f2d3de7c854e5b54cf332505d77cce" category="cell">Storage * 메뉴 옵션을 클릭하고 데이터 저장소를 선택한 다음 * Configure * 탭을 클릭하고 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.</block>
-  <block id="569b4ad91428d120f380fb5d92288931" category="list-text">복원 * 마법사에서 검색 이름을 입력하고 * 검색 * 을 클릭합니다.</block>
   <block id="152d7ddc7a18ad2fce26bc8d99d1ea76" category="summary">게스트 파일 또는 폴더 복원 작업을 위해 가상 디스크를 연결할 때 연결을 위한 대상 VM에 자격 증명이 구성되어 있어야 복원할 수 있습니다.</block>
   <block id="0598c44c93d67e88f73a8106be06088d" category="doc">VM 게스트 파일 복원에 대한 자격 증명을 구성합니다</block>
   <block id="579a8785b7b653f268ba9d14b21101f2" category="paragraph">다음 표에는 게스트 복원 작업에 대한 자격 증명 요구 사항이 나와 있습니다.</block>
@@ -966,13 +900,10 @@
   <block id="207b2d2bbc5c835dd43baf63338a11bd" category="cell">구성된 자격 증명 중 하나를 선택합니다.</block>
   <block id="d143a80422bfeac149e5c2dad186364e" category="cell">새 자격 증명을 추가합니다</block>
   <block id="8c1fdca1d8c0cd47a5190895b6695a25" category="list-text">자격 증명으로 실행 * 대화 상자에서 자격 증명을 입력합니다. 사용자 이름의 경우 "관리자"를 입력해야 합니다.</block>
-  <block id="c2b926872850e499819e1c163bfb05f6" category="list-text">Select VM * 을 클릭한 다음 * Proxy VM * 대화 상자에서 VM을 선택합니다. 자격 증명으로 실행 * 대화 상자로 돌아가려면 * 저장 * 을 클릭합니다. 자격 증명을 인증하는 데 사용할 VM을 선택합니다.</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">저장 * 을 클릭합니다.</block>
   <block id="aba5f0a683edf4f29d2940f278f2d102" category="doc">Swagger API 웹 페이지를 사용하여 REST API에 액세스합니다</block>
   <block id="061c36e9d3e7d9f981cf79561c7144ed" category="admonition">플러그인은 타사 애플리케이션과의 통합을 위해 REST API만 지원하며 PowerShell cmdlets 또는 CLI는 지원하지 않습니다.</block>
   <block id="52db7b85d2725f40516c0dbc0da17ca6" category="list-text">브라우저에서 URL을 입력하여 플러그인 Swagger 웹 페이지에 액세스합니다.</block>
   <block id="b8ae0b462402a081bf316840fb878f9e" category="admonition">REST API URL에 +, 문자를 사용하지 마십시오. , % 및 &amp;.</block>
-  <block id="9ce66f05fe7909f94e1823660b617ddf" category="list-text">API 리소스 유형을 클릭하여 해당 리소스 유형의 API를 표시합니다.</block>
   <block id="569d193265bd4e5af2a3a29cd05c7d81" category="doc">중단된 작업을 실패로 표시하는 REST API</block>
   <block id="1917b3cb33196b41c9c0f973ac50e07f" category="paragraph">작업 섹션의 다음 REST API를 사용하여 실행 중 상태로 고착된 작업을 실패 상태로 변경합니다.</block>
   <block id="9e6f1aff5ce486ed6b50a3d2858dd9dd" category="cell">"/4.1/작업/{id}/failJobs"</block>
@@ -1029,7 +960,6 @@
   <block id="625c5f11d91220016d9e8461e75ca4be" category="doc">백업을 마운트 해제합니다</block>
   <block id="3f741637313d2ad45b8428f580ede810" category="paragraph">로드 공유 미러 관계의 루트 볼륨으로 SVM(스토리지 VM)에 NFS 데이터 저장소의 백업 복제본을 마운트하려고 하면 "vCenter에 구성된 최대 NFS 볼륨 수에 도달했을 수 있습니다. 오류 메시지가 있는지 vSphere Client를 확인하십시오 이 문제를 방지하려면 * ESX * &gt; * Manage * &gt; * Settings * &gt; * Advance System Settings * 로 이동하여 NFS.MaxVolumes 값을 변경하여 최대 볼륨 설정을 변경하십시오. 최대값은 256입니다.</block>
   <block id="e68d40414316869d2023656b071a3cc1" category="admonition">마운트 해제할 올바른 데이터 저장소를 선택했는지 확인합니다. 그렇지 않으면 생산 작업에 영향을 줄 수 있습니다.</block>
-  <block id="767e2e183fc102315aacf7d310c2140d" category="list-text">Unmount Cloned Datastore * 대화 상자에서 데이터 저장소를 선택하고 * Unmount the Cloned datastore * 확인란을 선택한 다음 * Unmount * 를 클릭합니다.</block>
   <block id="f212abe7cfae07ea38b183845166b927" category="summary">운영 또는 보조 백업에서 VM, VMDK, 파일 및 폴더를 복구할 수 있습니다.</block>
   <block id="cee41b55e417d2c681bd345802b719fd" category="doc">복원 개요</block>
   <block id="5f3bd8ec46e56c5e0238eee2273ef39f" category="list-text">VM 복원 대상</block>
@@ -1045,11 +975,7 @@
   <block id="ed1d3d6fdb13b4e3dda268dca73ba365" category="paragraph">제거된 스토리지 VM의 백업은 복원할 수 없습니다. 예를 들어 관리 LIF를 사용하여 스토리지 VM을 추가한 다음 백업을 생성한 다음, 해당 스토리지 VM을 제거하고 같은 스토리지 VM이 포함된 클러스터를 추가하면 백업에 대한 복원 작업이 실패합니다.</block>
   <block id="e7683ab9f61fe80a16f3111a33febbda" category="summary">VMware vSphere용 SnapCenter 플러그인에서 구성된 네트워크 설정을 수정할 수 있습니다. 이 설정은 플러그인에서 vCenter에 액세스하는 데 사용됩니다.</block>
   <block id="d120dfcded58a5506ff23bf511e0f19f" category="doc">네트워크 설정을 수정합니다</block>
-  <block id="7e27210cce7cee1281fda6648cc20e60" category="list-text">상단 도구 모음에서 설정 아이콘을 클릭합니다.</block>
-  <block id="32e625127a9589134f64d90dac6cb7cd" category="paragraph">새 정보를 입력하고 * 저장 * 을 클릭합니다.</block>
   <block id="3c1620dc3cd833488e7cde6109b6d1bb" category="list-text">네트워크 설정을 제거하는 경우 다음을 수행합니다.</block>
-  <block id="63abf295f097ef207b859912a9f5c590" category="list-text">IPv4: * IP Address * 필드에 0.0.0.0을 입력한 다음 * Save * 를 클릭합니다.</block>
-  <block id="b24ed737f6ddf4dab1777258847520d0" category="list-text">IPv6: * IP Address * 필드에 '::0'을 입력한 다음 * Save * 를 클릭합니다.</block>
   <block id="45a22ef9ae5f0580d5230dd9bc8f0c63" category="paragraph">따라서 전체 드라이브를 복원하는 대신 드라이브에서 하나 이상의 개별 파일을 쉽게 복원할 수 있습니다. 필요한 파일을 복원하거나 액세스한 후에는 VMDK를 분리할 수 있습니다.</block>
   <block id="ef4f40abdcac7cd05cedfa75a38ecb05" category="paragraph">다음과 같은 연결 옵션이 있습니다.</block>
   <block id="3bd14151460ab96902cfa334d8e5b073" category="list-text">기본 또는 보조 백업에서 가상 디스크를 연결할 수 있습니다.</block>
@@ -1062,7 +988,6 @@
   <block id="4f6399d375703e081ff1b5332c86263c" category="list-text">가상 디스크 연결 * 창의 * 백업 * 섹션에서 백업을 선택합니다.</block>
   <block id="775753d105c5c21b1080c5ea812205ff" category="list-text">Select Disks * 섹션에서 연결할 하나 이상의 디스크와 연결할 위치(기본 또는 보조)를 선택합니다.</block>
   <block id="0ccbe2c092fc378c75aa9ebb7bd7d5ab" category="paragraph">기본 및 보조 위치를 표시하도록 필터를 변경할 수 있습니다.</block>
-  <block id="2f80c7c6141a4d837c0d3b3d563d7ec1" category="list-text">Attach * 를 클릭합니다.</block>
   <block id="c8d1e2af1ae3c89145fae7a06f3527d2" category="list-text">다음을 수행하여 가상 디스크가 연결되었는지 확인합니다.</block>
   <block id="a2851a7d67e43b5d48c04d6794eedea4" category="list-text">Edit Settings * (설정 편집 *) 창에서 각 하드 디스크의 목록을 확장하여 디스크 파일 목록을 봅니다.</block>
   <block id="d179ad7e63e6982bb3ee3c16224d9dd1" category="paragraph">설정 편집 페이지에는 VM의 디스크가 나열됩니다. 각 하드 디스크의 세부 정보를 확장하여 연결된 가상 디스크 목록을 볼 수 있습니다.</block>
@@ -1079,14 +1004,11 @@
   <block id="68296ccb11b96c0cb3577e08d79079a8" category="cell">SCV 보기</block>
   <block id="7c7ae5acd39e33d9d69f3338f6b09a4a" category="inline-link"><block ref="7c7ae5acd39e33d9d69f3338f6b09a4a" category="inline-link-rx"></block></block>
   <block id="49b20de0665dbf0adffcce8449969e05" category="list-text">NetApp Support 사이트( 에 로그인합니다<block ref="d9a31f976cefd9412c7b34e5af784f14" category="inline-link-rx"></block>)를 클릭합니다.</block>
-  <block id="f8fd86ff3cd572a88f814e0e5aeca137" category="list-text">제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * 최신 릴리스 다운로드 * 버튼을 클릭합니다.</block>
   <block id="e36d05bda5912440690ef51e7379f3eb" category="summary">빠른 시작 설명서는 VMware vSphere 가상 어플라이언스인 SnapCenter 플러그인을 배포하고 VMware vSphere용 SnapCenter 플러그인을 활성화하는 데 필요한 간략한 지침을 제공합니다. 이 지침은 SnapCenter가 이미 설치되어 있지 않으며 VM 및 데이터 저장소만 보호하려는 고객을 위한 것입니다.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="doc">개요</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="a64ef3b979aadef85700d66ece128c3c" category="summary">VMware vSphere 관리 GUI용 SnapCenter 플러그인의 로그온 자격 증명을 수정할 수 있습니다.</block>
   <block id="8592777bb1993d06e4c0038edb7ffd2c" category="doc">로그온 자격 증명을 수정합니다</block>
-  <block id="6b0833219b25cfb636dbf1df5a494408" category="list-text">설정 * 페이지의 * 사용자 * 섹션에서 * 편집 * 을 클릭합니다.</block>
-  <block id="a1f2721500bdca1919cccf8b7bd35250" category="list-text">새 암호를 입력하고 * 저장 * 을 클릭합니다.</block>
   <block id="00913a1f5999892e9e7489ab80e13c40" category="paragraph">모든 서비스가 다시 가동되려면 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="60d5e6a078f542229c70f62d22f5d19a" category="summary">삭제된 VM을 데이터 저장소 운영 또는 보조 백업에서 선택한 ESXi 호스트로 복구할 수 있습니다.</block>
   <block id="0b12c7bc8c57650d3bccce352eaf5119" category="doc">백업에서 삭제된 VM을 복원합니다</block>
@@ -1095,20 +1017,15 @@
   <block id="e2496f7f30be021f22d563d55a9d9a77" category="inline-link-macro">VMware vSphere용 SnapCenter 플러그인에 필요한 최소 vCenter 권한</block>
   <block id="a57f357cda6b120bf6909f719837db9d" category="list-text">vCenter의 사용자 계정에 가 있어야 합니다 <block ref="db7461a22bb1a1369320da1099e48c51" category="inline-link-macro-rx"></block>.</block>
   <block id="5f01fe74349257e75e7e64253e4e7bc4" category="paragraph">VMware vSphere용 SnapCenter 플러그인을 사용하여 VM의 백업을 생성해야 해당 VM의 VMDK를 복구할 수 있습니다.</block>
-  <block id="4496f72bb4d77e2cc55c802b7c4cd0b4" category="list-text">Menu * 를 클릭하고 * Storage * 메뉴 옵션을 선택한 다음 데이터 저장소를 선택한 다음 * Configure * 탭을 선택하고 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * Backups * 를 클릭합니다.</block>
   <block id="10cdb4feb2dea4da0fb0c500304666b9" category="list-text">백업을 두 번 클릭하여 백업에 포함된 모든 VM 목록을 표시합니다.</block>
-  <block id="721dbd87e9ecd1ae54c0718f20cae8fc" category="list-text">백업 목록에서 삭제된 VM을 선택하고 * 복원 * 을 클릭합니다.</block>
   <block id="63cef9780576628d2ececde8d6316073" category="list-text">복원 * 마법사의 * 백업 선택 * 페이지에서 복원할 백업 복사본을 선택합니다.</block>
   <block id="7d095eee366e6f2ce831a4097c5c2c23" category="paragraph">NFS 데이터 저장소의 VM을 ESXi 클러스터에 있는 대체 ESXi 호스트에 복구하는 경우 VM이 복구된 후 대체 호스트에 등록됩니다.</block>
   <block id="2b8952e2a3eecf608f1229e12bda5009" category="list-text">위치 선택 * 페이지에서 복원할 백업 위치(기본 또는 보조)를 선택합니다.</block>
   <block id="3ea1027d3f48da653af6e3aa5536c419" category="summary">게스트 파일 복원 작업을 위해 가상 디스크를 연결하는 데 프록시 VM을 사용하려면 복구 작업을 시작하기 전에 프록시 VM을 설정해야 합니다. 언제든지 프록시 VM을 설정할 수 있지만 플러그인 배포가 완료된 직후 프록시 VM을 설정하는 것이 더 편리할 수 있습니다.</block>
   <block id="1e2028a623e51fec3d186608663f4540" category="doc">복원 작업을 위해 프록시 VM을 설정합니다</block>
   <block id="a9a75ce6f1fddd6aa36cbdc142ed45a4" category="list-text">자격 증명으로 실행 * 대화 상자에서 자격 증명을 입력합니다.</block>
-  <block id="c5253962ed307cde16ad27589ddd8bd4" category="list-text">Select VM * 을 클릭한 다음 * Proxy VM * 대화 상자에서 VM을 선택합니다. 자격 증명으로 실행 * 대화 상자로 돌아가려면 * 저장 * 을 클릭합니다.</block>
   <block id="d3f4b118b6fda39f8c977a35b6fbc3e7" category="list-text">자격 증명을 입력합니다. 사용자 이름의 경우 "관리자"를 입력해야 합니다.</block>
   <block id="32db052b8c292805cf874ce498dbc022" category="paragraph">자격 증명으로 실행 은 Windows 또는 기본 제공 로컬 관리자가 제공하는 기본 도메인 관리자여야 합니다. 작업 그룹 사용자는 기본 제공 로컬 관리자 계정을 사용할 수 있습니다.</block>
-  <block id="a490d42fb7b208243371e6a2e42eb8af" category="list-text">프록시 자격 증명 * 섹션에서 * 추가 * 를 클릭하여 프록시로 사용할 VM을 추가합니다.</block>
-  <block id="536288ec9af487e2c4a7159fefd29fc9" category="list-text">프록시 VM* 대화 상자에서 정보를 입력한 다음 * 저장 * 을 클릭합니다.</block>
   <block id="74f0253fb549a1650817c97e7a1e9ce5" category="summary">유지 관리 콘솔을 사용하여 VMware vSphere 가상 어플라이언스인 SnapCenter 플러그인에 대한 MySQL 데이터베이스(NSM 데이터베이스라고도 함)의 특정 백업을 복구할 수 있습니다.</block>
   <block id="94ce11ecee2dab10a211c235e2e5f500" category="doc">MySQL 데이터베이스의 특정 백업을 복원합니다</block>
   <block id="59b659ecfd6274b621dfc183e437f754" category="list-text">MySQL 백업 및 복원 구성 메뉴에서 옵션 * 2) MySQL 백업 나열 * 을 입력한 다음 복원하려는 백업을 기록해 둡니다.</block>
@@ -1146,19 +1063,15 @@
   <block id="75ea96b6d8c73a8d05259ac9f34d62ff" category="summary">VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성할 수 있습니다.</block>
   <block id="ecfc133fda25b37d408886c1a66ff36a" category="doc">VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성합니다</block>
   <block id="dd948d9992f365a6c0e9df64901d5d56" category="list-text">VMware vSphere GUI용 SnapCenter 플러그인에 로그인합니다.</block>
-  <block id="7d1ff6975af13868750539374a2b5f49" category="list-text">설정 * 페이지의 * 지원 * 섹션에서 * 지원 * 번들 생성을 클릭합니다.</block>
-  <block id="97e8ab47b38e9948063b3c2295f24205" category="list-text">지원 번들을 생성한 후 제공된 링크를 클릭하여 NetApp에 번들을 다운로드합니다.</block>
   <block id="42d79f88c92ffc69f04adc6894214c6d" category="summary">이전에 SnapCenter를 사용하지 않았거나 SnapCenter 백업이 없는 경우 이 워크플로우를 사용할 수 있습니다.</block>
   <block id="8c3af9a2242cf85cbec18ce128ef51cb" category="doc">새 사용자를 위한 배포 워크플로</block>
   <block id="0c4154b274b3cdf00a313c856113a005" category="paragraph">이전에 SnapCenter를 사용한 적이 없고 SnapCenter 백업이 없는 경우 다음 워크플로우를 사용하여 시작합니다.</block>
   <block id="09b43df06bca0a261e4635991d6c8575" category="doc">스토리지 시스템 관리</block>
   <block id="8ed7e92fcf2560d9482aad3d9ec78236" category="section-title">스토리지 VM을 수정합니다</block>
   <block id="ba3b0a5636208104dc4a2ab975711734" category="admonition">SnapCenter GUI를 사용하여 애플리케이션 기반 데이터 보호 작업을 위해 스토리지 VM을 추가한 경우 동일한 GUI를 사용하여 해당 스토리지 VM을 수정해야 합니다.</block>
-  <block id="34941813fcfa40e1aedf056c332fda11" category="list-text">Edit Storage System * 창에서 새 값을 입력한 다음 * Update * 를 클릭하여 변경 사항을 적용합니다.</block>
   <block id="70acabccfa2b6713b1a86d484632666b" category="section-title">스토리지 VM을 제거합니다</block>
   <block id="9511d611d059dad2cee26dd7b6fc4d5a" category="paragraph">스토리지 VM을 제거하려면 먼저 스토리지 VM의 모든 데이터 저장소를 마운트 해제해야 합니다.</block>
   <block id="bbef84b0a53276c7c512270e3dbf2029" category="paragraph">리소스 그룹에 제거하는 스토리지 VM에 상주하는 백업이 있는 경우 해당 리소스 그룹에 대한 후속 백업이 실패합니다.</block>
-  <block id="a87f600185266e8baed2f9874a5a9772" category="list-text">스토리지 시스템 * 페이지에서 제거할 스토리지 VM을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="04a9cf8066f01cc2ca9e6a6e6b25a340" category="summary">필요한 최소 ONTAP 권한은 데이터 보호를 위해 사용 중인 SnapCenter 플러그인에 따라 다릅니다.</block>
   <block id="7b0ca130fab8e69f326a92b2555e1195" category="paragraph">모든 SnapCenter 플러그인에는 다음과 같은 최소 권한이 필요합니다.</block>
   <block id="f29e68a537349e874e09abd00f21d020" category="cell">event generate-autosupport-log입니다</block>
@@ -1187,8 +1100,6 @@
   <block id="16043d497a102402e1ddc8319ecf53c0" category="list-text">그런 다음 SnapCenter 관리자는 SnapCenter 사용자에게 역할을 할당합니다.</block>
   <block id="bc1f2aa0bb18523f69b75ac5eadcc6df" category="section-title">RBAC 권한에 대한 검증 워크플로</block>
   <block id="7bcb9fdbb264d6685b834885e7cac88a" category="paragraph">다음 그림에서는 RBAC 권한(vCenter 및 ONTAP)에 대한 검증 워크플로우를 개괄적으로 보여 줍니다.</block>
-  <block id="b82ea8e02c2156c66f4aef98d37530e5" category="list-text">설정 * 페이지의 * 날짜 및 시간 * 섹션에서 * 편집 * 을 클릭합니다.</block>
-  <block id="55c42ae7d8ac9cb06faa6178ff1756f1" category="list-text">새 시간대를 선택하고 * 저장 * 을 클릭합니다.</block>
   <block id="b44102bc60fe04461ce5e9757f7df1a2" category="summary">운영 효율성을 향상시키려면 scbr.override 구성 파일을 수정하여 기본값을 변경하십시오. 이러한 값은 백업 중에 생성 또는 삭제된 VMware 스냅샷 수 또는 백업 스크립트의 실행이 중지되기 전의 시간과 같은 설정을 제어합니다.</block>
   <block id="60b6fe4428eb456392dd8aa2668bcb86" category="paragraph">SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원하는 VMware vSphere 환경을 위한 SnapCenter 플러그인에서 'SCBR.OVERRIDE' 구성 파일을 사용합니다. 이 파일이 없으면 템플릿 파일에서 만들어야 합니다.</block>
   <block id="420a474f973d749808b1174802b4b4ab" category="paragraph">VMware vSphere용 SnapCenter 플러그인이 게스트에 대한 게스트 작업(온라인 디스크 및 복원 파일)을 완료하기 위해 모니터링하는 시간 간격(초)을 지정합니다. 총 대기 시간은 guestFileRestore.online.disk.timeout과 udestFileRestore.restore.files.timeout로 설정됩니다.</block>
@@ -1220,8 +1131,6 @@
   <block id="25e78af0a6469670457f3d69f3af2d24" category="paragraph">Guest Session Monitor 테이블에서 *...를 클릭하여 세션에 대한 추가 정보를 표시할 수 있습니다. * 를 선택합니다.</block>
   <block id="c6b1cccb1d41d1779899104b727ed6e0" category="list-text">알림 이메일에 나열된 가상 디스크에 대한 게스트 파일 복원 세션을 선택합니다.</block>
   <block id="0af578ae1d8a85026f8bc49091baff88" category="paragraph">모든 파티션에는 시스템 예약 파티션을 포함하여 드라이브 문자가 할당됩니다. VMDK에 파티션이 여러 개 있는 경우 게스트 파일 찾아보기 페이지 맨 위의 드라이브 필드에 있는 드롭다운 목록에서 드라이브를 선택하여 특정 드라이브를 선택할 수 있습니다.</block>
-  <block id="026ed41f7c1849eb7fcf1eeb8ddf984a" category="list-text">가상 디스크의 파일 및 폴더 목록을 보려면 * 파일 찾아보기 * 아이콘을 클릭합니다.</block>
-  <block id="03f7e9c1224a5f24acfe1b193927c60b" category="paragraph">폴더를 두 번 클릭하여 개별 파일을 찾아 선택할 때 파일 목록을 가져오는 동안 시간이 지연될 수 있습니다. 이 때 가져오기 작업은 런타임에 수행되기 때문입니다.</block>
   <block id="f4ff83956db6d6134a1d1743238a844b" category="paragraph">보다 쉬운 검색을 위해 검색 문자열에서 필터를 사용할 수 있습니다. 필터는 대소문자를 구분하며 공백 없이 Perl 식입니다. 기본 검색 문자열은 `.' * 입니다. 다음 표에서는 Perl 검색 식의 몇 가지 예를 보여 줍니다.</block>
   <block id="93db5159bc2de7648e1b7fb5f28e5c6b" category="cell">이 표현식은…</block>
   <block id="4a77e9776e249d3e281ac50d47ed958e" category="cell">검색 내용</block>
@@ -1250,7 +1159,6 @@
   <block id="28d397e87306b8631f3ed80d858d35f0" category="cell">\</block>
   <block id="62e997f696b6b12613230650e87e2eef" category="cell">특수 문자를 이스케이프합니다.</block>
   <block id="600d9067a8d1e407b0661522398938e3" category="paragraph">게스트 파일 찾아보기 페이지에는 다른 모든 파일 및 폴더와 함께 숨겨진 모든 파일과 폴더가 표시됩니다.</block>
-  <block id="376e84009ccd03b9873f41487ed5796f" category="list-text">복원하려는 파일이나 폴더를 하나 이상 선택한 다음 * 위치 복원 선택 * 을 클릭합니다.</block>
   <block id="181b43b4455912a2d87e4a95f5962dfc" category="paragraph">복원할 파일과 폴더가 선택한 파일 테이블에 나열됩니다.</block>
   <block id="1404a4829eb43be207dc9d418c129c51" category="list-text">Select Restore Location * 페이지에서 다음을 지정합니다.</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">옵션을 선택합니다</block>
@@ -1260,7 +1168,6 @@
   <block id="883a7ba4f8c59dbcd87a8b94a15652c6" category="admonition">폴더가 이미 있으면 폴더의 내용이 기존 폴더와 병합됩니다.</block>
   <block id="58a4b5caba49157640d061b90270ccf6" category="cell">성공적으로 복구한 후 게스트 세션 연결을 끊습니다</block>
   <block id="d0ea586a3ec678077cb6864e0c45eb5f" category="cell">복구 작업이 완료될 때 게스트 파일 복구 세션을 삭제하려면 이 옵션을 선택합니다.</block>
-  <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">복원 * 을 클릭합니다.</block>
   <block id="d1ec8236730ab9b589b7970195fa6f9d" category="paragraph">대시보드 작업 모니터에서 복구 작업의 진행률을 보거나 e-메일 알림을 기다릴 수 있습니다. e-메일 알림을 보내는 데 걸리는 시간은 복원 작업이 완료되는 데 걸리는 시간에 따라 달라집니다.</block>
   <block id="5a866c580c4e14dac516488f53fd671b" category="paragraph">알림 e-메일에는 복구 작업의 출력이 포함된 첨부 파일이 포함되어 있습니다. 복구 작업이 실패하면 첨부 파일을 열어 추가 정보를 확인합니다.</block>
   <block id="4639d0e2e2909a747265c2f704128bca" category="doc">작업을 모니터링합니다</block>
@@ -1383,17 +1290,13 @@
   <block id="c85c932c9dd62ac289f58ffb5aa66d1b" category="paragraph">VMware vCenter 7.0.3 이상 버전에서는 Entrust 인증서에 의해 서명된 OVA를 더 이상 신뢰할 수 없습니다. 문제를 해결하려면 다음 절차를 수행해야 합니다.</block>
   <block id="59252255a28a0d28afa2a95348168088" category="list-text">vSphere Client를 사용하여 vCenter Server에 로그인합니다.</block>
   <block id="528f0780194324480a4187dad141c85d" category="list-text">Administration &gt; Certificates &gt; Certificate Management * 로 이동합니다.</block>
-  <block id="b1bcaa81b81c053b721cbd033a896d89" category="list-text">신뢰할 수 있는 루트 저장소 * 옆에 있는 * 추가 * 를 클릭합니다</block>
   <block id="08c55988cc414be1387c0fb3e1c5b08f" category="list-text">Entrust Root 및 Intermediate 인증서의 위치를 찾아 선택합니다. 인증서는 * 신뢰할 수 있는 루트 인증서 * 아래 패널에 추가됩니다. 인증서가 설치되면 OVA를 확인하고 배포할 수 있습니다.</block>
   <block id="3db8472100b0070fdc22a4aeaaf7de57" category="admonition">다운로드한 OVA가 변조되지 않은 경우 * Publisher * 열에 * 신뢰할 수 있는 인증서 * 가 표시됩니다.</block>
-  <block id="f55f8ebb533c227261fdd36d760dbae3" category="list-text">VMware vSphere 클라이언트 GUI의 도구 모음에서 * 메뉴 * 를 클릭한 다음 드롭다운 목록에서 * VM 및 템플릿 * 을 선택합니다.</block>
   <block id="fb8bd58cdb7ac31c3811b2fe027bffa6" category="list-text">SnapCenter Plug-in for VMware vSphere.tar 파일을 다운로드해야 합니다.</block>
   <block id="1d64e062aa9b27dfa30eef1596250248" category="list-text">vCenter Server 인스턴스에 대한 로그인 인증 세부 정보가 있어야 합니다.</block>
   <block id="e17b96bbe7517cc19e507278493adec4" category="inline-link">스토리지 인증서 관리</block>
   <block id="4ac856ec3b3bf79b5253ad31fba9ff73" category="list-text">로컬 시스템에 .ova 파일이 포함된 .tar 파일의 압축을 풉니다. OVF 템플릿 선택 * 페이지에서 의 위치를 지정합니다<block ref="8d8b01a4d628953e7a2225813c8edb3f" prefix=" " category="inline-code"></block> tar extracted 폴더 안의 파일입니다.</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
   <block id="31591abf36a652a46358b5bdff318135" category="paragraph">이 단계는 를 가져올 위치를 지정합니다<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 파일을 vCenter에 저장합니다. VM의 기본 이름은 선택한 의 이름과 같습니다<block ref="8d8b01a4d628953e7a2225813c8edb3f" prefix=" " category="inline-code"></block> 파일. 기본 이름을 변경하는 경우 각 vCenter Server VM 폴더 내에서 고유한 이름을 선택합니다.</block>
-  <block id="16968b47795e306884c69e20183f8679" category="list-text">Review details * 페이지에서 를 확인합니다<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 템플릿 세부 정보를 입력하고 * 다음 * 을 클릭합니다.</block>
   <block id="61a8dab3f6aedb51e104e8b3324b04ea" category="list-text">유지보수 사용자의 자격 증명을 입력합니다.</block>
   <block id="26dc1678973cf898baa325abda96cb6d" category="paragraph">VMware vSphere Client를 사용하여 스토리지를 추가합니다.</block>
   <block id="fef1c0adcbd39f7cb971d3e78b3179af" category="cell">인증 방법</block>
@@ -1411,7 +1314,6 @@
   <block id="596e6d7cbb1dd1b33baf91e428660d8d" category="doc">OVA(Open Virtual Appliance) 다운로드</block>
   <block id="c7e2e09f64e2a53698b257f855376266" category="list-text">VMware용 SnapCenter 플러그인을 다운로드하려면 다음을 수행하십시오.</block>
   <block id="4fd72c7ebfbc30f421db6702d20db942" category="list-text">VMware vSphere용 SnapCenter 플러그인을 다운로드하십시오<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 파일을 원하는 위치에 저장합니다.</block>
-  <block id="be3ce368fecf9f27a084a64a731dcb40" category="list-text">VMware vSphere 클라이언트에서 * 게스트 파일 복원 * 을 클릭합니다.</block>
   <block id="21a2a6efe53ed1369868aa991298fb0e" category="summary">VMware vSphere Client를 사용하여 데이터 보호 작업을 수행한 후에는 대시보드의 작업 모니터 탭에서 작업 상태를 모니터링하고 작업 세부 정보를 볼 수 있습니다.</block>
   <block id="0090445899b9588f3e6305ac90b57e7b" category="inline-link">KB 문서: SnapCenter vSphere 클라이언트 대시보드에 작업이 표시되지 않습니다</block>
   <block id="0b0fec51c8941dd7a53b5aae81f177ae" category="summary">vSphere Client Dashboard에서 상태 정보를 볼 수 있습니다. 상태 정보는 한 시간에 한 번 업데이트됩니다.</block>
@@ -1479,10 +1381,8 @@
   <block id="1bc9f12f6880b669c7af57f1225a3f57" category="summary">tar 파일에는 VM 및 데이터 저장소 데이터 보호 및 인증서 파일에 대한 마이크로서비스 집합인 OVA가 포함되어 있습니다.</block>
   <block id="b31c78ab5b83bcac7128765c2a187ab8" category="summary">VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VMware vSphere 클라이언트가 설치되며, vCenter 화면에 다른 vSphere 클라이언트와 함께 표시됩니다.</block>
   <block id="03b562a7f77490de6d5fdbcc91ed357a" category="doc">SnapCenter VMware vSphere Client에 로그인합니다</block>
-  <block id="82bfbc41da3f78208980b95480356279" category="list-text">VMware vSphere Client * 페이지의 도구 모음에서 메뉴 를 클릭한 다음 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.</block>
   <block id="ddad3ed39c11da21249f852ea88d160e" category="list-text">VM 정합성 보장 백업을 원할 경우 VMware 도구가 설치되어 실행 중이어야 합니다. VM을 중지하려면 VMware 툴이 필요합니다. VM 일치 백업은 VVOL VM에 대해 지원되지 않습니다.</block>
   <block id="637f9e5cc0956a7a76dc0a24cefff651" category="paragraph">SnapCenter Plug-in for VMware vSphere 가상 어플라이언스를 사용하는 경우 최신 릴리즈로 업그레이드할 수 있습니다. 업그레이드 프로세스에서는 기존 플러그인의 등록을 해제하고 vSphere 7.0U1 이상 버전에서만 호환되는 플러그인을 구축합니다.</block>
-  <block id="23281bdadc9c1bd0708c32ac888b35a9" category="list-text">vCenter GUI에서 * vSphere 클라이언트(HTML) * 를 클릭합니다.</block>
   <block id="b4739ccaeec10b1a2794ad9d017952c1" category="cell">SnapCenter vSphere 클라이언트 GUI</block>
   <block id="b6618107278d92d54e80b1f930a98a14" category="paragraph">VM 정합성이 보장되는 백업 및 복구 작업의 경우 VMware vSphere Client GUI를 사용해야 합니다. 데이터 저장소를 마운트하거나 이름을 바꾸는 등의 일부 작업은 VMware 툴을 사용하여 수행할 수 있지만 이러한 작업은 SnapCenter 저장소에 등록되지 않으며 인식되지 않습니다.</block>
   <block id="0732e8e379c23dc5fb5e0055374a7f1d" category="summary">SnapCenter VMware vSphere Client가 잘못 작동하기 시작하면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 웹 클라이언트 서비스를 다시 시작합니다.</block>
@@ -1496,7 +1396,6 @@
   <block id="90b174b4907cf39ccf32b9d4a8c1f631" category="paragraph">이 옵션은 vCenter에서 VMware vSphere Client를 설정할 때 구성된 e-메일 설정을 사용합니다.</block>
   <block id="a5bc2dcdf45e4e981e8c5477447aa605" category="list-text">VMware vCenter Single Sign-On 페이지 * 에 로그인합니다.</block>
   <block id="d79bec3408f76d1eefc90b767b93cabf" category="summary">SnapCenter VMware vSphere Client 리소스 그룹 편집 마법사를 사용하여 기존 리소스 그룹에 여러 리소스를 추가할 수 있습니다.</block>
-  <block id="fbfbbb98438908f6278b91f3e912dd4f" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 클릭한 다음 드롭다운 목록에서 * 호스트 및 클러스터 * 를 선택합니다.</block>
   <block id="3ec87b09fd664417b12e12d452b57325" category="paragraph">vCenter에서 VMware vSphere Client GUI를 사용하여 VMware 가상 머신(기존 VM 및 VVOL VM), VMDK, 데이터 저장소의 모든 백업 및 복원 작업을 수행할 수 있습니다. VVOL VM(VVOL 데이터 저장소의 VM)의 경우 충돌 시에도 정합성 보장 백업만 지원됩니다. VM 및 VMDK를 복구하고 게스트 OS에 상주하는 파일 및 폴더를 복원할 수도 있습니다.</block>
   <block id="ab9f567063d45a42b5368e31b1fa1ee5" category="paragraph">ONTAP 툴을 사용하여 ONTAP 및 VMware 웹 클라이언트에서 VVOL의 스토리지를 프로비저닝하고 구성할 수 있습니다.</block>
   <block id="c9424bce718e9e3deaedf0943d2692ad" category="summary">VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSphere 클라이언트 작업에 대한 기본 제공 일정을 수정하려면 규정된 REST API 호출 순서를 따라야 합니다.</block>
@@ -1504,7 +1403,6 @@
   <block id="bb61ce9732135b170d9459970083b29f" category="list-text">VMware vSphere Client에 로그인합니다.</block>
   <block id="36139d788258b0f7f760e90a7e475cfb" category="list-text">VMware 도구를 설치하고 실행해야 합니다.</block>
   <block id="7a6f0192e4916d4a7238add9c2d4e982" category="paragraph">SnapCenter는 VMware 툴의 정보를 사용하여 VMware 게스트 OS에 대한 연결을 설정합니다.</block>
-  <block id="48e30f31b43c0ce0d7b2ae5cff7665bc" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 클릭한 후 다음 중 하나를 수행합니다.</block>
   <block id="36e391315954a298b55333c0f1afcc71" category="paragraph">아래 단계에 따라 리소스 그룹을 생성합니다.</block>
   <block id="6a03edb8ab46dff4278e3f5e0e5ebe46" category="list-text">VMware vCenter 7.0.3 이상 버전의 경우 의 단계를 따릅니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> vCenter로 인증서를 가져옵니다.</block>
   <block id="8775bf884912200ed43fd5a867b909a3" category="cell">* 권한 *</block>
@@ -1536,10 +1434,8 @@
   <block id="0a631d60b99e22182e8049161c23edfe" category="paragraph">이 섹션의 단계를 따라 저장소를 추가합니다.</block>
   <block id="6c8295efcbb45c1c61f419f14cc9f532" category="list-text">탐색 창에서 데이터 센터, 폴더, 클러스터 또는 호스트와 같은 가상 머신의 유효한 상위 객체인 인벤토리 객체를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 를 선택하여 VMware 구축 마법사를 시작합니다.</block>
   <block id="f255f4f27e0913e5d5174c3d34b1d8f3" category="paragraph">SnapCenter VMware vSphere Client 리소스 그룹 편집 마법사를 사용하여 기존 리소스 그룹에 여러 리소스를 추가할 수 있습니다.</block>
-  <block id="d30ddc592feb0dde8f46df8a0df75b4e" category="list-text">사용 가능한 엔터티 목록에서 리소스 그룹에 추가할 하나 이상의 VM 또는 데이터 저장소를 선택한 다음 * &gt; * 를 클릭하여 선택한 항목을 선택한 엔터티 목록으로 이동합니다. 사용 가능한 모든 요소를 이동하려면 * &gt;&gt; * 를 클릭합니다.</block>
   <block id="6efed6170121e24d6d2c5c3bb72aa2ab" category="paragraph">VMware vSphere용 SnapCenter 플러그인용 유지 관리 콘솔을 사용하여 애플리케이션, 시스템 및 네트워크 구성을 관리할 수 있습니다. 관리자 암호, 유지 관리 암호를 변경하고, 지원 번들을 생성하고, 원격 진단을 시작할 수 있습니다.</block>
   <block id="f7fa43f6dd6c15d238137979bfafde96" category="list-text">tar 파일의 압축을 풉니다. tar 파일에는 OVA 및 certs 폴더가 포함되어 있습니다. 인증서 폴더에는 Entrust 루트 및 중간 인증서가 들어 있습니다.</block>
-  <block id="b21ad1c65300475e78e89ff6b13d3bf5" category="list-text">신뢰할 수 있는 루트 인증서 * 옆에 있는 * 추가 * 를 클릭합니다</block>
   <block id="7a6d925c9840475f937eee242a023561" category="list-text">certs_folder로 이동합니다.</block>
   <block id="d93a23c4b41c8a9962980d34d8ebb285" category="list-text">Entrust Root 및 Intermediate 인증서를 선택합니다.</block>
   <block id="28f971e28dfc95cd1f45e3f3e43cb5ae" category="list-text">각 인증서를 한 번에 하나씩 설치합니다.</block>
@@ -1552,7 +1448,6 @@
   <block id="bac80dc0b6b539e2676fb6e2f1e66985" category="inline-image-macro">유지보수 콘솔 창</block>
   <block id="b6b7c58249919c09c14b897be2947b59" category="paragraph"><block ref="b6b7c58249919c09c14b897be2947b59" category="inline-image-macro-rx" type="image"></block></block>
   <block id="babb657a1390e215cc6322a94325a49a" category="paragraph">보고서에 포함할 시간 범위, 작업 상태 유형, 자원 그룹 및 정책을 수정하려면 필터 아이콘을 선택합니다.</block>
-  <block id="e56f6654e80f4662afbca93ea23b2214" category="paragraph">다운로드 아이콘을 클릭하여 플러그인 로그를 다운로드할 수도 있습니다.</block>
   <block id="44040e214e919d86d6a1f3f26db3d22c" category="inline-image-macro">편집 아이콘</block>
   <block id="5f6ae733d2ed961dcd2c41c04be8a70d" category="paragraph"><block ref="5f6ae733d2ed961dcd2c41c04be8a70d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6d90000405f5209bdfcbf03157cf4e4" category="paragraph">VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그온하려면 IP 주소와 로그인 자격 증명을 알고 있어야 합니다. 또한 유지보수 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.</block>
@@ -1568,7 +1463,6 @@
   <block id="7dec9dcf8e38ded3e0697c5adf28b03d" category="inline-image-macro">재생 아이콘</block>
   <block id="b8d4db09e92c4240560d6aaddccf4b16" category="paragraph">VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그온 자격 증명을 알고 있어야 합니다. 또한 유지보수 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.</block>
   <block id="624b86ee772b09351048910fc4a730dc" category="section-title">구축 후 필요한 작업</block>
-  <block id="0a64db99826a9ea7c2e6f2908b06dabd" category="list-text">왼쪽 탐색 창에서 * 설정 * 을 클릭한 다음 * 자격 증명 * 탭을 클릭하고 * 추가 * 를 선택하여 가상 어플라이언스에 대한 자격 증명을 추가합니다.</block>
   <block id="524697e11df05ccf97f0b0b414be0f9c" category="inline-image-macro">유지보수 콘솔 윈도우</block>
   <block id="830a296b46e858a56418113e07e9dfe7" category="paragraph"><block ref="830a296b46e858a56418113e07e9dfe7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="603cbed8f7baa50983a476190f811eb7" category="paragraph">가상 머신을 재부팅합니다
@@ -1597,7 +1491,6 @@ audit.log 에만 적용됩니다</block>
   <block id="70ec0ae10bd552d994ce750505a0555a" category="list-text">Syslog 서버 포트</block>
   <block id="1c9618412e023b37c69bd89815412cb8" category="list-text">RFC 형식</block>
   <block id="3e32e3fb1da076fdb652714d88c86082" category="list-text">Syslog 서버 인증서입니다</block>
-  <block id="073a08c9b2f5d521c447ac2e98d7b83d" category="list-text">Save * 를 클릭하여 Syslog 서버 설정을 저장합니다.</block>
   <block id="a2129fc13872e21499db7ac1478e260c" category="section-title">감사 로그 설정을 변경합니다</block>
   <block id="3b7005e3de4bc668f924c18bad55b3b2" category="paragraph">로그 설정의 기본 구성을 변경할 수 있습니다.</block>
   <block id="5a2083853297d8e177a0fe4d54c85aad" category="paragraph">이 작업은 기본 감사 로그 설정을 변경하는 데 도움이 됩니다.</block>
@@ -1768,15 +1661,10 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="5ac7c8c6c8598c544fefefc2a5e226b8" category="paragraph"><block ref="95e74a55a904a66f18be251d45fb5889" prefix="" category="inline-code"></block></block>
   <block id="79fd6eae591bf5da4f3d347bd833c7de" category="paragraph">SnapCenter Plug-in for VMware vSphere 서비스를 중지하고 다시 시작하기 전에 모든 스케줄을 일시 중지해야 합니다.</block>
   <block id="5aede9738fe86694aa6f3a7752268f4a" category="list-text">VMware vSphere Client에서 VMware vSphere용 SnapCenter 플러그인이 있는 VM을 선택합니다.</block>
-  <block id="4ba1829f6981934cfed58dea022efa99" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * 을 클릭하여 유지 관리 콘솔 창을 엽니다.</block>
   <block id="a43bf1ac7e468ec6eb4e1a8d687fd60d" category="paragraph">VMware vSphere용 SnapCenter 플러그인 요약 표시 VMware vSphere 서비스용 SnapCenter 플러그인 시작 또는 중지 VMware vSphere용 SnapCenter 플러그인 로그인 사용자 이름 또는 암호 변경 MySQL 암호 변경 MySQL 암호 백업 및 복구, MySQL 백업 구성 및 나열</block>
   <block id="2aefcd91cb5d3d55e389e951b79daf51" category="summary">단일 VM 또는 데이터 저장소를 SnapCenter Plug-in for VMware vSphere에서 관리하는 기존 리소스 그룹에 빠르게 추가할 수 있습니다.</block>
-  <block id="d8f27f1f8193cf9030f51a4acb1ea8e2" category="list-text">vSphere Client GUI의 도구 모음에서 * Menu * 를 클릭하고 추가하려는 VM 또는 데이터 저장소로 이동합니다.</block>
   <block id="f385468a15a9a67fb79a1a54d11355ef" category="list-text">왼쪽 탐색 창에서 VM 또는 데이터 저장소를 마우스 오른쪽 버튼으로 클릭하고 보조 드롭다운 목록에서 * SnapCenter Plug-in for VMware vSphere * &gt; * Add to Resource Group * 을 선택합니다.</block>
   <block id="323de26efa72e3814c28e89fa0a54a17" category="paragraph">메시지가<block ref="9e5971575d4ff5fdbab34f545fb3c4f7" prefix=" " category="inline-code"></block> 표시되면 선택한 VM 또는 데이터 저장소가 SnapCenter와 호환되지 않는 것입니다. 자세한 내용은 을 <block ref="83219d9586902f9891ecf56cd903fe4b" category="inline-link-macro-rx"></block> 참조하십시오.</block>
-  <block id="35dcc595a54f8d79fea5fe64f1afa216" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭하고 리소스 그룹을 선택한 다음 * 리소스 그룹 편집 * 을 <block ref="f4ee71cd89b2b235a395ca347e92f957" category="inline-image-macro-rx" type="image"></block> 클릭하여 마법사를 시작합니다.</block>
-  <block id="17703492b9c14634026aba1ce2eba4be" category="paragraph">다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다. 메시지가<block ref="c238c6c4153d32597097e3ae5ddc6f78" prefix=" " category="inline-code"></block> 표시되면 선택한 VM 또는 데이터 저장소가 SnapCenter와 호환되지 않는 것입니다. 자세한 내용은 을 <block ref="83219d9586902f9891ecf56cd903fe4b" category="inline-link-macro-rx"></block> 참조하십시오.</block>
-  <block id="1a9f29efd8808d12b52443b2a7c2345c" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭한 다음 * Add * 옵션을 선택합니다.</block>
   <block id="46d6be65c26292b8a7b6abc4d4608ab0" category="paragraph">ESXi 서버, VMware vSphere용 SnapCenter 플러그인 및 각 vCenter를 동시에 동기화해야 합니다. 저장소를 추가하려고 하지만 vCenter의 시간 설정이 동기화되지 않은 경우 Java 인증서 오류로 인해 작업이 실패할 수 있습니다.</block>
   <block id="2065b3ffa5ea044c72d7fd30a206b5f8" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 직접 연결된 스토리지 VM과 스토리지 클러스터의 스토리지 VM에서 백업 및 복원 작업을 수행합니다.</block>
   <block id="3090c6393064b77b009ddfb43dc67322" category="admonition">VMware vSphere용 SnapCenter 플러그인을 사용하여 VMDK에서 애플리케이션 기반 백업을 지원하는 경우 SnapCenter GUI를 사용하여 스토리지 인증 세부 정보를 입력하고 스토리지 시스템을 등록해야 합니다.</block>
@@ -1799,10 +1687,8 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="1d7cdf1c59e837114cd388f7cdec463d" category="list-text">왼쪽 탐색 창에서 VM을 마우스 오른쪽 단추로 클릭한 다음 드롭다운 목록에서 * 설정 편집 * 을 선택합니다.</block>
   <block id="74fc40e139365d9bfdb8a283b18f2fdb" category="admonition">VMware vSphere MySQL 데이터베이스용 SnapCenter 플러그인을 백업하는 작업이 이미 실행 중인 경우에는 필요 시 백업 작업을 시작하지 마십시오. 유지 관리 콘솔을 사용하여 MySQL 데이터베이스에 대해 구성된 백업 일정을 확인합니다.</block>
   <block id="76e9befea76516ca72c9f475d7334897" category="paragraph">이전 VSC(Virtual Storage Console) 릴리즈에서는 VM 또는 데이터 저장소에 대한 백업 작업을 구성하지 않고도 필요 시 백업을 수행할 수 있습니다. 그러나 VMware vSphere용 SnapCenter 플러그인의 경우 백업을 수행하기 전에 VM 및 데이터 저장소가 리소스 그룹에 있어야 합니다.</block>
-  <block id="650bf64005f824cd01cde067c0788d47" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭하고 리소스 그룹을 선택한 다음 * 지금 실행 * 을 선택하여 <block ref="aeba2b9f883565da26d0265e5ca2ca10" category="inline-image-macro-rx" type="image"></block> 백업을 시작합니다.</block>
   <block id="803b4aa7d4fed42c6a2488a4e70f45a1" category="summary">VMware vSphere용 SnapCenter 플러그인에는 플러그인에서 수행하는 모든 작업에 대한 메타데이터가 포함된 MySQL 데이터베이스(NSM 데이터베이스라고도 함)가 포함되어 있습니다. 이 리포지토리는 정기적으로 백업해야 합니다.</block>
   <block id="ed4aa6f26ea0b1f313d46b0b10791050" category="list-text">VMware vSphere Client에서 VMware vSphere용 SnapCenter 플러그인이 있는 VM을 선택합니다.</block>
-  <block id="99c4c1b26adb908b9ae65c4102d4f31c" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * * 또는 Launch Web Console * 을 클릭하여 유지 관리 콘솔 창을 엽니다.</block>
   <block id="c3a6fddfa271f6c290c0d444610ccf18" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 귀사의 환경에 다음과 같은 기능을 추가합니다.</block>
   <block id="635a11cc0c4ae2a604ff20cce00bb182" category="paragraph">VMware vSphere용 SnapCenter 플러그인에는 VMware vSphere용 SnapCenter 플러그인이 포함된 MySQL 데이터베이스가 포함됩니다. VM 일관성 및 장애 발생 시 정합성이 보장되는 데이터 보호를 위해 SnapCenter 서버를 설치할 필요가 없습니다.</block>
   <block id="8948a149db0e61e41cadfc936cde0889" category="paragraph">SnapCenter은 기본적으로 VMware vSphere용 SnapCenter 플러그인을 활용하여 VMDK, RDM(원시 장치 매핑) 및 NFS 데이터 저장소의 모든 데이터 보호 작업에 활용할 수 있습니다. 가상 어플라이언스가 구축된 후에는 플러그인이 vCenter와의 모든 상호 작용을 처리합니다. VMware vSphere용 SnapCenter 플러그인은 모든 SnapCenter 애플리케이션 기반 플러그인을 지원합니다.</block>
@@ -1816,7 +1702,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="14287ce8c2228d3505c31799833a864f" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 선택한 자격 증명을 사용하여 선택한 VM에 로그온합니다.</block>
   <block id="110328d238985c18e0a7947b09b1ff0f" category="summary">VMware vSphere용 SnapCenter 플러그인은 클라이언트 브라우저와의 안전한 통신을 위해 SSL 암호화를 사용합니다. 이렇게 하면 전체 전송 중에 암호화된 데이터가 활성화되거나, 새 자체 서명된 인증서를 만들거나, 고유한 CA(인증 기관) 인프라 또는 타사 CA를 사용하여 인증서를 만들 수 있지만, 이 경우 사용자 환경에 맞는 고유한 인증서가 보장됩니다.</block>
   <block id="6886be2ac69a368a307204ccfa1e00d9" category="paragraph">자세한 내용은 을<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block> 참조하십시오.</block>
-  <block id="dbda93db9be6e33e4445e8182fe70414" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭한 다음 * New Policy * 를 선택합니다.</block>
   <block id="6371946f7a59bb407f5608582531db43" category="paragraph">관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 을<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="e90ae72a4d203cde9c1d660d983bec13" category="list-text">SnapMirror 액티브 동기화를 사용하면 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으므로 보조 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.</block>
   <block id="c2bc8f54778a0e6f72a8fa3f9c96aae7" category="admonition">SnapMirror 활성 동기화는 VMFS 데이터 저장소에만 지원됩니다.</block>
@@ -1824,14 +1709,11 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="e43b6d42c084ea82997a88a9d026236a" category="inline-link">TR-4878: SnapMirror Active Sync(이전의 SMBC)</block>
   <block id="5cefaf60738eca04f3a2c8ae491cff01" category="list-text">기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다<block ref="dbd8dacf801f7f0689c0fe2812237b08" category="inline-link-rx"></block>.</block>
   <block id="a873006631aa7f356ec5a7fc41e0133d" category="list-text">VMFS 데이터 저장소와 연결된 볼륨을 정합성 보장 그룹에 추가하고 두 ONTAP 스토리지 시스템 간에 _AutomatedFailOver_or_AutomatedFailOverDuplex_protection 정책을 사용하여 데이터 보호 관계를 생성합니다. _AutomatedFailOverDuplex_policy는 ONTAP 9.15.1 릴리스 이후에 지원됩니다.</block>
-  <block id="5c010c674f2546a075db61f84c21cee8" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭합니다.</block>
   <block id="e2d3fabbf465949e2cc7e077aa8dcf1f" category="admonition">SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 _ Before begin_ 섹션에 나와 있는 사전 요구 사항을 완료하고 * Update SnapMirror after backup * 을 설정해야 합니다.</block>
   <block id="c852f476fffd15ea31d953d2cd0be4cd" category="admonition">VM 정합성 보장 백업을 수행하려면 VM에서 실행 중인 VMware 툴이 있어야 합니다. VMware 툴이 실행되고 있지 않으면 충돌 시에도 정합성이 보장되는 백업이 대신 수행됩니다.</block>
   <block id="b2c10ceccf2ef38cfd16b235e94e66ca" category="paragraph">VMware vSphere용 SnapCenter 플러그인을 백업 작업 전후에 실행할 규정 또는 PS의 정규화된 경로를 입력합니다. 예를 들어 스크립트를 실행하여 SNMP 트랩을 업데이트하고, 경고를 자동화하고, 로그를 보낼 수 있습니다. 스크립트 경로는 스크립트가 실행될 때 검증됩니다.</block>
-  <block id="3e75833fca9e76ef6912688f5fce699b" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 * 만들기 * 를 선택합니다.</block>
   <block id="5bda43473e266bd8432257626473549a" category="admonition">vCLS(VMware vSphere Cluster Service)를 사용하는 경우 VMware vSphere 리소스 그룹용 SnapCenter 플러그인에 vCLS로 관리되는 VM을 포함하지 마십시오.</block>
   <block id="55bc441bdeb0f43c60379f5dc78f6abf" category="paragraph">ONTAP 9.8 또는 ONTAP 9.9에서 실행 중인 경우, 스위치오버 또는 스위치백 후에 MetroCluster 환경에서 리소스 그룹을 백업하기 전에 SnapCenter Plug-in for VMware vSphere 서비스를 다시 시작하고 SnapMirror 관계를 다시 동기화해야 합니다.</block>
-  <block id="7c3ed3750b214d44b80f3c18a1e4cfed" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 * 만들기 * 를 선택하여 마법사를 시작합니다.</block>
   <block id="3a45015313a1faf386696ea8ef299b04" category="list-text">하나의 VM에 대한 리소스 그룹을 생성하려면 바로 가기 페이지에서 * 호스트 및 클러스터 * 를 선택한 다음 VM을 마우스 오른쪽 버튼으로 클릭하고 * SnapCenter Plug-in for VMware vSphere * &gt; * 리소스 그룹 생성 * 을 선택합니다.</block>
   <block id="e55c3cdc89e781170175d407fcc99d3e" category="list-text">하나의 데이터 저장소에 대한 리소스 그룹을 생성하려면 바로 가기 페이지에서 * 호스트 및 클러스터 * 를 선택한 다음 데이터 저장소를 마우스 오른쪽 버튼으로 클릭하고 * SnapCenter Plug-in for VMware vSphere * &gt; * 리소스 그룹 생성 * 을 선택합니다.</block>
   <block id="b6f45f1c26b5dc8cfcdcf884b55437e0" category="cell">자원 그룹의 이름을 입력합니다. VM, 데이터 저장소, 정책, 백업 또는 리소스 그룹 이름에 %&amp; * $#@! /: *? "&lt;&gt;-[수직 막대];',. 밑줄 문자(_)를 사용할 수 있습니다. 특수 문자가 포함된 VM 또는 데이터 저장소 이름이 잘려서 특정 백업을 검색하기 어렵습니다. 연결 모드에서 각 vCenter에는 VMware vSphere용 별도의 SnapCenter 플러그인 저장소가 있습니다. 따라서 vCenter 전체에서 중복 이름을 사용할 수 있습니다.</block>
@@ -1867,22 +1749,18 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="99a0d0b84051a0e9e9194e2eb31ace23" category="list-text">SnapCenter Plug-in for VMware vSphere가 구축된 vCenter 이외의 vCenter에서 백업을 수행하려면 ESXi 서버, VMware vSphere용 SnapCenter 플러그인 및 각 vCenter를 동시에 동기화해야 합니다.</block>
   <block id="e7d701a56a002995230e991e41a72df1" category="paragraph">vCenter와 동일한 시간대에 VMware vSphere용 SnapCenter 플러그인을 구축합니다. 백업 스케줄은 VMware vSphere용 SnapCenter 플러그인이 구축되는 표준 시간대에서 실행됩니다. vCenter는 vCenter가 있는 시간대의 데이터를 보고합니다. 따라서 VMware vSphere 및 vCenter용 SnapCenter 플러그인이 서로 다른 시간대에 있는 경우 VMware vSphere용 SnapCenter 플러그인 대시보드의 데이터가 보고서의 데이터와 같지 않을 수 있습니다.</block>
   <block id="2eebc560b73748e82dc828dccfa95727" category="list-text">탐색기 창에서 데이터 센터, 클러스터 또는 호스트와 같이 가상 시스템의 유효한 상위 객체인 인벤토리 객체를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 을 선택하여 VMware 배포 마법사를 시작합니다.</block>
-  <block id="5d31e0053a23e271f16c90459347f31d" category="list-text">IP 할당 설정 * 섹션에서 필요한 IP 주소 프로토콜을 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="db44d33dce7d8c812f3a02ad4a6455ca" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 하나의 네트워크 인터페이스를 지원합니다. 여러 네트워크 어댑터가 필요한 경우 수동으로 설정해야 합니다. 을<block ref="d3a97202e3ae619eec0e1bd725c581b2" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="08e8c8579b148c6dae8daea6b981f185" category="admonition">지정한 사용자 이름과 암호를 기록해 둡니다. 나중에 VMware vSphere용 SnapCenter 플러그인 구성을 수정하려면 이러한 자격 증명을 사용해야 합니다.</block>
   <block id="78ec48b7c749b3a7a8080d651afc3669" category="list-text">Setup Network Properties * 섹션에서 호스트 이름을 입력합니다.</block>
   <block id="0b691d0bcd0bae175f4dcfd7491922bc" category="list-text">Setup IPv4 Network Properties * 섹션에서 IPv4 주소, IPv4 넷마스크, IPv4 게이트웨이, IPv4 기본 DNS, IPv4 보조 DNS, 및 IPv4 검색 도메인.</block>
   <block id="43a7a2ab4be51a09780bb39357d5251a" category="list-text">IPv6 네트워크 속성 설정 * 섹션에서 IPv6 주소, IPv6 넷마스크, IPv6 게이트웨이, IPv6 기본 DNS, IPv6 보조 DNS, 및 IPv6 검색 도메인.</block>
   <block id="c6e3214d70bb72ad47084efe65166b00" category="paragraph">SnapCenter Plug-in for VMware vSphere가 성공적으로 구축되면 Linux VM으로 구축되고 vCenter에 등록되며 VMware vSphere Client가 설치됩니다.</block>
-  <block id="ac366ccc90b56acbf41c1babb0ce8af0" category="list-text">SnapCenter Plug-in for VMware vSphere가 구축된 VM으로 이동한 다음 * Summary * 탭을 클릭하고 * Power On * 상자를 클릭하여 가상 어플라이언스를 시작합니다.</block>
-  <block id="e41d8d8a584e4696fad050336bd97108" category="list-text">VMware vSphere용 SnapCenter 플러그인의 전원이 켜지는 동안 배포된 VMware vSphere용 SnapCenter 플러그인을 마우스 오른쪽 단추로 클릭하고 * 게스트 OS * 를 선택한 다음 * VMware 도구 설치 * 를 클릭합니다.</block>
   <block id="c6b1b3dc5d4864553e0ac28a4c7026a7" category="paragraph">VMware 툴은 VMware vSphere용 SnapCenter 플러그인이 구축된 VM에 설치됩니다. VMware 툴 설치에 대한 자세한 내용은 VMware 설명서를 참조하십시오.</block>
   <block id="f872214d608bc2ab4451c44631575819" category="paragraph">배포를 완료하는 데 몇 분 정도 걸릴 수 있습니다. VMware vSphere용 SnapCenter 플러그인의 전원이 켜지고 VMware 툴이 설치되며 VMware vSphere용 SnapCenter 플러그인에 로그인하라는 메시지가 화면에 표시되면 구축이 성공한 것입니다. 처음 재부팅할 때 네트워크 구성을 DHCP에서 정위치로 전환할 수 있습니다. 그러나 정적에서 DHCP로의 전환은 지원되지 않습니다.</block>
   <block id="e74860100ff6e3cddea8b5470a63b46a" category="paragraph">화면에 VMware vSphere용 SnapCenter 플러그인이 구축된 IP 주소가 표시됩니다. IP 주소를 기록해 둡니다. VMware vSphere용 SnapCenter 플러그인 구성을 변경하려면 VMware vSphere 관리 GUI용 SnapCenter 플러그인 에 로그인해야 합니다.</block>
   <block id="acc8c1d082e4a6a4cc7b9f12309e4310" category="list-text">구축 화면에 표시된 IP 주소와 구축 마법사에서 제공한 자격 증명을 사용하여 VMware vSphere 관리 GUI용 SnapCenter 플러그인 에 로그인합니다. 그런 다음 대시보드에서 VMware vSphere용 SnapCenter 플러그인이 vCenter에 연결되고 활성화되어 있는지 확인합니다.</block>
   <block id="0d772116a0b1a4e8de0e3d54008be8e7" category="paragraph">VMware vSphere용 SnapCenter 플러그인이 활성화되어 있지 않으면 을 참조하십시오 <block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>.</block>
   <block id="37e5c1ad8a20521d75afc178f68d656b" category="paragraph">네트워크 속성 설정 * 섹션에서 네트워크 정보를 입력합니다. Setup Date and Time * 섹션에서 vCenter가 위치한 시간대를 선택합니다.</block>
-  <block id="c8cdfbb3a52561000ef7cad338743cef" category="list-text">SnapCenter Plug-in for VMware vSphere가 구축된 VM으로 이동한 다음 * Summary * 탭을 클릭하고 * Power On * 상자를 클릭하여 VMware vSphere용 SnapCenter 플러그인을 시작합니다.</block>
   <block id="0e1333d2629e7e53b7c0c41245a5c98c" category="paragraph">배포를 완료하는 데 몇 분 정도 걸릴 수 있습니다. VMware vSphere용 SnapCenter 플러그인의 전원이 켜지고 VMware 툴이 설치되며 VMware vSphere용 SnapCenter 플러그인에 로그인하라는 메시지가 화면에 표시되면 구축이 성공한 것입니다.</block>
   <block id="145fd808d1976421d581e3373669426b" category="list-text">구축 마법사에서 제공한 자격 증명을 사용하여 구축 화면에 표시된 IP 주소를 사용하여 VMware vSphere용 SnapCenter 플러그인 관리 GUI에 로그인한 다음 대시보드에서 VMware vSphere용 SnapCenter 플러그인이 vCenter에 연결되고 활성화되었는지 확인합니다.</block>
   <block id="5897423e9fe4df49061445b3104d9dbb" category="list-text">vCenter Server에 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.</block>
@@ -1911,9 +1789,7 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="9bb3fd3038e55c5ff6d0c9ac34f29ded" category="list-text">SCV의 왼쪽 탐색 창에서 * 대시보드 * &gt; * 작업 모니터 * 를 선택합니다.</block>
   <block id="75eaa5f8c6a8fbd6b38e1da522890988" category="paragraph">작업 로그는 VMware vSphere용 SnapCenter 플러그인이 구축된 Linux VM 호스트에 있습니다. 기본 작업 로그 위치는<block ref="16643b27340306e64b23df0f54664963" prefix=" " category="inline-code"></block>입니다.</block>
   <block id="173deb36b12789854459cc96cff3413b" category="summary">VMware vSphere용 SnapCenter 플러그인이 구축되면 기본적으로 SSH가 사용되지 않습니다.</block>
-  <block id="41dcff10f5a1fbb98115c9f68716942d" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * 을 클릭하여 유지 관리 콘솔 창을 연 다음 로그온합니다.</block>
   <block id="0f07ed20820824aad4ee12939db89c73" category="paragraph">유지 관리 콘솔에 액세스하고 로그온하는 방법에 대한 자세한 내용은 을 <block ref="8214327d71770f15589ad8ef083206a6" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="273b74182537e8d404a5b5aedfc9db5f" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console 또는 Launch Web Console * 을 클릭하여 유지 관리 콘솔 창을 연 다음 로그온합니다.</block>
   <block id="36f4df9728d59a871c1b51b43833d3b0" category="list-text">VMware vSphere용 SnapCenter 플러그인을 구축할 때 IP 주소가 표시됩니다.</block>
   <block id="e32f94a152303c32638eabc51580f698" category="list-text">SnapCenter Plug-in for VMware vSphere를 구축하는 동안 제공된 로그인 자격 증명을 사용하거나 나중에 수정한 자격 증명을 사용합니다.</block>
   <block id="9d9eeed31f8e7bbf7e9e30774035c2b8" category="paragraph">이 문제는 게스트 파일 복구 작업을 시작할 때 발생하지만 VMware 도구가 실행 중이고 게스트 OS 자격 증명이 올바르더라도 디스크 연결 작업이 실패합니다. 이 경우 다음 오류가 반환됩니다.</block>
@@ -1927,18 +1803,10 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="e53c8c53bc91c541cbe95cb3c2808e4f" category="paragraph">IP 주소는 VMware vSphere용 SnapCenter 플러그인을 구축할 때 표시됩니다.</block>
   <block id="a3e4b86e8fdd43957e1a1f48d820b4db" category="paragraph">SnapCenter Plug-in for VMware vSphere 서비스가 해제되고 vCenter에서 확장이 등록되지 않습니다.</block>
   <block id="936704873dbea48e7a0f75de807fbb87" category="paragraph">SnapCenter Plug-in for VMware vSphere 서비스가 설정되고 확장이 vCenter에 등록됩니다.</block>
-  <block id="064b0490f1eed446111789f518543b18" category="admonition">로그인 * 버튼을 클릭합니다. 알려진 VMware 문제로 인해 Enter 키를 사용하여 로그인하지 마십시오. 자세한 내용은 ESXi 내장 호스트 클라이언트 문제에 대한 VMware 설명서를 참조하십시오.</block>
   <block id="edd7c130c7f64f441111f5f435cc5ffe" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에서 정책을 분리하여 리소스에 대한 데이터 보호를 더 이상 관리하지 않도록 할 수 있습니다. 정책을 제거하거나 스케줄 빈도를 수정하기 전에 먼저 정책을 분리해야 합니다.</block>
   <block id="514256d366ab9270c353228b4adf19a4" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에서 정책을 분리하는 지침은 SnapCenter 리소스 그룹에 대한 지침과 다릅니다. VMware vSphere Client 리소스 그룹의 경우 모든 정책을 분리할 수 있으며, 정책 없이 리소스 그룹을 그대로 둡니다. 그러나 해당 리소스 그룹에 대해 데이터 보호 작업을 수행하려면 적어도 하나의 정책을 연결해야 합니다.</block>
-  <block id="d1111de96ba88256d9e1e5433bd9114d" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 리소스 그룹을 선택하고 * 편집 * 을 클릭합니다.</block>
   <block id="7ed58acf20fe291c9901087f37961432" category="paragraph">VMware vSphere용 SnapCenter 플러그인 백업 정책 수정은 SnapCenter 애플리케이션 기반 플러그인에 대한 백업 정책 수정과 다릅니다. 플러그인 정책을 수정할 때 리소스 그룹에서 정책을 분리할 필요가 없습니다.</block>
   <block id="e3a286a1d0c20baf9a1b07edd871541b" category="admonition">SnapCenter Plug-in for VMware vSphere 정책 스케줄을 수정하려면 플러그인 리소스 그룹에서 스케줄을 수정해야 합니다.</block>
-  <block id="00e237a0b793eaaa70acc87db545f340" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭한 다음 정책을 선택하고 * Edit * 를 클릭합니다.</block>
-  <block id="784a46369cd26c1dec37ea740f78e712" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 클릭한 다음 정책을 선택하고 * Remove * 를 클릭합니다.</block>
-  <block id="de36afd85f26df65ec39424775a59ad9" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Resource Groups * 를 클릭하고 리소스 그룹을 선택한 다음 * Suspend * 를 클릭합니다(또는 * Resume * 클릭).</block>
-  <block id="1dea17902eec8c260fdbaac8234b9721" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 리소스 그룹을 선택하고 * 삭제 * 를 클릭합니다.</block>
-  <block id="958ae256645ba54e67fbd4843e2e0a6a" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Storage Systems * 를 클릭합니다.</block>
-  <block id="96cb6ce54654ce84eaa80d9d0009e90f" category="list-text">스토리지 시스템 제거 * 확인 상자에서 * 스토리지 시스템 삭제 * 확인란을 선택한 다음 * 예 * 를 클릭하여 확인합니다. *참고:* ESXi 호스트 7.0U1 이상 릴리즈만 지원됩니다.</block>
   <block id="4b7cb416c401b9627fb0aae1cfa639b9" category="paragraph">SnapCenter에 등록된 VMware vSphere용 SnapCenter 플러그인의 각 인스턴스에 대해 Windows Powershell cmdlet을 사용해야<block ref="f250ae1083ae1b8c30ecafec6ba6a337" prefix=" " category="inline-code"></block> 합니다.</block>
   <block id="722bc716d51128d4512ced86acabb7db" category="paragraph">SnapCenter Plug-in for VMware vSphere가 SnapCenter Server 호스트에 설치되어 있고 보호 기능이 SnapCenter 저장소에 구성되어 있는 경우 마이그레이션 프로세스에서 VMware vSphere용 SnapCenter 플러그인 및 Windows용 SnapCenter 플러그인이 포함된 Windows 기반 플러그인 패키지도 제거합니다. 그런 다음 리포지토리 보호를 지원하기 위해 최신 버전의 Windows용 SnapCenter 플러그인을 다시 설치합니다. SnapCenter GUI의 호스트 유형은 "vSphere"에서 "Windows"로 변경됩니다.</block>
   <block id="fd809cf0fe9ef13998aa1e0323960d5d" category="list-text">VMware vSphere용 Linux 기반 SnapCenter 플러그인에서 백업 작업을 활성화합니다.</block>
@@ -2024,7 +1892,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="7f82273caf689b5fe5d147479aee9dab" category="cell">SCV 5.0 를 참조하십시오</block>
   <block id="8f0cfebd2785db3468780aa4a2fe25f0" category="cell">SCV 5.0 및 SCV 6.0로 업그레이드하십시오</block>
   <block id="d00ac81a0a443883139be6455462a9b5" category="list-text">VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그인합니다. IP 주소는 VMware vSphere용 SnapCenter 플러그인을 구축할 때 표시됩니다.</block>
-  <block id="950f93a03b622a14040c9cfe3599ae64" category="list-text">탐색기 창에서 업그레이드하려는 VM을 클릭한 다음 * 요약 * 탭을 클릭합니다.</block>
   <block id="585e5693341c646c4b7bc39381fa0ce9" category="paragraph">운영 체제의 폴더 위치는 VMware 설명서를<block ref="794c4bb7f71ac0884ad5f7ccacc37483" prefix=" " category="inline-code"></block> 참조하십시오.</block>
   <block id="41c430ba65e53c1553adf9b0e0212516" category="paragraph">그런 다음 VMware vSphere용 SnapCenter 플러그인을 업그레이드할 수 있습니다.</block>
   <block id="2a7a8320b1c08e372f50a1c5c9ca216a" category="list-text">SCV의 왼쪽 탐색 창에서 * 대시보드 * &gt; * 상태 * 를 선택합니다.</block>
@@ -2037,22 +1904,13 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="c0407ba9e12515280efc0fea9f89e131" category="sidebar">백업을 복원합니다</block>
   <block id="fd03aeb9f7de3aae10e07664eb1cd6c6" category="sidebar">VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성합니다</block>
   <block id="b02541bab3f320c7517f41f638f6ef31" category="paragraph"><block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>..</block>
-  <block id="a8873f8f7715ad49732b43f6bdd600b5" category="paragraph">지원되는 버전에 대한 최신 정보는<block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block> (IMT)를 참조하십시오.</block>
   <block id="20f6a12d4ccfce9e9c6f58459fac2777" category="admonition">팬아웃 구성에서는 3차 사이트에 대해 정합성 보장 그룹이 지원되지 않습니다.</block>
-  <block id="3458fc42f0b377624eb1de9c23c10655" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 8.2.1 이전 버전에만 해당됩니다. 따라서 항상<block ref="860b18b04b199a7f740acbad2e027732" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 참조하십시오.</block>
-  <block id="8c9e5a8991367cd2b398f6da00fcacea" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 을<block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="14f6e09e94edb505729ffc8766177413" category="paragraph">지원되는 버전에 대한 최신 정보는 을<block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="9a8a39bfd809f914e270e3aa295af606" category="paragraph">지원되는 버전에 대한 최신 정보는 을<block ref="860b18b04b199a7f740acbad2e027732" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="3759b6e9ee7be120a52636d5811b2cb5" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 을<block ref="860b18b04b199a7f740acbad2e027732" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="6b98cc6c5d2c3be456270dd9cd0c49b3" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를<block ref="860b18b04b199a7f740acbad2e027732" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="99227cc56eb10094b5911955997594bd" category="list-text">옵션 3: 네트워크 구성</block>
   <block id="eb6403fe72c82873180af4e1fbe24094" category="paragraph">IP 주소 설정 표시 또는 변경 도메인 이름 검색 설정 표시 또는 변경 정적 경로 표시 또는 변경 커밋 변경 사항 호스트에 대한 Ping</block>
   <block id="85fe6d094a622a1eeb362f8dda82c97e" category="list-text">옵션 4: 지원 및 진단</block>
   <block id="d34a5ffb5a21003f9819a1371ce31cc8" category="paragraph">지원 번들 액세스 진단 셸 생성 원격 진단 액세스 활성화 코어 덤프 번들 생성</block>
-  <block id="b60beee083dba233367ef7318fb10b25" category="paragraph">자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을<block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="33e4404acb572de935dae083d63033a8" category="inline-link">vCenter를 7.0.x로 업데이트한 후 SCV에서 vCLS VM을 백업할 수 없습니다</block>
   <block id="8c2a5a560e2f4170197d66660fb8d4f9" category="paragraph">자세한 내용은 을 참조하십시오<block ref="a5f674bd21d863d8804d3aaee35bd7df" category="inline-link-rx"></block></block>
-  <block id="e6f2686f361e5123b41a78ec7cf82976" category="list-text">VVOL 데이터 저장소에서 VM을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. 지원되는 ONTAP 도구 버전에 대한 최신 정보는 을 참조하십시오<block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block>. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 스토리지를 프로비저닝하고 구성합니다.</block>
   <block id="c162715bd54906edd2726c5a128225ec" category="paragraph">데이터 가상 서버와 연결할 역할을 생성할 때 _cluster identity show_cluster level 명령은 무시해도 됩니다.</block>
   <block id="ce979aca6aa053e43e8e7148e876185c" category="paragraph">이러한 주요 기능 외에도 VMware vSphere용 SnapCenter 플러그인은 iSCSI, 파이버 채널, FCoE, NFS 3.0/4.1, VMFS 5.0/6.0, NVMe over FC 및 NVMe over TCP를 지원합니다.</block>
   <block id="18ba359970ff64681ed643864ce8bced" category="section-title">NVMe over TCP 및 NVMe over FC 프로토콜에 대한 요구사항</block>
@@ -2080,7 +1938,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="7e35de6c484fe702e7c4fe21538ac2a4" category="paragraph">SnapCenter 4.8 을 참조하십시오</block>
   <block id="2acd783e8dee0eed27b40328899eef19" category="inline-link">VMware vSphere 6.1용 SnapCenter 플러그인에 대한 고지 사항</block>
   <block id="8ebd9207a610e17e383416d90951290e" category="paragraph"><block ref="8ebd9207a610e17e383416d90951290e" category="inline-link-rx"></block></block>
-  <block id="414f994a73d1f79098abf3d5d51e5555" category="list-text">요약 * 페이지가 나타날 때까지 * 다음 * 을 클릭한 다음 요약을 검토하고 * 마침 * 을 클릭합니다.</block>
   <block id="9329e69bb4e74e1c55c47a7b13b20c73" category="admonition">ASA R2 백업은 정합성 보장 그룹 스냅샷을 생성하고 지정된 리소스에 없는 경우 운영 정합성 보장 그룹을 프로비저닝합니다.</block>
   <block id="94e5f239a67b0bdbb293ad6d93a70fae" category="list-text">리소스 그룹 생성 마법사의 각 페이지에 필요한 정보를 입력하고 리소스 그룹에 포함할 VM 및 데이터 저장소를 선택한 다음 리소스 그룹에 적용할 백업 정책을 선택합니다. 원격 보조 보호 세부 정보를 추가하고 백업 일정을 지정합니다.</block>
   <block id="47b5545e20c1c3ff97bf1931ed1bb71c" category="list-text">ASA R2의 VM 및 데이터 저장소</block>
@@ -2102,7 +1959,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="4e2041ff5ea66c23b660f1aa1270c0d4" category="cell">보조 보호 리소스</block>
   <block id="2c66ae4d8465ecaa0277c97c3f9e52cc" category="cell">리소스 페이지에 추가된 리소스의 보호된 모든 스토리지 유닛에 대해 클러스터, SVM 및 복제 유형을 포함한 2차 관계 세부 정보가 표시됩니다.</block>
   <block id="55d4ade9a708df3a3dea5a7b596b3bec" category="paragraph"><block ref="55d4ade9a708df3a3dea5a7b596b3bec" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="219530a6f91e9e652edabda0d6abb52e" category="list-text">요약을 검토한 후 * Finish * 를 클릭합니다. SCV 6.1부터 ASA R2 시스템의 보조 보호 리소스가 요약 페이지에 표시됩니다.</block>
   <block id="1fbf8001bce3062cf570e802cd34a515" category="admonition">IPv6 주소 HTML 웹 클라이언트의 경우 Chrome 또는 Firefox를 사용해야 합니다.</block>
   <block id="7763535bfb2dc82fb2cbf445d64a697c" category="paragraph">IPv4 또는 IPv6 주소 필드 또는 둘 다 선택합니다(해당하는 경우). IPv4와 IPv6 주소를 모두 사용하는 경우 둘 중 하나의 주소에만 Primary DNS를 지정해야 합니다.</block>
   <block id="858e1231bf7d2fa0b29910623e458a4d" category="section-title">공간, 사이징 및 확장 요구사항</block>
@@ -2118,7 +1974,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="8f63ee5bc3100343496937f88eb71b0f" category="cell">SVM CIFS 가상 서버 CIFS 공유 생성 SVM CIFS 공유 가상 서버 보기 SVM CIFS 공유 보기 가상 서버 CIFS 공유 보기 가상 서버 CIFS 표시 가상 서버 내보내기 정책 생성 가상 서버 내보내기 정책 생성 가상 서버 내보내기 정책 규칙 생성 가상 서버 내보내기 정책 보기 NVMe 하위 시스템 가상 서버 생성 NVMe 하위 시스템 가상 서버 맵 NVMe 하위 시스템 보기</block>
   <block id="5e7e64c339a65a35f9dd642d25809870" category="cell">All-access 명령: ONTAP 9 이상에 필요한 최소 권한.</block>
   <block id="4e822e8bd084f0d55645c04096f9f2e8" category="cell">정합성 보장 그룹 스토리지 유닛 표시</block>
-  <block id="19899f4e43a0adc60e21e11b5620c400" category="list-text">설정 * 페이지의 * 네트워크 설정 * 섹션에서 * IPv4 * 또는 * IPv6 * 주소를 클릭한 다음 * 편집 * 을 클릭합니다.</block>
   <block id="73bf8d0963d0fce608d5706a43357517" category="admonition">IPv4 주소와 IPv6 주소를 모두 사용하는 경우 네트워크 설정을 모두 제거할 수 없습니다. 나머지 네트워크는 DNS 서버 및 검색 도메인 필드를 지정해야 합니다.</block>
   <block id="82483f0ce94e070521dde3173ea8f007" category="list-text">IPv4 주소를 실행하고 있으며 SnapCenter VMware vSphere 호스트에 대한 IP 주소가 두 개 있습니다. 따라서 작업 요청이 SnapCenter 서버에서 인식하지 못하는 IP 주소로 전송됩니다. 이 문제를 방지하려면 다음과 같이 사용할 IP 주소를 추가합니다.</block>
   <block id="cab2abd3782f0d1cb3afdd1d41344792" category="cell">VMware vSphere 작업을 위한 모든 SnapCenter 플러그인을 수행하는 데 필요한 모든 기본 vCenter Server 및 SnapCenter별 권한을 제공합니다. SCV 6.1 릴리스부터 이 역할에 2차 보호를 생성할 수 있는 새 권한이 추가됩니다.</block>
@@ -2128,7 +1983,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="4a58337a4c5239462c0a728544f6bfeb" category="paragraph">알려진 문제점, 제한 사항 및 해결된 문제에 대한 자세한 내용은 을 참조하십시오<block ref="04c13539a5d154a6fc636a4d15810317" category="inline-link-rx"></block>. 릴리스 정보에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.</block>
   <block id="14a88b79b7eae8723a8ca7d5fe6807fc" category="cell"><block ref="8877dc9fcfb6df8dad34589e1a225411" prefix="" category="inline-code"></block> 지정된 정책을 사용하여 리소스 그룹을 생성합니다. 1단계에서 * policyId * 를 전달하고 다른 모든 필수 속성 외에 * frequency * 정책 세부 정보를 입력합니다. 이 REST API를 사용하여 2차 보호를 활성화할 수 있습니다.</block>
   <block id="34b3c572ebc9bfec8d4ff1eb372fc521" category="list-text">ASA R2에 대한 보조 보호를 구성합니다</block>
-  <block id="15ca3652a44eb871e28b0f7ed33ab5f8" category="list-text">요약을 검토한 후 * Finish * 를 클릭합니다.</block>
   <block id="511a61be3395b836dbaacf9a77e28d9c" category="cell">선택한 파일이 복원될 게스트의 UNC 공유 경로를 입력합니다. IPv4 주소 예<block ref="c1efda00eba14c667cfd89393b2be583" prefix=" " category="inline-code"></block>: IPv6 주소 예:<block ref="f7a108079a0dc952ef09921776f4796f" prefix=" " category="inline-code"></block></block>
   <block id="12cbe201763ebb8c3712b94674ec18dc" category="admonition">SCV 6.1으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. VMware vCenter Server 버전 7 업데이트 1 이전의 경우 SCV 4.7을 계속 사용해야 합니다. 지원되지 않는 버전의 VMware vCenter Server에서는 업그레이드가 중단될 수 있습니다.</block>
   <block id="7e876cb2f9911c683b816e2dcbbc43a3" category="cell">SCV 6.1으로 업그레이드하십시오</block>
@@ -2162,11 +2016,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="822926837c6e218e71716b72e1a7017f" category="paragraph">각 플러그인 인스턴스는 연결 모드에 있는 vCenter Server를 하나만 지원합니다. 그러나 다음 그림과 같이 여러 플러그인 인스턴스가 동일한 SnapCenter 서버를 지원할 수 있습니다.</block>
   <block id="1c0894625a89e433ba87d14aebdc6088" category="paragraph">vCenter 관리자 계정에는 다음 표에 나열된 필수 vCenter Privileges가 있어야 합니다.</block>
   <block id="80d239c54104b637db16d32ddcf6ff89" category="admonition">ASA R2 스토리지 시스템은 _ 최근 스냅샷 명명 기능을 지원하지 않습니다.</block>
-  <block id="68e34cb9e3a60830aed69c89f5c923aa" category="cell">백업 작업에 대한 개요 데이터를 표시합니다. 그래프의 섹션/상태를 클릭하면 * 보고서 * 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 해당 리소스 그룹, 백업 정책, 시작 시간 및 기간, 상태, 작업 완료 시 작업 이름(스냅샷 이름) 및 경고 또는 오류 메시지가 포함된 작업 세부 정보가 나열됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 삭제된 백업은 보고서에 포함되지 않습니다.</block>
-  <block id="b509945ce76230a5eeff2083503f5495" category="cell">마운트 작업에 대한 개요 데이터를 표시합니다. 그래프의 섹션/상태를 클릭하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들어<block ref="5885e660153b51d912f9f11bb4649003" prefix=" " category="inline-code"></block> , HTML 또는 CSV 형식으로 보고서 표를 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
-  <block id="fe39f815c00ab0cdc48133dd4394febe" category="cell">복원 작업에 대한 개요 상태 정보를 표시합니다. 그래프의 섹션/상태를 클릭하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들어<block ref="13d80bb12ac7353f6e745081e5946c14" prefix=" " category="inline-code"></block> , HTML 또는 CSV 형식으로 보고서 표를 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
-  <block id="5d6ca3a9d35eb5459130306f5807c2f3" category="cell">VMware vSphere용 SnapCenter 플러그인에서 관리하는 VM 및 데이터 저장소의 구성된 기간 동안 보호 상태에 대한 개요 정보를 표시합니다. 기본값은 7일입니다. 속성 파일의 값을 수정하려면 을 <block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>참조하십시오. 기본 보호 차트에서 섹션/상태를 클릭하면 * Reports * 탭에서 해당 상태의 VM 또는 데이터 저장소 목록을 볼 수 있습니다. 보호된 VM 및 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 일 수 동안 백업된 VM 또는 데이터 저장소의 이름, 최신 스냅샷 이름, 최신 백업 실행 시작 및 종료 시간이 표시됩니다. 보호되지 않는 VM 또는 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 기간 동안 백업이 성공하지 못한 VM 또는 데이터 저장소의 이름이 표시됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 이 보고서는 플러그인 캐시가 새로 고쳐지면 매시간마다 새로 고쳐집니다. 따라서 보고서에 최근에 백업된 VM 또는 데이터 저장소가 표시되지 않을 수 있습니다.</block>
-  <block id="a3f8064d6a9d17254355b89f290da65d" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭합니다.</block>
   <block id="75df3e6b9f46cc58a0ff9c56046b0977" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 데이터베이스 애플리케이션 백업을 예약하고, VMware vSphere 클라이언트 GUI를 사용하여 VM 및 데이터 저장소 백업을 예약합니다.</block>
   <block id="c0d9eeb671fe20a76e29ca04e5053b74" category="list-text">VM 정합성 보장 스냅샷을 사용하려면 VMware 툴이 필요합니다</block>
   <block id="78f7815c68e90eaacbd9cc9cc5e128c5" category="paragraph">VMware 툴이 설치 및 실행되지 않으면 파일 시스템이 정지되지 않고 충돌 시에도 정합성이 보장되는 스냅샷이 생성됩니다.</block>
@@ -2201,17 +2050,13 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="7aa7ae49984d77593e48b6fd70844775" category="paragraph">VM 및 데이터 저장소를 보호하려면 VMware vSphere Client 인터페이스를 사용합니다. 웹 클라이언트 GUI는 스토리지 시스템의 NetApp 스냅샷 기술과 통합됩니다. 이를 통해 몇 초 내에 VM 및 데이터 저장소를 백업하고 ESXi 호스트를 오프라인으로 전환하지 않고도 VM을 복구할 수 있습니다.</block>
   <block id="b68c25841ace1ebf87dee9af54aa2e69" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 애플리케이션 기반 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 정합성 보장 백업을 예약해야 합니다.</block>
   <block id="1471fa425a9c79f7e8a4a4bc34704d6a" category="cell"><block ref="af62a8975e8577db87448344c585507f" prefix="" category="inline-code"></block> 지정된 백업의 스냅샷 위치를 가져옵니다. 2단계에서 * backupId * 를 전달합니다. snapshotLocationsList* 정보를 확인합니다.</block>
-  <block id="c61b48c7cee87295644b3139e3651375" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
   <block id="8b740d927c7014ac116bad7dac5e90f3" category="paragraph">복구 대상은 SnapCenter에 추가된 ESXi 호스트일 수 있습니다. 이 옵션은 VM이 지정된 시간 및 날짜를 사용하여 스냅숏에서 상주하는 선택한 백업의 내용을 복원합니다. 이 옵션을 선택하면 * Restart VM *(VM 다시 시작 *) 확인란이 선택되어 있고 VM의 전원이 켜집니다.</block>
   <block id="8eb1b908e8b622c31068641ddc091252" category="list-text">복원할 백업 스냅샷과 VMDK를 알고 있어야 합니다.</block>
   <block id="cd38aa1b745074ce7b3e671b2737e16f" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 복구할 파일 또는 폴더 검색을 지원하지 않습니다. 따라서 시작하기 전에 스냅샷 및 해당 VMDK와 관련된 파일 또는 폴더의 위치를 알아야 합니다.</block>
-  <block id="3307c3ba0f8faacd2a6ad53d834854b4" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 원하는지 또는 보조 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
   <block id="c497b5cdfb468a78f47eeead674d8de4" category="list-text">위치 선택 * 페이지에서 복원할 스냅샷(기본 또는 보조)을 선택합니다.</block>
   <block id="f1e1ac5eb6498170a571f7c9baa59473" category="admonition">SnapCenter Plug-in for VMware vSphere 이외의 소프트웨어로 수행된 VM의 스냅샷이 있는 경우 복구 작업을 완료할 수 없습니다.</block>
   <block id="848e6a50c59fc9f63956382b0072922e" category="paragraph">VM에 대한 복구 작업은 원래 VM의 등록을 취소하고 백업 스냅샷에서 VM을 복원하며 복원된 VM을 동일한 ESXi 서버에 동일한 이름 및 구성으로 등록합니다. 복구 후 리소스 그룹에 VM을 수동으로 추가해야 합니다.</block>
   <block id="2e0cc418cfa86596897965026b31e6df" category="list-text">복원 * 마법사의 * 백업 선택 * 페이지에서 복원할 백업 스냅샷을 선택합니다.</block>
-  <block id="8f35b8f7de8f7e8d9b02e6a422cc70cb" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭하여 마법사로 돌아갑니다.</block>
-  <block id="a1954b7ef0b95a152868596fad609446" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 클릭합니다.</block>
   <block id="7cd13333ae1cedbd3aa5baace69fd245" category="paragraph">생성된 스냅샷, SnapVault 및 SnapMirror 스냅샷의 총 수와 운영 및 보조 스냅샷에 사용되는 스토리지의 양입니다. 선형 그래프는 롤링 90일 동안 1차 및 2차 스토리지 소비를 일 단위로 각각 플롯합니다. 스토리지 정보는 24시간마다 오전 1시 08분에 한 번씩 업데이트됩니다. 스토리지 절약은 운영 스토리지의 물리적 용량에 대한 논리적 용량(스냅샷 절약 + 사용된 스토리지)의 비율입니다. 막대 차트는 스토리지 절약 효과를 보여 줍니다.</block>
   <block id="186f10ad0ae1bb6638a07f29fcf47c80" category="paragraph">VM 또는 데이터 저장소를 백업하거나 복구할 준비를 할 때 해당 리소스에 사용할 수 있는 모든 백업을 확인하고 해당 백업의 세부 정보를 확인해야 할 수 있습니다.</block>
   <block id="51857ca23f1dc86274f568542e984fe5" category="paragraph">10K 파일 폴더와 같은 대용량 파일 폴더를 탐색하는 데 처음 1분 이상 걸릴 수 있습니다. 후속 탐색 세션은 시간이 적게 소요됩니다.</block>
@@ -2225,4 +2070,158 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="10816353eaa2dd5ab8374ef58f982e29" category="list-text">정합성 보장 그룹 기반 백업</block>
   <block id="7282e5c8f3184e4f914d701f82b621ff" category="paragraph">* 보조 변조 방지 스냅샷(TPS) 지원 *</block>
   <block id="553dc280ed86f90ffb054d20f311a8f9" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 보조 TPS를 지원하므로 랜섬웨어 공격자나 악성 관리자가 보조 스냅샷 복사본을 삭제 또는 변경하지 못하도록 보호하고 공격 후에도 사용할 수 있게 합니다.</block>
+  <block id="f01eb97005addc3eb2dfc29471d6bc14" category="list-text">선택 사항: 보고서 탭에서 * 다운로드 * 를 선택하고 형식(HTML 또는 CSV)을 선택합니다.</block>
+  <block id="29100e58a6356d458e189151cf2d1a52" category="paragraph">다운로드 아이콘을 선택하여 플러그인 로그를 다운로드할 수도 있습니다.</block>
+  <block id="ae80e86ae24ec176aaeda913d51beb25" category="cell">백업 작업에 대한 개요 데이터를 표시합니다. 그래프에서 섹션/상태를 선택하면 * Reports * 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 해당 리소스 그룹, 백업 정책, 시작 시간 및 기간, 상태, 작업 완료 시 작업 이름(스냅샷 이름) 및 경고 또는 오류 메시지가 포함된 작업 세부 정보가 나열됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 삭제된 백업은 보고서에 포함되지 않습니다.</block>
+  <block id="d30d74e3392490f4e83e57df555d6f73" category="cell">마운트 작업에 대한 개요 데이터를 표시합니다. 그래프에서 섹션/상태를 선택하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들어<block ref="5885e660153b51d912f9f11bb4649003" prefix=" " category="inline-code"></block> , HTML 또는 CSV 형식으로 보고서 표를 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
+  <block id="20e8dfc96fcc5d9aecf417a5cf4ab87f" category="cell">복원 작업에 대한 개요 상태 정보를 표시합니다. 그래프에서 섹션/상태를 선택하면 보고서 탭에서 해당 상태의 작업 목록을 볼 수 있습니다. 각 작업에 대해 보고서에는 작업 ID, 작업 상태, 작업 이름 및 작업 시작 및 종료 시간이 나열됩니다. 작업 이름에는 스냅샷 이름이 포함됩니다. 예를 들어<block ref="13d80bb12ac7353f6e745081e5946c14" prefix=" " category="inline-code"></block> , HTML 또는 CSV 형식으로 보고서 표를 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다.</block>
+  <block id="f608b63b41830e1290368e09029c98a5" category="cell">VMware vSphere용 SnapCenter 플러그인에서 관리하는 VM 및 데이터 저장소의 구성된 기간 동안 보호 상태에 대한 개요 정보를 표시합니다. 기본값은 7일입니다. 속성 파일의 값을 수정하려면 을 <block ref="716011655678aa6d92cdd15196f612ff" category="inline-link-macro-rx"></block>참조하십시오. 기본 보호 차트에서 섹션/상태를 선택하면 * Reports * 탭에서 해당 상태의 VM 또는 데이터 저장소 목록을 볼 수 있습니다. 보호된 VM 및 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 일 수 동안 백업된 VM 또는 데이터 저장소의 이름, 최신 스냅샷 이름, 최신 백업 실행 시작 및 종료 시간이 표시됩니다. 보호되지 않는 VM 또는 데이터 저장소에 대한 VM 또는 데이터 저장소 보호 상태 보고서에는 구성된 기간 동안 백업이 성공하지 못한 VM 또는 데이터 저장소의 이름이 표시됩니다. 보고서 표를 HTML 또는 CSV 형식으로 다운로드할 수 있습니다. 또한 보고서의 작업뿐 아니라 모든 작업에 대한 작업 모니터 작업 로그를 다운로드할 수 있습니다. 이 보고서는 플러그인 캐시가 새로 고쳐지면 매시간마다 새로 고쳐집니다. 따라서 보고서에 최근에 백업된 VM 또는 데이터 저장소가 표시되지 않을 수 있습니다.</block>
+  <block id="f18faf3bd7f1f223a42c3b5e6a86e718" category="list-text">API 리소스 유형을 선택하여 해당 리소스 유형의 API를 표시합니다.</block>
+  <block id="7019ccbf0ec2e1d9f58c4828ab3cd7e2" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * 을 선택하여 유지 관리 콘솔 창을 엽니다.</block>
+  <block id="75f9f024c5e2911920acb2b0cdce0582" category="list-text">vSphere Client GUI의 도구 모음에서 * Menu * 를 선택하고 추가할 VM 또는 데이터 저장소로 이동합니다.</block>
+  <block id="51ad42fe33fa0194c0e8e80a8fac6d2e" category="list-text">리소스 그룹에 추가 * 페이지에서 리소스 그룹을 선택한 다음 * 확인 * 을 선택합니다.</block>
+  <block id="91681ceaef78e9d9b417ae42b6e2234c" category="paragraph">확인 * 을 선택하면 시스템은 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다.</block>
+  <block id="4c31addf30ccabe38bc46bfd4db229e2" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 리소스 그룹을 선택하고 * 리소스 그룹 편집 * 을 <block ref="f4ee71cd89b2b235a395ca347e92f957" category="inline-image-macro-rx" type="image"></block>선택하여 마법사를 시작합니다.</block>
+  <block id="1a7edbc2faac42873a9e5d8aaaf4b1e6" category="list-text">Available entities(사용 가능한 엔터티) 목록에서 리소스 그룹에 추가할 하나 이상의 VM 또는 데이터 저장소를 선택한 다음 * &gt; * 를 선택하여 선택 항목을 Selected Entities(선택한 엔터티) 목록으로 이동합니다. 사용 가능한 엔터티를 모두 이동하려면 * &gt;&gt; * 를 선택합니다.</block>
+  <block id="853964bf7f1243a308a6373e88970cd7" category="paragraph">기본적으로 사용 가능한 엔터티 목록에는 데이터 센터 개체가 표시됩니다. 데이터 저장소를 선택하여 데이터 저장소 내의 VM을 보고 리소스 그룹에 추가할 수 있습니다.</block>
+  <block id="3401faaaca2b403aa3e354193cdbe7a1" category="paragraph">다음 * 을 선택하면 시스템은 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다. 메시지가<block ref="c238c6c4153d32597097e3ae5ddc6f78" prefix=" " category="inline-code"></block> 표시되면 선택한 VM 또는 데이터 저장소가 SnapCenter와 호환되지 않는 것입니다. 자세한 내용은 을 <block ref="83219d9586902f9891ecf56cd903fe4b" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="fd656c0bdef7b84ded620741d1ebb376" category="list-text">요약 * 페이지가 나타날 때까지 * 다음 * 을 선택한 다음 요약을 검토하고 * 마침 * 을 선택합니다.</block>
+  <block id="9908ac5f8e797129562c3b75eb5fb433" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Storage Systems * 를 선택한 다음 * Add * 옵션을 선택합니다.</block>
+  <block id="5340605920c74d43338f5c58ec29e22c" category="paragraph">자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을<block ref="3a209fb27f7f233fd0ce1196af83183f" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="8cbcedf281a657d76533b7bc1386d2e3" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 선택한 다음 드롭다운 목록에서 * 호스트 및 클러스터 * 를 선택합니다.</block>
+  <block id="dd5a6f2f3b2995c6412ee7fc5c68ae87" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. OK * 를 선택합니다.</block>
+  <block id="05a059f12f4b8c90596d54cd9440e965" category="list-text">Attach * 를 선택합니다.</block>
+  <block id="6eec9b5b83edb792f92ed90fcf16c67b" category="list-text">도구 모음에서 * 메뉴 * 를 선택한 다음 드롭다운 목록에서 * VM 및 템플릿 * 을 선택합니다.</block>
+  <block id="5024f06eaeb6343b1d2db413894a44c8" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 리소스 그룹을 선택하고 * 지금 실행 * 을 <block ref="aeba2b9f883565da26d0265e5ca2ca10" category="inline-image-macro-rx" type="image"></block>선택하여 백업을 시작합니다.</block>
+  <block id="100c073728a93280afb75a57112c2bf8" category="list-text">OK * 를 선택하여 백업을 시작합니다.</block>
+  <block id="cc5ac12b41743b16bd07f0041afa5ef1" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * * 또는 Launch Web Console * 을 선택하여 유지 관리 콘솔 창을 엽니다.</block>
+  <block id="18eb3325cee0222ae3e641b5398c3ad1" category="paragraph">지원되는 버전에 대한 최신 정보는<block ref="3a209fb27f7f233fd0ce1196af83183f" category="inline-link-rx"></block> (IMT)를 참조하십시오.</block>
+  <block id="58cfdd22a1545e36ea707ea6bf21028f" category="list-text">Select VM * 을 선택한 다음 * Proxy VM * 대화 상자에서 VM을 선택합니다. Save * 를 선택하여 * Run as Credentials * 대화 상자로 돌아갑니다. 자격 증명을 인증하는 데 사용할 VM을 선택합니다.</block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">저장 * 을 선택합니다.</block>
+  <block id="bbe1604d17d5228e6cf954f520fbcea1" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 선택한 다음 * New Policy * 를 선택합니다.</block>
+  <block id="343abe2ecd800f9d54f2e3ae40bf76e7" category="list-text">새 백업 정책 * 페이지에서 정책 구성 정보를 입력한 다음 * 추가 * 를 선택합니다.</block>
+  <block id="f72f60cc38ad88e8f480917866baa9d7" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 선택합니다.</block>
+  <block id="4779ac3e13ad9aa96fd87fc92e54a9c4" category="list-text">추가 * 를 선택합니다</block>
+  <block id="0ff54462b9de8b695d821b2ebc099049" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 * 만들기 * 를 선택합니다.</block>
+  <block id="b0bcb9eada66a28bbd1bea2d66b154d4" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 * 만들기 * 를 선택하여 마법사를 시작합니다.</block>
+  <block id="0783f9dc1d7a24e0349b260e2460eebf" category="cell">보호할 리소스를 선택한 다음 *&gt; * 를 선택하여 선택 항목을 선택한 엔터티 목록으로 이동합니다.</block>
+  <block id="bb2881c18ec908f40bb248af480ea3da" category="paragraph">다음 * 을 선택하면 시스템은 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.</block>
+  <block id="7cc71960cea46e213c1949b750d31109" category="list-text">요약을 검토한 후 * Finish * 를 선택합니다. SCV 6.1부터 ASA R2 시스템의 보조 보호 리소스가 요약 페이지에 표시됩니다.</block>
+  <block id="7937cf5781449e9d5aa3c9810ffc00f8" category="paragraph">Finish * 를 선택하기 전에 마법사의 아무 페이지로 돌아가 정보를 변경할 수 있습니다.</block>
+  <block id="4cafeb5e41329bb061975eb29cec476a" category="paragraph">마침 * 을 선택하면 새 리소스 그룹이 리소스 그룹 목록에 추가됩니다.</block>
+  <block id="3bb7a556e32d2c1180cba7a8fcc1d50a" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 8.2.1 이전 버전에만 해당됩니다. 따라서 항상<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 참조하십시오.</block>
+  <block id="1a4e3fc91214e69b300aa63fcb1a886f" category="list-text">VVOL 데이터 저장소에서 VM을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. 지원되는 ONTAP 도구 버전에 대한 최신 정보는 을 참조하십시오<block ref="3a209fb27f7f233fd0ce1196af83183f" category="inline-link-rx"></block>. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 스토리지를 프로비저닝하고 구성합니다.</block>
+  <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
+  <block id="c692636646dadf4eb31c9fbae7cc8df4" category="list-text">Select a name and folder * 페이지에서 VM 또는 vApp의 고유한 이름을 입력하고 구축 위치를 선택한 후 * Next * 를 선택합니다.</block>
+  <block id="fd508849502eae93fa7d6e9a4c17cdaf" category="list-text">리소스 선택 * 페이지에서 배포된 VM 템플릿을 실행할 리소스를 선택하고 * 다음 * 을 선택합니다.</block>
+  <block id="e881aa2ceb30a27b43c8cc28f8369fca" category="list-text">Review details * 페이지에서<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 템플릿 세부 정보를 확인하고 * Next * 를 선택합니다.</block>
+  <block id="46f00d1bd7ae9c30182b743eaf484b63" category="list-text">IP 할당 설정 * 섹션에서 필요한 IP 주소 프로토콜을 선택한 후 * 다음 * 을 선택합니다.</block>
+  <block id="60be263003eb4d8507a03c01f20a0b63" category="list-text">완료 준비 * 페이지에서 페이지를 검토하고 * 마침 * 을 선택합니다.</block>
+  <block id="9cad78c4a7066a1d426f51a9beabd0b4" category="list-text">SnapCenter Plug-in for VMware vSphere가 구축된 VM으로 이동한 다음 * Summary * 탭을 선택한 다음 * Power On * 상자를 선택하여 가상 어플라이언스를 시작합니다.</block>
+  <block id="9959e5c5bb873f546ef63bf9fd716c93" category="list-text">VMware vSphere용 SnapCenter 플러그인의 전원이 켜지는 동안 구축된 VMware vSphere용 SnapCenter 플러그인을 마우스 오른쪽 버튼으로 클릭하고 * 게스트 OS * 를 선택한 다음 * VMware 도구 설치 * 를 선택합니다.</block>
+  <block id="5ad03fb14ed8a584334f2dc858c55e77" category="list-text">Select an OVF template * 페이지에서 파일 위치<block ref="8d8b01a4d628953e7a2225813c8edb3f" prefix=" " category="inline-code"></block>(다음 표에 나와 있음)를 지정하고 * Next * 를 선택합니다.</block>
+  <block id="16d41e5fa51f9cba7e28f18a6e0fc481" category="cell">페이지를 검토하고 * Finish * 를 선택합니다.</block>
+  <block id="3edcaaa1fd86e6f2a40157811ebb01e1" category="list-text">VMware vSphere용 SnapCenter 플러그인이 구축된 VM으로 이동한 다음 * 요약 * 탭을 선택한 다음 * 전원 켜기 * 상자를 선택하여 VMware vSphere용 SnapCenter 플러그인을 시작합니다.</block>
+  <block id="4c42aedb90b93c454e82cb69bd919064" category="list-text">vCenter HTML5 클라이언트에 로그인한 다음 도구 모음에서 * 메뉴 * 를 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다</block>
+  <block id="6ead0b569222ee8512a314e45dd85a21" category="cell">VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 을<block ref="3a209fb27f7f233fd0ce1196af83183f" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="b87a35e8b1ff0c734dec37c43fc7ba6e" category="paragraph">지원되는 버전에 대한 최신 정보는 을<block ref="3a209fb27f7f233fd0ce1196af83183f" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="fb70fcb4630ca86be8c0c6967f41699c" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 선택한 다음 드롭다운 목록에서 * VM 및 템플릿 * 을 선택합니다.</block>
+  <block id="d0f9811f0da480925e8c3f5e76409f54" category="list-text">가상 디스크 분리 * 화면에서 분리할 디스크를 하나 이상 선택한 다음 * 선택한 디스크 분리 * 확인란을 선택하고 * 분리 * 를 선택합니다.</block>
+  <block id="786a1456c6dc1153a986286442b671dc" category="list-text">왼쪽 탐색 창에서 * Configuration * 을 선택한 다음 * Plug-in Details * 섹션에서 Service 옵션의 선택을 취소하여 플러그인을 비활성화합니다.</block>
+  <block id="6dfcb68f8429554bd841be76d633bbd1" category="paragraph">작업을 두 번 클릭하여 작업 세부 정보 창에 액세스한 다음 * 작업 로그 다운로드 * 를 선택할 수도 있습니다.</block>
+  <block id="a0c376277918210d31cc1ba9ab3be91f" category="list-text">제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * 최신 릴리즈 다운로드 * 버튼을 선택합니다.</block>
+  <block id="cad52eda217dcfc705b313ec906e17fa" category="list-text">신뢰할 수 있는 루트 인증서 * 옆에 있는 * 추가 * 를 선택합니다</block>
+  <block id="2df9b4e7fd96f454112cebcb2c11bc58" category="list-text">신뢰할 수 있는 루트 저장소 * 옆에 있는 * 추가 * 를 선택합니다</block>
+  <block id="304864a1b5aff1e1079b21758dc2eb42" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console * 을 선택하여 유지 관리 콘솔 창을 연 다음 로그온합니다.</block>
+  <block id="96b7986e1420da0eaf362c26a5f92b0c" category="list-text">VMware vSphere Client에서 * Guest File Restore * 를 선택합니다.</block>
+  <block id="02ff162f198bd14a9cd58de28a1509e0" category="list-text">게스트 파일 복구 세션을 선택한 다음 게스트 세션 모니터 제목 표시줄에서 선택한 게스트 세션 확장 아이콘을 선택합니다.</block>
+  <block id="5e6de1f98e1077bcf0b92faf842837b0" category="list-text">가상 어플라이언스의 * Summary * 탭에서 * Launch Remote Console 또는 Launch Web Console * 을 선택하여 유지 관리 콘솔 창을 연 다음 로그온합니다.</block>
+  <block id="282524d6caa147ce3f5771b9f8d297ba" category="list-text">상단 도구 모음에서 설정 아이콘을 선택합니다.</block>
+  <block id="6df9b38370961bbb1a0e45a55e219084" category="list-text">설정 * 페이지의 * 지원 * 섹션에서 * 지원 * 번들 생성 을 선택합니다.</block>
+  <block id="1458b85245c7e24884d515b42703ad30" category="list-text">지원 번들이 생성된 후 NetApp에 번들을 다운로드하기 위해 제공되는 링크를 선택합니다.</block>
+  <block id="78d673329f246fad32172b092130371a" category="list-text">왼쪽 탐색 창에서 * Configuration * 을 선택한 다음 * Plug-in Details * 섹션에서 Service 옵션을 선택하여 플러그인을 비활성화합니다.</block>
+  <block id="6443540b281dae3c732f7ca7fc8032ed" category="list-text">왼쪽 탐색 창에서 * Configuration * 을 선택한 다음 * Plug-in Details * 섹션에서 Service 옵션을 선택하여 플러그인을 활성화합니다.</block>
+  <block id="d09600046df9653330514f7dd035164b" category="admonition">로그인 * 버튼을 선택합니다. 알려진 VMware 문제로 인해 Enter 키를 사용하여 로그인하지 마십시오. 자세한 내용은 ESXi 내장 호스트 클라이언트 문제에 대한 VMware 설명서를 참조하십시오.</block>
+  <block id="306995bdfdf7ea40bf6448d38e8bf9f3" category="list-text">VMware vSphere Client * 페이지의 도구 모음에서 메뉴 를 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.</block>
+  <block id="608bf864557d28821b2eb0e56e8d10ac" category="list-text">메뉴 * 를 선택하고 * 호스트 및 클러스터 * 메뉴 옵션을 선택한 다음 VM을 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * 백업 * 을 선택합니다.</block>
+  <block id="01d8fd80655b841fd24d5f3542e53a52" category="list-text">구성 탭에서 백업을 선택하고 * 이름 바꾸기 * 를 선택합니다.</block>
+  <block id="33cbff4155ddd163ffb01a5a6f5283f3" category="list-text">백업 이름 바꾸기 * 대화 상자에서 새 이름을 입력하고 * 확인 * 을 선택합니다.</block>
+  <block id="00a31f10c2d5e9873bfd86b5f4e243e9" category="list-text">하나 이상의 백업을 선택하고 * 삭제 * 를 선택합니다.</block>
+  <block id="81b1e76dd77fc32dd32f1a9d4da3cd57" category="list-text">확인 * 을 선택하여 삭제 작업을 확인합니다.</block>
+  <block id="cbb26e94d91f6a49695630bc1e9a5acf" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 리소스 그룹을 선택하고 * 편집 * 을 선택합니다.</block>
+  <block id="3a5a734d04eec23ee6c2a3ba80352b3f" category="list-text">마법사의 나머지 부분에서 리소스 그룹을 추가로 수정한 다음 * Finish * 를 선택합니다.</block>
+  <block id="0f4789f15df2a876e628b86c5c5b025e" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 선택한 다음 정책을 선택하고 * Edit * 를 선택합니다.</block>
+  <block id="9ad4c3d8396c3b25c57dc2dc06319bcb" category="list-text">작업을 마치면 * 업데이트 * 를 선택합니다.</block>
+  <block id="62c0fcee62745802ebeba644005a6818" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Policies * 를 선택한 다음 정책을 선택하고 * Remove * 를 선택합니다.</block>
+  <block id="f50de413db3d38ef5cef8c7c506680d6" category="list-text">확인 대화 상자에서 * 확인 * 을 선택합니다.</block>
+  <block id="2281ebbec799d908f6dabc24a0a2ee4c" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택하고 리소스 그룹을 선택한 다음 * 일시 중단 * 을 선택합니다(또는 * 재시작 * 선택).</block>
+  <block id="18401fe25e572b345be65cea833f744c" category="list-text">확인 상자에서 * 확인 * 을 선택하여 확인합니다.</block>
+  <block id="c7660897c3fc2e2d374ba4dfe65d1f8a" category="list-text">자원 그룹 편집* 마법사의 왼쪽 목록에서 수정할 범주를 선택하고 변경 내용을 입력합니다.</block>
+  <block id="bc59860d55d02e9ba978306f2a1dca59" category="list-text">요약 페이지가 표시될 때까지 * 다음 * 을 선택한 다음 * 마침 * 을 선택합니다.</block>
+  <block id="f044b3b6c633716ca101094cbd2a01d3" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 리소스 그룹을 선택하고 * 삭제 * 를 선택합니다.</block>
+  <block id="0a0a0e324eaae9117f71fdfb0b3cfaa6" category="list-text">Delete resource group * 확인 상자에서 * OK * 를 선택하여 확인합니다.</block>
+  <block id="481e7cee5cfb9a867ff9ccc647003045" category="list-text">SCV 플러그인의 왼쪽 탐색 창에서 * Storage Systems * 를 선택합니다.</block>
+  <block id="ca44355ceea440dcbef6a10701fc8a5e" category="list-text">Edit Storage System * 창에서 새 값을 입력한 다음 * Update * 를 선택하여 변경 사항을 적용합니다.</block>
+  <block id="83127292ea67b05c69ebc93b891df3d2" category="list-text">스토리지 시스템 * 페이지에서 제거할 스토리지 VM을 선택한 다음 * 삭제 * 를 선택합니다.</block>
+  <block id="86778ef65cf464c25f23f29ec928f1ae" category="list-text">Remove Storage System * 확인 상자에서 * Delete storage system(s) * 확인란을 선택하고 * Yes * 를 선택하여 확인합니다. *참고:* ESXi 호스트 7.0U1 이상 릴리즈만 지원됩니다.</block>
+  <block id="f8e344fab545443365f1e1346a6ba515" category="list-text">스토리지 시스템 페이지에서 수정할 스토리지 시스템을 선택하고 * 편집 * 을 선택합니다.</block>
+  <block id="2015bece99e27e5d731435c9d76c182b" category="list-text">설정 * 페이지의 * 사용자 * 섹션에서 * 편집 * 을 선택합니다.</block>
+  <block id="905fa350cd0e9c4ad417b8823d70e6cb" category="list-text">새 암호를 입력하고 * 저장 * 을 선택합니다.</block>
+  <block id="778c445590328166255851c12d3f18b8" category="list-text">설정 * 페이지의 * 네트워크 설정 * 섹션에서 * IPv4 * 또는 * IPv6 * 주소를 선택한 다음 * 편집 * 을 선택합니다.</block>
+  <block id="ebd4b6e575c2279c1af4154dbfc7d26a" category="paragraph">새 정보를 입력하고 * 저장 * 을 선택합니다.</block>
+  <block id="f798824fc17a7c3ad8b0e4b22e313af7" category="list-text">IPv4: * IP 주소 * 필드에 을 입력하고<block ref="f1f17934834ae2613699701054ef9684" prefix=" " category="inline-code"></block> * 저장 * 을 선택합니다.</block>
+  <block id="98144ecbe86bdb73c93157dd89cff3ec" category="list-text">IPv6: * IP 주소 * 필드에 을 입력하고<block ref="c36786bc262473df7cbe294ed6ea806b" prefix=" " category="inline-code"></block> * 저장 * 을 선택합니다.</block>
+  <block id="1ea7cb361e0e62393a10408a45051175" category="list-text">설정 * 페이지의 * 날짜 및 시간 * 섹션에서 * 편집 * 을 선택합니다.</block>
+  <block id="a5e62d60df18484f374ad440fa35f2c2" category="list-text">새 시간대를 선택하고 * 저장 * 을 선택합니다.</block>
+  <block id="ed24fc2847a698d853d3e1f975825881" category="list-text">왼쪽 탐색 창에서 * Configuration * 을 선택합니다.</block>
+  <block id="24dfc6b899da05f1754c0fac970189a5" category="list-text">Configuration * 페이지의 * vCenter * 섹션에서 * Edit * 를 선택합니다.</block>
+  <block id="cee60d7116f7e9f602cecff95e67e795" category="list-text">새 암호를 입력한 다음 * 저장 * 을 선택합니다.</block>
+  <block id="a596d47dc9e1a8667434601bb70c6ad2" category="list-text">Mount Datastore * 페이지에서 백업과 백업 위치(운영 또는 보조)를 선택한 다음 * Finish * 를 선택합니다.</block>
+  <block id="176d231a661826ee641ee20f6186bd69" category="list-text">도구 모음에서 * 메뉴 * 를 선택한 다음 드롭다운 목록에서 * 스토리지 * 를 선택합니다.</block>
+  <block id="1f3058212bfbf77f41918f3f3a2fd582" category="list-text">vCenter에 로그인한 다음 도구 모음에서 * 메뉴 * 를 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.</block>
+  <block id="55b6dbb64a7a01e55ec6c6f1e82524e2" category="list-text">SnapCenter GUI 왼쪽 탐색 창에서 * 호스트 * 를 선택합니다.</block>
+  <block id="ee3e8b5ce13430356556fee5021d9317" category="list-text">마법사를 시작하려면 * 추가 * 를 선택하십시오.</block>
+  <block id="b623e6ded9a852f4e7cd9765578d0c08" category="list-text">제출 * 을 선택합니다.</block>
+  <block id="8fbd6a3eab66d75eb22802cd7bdab5ee" category="list-text">왼쪽 탐색 창에서 * Settings * 를 선택한 다음 * Credential * 탭을 선택하고 * Add * 를 선택하여 가상 어플라이언스에 대한 자격 증명을 추가합니다.</block>
+  <block id="e556309e3738293954426d97ff80e5be" category="list-text">메뉴 * 를 선택하고 * 스토리지 * 메뉴 옵션을 선택한 다음 데이터 저장소를 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * 백업 * 을 선택합니다.</block>
+  <block id="340644a6feb53a4c0cf17d7dc95e37bb" category="list-text">백업 목록에서 삭제된 VM을 선택하고 * 복원 * 을 선택합니다.</block>
+  <block id="216106f9c289ff5c0e156f155d915eb2" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
+  <block id="496e324a452b0d9825c96401dab61646" category="list-text">요약 페이지를 검토한 다음 * 마침 * 을 선택합니다.</block>
+  <block id="ce90ba667f9b72c9d09d9562f81efad6" category="list-text">요약을 검토한 후 * Finish * 를 선택합니다.</block>
+  <block id="b89dbb3a27a140b56ee4c00016ec02b6" category="list-text">가상 디스크의 파일 및 폴더 목록을 보려면 * 파일 찾아보기 * 아이콘을 선택합니다.</block>
+  <block id="ecaa5b9363bd3e23ada741ccc7512473" category="paragraph">개별 파일을 찾아보고 선택할 폴더를 두 번 선택하면 런타임에 가져오기 작업이 수행되므로 파일 목록을 가져오는 동안 시간이 지연될 수 있습니다.</block>
+  <block id="642918e808461b51c37c9e8d7909ffdb" category="list-text">복원할 파일이나 폴더를 하나 이상 선택한 다음 * 복원 위치 선택 * 을 선택합니다.</block>
+  <block id="f77361b272ce81d8275727f7b1a756a8" category="list-text">Restore * 를 선택합니다.</block>
+  <block id="903d29a0523ca22e4dcbac24e33ef3f4" category="paragraph">지원되는 버전에 대한 최신 정보는 을<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="e48b6aae8f268fb1220ec073d110a1ec" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 을<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="1ebf62949d055407b1151236c6390c01" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="c8a6eba78508876c1b9a258628d9ab40" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 원하는지 또는 보조 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
+  <block id="78e939bd5a7e9753b83a4aa950117e52" category="cell">드롭다운 목록에서 * Specific disk * 를 선택한 후 * Next * 를 선택합니다. 데이터스토어 선택 표에서 VMDK를 선택하거나 선택 취소할 수 있습니다.</block>
+  <block id="99b54fcdde08e8f03e3d080dede7ffaf" category="cell">대상 데이터 저장소를 선택하고 목록에서 다른 데이터 저장소를 선택합니다.</block>
+  <block id="d7a906f85d31c95c7ab0435b6e7cdc0f" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
+  <block id="98767e400dba33bddecdcdc37263012a" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * Menu * 를 선택하고 다음 중 하나를 수행합니다.</block>
+  <block id="c6e0d914d3ce8312422c0f87cce38dec" category="cell">호스트 및 클러스터 * 메뉴 옵션을 선택한 다음 VM을 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere 섹션 * 에서 * 백업 * 을 선택합니다.</block>
+  <block id="fb3dfed215ac2d206151a0e8d833297e" category="cell">스토리지 * 메뉴 옵션을 선택한 다음 데이터 저장소를 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * 백업 * 을 선택합니다.</block>
+  <block id="3d8698d1f799932ad9b7c30ef26a6f9a" category="list-text">Restore * 마법사에서 검색 이름을 입력하고 * Search * 를 선택합니다.</block>
+  <block id="7993e260060ff1a11abab5b6b6e12d0f" category="paragraph">필터 아이콘을 선택하고 날짜 및 시간 범위, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. OK * 를 선택합니다.</block>
+  <block id="f4bda4730548fc24fd8d94cdec0a15df" category="list-text">Select VM * 을 선택한 다음 * Proxy VM * 대화 상자에서 VM을 선택합니다. Save * 를 선택하여 * Run as Credentials * 대화 상자로 돌아갑니다.</block>
+  <block id="5de0ce684426e1f742a27b0fd2072afe" category="list-text">프록시 자격 증명 * 섹션에서 * 추가 * 를 선택하여 프록시로 사용할 VM을 추가합니다.</block>
+  <block id="0eba6575de69228d6a0c42ae39b2161a" category="list-text">Proxy VM * 대화 상자에서 정보를 입력한 다음 * Save * 를 선택합니다.</block>
+  <block id="a7fa431624d8a435ec46632de0a41142" category="list-text">클론 데이터스토어 마운트 해제 * 대화 상자에서 데이터스토어를 선택하고 * 클론 데이터스토어 마운트 해제 * 확인란을 선택한 다음 * 마운트 해제 * 를 선택합니다.</block>
+  <block id="a08655c19df01f4238142581122cdafd" category="list-text">왼쪽 탐색 창에서 * 구성 * 을 선택한 다음 플러그인 세부 정보 섹션에서 * 서비스 * 옵션을 선택하여 플러그인을 비활성화합니다.</block>
+  <block id="85fbd4a2fc42ed8b114b6cc2f741cdb2" category="list-text">제품 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 * download latest release * 버튼을 선택합니다.</block>
+  <block id="651b8e2bfa244aee2afc1d33733f720d" category="list-text">vCenter GUI에서 * vSphere Client (HTML) * 를 선택합니다.</block>
+  <block id="7d551bb98d3b3428fb3885042700cc78" category="list-text">탐색기 창에서 업그레이드하려는 VM을 선택한 다음 * 요약 * 탭을 선택합니다.</block>
+  <block id="1c9fb40d642ab392b4a33bf895e604d4" category="list-text">Related Objects * 창에서 목록에서 데이터 저장소를 선택한 다음 * Summary * 탭을 선택합니다.</block>
+  <block id="95ef8fc103ca8cdd2309cc11bd52c0f4" category="list-text">선택한 데이터 저장소에 대한 * 파일 * 탭에서 목록의 아무 폴더나 선택한 다음 * 파일 업로드 * 를 선택합니다.</block>
+  <block id="e0e76d82faa4a32cc8c42b2c52e08b9f" category="list-text">업로드 팝업 화면에서 파일을 다운로드한 위치로 이동한<block ref="1ba589501f1cc472dfdecac1bd09a624" prefix=" " category="inline-code"></block> 다음 파일 이미지에서 를 선택한 다음 * 열기 * 를 선택합니다<block ref="1ba589501f1cc472dfdecac1bd09a624" prefix=" " category="inline-code"></block>. 파일이 데이터 저장소에 업로드됩니다.</block>
+  <block id="d4e6cc0510b397a882fde01a403fb2f1" category="list-text">업그레이드하려는 VM으로 돌아가서 * Summary * 탭을 선택합니다. VM 하드웨어* 창의 CD/DVD 필드에서 값은 "연결 해제"되어야 합니다.</block>
+  <block id="d3013f6292b8d8d9720b9ec4b45eb025" category="list-text">CD/DVD 필드에서 연결 아이콘을 선택하고 * 데이터 저장소에서 CD/DVD 이미지에 연결 * 을 선택합니다.</block>
+  <block id="7f9fb53d64fb6e1b553f65ebb09b145d" category="list-text">Contents 열에서<block ref="1ba589501f1cc472dfdecac1bd09a624" prefix=" " category="inline-code"></block> 업로드한 파일로 이동하여 File Type 필드에서 "ISO image"가 선택되어 있는지 확인한 다음 * OK * 를 선택합니다. 필드에 "연결됨" 상태가 표시될 때까지 기다립니다.</block>
+  <block id="4699cb8aa03238f2ca96c699dbd3ecb4" category="list-text">가상 어플라이언스의 * Summary * 탭에 액세스하여 유지 관리 콘솔에 로그온한 다음 녹색 run 화살표를 선택하여 유지 관리 콘솔을 시작합니다.</block>
+  <block id="5596675285eb7d5ee694ce10b28f4874" category="list-text">다음 표에 나열된 것처럼 개요 상태 정보를 보거나 링크를 선택하여 자세한 내용을 볼 수 있습니다.</block>
+  <block id="54861357f32e30429aa4ce6cf91b31ca" category="list-text">해당 작업에 대한 자세한 정보를 보려면 작업 ID를 선택하십시오.</block>
+  <block id="3ffdb973715173d60486ae13bf2ee05d" category="list-text">모든 작업에 대한 자세한 내용을 보려면 * 모두 보기 * 를 선택하여 작업 모니터 탭으로 이동하십시오.</block>
+  <block id="ef93b45ade97012d47885d846fcd6b08" category="list-text">드롭다운 메뉴를 선택하여 * VM * 또는 * 데이터 저장소 * 를 선택합니다.</block>
+  <block id="463e735b6ee05559608eaafd56818816" category="list-text">save * 를 선택하여 Syslog 서버 설정을 저장합니다.</block>
 </blocks>

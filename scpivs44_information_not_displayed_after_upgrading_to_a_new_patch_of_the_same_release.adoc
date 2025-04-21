@@ -44,7 +44,7 @@ VMware vSphere용 SnapCenter 플러그인을 동일한 릴리즈의 새 패치�
 +
 IP 주소는 VMware vSphere용 SnapCenter 플러그인을 구축할 때 표시됩니다.
 
-. 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 비활성화합니다.
+. 왼쪽 탐색 창에서 * Configuration * 을 선택한 다음 * Plug-in Details * 섹션에서 Service 옵션을 선택하여 플러그인을 비활성화합니다.
 +
 SnapCenter Plug-in for VMware vSphere 서비스가 해제되고 vCenter에서 확장이 등록되지 않습니다.
 
@@ -54,7 +54,7 @@ SnapCenter Plug-in for VMware vSphere 서비스가 해제되고 vCenter에서 �
 
 . vCenter Server를 다시 시작합니다.
 . VMware vSphere Client에 로그인합니다.
-. 왼쪽 탐색 창에서 * 구성 * 을 클릭한 다음 * 플러그인 세부 정보 * 섹션에서 서비스 옵션을 클릭하여 플러그인을 활성화합니다.
+. 왼쪽 탐색 창에서 * Configuration * 을 선택한 다음 * Plug-in Details * 섹션에서 Service 옵션을 선택하여 플러그인을 활성화합니다.
 +
 SnapCenter Plug-in for VMware vSphere 서비스가 설정되고 확장이 vCenter에 등록됩니다.
 

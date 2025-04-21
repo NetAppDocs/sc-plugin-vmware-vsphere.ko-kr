@@ -106,4 +106,4 @@ SCV 4.7 을 참조하십시오
 SCV 4.8
 
 |===
-지원되는 버전에 대한 최신 정보는 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT)를 참조하십시오.
+지원되는 버전에 대한 최신 정보는 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT)를 참조하십시오.

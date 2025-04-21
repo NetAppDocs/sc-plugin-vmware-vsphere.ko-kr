@@ -21,7 +21,7 @@ VMware vCenter 7.0.3 이상 버전에서는 Entrust 인증서에 의해 서명�
 .단계
 . vSphere Client를 사용하여 vCenter Server에 로그인합니다.
 . Administration > Certificates > Certificate Management * 로 이동합니다.
-. 신뢰할 수 있는 루트 저장소 * 옆에 있는 * 추가 * 를 클릭합니다
+. 신뢰할 수 있는 루트 저장소 * 옆에 있는 * 추가 * 를 선택합니다
 . Entrust Root 및 Intermediate 인증서의 위치를 찾아 선택합니다. 인증서는 * 신뢰할 수 있는 루트 인증서 * 아래 패널에 추가됩니다. 인증서가 설치되면 OVA를 확인하고 배포할 수 있습니다.
 
 

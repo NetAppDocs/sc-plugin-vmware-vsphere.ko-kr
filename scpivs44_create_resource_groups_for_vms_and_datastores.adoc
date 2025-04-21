@@ -64,7 +64,7 @@ IMPORTANT: 액세스할 수 없는 상태의 VM은 추가하지 마십시오. �
 .시작하기 전에
 VVOL VM이 포함된 리소스 그룹을 생성하기 전에 VMware용 ONTAP 툴을 구축해야 합니다.
 
-자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
+자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
 
 .이 작업에 대해
 언제든지 자원 그룹에서 자원을 추가하거나 제거할 수 있습니다.
@@ -112,7 +112,7 @@ SnapCenter 리소스 그룹을 만들 때 호환성 검사를 수행합니다.
 보조 보호는 리소스 그룹에 추가된 리소스에 대한 복제 관계를 생성합니다.
 
 .단계
-. SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 클릭한 다음 * 만들기 * 를 선택하여 마법사를 시작합니다.
+. SCV 플러그인의 왼쪽 탐색 창에서 * 리소스 그룹 * 을 선택한 다음 * 만들기 * 를 선택하여 마법사를 시작합니다.
 
 
 리소스 그룹을 만드는 가장 쉬운 방법입니다. 그러나 다음 중 하나를 수행하여 하나의 리소스로 리소스 그룹을 만들 수도 있습니다.
@@ -186,10 +186,10 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
 리소스 그룹의 VM 및 데이터 저장소 이름은 고유해야 합니다. 
 
 
-| 사용 가능한 요소 | 보호하려는 자원을 선택한 다음 * > * 를 클릭하여 선택 항목을 선택한 요소 목록으로 이동합니다. 
+| 사용 가능한 요소 | 보호할 리소스를 선택한 다음 *> * 를 선택하여 선택 항목을 선택한 엔터티 목록으로 이동합니다. 
 |===
 +
-다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.
+다음 * 을 선택하면 시스템은 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.
 
 +
 메시지가 `Selected <resource-name> is not SnapCenter compatible` 표시되면 선택한 리소스가 SnapCenter와 호환되지 않는 것입니다.
@@ -263,12 +263,12 @@ Every 필드에서 일 수를 선택하면 매월 1일에 백업이 수행되고
 +
 link:scpivs44_modify_the_time_zones.html["백업에 대한 시간대를 수정합니다"].
 
-. 요약을 검토한 후 * Finish * 를 클릭합니다. SCV 6.1부터 ASA R2 시스템의 보조 보호 리소스가 요약 페이지에 표시됩니다.
+. 요약을 검토한 후 * Finish * 를 선택합니다. SCV 6.1부터 ASA R2 시스템의 보조 보호 리소스가 요약 페이지에 표시됩니다.
 +
-마침 * 을 클릭하기 전에 마법사의 모든 페이지로 돌아가서 정보를 변경할 수 있습니다.
+Finish * 를 선택하기 전에 마법사의 아무 페이지로 돌아가 정보를 변경할 수 있습니다.
 
 +
-마침 * 을 클릭하면 새 리소스 그룹이 리소스 그룹 목록에 추가됩니다.
+마침 * 을 선택하면 새 리소스 그룹이 리소스 그룹 목록에 추가됩니다.
 
 +
 
@@ -290,7 +290,7 @@ SnapCenter 리소스 그룹을 만들려고 할 때 호환성 검사를 수행�
 SnapCenter 버전 4.x는 ONTAP 8.3.1 이상을 지원합니다.
 
 +
-VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 8.2.1 이전 버전에만 해당됩니다. 따라서 항상 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] SnapCenter 지원에 대한 최신 정보를 참조하십시오.
+VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 8.2.1 이전 버전에만 해당됩니다. 따라서 항상 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] SnapCenter 지원에 대한 최신 정보를 참조하십시오.
 
 * 공유 PCI 장치가 VM에 연결되어 있습니다.
 * 기본 IP 주소가 SnapCenter에 구성되어 있지 않습니다.

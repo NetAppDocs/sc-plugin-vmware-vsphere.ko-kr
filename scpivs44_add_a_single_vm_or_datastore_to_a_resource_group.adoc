@@ -20,14 +20,14 @@ summary: 단일 VM 또는 데이터 저장소를 SnapCenter Plug-in for VMware v
 SAN 및 NAS 데이터 저장소를 추가할 수 있지만 VSAN 또는 VVol 데이터 저장소는 추가할 수 없습니다.
 
 .단계
-. vSphere Client GUI의 도구 모음에서 * Menu * 를 클릭하고 추가하려는 VM 또는 데이터 저장소로 이동합니다.
+. vSphere Client GUI의 도구 모음에서 * Menu * 를 선택하고 추가할 VM 또는 데이터 저장소로 이동합니다.
 . 왼쪽 탐색 창에서 VM 또는 데이터 저장소를 마우스 오른쪽 버튼으로 클릭하고 보조 드롭다운 목록에서 * SnapCenter Plug-in for VMware vSphere * > * Add to Resource Group * 을 선택합니다.
 +
 시스템은 먼저 SnapCenter가 관리하고 선택한 VM이 있는 스토리지 시스템과 호환되는지 확인한 다음 * 리소스 그룹에 추가 * 페이지를 표시합니다. "SnapCenter 호환성 오류" 메시지가 표시되면 선택한 VM이 SnapCenter와 호환되지 않으므로 먼저 적절한 스토리지 VM을 SnapCenter에 추가해야 합니다.
 
-. 자원 그룹에 추가 * 페이지에서 자원 그룹을 선택한 다음 * 확인 * 을 클릭합니다.
+. 리소스 그룹에 추가 * 페이지에서 리소스 그룹을 선택한 다음 * 확인 * 을 선택합니다.
 +
-OK * 를 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다.
+확인 * 을 선택하면 시스템은 먼저 SnapCenter가 관리하고 선택한 VM 또는 데이터 저장소가 있는 스토리지와 호환되는지 확인합니다.
 
 +
 메시지가 `Selected <resource-name> is not SnapCenter compatible` 표시되면 선택한 VM 또는 데이터 저장소가 SnapCenter와 호환되지 않는 것입니다. 자세한 내용은 을 link:scpivs44_create_resource_groups_for_vms_and_datastores.html#manage-compatibility-check-failures["호환성 검사 실패 관리"] 참조하십시오.

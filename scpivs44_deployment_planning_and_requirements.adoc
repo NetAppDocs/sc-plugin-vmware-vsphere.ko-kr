@@ -42,7 +42,7 @@ SCV(SnapCenter Plug-in for VMware vSphere) 구축을 시작하기 전에 호스�
 
 * VVOL VM(VMware VVOL 데이터 저장소의 VM)을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 VVOL을 위한 스토리지를 프로비저닝 및 구성합니다.
 +
-자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
+자세한 내용은 VMware vSphere용 ONTAP 툴 설명서를 참조하십시오. 또한 ONTAP 툴에서 지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] 참조하십시오.
 
 * VMware vSphere용 SnapCenter 플러그인은 Storage vMotion을 지원하는 가상 머신의 제한으로 인해 공유 PCI 또는 PCIe 장치(예: NVIDIA Grid GPU)를 제한적으로 지원합니다. 자세한 내용은 공급업체의 VMware 배포 가이드 문서를 참조하십시오.
 +
@@ -122,9 +122,9 @@ VM 일관성을 사용하여 백업 생성
 | VMware 애플리케이션 VAAI(vStorage API for Array Integration) | VMware vSphere용 SnapCenter 플러그인은 이 기능을 사용하여 복구 작업의 성능을 향상시킵니다. 또한 NFS 환경의 성능도 개선합니다. 
 
 
-| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]참조하십시오. 
+| VMware용 ONTAP 툴 | VMware vSphere용 SnapCenter 플러그인은 이 플러그인을 사용하여 VVOL 데이터 저장소(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 을 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]참조하십시오. 
 |===
-지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=121034;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]참조하십시오.
+지원되는 버전에 대한 최신 정보는 을 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^]참조하십시오.
 
 
 

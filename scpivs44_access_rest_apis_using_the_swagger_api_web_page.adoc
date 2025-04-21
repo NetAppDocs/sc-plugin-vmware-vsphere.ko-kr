@@ -46,5 +46,5 @@ VMware vSphere REST API용 SnapCenter 플러그인 액세스:
 +
 로그인 vCenter 인증 메커니즘을 사용하여 토큰을 생성합니다.
 
-. API 리소스 유형을 클릭하여 해당 리소스 유형의 API를 표시합니다.
+. API 리소스 유형을 선택하여 해당 리소스 유형의 API를 표시합니다.
 

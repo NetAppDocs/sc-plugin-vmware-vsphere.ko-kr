@@ -84,7 +84,7 @@ Finish * 를 선택하기 전에 마법사의 아무 페이지로 돌아가 정�
 . 연결된 가상 디스크에서 복원할 파일을 찾으려면 vSphere Client 바로 가기 창에서 * SnapCenter Plug-in for VMware vSphere * 를 선택합니다.
 . 왼쪽 탐색 창에서 * Guest File Restore * > * Guest Configuration * 을 선택합니다.
 +
-Guest Session Monitor 테이블에서 *...를 클릭하여 세션에 대한 추가 정보를 표시할 수 있습니다. * 를 선택합니다.
+Guest Session Monitor 테이블에서 *...를 선택하여 세션에 대한 추가 정보를 표시할 수 있습니다. * 를 클릭합니다.
 
 . 알림 이메일에 나열된 가상 디스크에 대한 게스트 파일 복원 세션을 선택합니다.
 +

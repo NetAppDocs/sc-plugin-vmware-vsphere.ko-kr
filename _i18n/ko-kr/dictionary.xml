@@ -277,7 +277,6 @@
   <block id="7ff99aff75a4ffc74b705fb26d592f75" category="cell">복원 대상 지정…</block>
   <block id="cbb42e8a1e30a5617b85b703b275a35a" category="cell">원래 데이터 저장소입니다</block>
   <block id="46ddbb26d4adb6887d8fc9f992672ea7" category="cell">대체 위치에 있는 대체 데이터 저장소입니다</block>
-  <block id="92ebc27a2cd9d1ab4039f811c8ddafc4" category="list-text">선택 사항: 화면 하단의 * Recent Tasks * 를 클릭하여 작업 진행 상황을 모니터링합니다.</block>
   <block id="14dae1427bcb2f84e900779dbbccd66f" category="list-text">업데이트된 정보를 표시하려면 화면을 새로 고칩니다.</block>
   <block id="041b4550a0ec6359f99eb2257afd1afa" category="summary">VM을 복원할 때 선택한 백업 복사본으로 기존 콘텐츠를 덮어쓰거나 VM의 복사본을 만들 수 있습니다.</block>
   <block id="0b156eb7ae06ec8e963e1dd7bed83e94" category="doc">백업에서 VM을 복원합니다</block>
@@ -473,7 +472,6 @@
   <block id="811a38ca6a4a37270419c2834515cf5c" category="paragraph">다른 데이터 보호 작업을 위한 백업이 더 이상 필요하지 않은 경우 VMware vSphere 백업을 위한 SnapCenter 플러그인을 삭제할 수 있습니다. 하나의 백업을 삭제하거나 여러 백업을 동시에 삭제할 수 있습니다.</block>
   <block id="4b3cb5948249f5d59292e97ced52522d" category="paragraph">마운트된 백업은 삭제할 수 없습니다. 백업을 삭제하려면 먼저 마운트 해제해야 합니다.</block>
   <block id="e8f28d5b9bdfd45d62e73866daa7c7c7" category="paragraph">삭제할 백업을 최대 40개까지 선택할 수 있습니다.</block>
-  <block id="8dd89a625f95fb62c70506be2c26dc97" category="list-text">왼쪽 vSphere 메뉴 표시줄에서 새로 고침 아이콘을 클릭하여 백업 목록을 새로 고칩니다.</block>
   <block id="ff0b9d3ee8a2cd0beece57057a3e20e8" category="summary">대시보드에서 하나 이상의 작업에 대한 보고서를 요청할 수 있습니다.</block>
   <block id="8d439860690384ca88cb73005c6b5476" category="doc">보고서에 액세스합니다</block>
   <block id="4af4b3a2736a60892bf554975952c856" category="paragraph">보고서 탭에는 대시보드의 작업 페이지에서 선택한 작업에 대한 정보가 포함되어 있습니다. 작업을 선택하지 않으면 보고서 탭이 비어 있습니다.</block>
@@ -492,7 +490,6 @@
   <block id="78d2a696f9b9f71eb637f30f0020bdbf" category="doc">필요 시 리소스 그룹을 백업합니다</block>
   <block id="92ae04a417b2b1bf95cb914953f21cce" category="paragraph">정책이 연결된 리소스 그룹을 만들어야 합니다.</block>
   <block id="c7cf19dde0a4f0c65a5e383de57d33c1" category="list-text">리소스 그룹에 여러 정책이 구성되어 있는 경우 * 지금 백업 * 대화 상자에서 이 백업 작업에 사용할 정책을 선택합니다.</block>
-  <block id="8bf5cf5dea41cc14b69ffe6c6732b880" category="list-text">선택 사항: 자세한 내용은 창 하단의 * 최근 작업 * 을 클릭하거나 대시보드 * 작업 모니터 * 를 클릭하여 작업 진행 상황을 모니터링합니다. 결과</block>
   <block id="c9f88dac59bd7db8545fafc230d3c135" category="paragraph">백업 중인 VM에 대해 중지 작업이 실패하면 백업이 경고와 함께 완료되고 선택한 정책에 VM 정합성이 선택되어 있어도 VM 정합성이 보장되지 않음 으로 표시됩니다. 이 경우 일부 VM이 중지되었을 수 있습니다. 작업 모니터에서 실패한 VM 세부 정보에 중지 가 실패로 표시됩니다.</block>
   <block id="5bb67bc2606ffec4f4a2898e8e5fdcee" category="summary">운영 효율을 높이기 위해 'SCBR.OVERRIDE' 설정 파일을 수정하여 기본값을 변경할 수 있습니다.</block>
   <block id="303bdbbcc69c42ada4d351470161cb37" category="paragraph">운영 효율을 높이기 위해 'SCBR.OVERRIDE' 설정 파일을 수정하여 기본값을 변경할 수 있습니다. 이러한 값은 백업 중에 생성 또는 삭제된 VMware 스냅샷 수 또는 백업 스크립트의 실행이 중지되기 전의 시간과 같은 설정을 제어합니다.</block>
@@ -994,7 +991,6 @@
   <block id="12f5999f84083904efa19db1ebf794a2" category="paragraph">호스트 운영 체제에서 연결된 디스크에 액세스한 다음 디스크에서 필요한 정보를 검색할 수 있습니다.</block>
   <block id="3b94205bc2616f2bf8416a810bbba1b8" category="doc">VMware vSphere용 SnapCenter 플러그인과 함께 패키지로 제공되는 사전 정의된 역할</block>
   <block id="2f6888b85318bb632604e471f8b46b60" category="paragraph">관리자는 이러한 역할을 적절한 사용자에게 할당할 수 있습니다.</block>
-  <block id="5a8be763f7b47c14c6c0fca91e41acc6" category="paragraph">다음 표와 같이 * 메뉴 &gt; 관리 &gt; 역할 * 을 클릭하여 vCenter GUI에서 사전 정의된 역할을 확인할 수 있습니다.</block>
   <block id="bbbabdbe1b262f75d99d62880b953be1" category="cell">역할</block>
   <block id="3d0f61a1174e21cbdd43433a0cdd1587" category="cell">SCV 관리자</block>
   <block id="9e5d312df6041327157130535c90513a" category="cell">SCV 백업</block>
@@ -1128,7 +1124,6 @@
   <block id="5872155c9c9b4c108bc6482b00bcc9e8" category="admonition">게스트 파일 복구는 비동기 작업이며 게스트 세션을 설정하는 데 시간이 오래 소요될 수 있으므로 이 옵션을 활성화하십시오.</block>
   <block id="4e856ba2cd7aacbcf8bc7b973f8553cf" category="list-text">연결 작업이 완료될 때까지 기다립니다.</block>
   <block id="fa4def48e95c558805a7c02c07472bfb" category="paragraph">대시보드 작업 모니터에서 작업 진행률을 보거나 이메일 알림을 기다릴 수 있습니다.</block>
-  <block id="25e78af0a6469670457f3d69f3af2d24" category="paragraph">Guest Session Monitor 테이블에서 *...를 클릭하여 세션에 대한 추가 정보를 표시할 수 있습니다. * 를 선택합니다.</block>
   <block id="c6b1cccb1d41d1779899104b727ed6e0" category="list-text">알림 이메일에 나열된 가상 디스크에 대한 게스트 파일 복원 세션을 선택합니다.</block>
   <block id="0af578ae1d8a85026f8bc49091baff88" category="paragraph">모든 파티션에는 시스템 예약 파티션을 포함하여 드라이브 문자가 할당됩니다. VMDK에 파티션이 여러 개 있는 경우 게스트 파일 찾아보기 페이지 맨 위의 드라이브 필드에 있는 드롭다운 목록에서 드라이브를 선택하여 특정 드라이브를 선택할 수 있습니다.</block>
   <block id="f4ff83956db6d6134a1d1743238a844b" category="paragraph">보다 쉬운 검색을 위해 검색 문자열에서 필터를 사용할 수 있습니다. 필터는 대소문자를 구분하며 공백 없이 Perl 식입니다. 기본 검색 문자열은 `.' * 입니다. 다음 표에서는 Perl 검색 식의 몇 가지 예를 보여 줍니다.</block>
@@ -2183,9 +2178,7 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="ee3e8b5ce13430356556fee5021d9317" category="list-text">마법사를 시작하려면 * 추가 * 를 선택하십시오.</block>
   <block id="b623e6ded9a852f4e7cd9765578d0c08" category="list-text">제출 * 을 선택합니다.</block>
   <block id="8fbd6a3eab66d75eb22802cd7bdab5ee" category="list-text">왼쪽 탐색 창에서 * Settings * 를 선택한 다음 * Credential * 탭을 선택하고 * Add * 를 선택하여 가상 어플라이언스에 대한 자격 증명을 추가합니다.</block>
-  <block id="e556309e3738293954426d97ff80e5be" category="list-text">메뉴 * 를 선택하고 * 스토리지 * 메뉴 옵션을 선택한 다음 데이터 저장소를 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * 백업 * 을 선택합니다.</block>
   <block id="340644a6feb53a4c0cf17d7dc95e37bb" category="list-text">백업 목록에서 삭제된 VM을 선택하고 * 복원 * 을 선택합니다.</block>
-  <block id="216106f9c289ff5c0e156f155d915eb2" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
   <block id="496e324a452b0d9825c96401dab61646" category="list-text">요약 페이지를 검토한 다음 * 마침 * 을 선택합니다.</block>
   <block id="ce90ba667f9b72c9d09d9562f81efad6" category="list-text">요약을 검토한 후 * Finish * 를 선택합니다.</block>
   <block id="b89dbb3a27a140b56ee4c00016ec02b6" category="list-text">가상 디스크의 파일 및 폴더 목록을 보려면 * 파일 찾아보기 * 아이콘을 선택합니다.</block>
@@ -2195,10 +2188,8 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="903d29a0523ca22e4dcbac24e33ef3f4" category="paragraph">지원되는 버전에 대한 최신 정보는 을<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="e48b6aae8f268fb1220ec073d110a1ec" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 을<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="1ebf62949d055407b1151236c6390c01" category="paragraph">Linux 게스트 OS를 실행 중인 VM에서는 파일과 폴더를 복원할 수 없습니다. 그러나 VMDK를 첨부한 다음 파일과 폴더를 수동으로 복원할 수 있습니다. 지원되는 게스트 OS에 대한 최신 정보는 를<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="c8a6eba78508876c1b9a258628d9ab40" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 원하는지 또는 보조 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
   <block id="78e939bd5a7e9753b83a4aa950117e52" category="cell">드롭다운 목록에서 * Specific disk * 를 선택한 후 * Next * 를 선택합니다. 데이터스토어 선택 표에서 VMDK를 선택하거나 선택 취소할 수 있습니다.</block>
   <block id="99b54fcdde08e8f03e3d080dede7ffaf" category="cell">대상 데이터 저장소를 선택하고 목록에서 다른 데이터 저장소를 선택합니다.</block>
-  <block id="d7a906f85d31c95c7ab0435b6e7cdc0f" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 클릭하고 날짜 및 시간 범위를 선택하고 VMware 스냅샷이 포함된 백업을 사용할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
   <block id="98767e400dba33bddecdcdc37263012a" category="list-text">VMware vSphere Client GUI의 도구 모음에서 * Menu * 를 선택하고 다음 중 하나를 수행합니다.</block>
   <block id="c6e0d914d3ce8312422c0f87cce38dec" category="cell">호스트 및 클러스터 * 메뉴 옵션을 선택한 다음 VM을 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere 섹션 * 에서 * 백업 * 을 선택합니다.</block>
   <block id="fb3dfed215ac2d206151a0e8d833297e" category="cell">스토리지 * 메뉴 옵션을 선택한 다음 데이터 저장소를 선택하고 * 구성 * 탭을 선택한 다음 * SnapCenter Plug-in for VMware vSphere * 섹션에서 * 백업 * 을 선택합니다.</block>
@@ -2224,4 +2215,14 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="3ffdb973715173d60486ae13bf2ee05d" category="list-text">모든 작업에 대한 자세한 내용을 보려면 * 모두 보기 * 를 선택하여 작업 모니터 탭으로 이동하십시오.</block>
   <block id="ef93b45ade97012d47885d846fcd6b08" category="list-text">드롭다운 메뉴를 선택하여 * VM * 또는 * 데이터 저장소 * 를 선택합니다.</block>
   <block id="463e735b6ee05559608eaafd56818816" category="list-text">save * 를 선택하여 Syslog 서버 설정을 저장합니다.</block>
+  <block id="13d524209ba94b0873b6255f4494fe81" category="list-text">선택 사항: 자세한 내용을 보려면 창 하단 또는 대시보드 * 작업 모니터 * 에서 * 최근 작업 * 을 선택하여 작업 진행 상황을 모니터링하십시오. 결과</block>
+  <block id="899accda8c7d730753ee12fb9b4342b1" category="list-text">왼쪽 vSphere 메뉴 표시줄에서 새로 고침 아이콘을 선택하여 백업 목록을 새로 고칩니다.</block>
+  <block id="643e3f4c7463111dfd9afa193aa2e09c" category="paragraph">다음 표에 표시된 대로 * Menu &gt; Administration &gt; Roles * 를 선택하면 vCenter GUI에서 사전 정의된 역할을 확인할 수 있습니다.</block>
+  <block id="c772934c065697aae46df88ed53eab3f" category="list-text">vCenter Server에서 * Inventory * &gt; * Datastores * 로 이동하고 데이터 저장소를 선택합니다.</block>
+  <block id="ef3c1d17a8f973bdf23643b64b38658f" category="list-text">VMware vSphere용 SnapCenter 플러그인 섹션에서 * 구성 * &gt; * 백업 * 을 선택합니다.</block>
+  <block id="666970fb5d9dc8c5bae1257323fafeb9" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 선택하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 포함할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
+  <block id="1988ceb51e4af4b5dedd4e824e247a32" category="paragraph">Guest Session Monitor 테이블에서 *...를 선택하여 세션에 대한 추가 정보를 표시할 수 있습니다. * 를 클릭합니다.</block>
+  <block id="2ce4687225c7becae3c948e55ccdcc4d" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 선택하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 원하는지 또는 보조 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
+  <block id="f427270dda7af9bd5bacffe7bda1edcf" category="list-text">선택 사항: 화면 하단의 * Recent Tasks * 를 선택하여 작업 진행 상황을 모니터링합니다.</block>
+  <block id="6210995c19095fd21a24c3cd89967878" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 선택하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 포함할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
 </blocks>

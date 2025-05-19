@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: scpivs44_role_based_access_control.html 
 keywords:  
-summary: VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위한 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 Data ONTAP RBAC를 모두 지원합니다. 
+summary: VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위한 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다. 
 ---
 = 역할 기반 액세스 제어(RBAC)
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리
 
 
 [role="lead"]
-VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위한 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 Data ONTAP RBAC를 모두 지원합니다.
+VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위한 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다.
 
 SnapCenter 및 ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다. VMware vSphere용 SnapCenter 플러그인을 사용하여 SnapCenter 애플리케이션 정합성이 보장되는 작업을 지원하는 경우 SnapCenterAdmin 역할을 할당해야 합니다. SnapCenterAdmin 역할의 사용 권한은 변경할 수 없습니다.
 

@@ -100,7 +100,7 @@ VM에 대한 VMware 정합성 보장 스냅샷이 실패하더라도 VM은 백�
 . VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 선택한 다음 드롭다운 목록에서 * VM 및 템플릿 * 을 선택합니다.
 +
 
-NOTE: 삭제된 VM을 복구하는 경우 SnapCenter Plug-in for VMware vSphere에 추가된 스토리지 VM 자격 증명은 와 동일한 권한을 가진 사용자 계정이어야 `vsadmin` `vsadmin`합니다. 호스트는 ONTAP 8.2.2 이상을 실행하는 스토리지 시스템에 있어야 합니다.
+NOTE: 삭제된 VM을 복구하는 경우 SnapCenter Plug-in for VMware vSphere에 추가된 스토리지 VM 자격 증명은 와 동일한 권한을 가진 사용자 계정이어야 `vsadmin` `vsadmin`합니다.
 
 . 왼쪽 탐색 창에서 VM을 마우스 오른쪽 단추로 클릭하고 드롭다운 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 보조 드롭다운 목록에서 * Restore * 를 선택하여 마법사를 시작합니다.
 . 복원 * 마법사의 * 백업 선택 * 페이지에서 복원할 백업 스냅샷을 선택합니다.

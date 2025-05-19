@@ -11,35 +11,35 @@ summary:
 
 
 [role="lead"]
-법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.
+e9c44bbfd795a5d63d74c6a77afee70d
 
 
 
-== 저작권
+== 6016a2b341113bf496b719905398ecd2
 
-link:https://www.netapp.com/company/legal/copyright/["https://www.netapp.com/company/legal/copyright/"^]
-
-
-
-== 상표
-
-NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.
-
-link:https://www.netapp.com/company/legal/trademarks/["https://www.netapp.com/company/legal/trademarks/"^]
+a1a9afcf552a769c282769271829889a
 
 
 
-== 특허
+== 126a02652da6de02962cf1b654fd6376
 
-NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.
+c4ce4761e466527d26b3e3d5ed1006fd
 
-link:https://www.netapp.com/pdf.html?item=/media/11887-patentspage.pdf["https://www.netapp.com/pdf.html?item=/media/11887-patentspage.pdf"^]
+5d545fe5152641e2ebe654e336e520e5
 
 
 
-== 개인 정보 보호 정책
+== be89498d2f8a22ce47c02ba9795fe2af
 
-link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.com/company/legal/privacy-policy/"^]
+d0b19d36be2c5f16e9aef46c8a452d3d
+
+dd38f906b37d412de7d1c1dcf4cbf31c
+
+
+
+== 56c34c6410dd45c5cec44149ad0ce037
+
+2352c4e1f4d0024ade0869e00e6243f4
 
 
 

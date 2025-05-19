@@ -88,11 +88,6 @@
   <block id="381ccd52bbe70b77caebf5b7721bc854" category="paragraph"><block ref="a1b611f7f1d7d8197cb1d43fb49ccfda" category="inline-link-macro-rx"></block>.</block>
   <block id="2ff2dc58f2ec2635705f09ff662f69ce" category="admonition">백업 중인 VM에 대해 중지 작업이 실패하면 선택한 정책에 VM 정합성이 선택되어 있더라도 백업이 VM 정합성이 보장되지 않음 으로 표시됩니다. 이 경우 일부 VM이 중지되었을 수 있습니다.</block>
   <block id="a7bc6073f1cfb01ebf8ceadae0d43b14" category="section-title">호환성 검사 실패 관리</block>
-  <block id="cf1527bd9ad516f4468aa9b7475269a6" category="paragraph">SnapCenter 리소스 그룹을 만들려고 할 때 호환성 검사를 수행합니다.</block>
-  <block id="89998c90c88ae3437d33fb3de7d2214a" category="paragraph">비호환성 이유는 다음과 같습니다.</block>
-  <block id="7007a0750d953e128d4f70c36217f054" category="list-text">VMDK는 7-Mode에서 실행 중인 ONTAP 시스템이나 타사 장치에서 지원되지 않는 스토리지에 있습니다.</block>
-  <block id="fcd86cc596f822c816f0c6770a216f38" category="list-text">데이터 저장소는 clustered Data ONTAP 8.2.1 이상을 실행하는 NetApp 스토리지에 있습니다.</block>
-  <block id="62fc2c3502f537ee988c89c46b547a37" category="paragraph">SnapCenter 버전 4.x는 ONTAP 8.3.1 이상을 지원합니다.</block>
   <block id="697ea025ecb303d4f40d1bf3a8b4bde0" category="inline-link">NetApp 상호 운용성 매트릭스 툴(IMT)</block>
   <block id="4f11690e32499ec1417798db9cb86f8c" category="list-text">공유 PCI 장치가 VM에 연결되어 있습니다.</block>
   <block id="0fedd6a15e25fa11397167b4d416ea5d" category="list-text">스토리지 VM이 다운되었습니다.</block>
@@ -210,7 +205,6 @@
   <block id="1288af9ac9952912b726a74e4d063f43" category="list-text">사용자 이름 또는 암호 변경 에 "* 4*"를 입력합니다.</block>
   <block id="4ae0f66f65c0d522c4eff21389388a0b" category="list-text">새 암호를 입력합니다.</block>
   <block id="2bd86c060682f23f66bfc890d5d5b84d" category="paragraph">SnapCenter VMware 가상 어플라이언스 서비스가 중지되었다가 다시 시작됩니다.</block>
-  <block id="870f0ed51d3e289298f9a13baa95d1fe" category="summary">VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위한 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 Data ONTAP RBAC를 모두 지원합니다.</block>
   <block id="721796b1cb3468f0daf819180184d460" category="doc">역할 기반 액세스 제어(RBAC)</block>
   <block id="04c8f022e518bcf1a07c4b23227851a6" category="summary">모든 백업 작업은 하나 이상의 VM과 데이터 저장소의 조합을 포함할 수 있는 리소스 그룹에 대해 수행됩니다. 필요에 따라 또는 정의된 보호 일정에 따라 백업할 수 있습니다.</block>
   <block id="820a69c65133a14dbbca6b21c7e990db" category="doc">데이터 보호 워크플로우</block>
@@ -399,7 +393,6 @@
   <block id="69a02b2d668a0ebee1d9ac100a00074c" category="paragraph">VM, 데이터 저장소, 클러스터, 정책, 백업, 또는 리소스 그룹 이름: %&amp; * $#@! /: *? "&lt;&gt;-|;',.</block>
   <block id="a051f3eeac4a83ec1f5d55c7aeba6f06" category="paragraph">밑줄 문자(_)를 사용할 수 있습니다.</block>
   <block id="a923c6bf503ee78e9fc4b4479248cff6" category="list-text">보존 설정을 지정합니다.</block>
-  <block id="427e05e41441693fe3177478aa3c69eb" category="admonition">최대 보존 값은 ONTAP 9.4 이상의 리소스에 대한 1018 백업과 ONTAP 9.3 이전 버전의 리소스에 대한 254 백업입니다. 보존이 기본 ONTAP 버전에서 지원하는 값보다 높은 값으로 설정된 경우 백업이 실패합니다. 데이터 저장소 스패닝 시에도 마찬가지입니다. 스패닝 데이터 저장소에 ONTAP 9.3 이전 및 ONTAP 9.4 이상 버전의 리소스가 포함되어 있는 경우 보존 값을 254 미만으로 설정해야 합니다.</block>
   <block id="6e0b19728555d1c2b7bc98ce7895aced" category="list-text">주파수 설정을 지정합니다.</block>
   <block id="52b19e85e6a29b6fe5690f47944f859f" category="paragraph">정책은 백업 빈도만 지정합니다. 백업에 대한 특정 보호 스케줄은 리소스 그룹에 정의됩니다. 따라서 둘 이상의 리소스 그룹이 동일한 정책 및 백업 빈도를 공유할 수 있지만 백업 스케줄은 다릅니다.</block>
   <block id="cf8572abaca84a096c3646473a75b21b" category="list-text">다음 표와 같이 * Replication * 필드에서 보조 스토리지에 대한 복제 유형을 지정합니다.</block>
@@ -909,8 +902,6 @@
   <block id="ad9f0ab39477422bbfaba6b4d195bb7d" category="summary">이 섹션에서는 VMware vSphere용 SnapCenter 플러그인의 라이센스 정보를 제공합니다.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="doc">라이센싱</block>
   <block id="37a5d1dae75f5af8c4ce47ae7e6714b0" category="paragraph">다음 스토리지 시스템을 사용 중인 경우 VMware vSphere용 SnapCenter 플러그인은 무료 제품입니다.</block>
-  <block id="149f0ea389848f479bd80af6375b383b" category="list-text">FAS</block>
-  <block id="c8984126713ed072b9cb0a44a162be4d" category="list-text">AFF</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="3a3a5cd068731551120f43f37950768b" category="list-text">ONTAP Select</block>
   <block id="4ecac70efff8d20a57fcdc88eed604e5" category="paragraph">SnapCenter 표준 라이센스를 보조 대상에 추가하는 것이 좋지만 필수는 아닙니다. 보조 시스템에서 SnapCenter 표준 라이센스가 활성화되어 있지 않으면 페일오버 작업을 수행한 후 SnapCenter를 사용할 수 없습니다. 그러나 마운트 및 연결 작업을 수행하려면 보조 스토리지의 FlexClone 라이센스가 필요합니다. 복원 작업을 수행하려면 SnapRestore 라이센스가 필요합니다.</block>
@@ -949,7 +940,6 @@
   <block id="a24b5bfa95a0c9efe3023cae447296e6" category="list-text">NTFS 파일 시스템에서 FAT 파일 시스템으로 복원할 수 없습니다.</block>
   <block id="b4d6235f9c53c6f6c0666f45953094dc" category="paragraph">NTFS 형식에서 FAT 형식으로 복원하려고 하면 FAT 파일 시스템은 Windows 보안 특성을 지원하지 않으므로 NTFS 보안 설명자가 복사되지 않습니다.</block>
   <block id="a23a5720d2a1cff6970cbb72b31dc86c" category="list-text">클론 생성된 VMDK 또는 초기화되지 않은 VMDK에서 게스트 파일을 복원할 수 없습니다.</block>
-  <block id="87fa4d49105a1527bc0047c786529a68" category="list-text">ONTAP 9.2 이상을 실행하는 시스템에서 백업을 수행하고 VMware 정합성 보장 옵션이 켜져 있는 경우 보조 백업에서 복원할 수 없습니다.</block>
   <block id="fb0007811dddc85c888a6d43364c9f0e" category="list-text">파일의 디렉토리 구조는 복원할 수 없습니다.</block>
   <block id="e085ff08a4d4a15ca5651b7170581786" category="paragraph">중첩 디렉토리의 파일을 복원하도록 선택하면 파일이 동일한 디렉토리 구조로 복원되지 않습니다. 디렉토리 트리가 복구되지 않고 파일만 복구됩니다. 디렉터리 트리를 복원하려면 구조의 맨 위에 있는 디렉터리 자체를 복사할 수 있습니다.</block>
   <block id="629ec47b81132f329d4136880bd3bbde" category="list-text">암호화된 게스트 파일은 복원할 수 없습니다.</block>
@@ -1074,12 +1064,7 @@
   <block id="510b17a83061d1709c7a07368d7f8b8f" category="cell">LUN LUN LUN 생성 LUN 삭제 LUN igroup 추가 LUN igroup 생성 LUN igroup 삭제 lun igroup 이름 변경 lun mapping add-reporting-nodes lun mapping 생성 LUN 매핑 삭제 lun mapping remove-reporting-nodes lun mapping show lun modify lun move-in-volume lun offline lun persistent-reservation LUN serial LUN 표시</block>
   <block id="847b8685554d07af7c2a25cc92eb932c" category="cell">SnapMirror 목록 - 대상 SnapMirror 정책 추가 규칙 SnapMirror 정책 수정 - 규칙 SnapMirror 정책 제거 - 규칙 SnapMirror 정책 표시 SnapMirror show -history SnapMirror update SnapMirror update -ls -set</block>
   <block id="34b6cd75171affba6957e308dcbd92be" category="cell">버전</block>
-  <block id="c6752ce5f8c095ac974d2740edaf533c" category="cell">읽기 전용 명령: ONTAP 8.3 이상에 필요한 최소 권한</block>
   <block id="7a69b919de28d081f80cd742609937a9" category="section-title">추가 ONTAP 정보</block>
-  <block id="e1b5d32e8fe1a59649c2037bad33b68d" category="list-text">ONTAP 8.2.x를 실행 중인 경우:</block>
-  <block id="6735a8ae7975c90de27a83556fa63791" category="paragraph">VMware vSphere 작업을 위한 SnapCenter 플러그인에 적절한 권한을 부여하려면 스토리지 VM에서 "vsadmin"으로 로그인해야 합니다.</block>
-  <block id="c1baf46f8c1f04fa3cc96df859f88fe2" category="list-text">ONTAP 8.3 이상을 실행 중인 경우:</block>
-  <block id="8134cf1fb1cf193c0ab9fa188232e858" category="paragraph">위 표에 나열된 최소 권한을 가진 역할이나 "vsadmin"으로 로그인해야 합니다.</block>
   <block id="ebd912e510a4a32d14d678f9f198f7dd" category="summary">VMware vSphere용 SnapCenter 플러그인을 사용하는 경우 vCenter Server는 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다.</block>
   <block id="dfb30a67a3e8af9a1c9600e036a19621" category="doc">VMware vSphere 사용자를 위한 SnapCenter 플러그인의 RBAC 유형</block>
   <block id="8888109ae4cea3465d831186be6fad8a" category="section-title">vCenter Server RBAC</block>
@@ -1203,13 +1188,6 @@
   <block id="3da6944b1baaec4beb70694ac307fd1f" category="sidebar">동일한 릴리즈의 새 패치로 업그레이드합니다</block>
   <block id="122cb6830661325b4e6605ab0ebf6879" category="admonition">삭제된 VM을 복원할 때 원래 VM에 할당된 태그나 폴더는 복원되지 않습니다.</block>
   <block id="9d53fb85cd7b48e31e4ae938dd8a9d13" category="paragraph">시작 시간 필드에 0이 아닌 날짜와 시간을 입력합니다. 날짜는 '일/월/년' 형식이어야 합니다.</block>
-  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
-  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
-  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
-  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="0834d3a187a3bdb67af7d3afee5ae7b7" category="paragraph">리소스 그룹에는 다음이 포함될 수 있습니다.</block>
   <block id="a1376c0215e5d8cf70e012954979bc39" category="paragraph">단일 FlexGroup 데이터 저장소 Spanning FlexGroup 데이터 저장소는 지원되지 않습니다. FlexGroup 데이터 저장소는 기존 VM 또는 데이터 저장소와 결합할 수 없습니다.</block>
   <block id="d2df0b923abc21af57a4dd120ecd6e47" category="admonition">리소스 그룹에 연결된 각 정책에 대해 '_Recent' 백업이 생성됩니다. 따라서 여러 정책을 가진 리소스 그룹에는 여러 개의 `_recent' 백업이 있습니다. 최근 백업의 이름을 수동으로 바꾸지 마십시오.</block>
@@ -1243,7 +1221,6 @@
   <block id="007b03bd2ae7b16d42b53ba8a2330186" category="list-text">VM을 확장하는 VVOL 데이터 저장소는 지원되지 않습니다. VM의 연결된 VMDK는 VVOL 데이터 저장소에 백업되지 않으므로 복원된 VM에는 부분 VMDK만 포함됩니다.</block>
   <block id="3517efb765e07026ad62bc8e70a5e01a" category="list-text">VVOL을 대체 호스트로 복원할 수 없습니다.</block>
   <block id="c06551216ac3dfe9b7ff1f728845efe6" category="list-text">VVOL 자동 재조정은 지원되지 않습니다.</block>
-  <block id="ec6b0c2e1fb8998a9149b0e870ce2442" category="list-text">사용자 역할을 생성 및 관리하려면 클러스터 관리자여야 합니다. 사용자를 클러스터 스토리지 VM 또는 스토리지 VM에 연결할 수 있습니다.</block>
   <block id="2cb2843b629d315325aac076907ec4b9" category="cell">VMware ESXi Server 포트</block>
   <block id="ad676153bac7535311261fab671b77b9" category="cell">443(HTTPS), 양방향 게스트 파일 복원 기능은 이 포트를 사용합니다.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
@@ -1497,7 +1474,6 @@ audit.log 에만 적용됩니다</block>
   <block id="e4a12f0fbb9826ac14f77b5900667702" category="list-text">Put 4.1/audit/config: 감사 및 syslog 서버 구성을 업데이트합니다</block>
   <block id="5a45aec0c204e47b4e71ecbc5dcadda3" category="cell"><block ref="75371f10a46d4139703f34445143f3ea" prefix="" category="inline-code"></block></block>
   <block id="7caafda1d6b7396b069aa01f2f730175" category="cell">syslog 서버 인증서를 업데이트합니다</block>
-  <block id="b7b46ce5d1a547db89c0bc615ff272a5" category="list-text">ASA</block>
   <block id="5258377f2e9e8d3d391eece64e6c5025" category="paragraph"><block ref="8214327d71770f15589ad8ef083206a6" category="inline-link-macro-rx"></block>.</block>
   <block id="6f30de27462e7513b2536a2c20f5b4f0" category="list-text">Policies * 페이지에서 * Create * 를 선택하여 마법사를 시작합니다.</block>
   <block id="88ae28e59dc3874fd82752642fcf546a" category="inline-image-macro">vCenter UI</block>
@@ -1525,14 +1501,6 @@ audit.log 에만 적용됩니다</block>
   <block id="d3ad548036fae3576533dbeebaee0ad7" category="list-text">스토리지 시스템 페이지에서 * 추가 * 옵션을 선택합니다.</block>
   <block id="e8194860f1d30bbf1da68bba07dd575c" category="cell">인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM 또는 클러스터에 로그온하는 데 사용되는 ONTAP 사용자 이름을 입력합니다.</block>
   <block id="f51ca07a9eb2ecf68d2fab0260ed78c8" category="cell">인증 방법으로 자격 증명을 선택하면 이 필드가 표시됩니다. 스토리지 VM 또는 클러스터 로그인 암호를 입력합니다.</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="0d4068754a5316289f4fe4cb2c9f06ab" category="paragraph">SnapCenter에서 스토리지 VM 이름에 대한 항목을 _etc\hosts_file에 추가한 경우 가상 어플라이언스에서도 확인할 수 있는지 확인해야 합니다. 그렇지 않은 경우 어플라이언스 내의 _etc/hosts_file에 유사한 항목을 추가해야 합니다.</block>
   <block id="5c75867322c5948bda582697a669534b" category="cell">스토리지 시스템에서 허용하는 포트입니다.
 HTTPS 연결의 경우 -443
@@ -1701,8 +1669,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="e90ae72a4d203cde9c1d660d983bec13" category="list-text">SnapMirror 액티브 동기화를 사용하면 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으므로 보조 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.</block>
   <block id="c2bc8f54778a0e6f72a8fa3f9c96aae7" category="admonition">SnapMirror 활성 동기화는 VMFS 데이터 저장소에만 지원됩니다.</block>
   <block id="cae2d1284a0f6ccabe57939c8b8ad176" category="paragraph">SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 SnapCenter 관리자로서 다음을 수행해야 합니다.</block>
-  <block id="e43b6d42c084ea82997a88a9d026236a" category="inline-link">TR-4878: SnapMirror Active Sync(이전의 SMBC)</block>
-  <block id="5cefaf60738eca04f3a2c8ae491cff01" category="list-text">기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다<block ref="dbd8dacf801f7f0689c0fe2812237b08" category="inline-link-rx"></block>.</block>
   <block id="a873006631aa7f356ec5a7fc41e0133d" category="list-text">VMFS 데이터 저장소와 연결된 볼륨을 정합성 보장 그룹에 추가하고 두 ONTAP 스토리지 시스템 간에 _AutomatedFailOver_or_AutomatedFailOverDuplex_protection 정책을 사용하여 데이터 보호 관계를 생성합니다. _AutomatedFailOverDuplex_policy는 ONTAP 9.15.1 릴리스 이후에 지원됩니다.</block>
   <block id="e2d3fabbf465949e2cc7e077aa8dcf1f" category="admonition">SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 _ Before begin_ 섹션에 나와 있는 사전 요구 사항을 완료하고 * Update SnapMirror after backup * 을 설정해야 합니다.</block>
   <block id="c852f476fffd15ea31d953d2cd0be4cd" category="admonition">VM 정합성 보장 백업을 수행하려면 VM에서 실행 중인 VMware 툴이 있어야 합니다. VMware 툴이 실행되고 있지 않으면 충돌 시에도 정합성이 보장되는 백업이 대신 수행됩니다.</block>
@@ -1807,7 +1773,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="fd809cf0fe9ef13998aa1e0323960d5d" category="list-text">VMware vSphere용 Linux 기반 SnapCenter 플러그인에서 백업 작업을 활성화합니다.</block>
   <block id="aee31424ca1b9b281c02d03f7ac377e8" category="list-text">VMware vSphere용 SnapCenter 플러그인용 vSphere 호스트를 SnapCenter에 등록하여 가상화 데이터베이스 및 파일 시스템(VMDK 백업을 통한 애플리케이션)의 애플리케이션 기반 백업을 지원합니다.</block>
   <block id="25d3d5cc2932319d2a5ac63ec6d3af42" category="paragraph">애플리케이션 기반 VMDK 백업에 대한 메타데이터는 SnapCenter 서버 저장소에 저장됩니다. VM 및 데이터 저장소 백업용 메타데이터는 SnapCenter Plug-in for VMware vSphere MySQL 저장소에 저장됩니다.</block>
-  <block id="86c9bcf1bbcb7b1ccccb458aa66555aa" category="cell">All-access 명령: ONTAP 8.3 이상에 필요한 최소 권한.</block>
   <block id="de92ae935b9e0d1f381bebce31b4ae2e" category="cell">클러스터 identity show network interface show vServer 피어 vserver show</block>
   <block id="f492e93d9d3e86fc62690b1632797659" category="list-text">SnapMirror 활성 동기화 기능을 사용하려면 ONTAP 9.12.1 이상 버전이 필요합니다.</block>
   <block id="edf08e5a72e49a6f8e59f09ad7747a6b" category="admonition">ONTAP 버전 9.11.1부터 ONTAP 클러스터에 대한 통신은 REST API를 통해 이루어집니다. ONTAP 사용자는 http 애플리케이션을 사용할 수 있어야 합니다. 그러나 ONTAP REST API에서 문제가 발견될 경우 구성 키 'force_ZAPI'를 사용하여 기존 ZAPI 워크플로우로 전환할 수 있습니다. config API를 사용하여 이 키를 추가하거나 업데이트하고 true로 설정해야 할 수 있습니다. 자세한 내용은 KB 문서를<block ref="1c569ff15e6174002858600fc974b74f" category="inline-link-rx"></block> 참조하십시오.</block>
@@ -1866,7 +1831,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="b59c69b3461a70dfc0aa2e0732ab7524" category="list-text">연결 및 복구 작업은 기본 SCSI 컨트롤러를 사용하여 VMDK에 연결합니다. 그러나 NVMe 디스크가 있는 VM에 연결된 VMDK를 백업할 경우 연결 및 복원 작업은 가능한 경우 NVMe 컨트롤러를 사용합니다.</block>
   <block id="ebdc37577a43d781541f86f380fcfba9" category="list-text">왼쪽 탐색 창에서 VM을 마우스 오른쪽 단추로 클릭하고 드롭다운 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 보조 드롭다운 목록에서 * 복원 * 을 선택합니다.</block>
   <block id="0e75737369597ad96531f41e66789232" category="paragraph">VM을 복구하려면 먼저 VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 백업을 생성해야 합니다.</block>
-  <block id="8afc1242eb1afb36331fc8a76c44f4f3" category="admonition">삭제된 VM을 복구하는 경우 SnapCenter Plug-in for VMware vSphere에 추가된 스토리지 VM 자격 증명은 와 동일한 권한을 가진 사용자 계정이어야<block ref="6173aa5206484b5224450952747c7148" prefix=" " category="inline-code"></block><block ref="6173aa5206484b5224450952747c7148" prefix=" " category="inline-code"></block>합니다. 호스트는 ONTAP 8.2.2 이상을 실행하는 스토리지 시스템에 있어야 합니다.</block>
   <block id="b2c2581a4bff93f5e7e86553f208ea7a" category="list-text">왼쪽 탐색 창에서 VM을 마우스 오른쪽 단추로 클릭하고 드롭다운 목록에서 * SnapCenter Plug-in for VMware vSphere * 를 선택한 다음 보조 드롭다운 목록에서 * Restore * 를 선택하여 마법사를 시작합니다.</block>
   <block id="4429326cdd44b49170875918b6c87c61" category="paragraph">SnapCenter 및 ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다. VMware vSphere용 SnapCenter 플러그인을 사용하여 SnapCenter 애플리케이션 정합성이 보장되는 작업을 지원하는 경우 SnapCenterAdmin 역할을 할당해야 합니다. SnapCenterAdmin 역할의 사용 권한은 변경할 수 없습니다.</block>
   <block id="daddcdb6f4e222f66428fc58f93d51ca" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 사전 정의된 vCenter 역할과 함께 제공됩니다. vCenter Active Directory 사용자에게 이러한 역할을 추가하여 SnapCenter 작업을 수행하려면 vCenter GUI를 사용해야 합니다.</block>
@@ -1967,7 +1931,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="d106abcc28b08528e977427482cfc257" category="paragraph">여러 범주에서 변경할 수 있습니다. 이 옵션에서 보조 보호 리소스를 편집할 수도 있습니다.</block>
   <block id="875b0302744a0f026125fde0002031ee" category="cell">볼륨 클론 생성 볼륨 클론 생성 볼륨 클론 분할 시작 볼륨 클론 분할 중지 볼륨 삭제 볼륨 생성 볼륨 삭제 볼륨 생성 파일 클론 생성 볼륨 생성 디스크 사용량 SnapLock 볼륨 생성 오프라인 볼륨 수정 볼륨 수정 볼륨 수정 볼륨 수정 볼륨 수정 볼륨 스냅샷 생성 볼륨 스냅샷 수정 볼륨 스냅샷 볼륨 스냅샷 수정 스냅샷 볼륨 스냅샷 수정 볼륨 스냅샷 생성 스냅샷 볼륨 만료 시간 스냅샷 복구 스냅샷 볼륨 복구 스냅샷 수정 볼륨 스냅샷 복구 볼륨 스냅샷 복구 스냅샷 수정 볼륨 만료 시점 스냅샷 복구 스냅샷 복구 스냅샷 복구 볼륨 복구 볼륨 복구 스냅샷 수정</block>
   <block id="8f63ee5bc3100343496937f88eb71b0f" category="cell">SVM CIFS 가상 서버 CIFS 공유 생성 SVM CIFS 공유 가상 서버 보기 SVM CIFS 공유 보기 가상 서버 CIFS 공유 보기 가상 서버 CIFS 표시 가상 서버 내보내기 정책 생성 가상 서버 내보내기 정책 생성 가상 서버 내보내기 정책 규칙 생성 가상 서버 내보내기 정책 보기 NVMe 하위 시스템 가상 서버 생성 NVMe 하위 시스템 가상 서버 맵 NVMe 하위 시스템 보기</block>
-  <block id="5e7e64c339a65a35f9dd642d25809870" category="cell">All-access 명령: ONTAP 9 이상에 필요한 최소 권한.</block>
   <block id="4e822e8bd084f0d55645c04096f9f2e8" category="cell">정합성 보장 그룹 스토리지 유닛 표시</block>
   <block id="73bf8d0963d0fce608d5706a43357517" category="admonition">IPv4 주소와 IPv6 주소를 모두 사용하는 경우 네트워크 설정을 모두 제거할 수 없습니다. 나머지 네트워크는 DNS 서버 및 검색 도메인 필드를 지정해야 합니다.</block>
   <block id="82483f0ce94e070521dde3173ea8f007" category="list-text">IPv4 주소를 실행하고 있으며 SnapCenter VMware vSphere 호스트에 대한 IP 주소가 두 개 있습니다. 따라서 작업 요청이 SnapCenter 서버에서 인식하지 못하는 IP 주소로 전송됩니다. 이 문제를 방지하려면 다음과 같이 사용할 IP 주소를 추가합니다.</block>
@@ -1986,7 +1949,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="2fd5adf936b993ca4d80eea4c1f5d1e5" category="summary">VMware vSphere 6.1용 SnapCenter 플러그인에서 사용할 수 있는 새로운 기능에 대해 알아보십시오.</block>
   <block id="6ac456c08060bbfaa97a7dd6e787b943" category="doc">VMware vSphere 6.1용 SnapCenter 플러그인의 새로운 기능</block>
   <block id="21d5f6e174bd644ffb485588eaf88aa1" category="paragraph">* ASA R2 시스템에서 VM 및 VMFS 데이터 저장소 지원 *</block>
-  <block id="4ff1c74f59c8af7628ad4bba73e7a214" category="paragraph">VMware vSphere 6.1용 SnapCenter 플러그인은 이제 ASA R2 시스템에서 VM(가상 머신) 및 VMFS 데이터 저장소의 프로비저닝을 지원합니다. ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. VMware vSphere 6.1용 SnapCenter 플러그인 ASA R2 시스템의 VM, 데이터 저장소 및 VMDK(Virtual Machine Disk Format)에서 지원되는 기능은 다음과 같습니다.</block>
   <block id="58750fe248e0ff18b9fc2f1aef5f3790" category="list-text">기본 보호를 위한 정합성 보장 그룹 프로비저닝</block>
   <block id="9a1901c6fb175880508a4835b0898446" category="list-text">워크플로 복제</block>
   <block id="d4fc87c71eab8d183e02273ad78a7c04" category="list-text">워크플로 복원</block>
@@ -2039,8 +2001,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="b2ca7b7f9ce9a9907bcc75c5514315e5" category="paragraph">보조 스토리지의 스냅샷은 VMware vSphere용 SnapCenter 플러그인이 아닌 ONTAP 보존 설정에 의해 관리됩니다. 따라서 VMware vSphere용 SnapCenter 플러그인을 사용하여 백업을 삭제하면 운영 스토리지의 스냅샷은 삭제되지만 보조 스토리지의 스냅샷은 삭제되지 않습니다. 스냅샷이 보조 스토리지에 여전히 존재하는 경우 VMware vSphere용 SnapCenter 플러그인은 복구 요청을 지원하기 위해 백업과 관련된 메타데이터를 유지합니다. ONTAP 보존 프로세스가 보조 스냅샷을 삭제하면 VMware vSphere용 SnapCenter 플러그인은 정기적으로 실행되는 제거 작업을 사용하여 메타데이터를 삭제합니다.</block>
   <block id="73de513c4d9b5d1aede9f09e6412115d" category="paragraph">SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 정책을 수정할 수 있습니다. 정책이 리소스 그룹에 연결되어 있는 동안 빈도, 복제 옵션, 스냅샷 보존 설정 또는 스크립트 정보를 수정할 수 있습니다.</block>
   <block id="ae969b2c3623f7b712e8dc90ea64bc7e" category="paragraph">모든 리소스 그룹 삭제 작업은 강제 삭제로 수행됩니다. 삭제 작업을 수행하면 vCenter 리소스 그룹에서 모든 정책이 분리되고, VMware vSphere용 SnapCenter 플러그인에서 리소스 그룹이 제거되며, 리소스 그룹의 모든 백업과 스냅샷이 삭제됩니다.</block>
-  <block id="9211a296b4cd2f3f54ffbe3156475a01" category="admonition">SnapVault 관계에서는 마지막 스냅샷을 삭제할 수 없으므로 리소스 그룹을 삭제할 수 없습니다. SnapVault 관계에 포함된 리소스 그룹을 삭제하기 전에 OnCommand System Manager 또는 ONTAP CLI를 사용하여 SnapVault 관계를 제거한 다음 마지막 스냅샷을 삭제해야 합니다.</block>
-  <block id="ce2c264a7f2ac0d42d9d859e550d04e7" category="paragraph">SnapVault 스케줄로 보호되고 ONTAP 8.3을 실행 중인 SnapVault 대상 볼륨에서 연결 또는 마운트 작업을 수행하는 경우 연결 또는 마운트 대화 상자 화면에 추가 스냅샷이 표시될 수 있습니다. 이 문제는 연결 또는 마운트 작업에서 SnapVault 대상 볼륨을 클론하고 ONTAP에서 새 스냅샷을 생성하여 볼륨을 업데이트하기 때문에 발생합니다.</block>
   <block id="84ade123b589aaaa8cb58a5dc5af2c14" category="paragraph">볼륨을 클론 복제할 때 새 스냅샷이 생성되지 않도록 하려면 SnapVault 볼륨에 대한 ONTAP 스케줄을 해제합니다. 이전의 기존 스냅샷은 삭제되지 않습니다.</block>
   <block id="7aa7ae49984d77593e48b6fd70844775" category="paragraph">VM 및 데이터 저장소를 보호하려면 VMware vSphere Client 인터페이스를 사용합니다. 웹 클라이언트 GUI는 스토리지 시스템의 NetApp 스냅샷 기술과 통합됩니다. 이를 통해 몇 초 내에 VM 및 데이터 저장소를 백업하고 ESXi 호스트를 오프라인으로 전환하지 않고도 VM을 복구할 수 있습니다.</block>
   <block id="b68c25841ace1ebf87dee9af54aa2e69" category="paragraph">SnapCenter는 데이터베이스와 VM의 단일 스냅샷을 함께 지원하지 않습니다. VM 및 데이터베이스 백업을 개별적으로 예약 및 실행해야 하며, 이렇게 하면 데이터베이스와 VM이 동일한 볼륨에 호스팅되는 경우에도 별도의 스냅샷이 생성됩니다. SnapCenter GUI를 사용하여 애플리케이션 기반 백업을 예약해야 하며, VMware vSphere 클라이언트 GUI를 사용하여 VM 정합성 보장 백업을 예약해야 합니다.</block>
@@ -2104,7 +2064,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="7cc71960cea46e213c1949b750d31109" category="list-text">요약을 검토한 후 * Finish * 를 선택합니다. SCV 6.1부터 ASA R2 시스템의 보조 보호 리소스가 요약 페이지에 표시됩니다.</block>
   <block id="7937cf5781449e9d5aa3c9810ffc00f8" category="paragraph">Finish * 를 선택하기 전에 마법사의 아무 페이지로 돌아가 정보를 변경할 수 있습니다.</block>
   <block id="4cafeb5e41329bb061975eb29cec476a" category="paragraph">마침 * 을 선택하면 새 리소스 그룹이 리소스 그룹 목록에 추가됩니다.</block>
-  <block id="3bb7a556e32d2c1180cba7a8fcc1d50a" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 모든 ONTAP 버전에 대해 호환성 검사를 수행하지 않으며, ONTAP 8.2.1 이전 버전에만 해당됩니다. 따라서 항상<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block> SnapCenter 지원에 대한 최신 정보를 참조하십시오.</block>
   <block id="1a4e3fc91214e69b300aa63fcb1a886f" category="list-text">VVOL 데이터 저장소에서 VM을 보호하려면 먼저 VMware vSphere용 ONTAP 툴을 구축해야 합니다. 지원되는 ONTAP 도구 버전에 대한 최신 정보는 을 참조하십시오<block ref="3a209fb27f7f233fd0ce1196af83183f" category="inline-link-rx"></block>. ONTAP 툴은 ONTAP 및 VMware 웹 클라이언트에서 스토리지를 프로비저닝하고 구성합니다.</block>
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
   <block id="c692636646dadf4eb31c9fbae7cc8df4" category="list-text">Select a name and folder * 페이지에서 VM 또는 vApp의 고유한 이름을 입력하고 구축 위치를 선택한 후 * Next * 를 선택합니다.</block>
@@ -2225,4 +2184,16 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="2ce4687225c7becae3c948e55ccdcc4d" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 선택하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷을 포함하는 백업을 사용할지 여부, 마운트된 백업을 원하는지 또는 보조 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
   <block id="f427270dda7af9bd5bacffe7bda1edcf" category="list-text">선택 사항: 화면 하단의 * Recent Tasks * 를 선택하여 작업 진행 상황을 모니터링합니다.</block>
   <block id="6210995c19095fd21a24c3cd89967878" category="paragraph">특정 백업 이름 또는 일부 백업 이름을 검색하거나 필터 아이콘을 선택하고 날짜 및 시간 범위를 선택하고, VMware 스냅샷이 포함된 백업을 포함할지 여부, 마운트된 백업을 사용할지 여부 및 위치를 선택하여 백업 목록을 필터링할 수 있습니다. 확인 * 을 선택하여 마법사로 돌아갑니다.</block>
+  <block id="cf26c37864b6057757bc11f14c25d631" category="inline-link">활성 동기화에 대해 ONTAP 중재자 및 클러스터를 구성합니다</block>
+  <block id="7bf83651187bd5c60252c236bb21bf9c" category="list-text">기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다<block ref="dee2443effe2653b7b7862728c1a701c" category="inline-link-rx"></block>.</block>
+  <block id="0b9c25bd5b5eaced6be5a08c296638a2" category="admonition">최대 보존 값은 1018개의 백업입니다. 보존이 기본 ONTAP 버전에서 지원하는 값보다 높은 값으로 설정된 경우 백업이 실패합니다. 데이터 저장소 스패닝 시에도 마찬가지입니다.</block>
+  <block id="1f7a12a98590c88658034c05ec2de1fb" category="paragraph">SnapCenter 리소스 그룹을 만들려고 할 때 호환성 검사를 수행합니다. SnapCenter 지원에 대한 최신 정보는 항상 을<block ref="361fee5724018df312396e88d348d8b5" category="inline-link-rx"></block> 참조하십시오. 비호환성 이유는 다음과 같습니다.</block>
+  <block id="cb7cb42890ccd7035c776387ce9c759c" category="list-text">온프레미스 ONTAP 클러스터(FAS, AFF, ASA 시스템)</block>
+  <block id="3983966d99470bda01fa784730d7b27b" category="admonition">SnapVault 관계에서는 마지막 스냅샷을 삭제할 수 없으므로 리소스 그룹을 삭제할 수 없습니다. SnapVault 관계에 포함된 리소스 그룹을 삭제하기 전에 System Manager를 사용하거나 ONTAP CLI를 사용하여 SnapVault 관계를 제거해야 하며 마지막 스냅샷을 삭제해야 합니다.</block>
+  <block id="d1a5389ce9c0d52e7ee4639d806d7008" category="cell">All-access 명령: 최소 ONTAP Privileges.</block>
+  <block id="54eadeca2b2bd492eb03529cf49b5ade" category="cell">읽기 전용 명령: 최소 ONTAP Privileges</block>
+  <block id="9b11ed140003f7b638aa731cd4c1b580" category="cell">All-access 명령: 최소 ONTAP Privileges</block>
+  <block id="4058334ba125181f863f2828e9159ff3" category="admonition">삭제된 VM을 복구하는 경우 SnapCenter Plug-in for VMware vSphere에 추가된 스토리지 VM 자격 증명은 와 동일한 권한을 가진 사용자 계정이어야<block ref="6173aa5206484b5224450952747c7148" prefix=" " category="inline-code"></block><block ref="6173aa5206484b5224450952747c7148" prefix=" " category="inline-code"></block>합니다.</block>
+  <block id="f1ff6215662f12b3f0d4d8fe8c57e63e" category="summary">VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위한 추가 RBAC 수준을 제공합니다. 플러그인은 vCenter Server RBAC와 ONTAP RBAC를 모두 지원합니다.</block>
+  <block id="ea4dc37a86a15ab44286e88df44656ea" category="paragraph">VMware vSphere 6.1용 SnapCenter 플러그인은 ASA R2 시스템에서 VM(가상 머신) 및 VMFS 데이터 저장소의 프로비저닝을 지원합니다. ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. VMware vSphere 6.1용 SnapCenter 플러그인 ASA R2 시스템의 VM, 데이터 저장소 및 VMDK(Virtual Machine Disk Format)에서 지원되는 기능은 다음과 같습니다.</block>
 </blocks>

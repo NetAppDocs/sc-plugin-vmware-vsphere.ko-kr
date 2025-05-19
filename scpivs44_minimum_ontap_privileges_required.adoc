@@ -28,7 +28,7 @@ NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지�
 |===
 
 
-| All-access 명령: ONTAP 8.3 이상에 필요한 최소 권한. 
+| All-access 명령: 최소 ONTAP Privileges. 
 
 
 | event generate-autosupport-log입니다 
@@ -54,13 +54,13 @@ NOTE: SCV(SnapCenter Plug-in for VMware) 5.0부터 SCV에 대한 사용자 지�
 | SVM CIFS 가상 서버 CIFS 공유 생성 SVM CIFS 공유 가상 서버 보기 SVM CIFS 공유 보기 가상 서버 CIFS 공유 보기 가상 서버 CIFS 표시 가상 서버 내보내기 정책 생성 가상 서버 내보내기 정책 생성 가상 서버 내보내기 정책 규칙 생성 가상 서버 내보내기 정책 보기 NVMe 하위 시스템 가상 서버 생성 NVMe 하위 시스템 가상 서버 맵 NVMe 하위 시스템 보기 
 |===
 |===
-| 읽기 전용 명령: ONTAP 8.3 이상에 필요한 최소 권한 
+| 읽기 전용 명령: 최소 ONTAP Privileges 
 
 
 | 클러스터 identity show network interface show vServer 피어 vserver show 
 |===
 |===
-| All-access 명령: ONTAP 9 이상에 필요한 최소 권한. 
+| All-access 명령: 최소 ONTAP Privileges 
 
 
 | 정합성 보장 그룹 스토리지 유닛 표시 
@@ -74,15 +74,6 @@ NOTE: 지원되지 않는 vServer 명령에 대한 경고 메시지는 무시해
 
 == 추가 ONTAP 정보
 
-* ONTAP 8.2.x를 실행 중인 경우:
-+
-VMware vSphere 작업을 위한 SnapCenter 플러그인에 적절한 권한을 부여하려면 스토리지 VM에서 "vsadmin"으로 로그인해야 합니다.
-
-* ONTAP 8.3 이상을 실행 중인 경우:
-+
-위 표에 나열된 최소 권한을 가진 역할이나 "vsadmin"으로 로그인해야 합니다.
-
-* 사용자 역할을 생성 및 관리하려면 클러스터 관리자여야 합니다. 사용자를 클러스터 스토리지 VM 또는 스토리지 VM에 연결할 수 있습니다.
 * SnapMirror 활성 동기화 기능을 사용하려면 ONTAP 9.12.1 이상 버전이 필요합니다.
 * TPS(변조 방지 스냅샷) 기능을 사용하려면:
 +

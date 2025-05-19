@@ -11,7 +11,7 @@ summary: VMware vSphere 6.1용 SnapCenter 플러그인에서 사용할 수 있�
 [role="lead"]
 * ASA R2 시스템에서 VM 및 VMFS 데이터 저장소 지원 *
 
-VMware vSphere 6.1용 SnapCenter 플러그인은 이제 ASA R2 시스템에서 VM(가상 머신) 및 VMFS 데이터 저장소의 프로비저닝을 지원합니다. ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. VMware vSphere 6.1용 SnapCenter 플러그인 ASA R2 시스템의 VM, 데이터 저장소 및 VMDK(Virtual Machine Disk Format)에서 지원되는 기능은 다음과 같습니다.
+VMware vSphere 6.1용 SnapCenter 플러그인은 ASA R2 시스템에서 VM(가상 머신) 및 VMFS 데이터 저장소의 프로비저닝을 지원합니다. ASA R2 시스템은 통합 하드웨어 및 소프트웨어 솔루션을 제공하여 SAN 전용 고객의 요구 사항에 맞는 간소화된 환경을 제공합니다. VMware vSphere 6.1용 SnapCenter 플러그인 ASA R2 시스템의 VM, 데이터 저장소 및 VMDK(Virtual Machine Disk Format)에서 지원되는 기능은 다음과 같습니다.
 
 * 기본 보호를 위한 정합성 보장 그룹 프로비저닝
 * 정합성 보장 그룹 기반 백업

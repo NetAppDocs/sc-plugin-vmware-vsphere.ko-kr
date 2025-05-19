@@ -41,7 +41,7 @@ NOTE: SnapMirror 활성 동기화는 VMFS 데이터 저장소에만 지원됩니
 SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 SnapCenter 관리자로서 다음을 수행해야 합니다.
 
 +
-** 기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다 https://www.netapp.com/pdf.html?item=/media/21888-tr-4878.pdf["TR-4878: SnapMirror Active Sync(이전의 SMBC)"].
+** 기술 보고서에 설명된 대로 클러스터 및 중재자를 구성합니다 https://docs.netapp.com/us-en/ontap/snapmirror-active-sync/mediator-install-task.html["활성 동기화에 대해 ONTAP 중재자 및 클러스터를 구성합니다"].
 ** VMFS 데이터 저장소와 연결된 볼륨을 정합성 보장 그룹에 추가하고 두 ONTAP 스토리지 시스템 간에 _AutomatedFailOver_or_AutomatedFailOverDuplex_protection 정책을 사용하여 데이터 보호 관계를 생성합니다. _AutomatedFailOverDuplex_policy는 ONTAP 9.15.1 릴리스 이후에 지원됩니다.
 
 
@@ -87,7 +87,9 @@ IMPORTANT: SnapVault 복제를 사용하도록 설정하려는 경우 보존 수
 
 +
 
-NOTE: 최대 보존 값은 ONTAP 9.4 이상의 리소스에 대한 1018 백업과 ONTAP 9.3 이전 버전의 리소스에 대한 254 백업입니다. 보존이 기본 ONTAP 버전에서 지원하는 값보다 높은 값으로 설정된 경우 백업이 실패합니다. 데이터 저장소 스패닝 시에도 마찬가지입니다. 스패닝 데이터 저장소에 ONTAP 9.3 이전 및 ONTAP 9.4 이상 버전의 리소스가 포함되어 있는 경우 보존 값을 254 미만으로 설정해야 합니다.
+NOTE: 최대 보존 값은 1018개의 백업입니다. 보존이 기본 ONTAP 버전에서 지원하는 값보다 높은 값으로 설정된 경우 백업이 실패합니다. 데이터 저장소 스패닝 시에도 마찬가지입니다.
+
+
 
 . 다음 표와 같이 * Replication * 필드에서 보조 스토리지에 대한 복제 유형을 지정합니다.
 +

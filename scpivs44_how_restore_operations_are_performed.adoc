@@ -35,7 +35,7 @@ VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Storage VMoti
 | VM 및 VMDK의 파일 | VM 정합성이 보장되는 기본 백업 | NFS 환경:ONTAP 단일 파일 SnapRestore VMFS 환경:Storage VMotion을 사용하여 클론 및 마운트 
 
 
-| VM 및 VMDK의 파일 | VM 정합성이 보장되는 보조 백업입니다 | NFS 환경: Storage VMotion VMFS 환경에서 복제 및 마운트: Storage VMotion을 사용하여 클론 및 마운트 
+| VM 및 VMDK의 파일 | VM 정합성이 보장되는 보조 백업입니다 | NFS 환경: ONTAP SnapMirror Restore VMFS 환경: Storage VMotion을 사용하여 복제 및 마운트 
 
 
 | VVOL VM | 충돌 시에도 정합성 보장 기본 백업 | 모든 프로토콜에 대한 ONTAP 단일 파일 SnapRestore 

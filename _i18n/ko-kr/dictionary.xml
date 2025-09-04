@@ -1662,7 +1662,6 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="14287ce8c2228d3505c31799833a864f" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 선택한 자격 증명을 사용하여 선택한 VM에 로그온합니다.</block>
   <block id="110328d238985c18e0a7947b09b1ff0f" category="summary">VMware vSphere용 SnapCenter 플러그인은 클라이언트 브라우저와의 안전한 통신을 위해 SSL 암호화를 사용합니다. 이렇게 하면 전체 전송 중에 암호화된 데이터가 활성화되거나, 새 자체 서명된 인증서를 만들거나, 고유한 CA(인증 기관) 인프라 또는 타사 CA를 사용하여 인증서를 만들 수 있지만, 이 경우 사용자 환경에 맞는 고유한 인증서가 보장됩니다.</block>
   <block id="6886be2ac69a368a307204ccfa1e00d9" category="paragraph">자세한 내용은 을<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block> 참조하십시오.</block>
-  <block id="6371946f7a59bb407f5608582531db43" category="paragraph">관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 을<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="e90ae72a4d203cde9c1d660d983bec13" category="list-text">SnapMirror 액티브 동기화를 사용하면 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으므로 보조 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.</block>
   <block id="c2bc8f54778a0e6f72a8fa3f9c96aae7" category="admonition">SnapMirror 활성 동기화는 VMFS 데이터 저장소에만 지원됩니다.</block>
   <block id="cae2d1284a0f6ccabe57939c8b8ad176" category="paragraph">SnapMirror 액티브 동기화 배포에서 VMFS 데이터 저장소를 보호하려면 SnapCenter 관리자로서 다음을 수행해야 합니다.</block>
@@ -2212,4 +2211,5 @@ vCenter 암호를 변경할 때 VMware vSphere용 ONTAP 툴의 등록을 취소�
   <block id="88464b0f22e28142bc76c51bba424a64" category="cell">NFS 환경: ONTAP SnapMirror Restore VMFS 환경: Storage VMotion을 사용하여 복제 및 마운트</block>
   <block id="12b816ebabce7bea08d953072a6f5d5b" category="paragraph">VM, 데이터 저장소, 정책, 백업 또는 리소스 그룹 이름에 &amp; * $#@! /: *? " &lt; &gt; - | ; ' , 그리고 공백. 밑줄 문자(_)를 사용할 수 있습니다.</block>
   <block id="8651a2d0c6ade87f04ae0bca90386289" category="paragraph">%&amp; * $#@! /: *? " &lt; &gt; - | ; ' , 그리고 공백. 밑줄 문자(_)를 사용할 수 있습니다.</block>
+  <block id="32ac8d4494e62d5a13c33b3927b542bb" category="paragraph">관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 다음을 참조하세요.<block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block> .</block>
 </blocks>

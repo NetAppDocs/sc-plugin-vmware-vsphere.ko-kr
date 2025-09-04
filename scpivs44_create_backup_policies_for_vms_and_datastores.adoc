@@ -27,7 +27,7 @@ VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저�
 이 문제를 해결하려면 최대 스냅샷 제한에 도달하지 않도록 보조 스토리지에 대한 SnapMirror 보존 정책을 구성하십시오.
 
 +
-관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/snapcenter/concept/concept_types_of_role_based_access_control_in_snapcenter.html["역할 기반 액세스 제어 사용에 대한 SnapCenter 정보"^]참조하십시오.
+관리자가 사용자에게 리소스를 할당하는 방법에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/snapcenter/get-started/rbac-snapcenter.html["역할 기반 액세스 제어 사용에 대한 SnapCenter 정보"^] .
 
 
 

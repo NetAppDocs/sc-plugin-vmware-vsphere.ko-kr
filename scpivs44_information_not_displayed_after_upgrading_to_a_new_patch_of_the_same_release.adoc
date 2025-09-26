@@ -40,7 +40,7 @@ VMware vSphere용 SnapCenter 플러그인을 동일한 릴리즈의 새 패치�
 
 == 해결 방법 캐시를 지우기 전에 이미 업그레이드한 경우
 
-. VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그인합니다.
+. SnapCenter Plug-in for VMware vSphere 에 로그인합니다.
 +
 IP 주소는 VMware vSphere용 SnapCenter 플러그인을 구축할 때 표시됩니다.
 

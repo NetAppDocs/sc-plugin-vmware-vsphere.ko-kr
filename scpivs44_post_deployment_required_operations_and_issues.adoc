@@ -43,7 +43,7 @@ VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완�
 
 이러한 문제를 해결하려면 다음을 수행하십시오.
 
-. 브라우저 캐시를 지운 다음 GUI가 제대로 작동하는지 확인합니다.
+. 브라우저 캐시를 지운 다음 사용자 인터페이스가 제대로 작동하는지 확인하세요.
 +
 문제가 지속되면 VMware vSphere Client 서비스를 다시 시작합니다
 
@@ -57,7 +57,7 @@ VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완�
 admin 자격 증명을 사용하지 않으면 VMware vSphere용 SnapCenter 플러그인을 배포하거나 마이그레이션 후에 인증 오류가 발생할 수 있습니다. 인증 오류가 발생하면 서비스를 다시 시작해야 합니다.
 
 .단계
-. 형식을 사용하여 VMware vSphere 관리 GUI용 SnapCenter 플러그인 에 `\https://<appliance-IP-address>:8080`로그인합니다. admin 사용자 이름, 암호 및 MFA 토큰 세부 정보를 사용하여 로그인합니다. MFA 토큰은 유지보수 콘솔에서 생성할 수 있습니다.
+. 다음 형식을 사용하여 SnapCenter Plug-in for VMware vSphere 에 로그온합니다. `\https://<appliance-IP-address>:8080` .  관리자 사용자 이름, 비밀번호 및 MFA 토큰 세부 정보를 사용하여 로그인하세요.  MFA 토큰은 유지 관리 콘솔에서 생성할 수 있습니다.
 . 서비스를 다시 시작합니다.
 
 
@@ -73,7 +73,7 @@ SnapCenter(가상화된 데이터베이스 및 파일 시스템에 대한 애플
 
 
 .이 작업에 대해
-* SnapCenter GUI를 사용하여 "vSphere" 유형 호스트를 추가하여 SnapCenter 서버에 VMware vSphere용 SnapCenter 플러그인을 등록합니다.
+* SnapCenter 사용자 인터페이스를 사용하여 "vsphere" 유형 호스트를 추가하여 SnapCenter Server에 SnapCenter Plug-in for VMware vSphere 등록합니다.
 +
 포트 8144는 VMware vSphere용 SnapCenter 플러그인 내의 통신에 대해 미리 정의되어 있습니다.
 
@@ -84,7 +84,7 @@ SnapCenter(가상화된 데이터베이스 및 파일 시스템에 대한 애플
 
 
 .단계
-. SnapCenter GUI 왼쪽 탐색 창에서 * 호스트 * 를 선택합니다.
+. SnapCenter 사용자 인터페이스 왼쪽 탐색 창에서 *호스트*를 선택합니다.
 . 맨 위에 * Managed Hosts * 탭이 선택되어 있는지 확인한 다음 가상 어플라이언스 호스트 이름을 찾아 SnapCenter 서버에서 확인합니다.
 . 마법사를 시작하려면 * 추가 * 를 선택하십시오.
 . 다음 표에 나열된 대로 * 호스트 추가 * 대화 상자에서 SnapCenter 서버에 추가할 호스트를 지정합니다.

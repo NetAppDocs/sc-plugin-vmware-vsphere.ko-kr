@@ -18,6 +18,6 @@ VMware vSphere용 SnapCenter 플러그인은 가상화 리소스 관리를 위�
 
 SnapCenter 및 ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다. VMware vSphere용 SnapCenter 플러그인을 사용하여 SnapCenter 애플리케이션 정합성이 보장되는 작업을 지원하는 경우 SnapCenterAdmin 역할을 할당해야 합니다. SnapCenterAdmin 역할의 사용 권한은 변경할 수 없습니다.
 
-VMware vSphere용 SnapCenter 플러그인은 사전 정의된 vCenter 역할과 함께 제공됩니다. vCenter Active Directory 사용자에게 이러한 역할을 추가하여 SnapCenter 작업을 수행하려면 vCenter GUI를 사용해야 합니다.
+SnapCenter Plug-in for VMware vSphere 미리 정의된 vCenter 역할이 함께 제공됩니다.  SnapCenter 작업을 수행하려면 vCenter Active Directory 사용자에게 이러한 역할을 추가하려면 vCenter 사용자 인터페이스를 사용해야 합니다.
 
 언제든지 역할을 생성 및 수정하고 사용자에게 리소스 액세스를 추가할 수 있습니다. 그러나 VMware vSphere용 SnapCenter 플러그인을 처음 설정할 때는 최소한 Active Directory 사용자 또는 그룹을 역할에 추가한 다음 해당 사용자 또는 그룹에 대한 리소스 액세스를 추가해야 합니다.

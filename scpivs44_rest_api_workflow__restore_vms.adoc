@@ -14,7 +14,7 @@ summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM �
 
 
 [role="lead"]
-VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 백업에 대한 복구 작업을 수행하려면 규정된 REST API 호출 순서를 따라야 합니다.
+SnapCenter Plug-in for VMware vSphere 사용하여 VM 백업을 복원하려면 아래에 설명된 대로 필요한 REST API 호출 순서를 따르세요.
 
 각 REST API에 를 추가합니다 `\https://<server>:<port>` REST API의 전면에서 전체 끝점을 형성합니다.
 

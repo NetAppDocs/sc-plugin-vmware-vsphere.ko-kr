@@ -19,7 +19,7 @@ REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이�
 이 플러그인에는 SnapCenter 서버 Swagger 웹 페이지의 Swagger 웹 페이지가 다릅니다.
 
 .시작하기 전에
-VMware vSphere REST API용 SnapCenter 플러그인의 경우 VMware vSphere용 SnapCenter 플러그인의 IP 주소 또는 호스트 이름을 알고 있어야 합니다.
+SnapCenter Plug-in for VMware vSphere 액세스하려면 SnapCenter Plug-in for VMware vSphere 의 IP 주소 또는 호스트 이름이 있는지 확인하세요.
 
 
 NOTE: 플러그인은 타사 애플리케이션과의 통합을 위해 REST API만 지원하며 PowerShell cmdlets 또는 CLI는 지원하지 않습니다.

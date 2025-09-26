@@ -46,7 +46,7 @@ summary: 백업에서 상위 VM 또는 동일한 ESXi 호스트의 대체 VM에 
 
 
 .단계
-. VMware vSphere Client GUI의 도구 모음에서 * 메뉴 * 를 선택한 다음 드롭다운 목록에서 * 호스트 및 클러스터 * 를 선택합니다.
+. VMware vSphere 클라이언트 사용자 인터페이스에서 도구 모음의 *메뉴*를 선택한 다음 드롭다운 목록에서 *호스트 및 클러스터*를 선택합니다.
 . 왼쪽 탐색 창에서 VM을 마우스 오른쪽 버튼으로 클릭하고 * SnapCenter Plug-in for VMware vSphere * > * Attach virtual disk * 를 선택합니다.
 . 가상 디스크 연결 * 창의 * 백업 * 섹션에서 백업을 선택합니다.
 +

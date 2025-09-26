@@ -85,4 +85,4 @@ NOTE: 지원되지 않는 vServer 명령에 대한 경고 메시지는 무시해
 
 
 
-NOTE: ONTAP 버전 9.11.1부터 ONTAP 클러스터에 대한 통신은 REST API를 통해 이루어집니다. ONTAP 사용자는 http 애플리케이션을 사용할 수 있어야 합니다. 그러나 ONTAP REST API에서 문제가 발견될 경우 구성 키 'force_ZAPI'를 사용하여 기존 ZAPI 워크플로우로 전환할 수 있습니다. config API를 사용하여 이 키를 추가하거나 업데이트하고 true로 설정해야 할 수 있습니다. 자세한 내용은 KB 문서를 https://kb.netapp.com/mgmt/SnapCenter/How_to_use_RestAPI_to_edit_configuration_parameters_in_SCV["RestAPI를 사용하여 SCV에서 구성 매개 변수를 편집하는 방법"] 참조하십시오.
+NOTE: ONTAP 버전 9.11.1부터 ONTAP 클러스터와의 통신은 REST API를 통해 이루어집니다.  ONTAP 사용자는 http 애플리케이션을 활성화해야 합니다.  하지만 ONTAP REST API에 문제가 발견되면 구성 키 'FORCE_ZAPI'가 기존 ZAPI 워크플로로 전환하는 데 도움이 됩니다.  구성 API를 사용하여 이 키를 추가하거나 업데이트하고 true로 설정해야 할 수도 있습니다.  KB 문서를 참조하세요. https://kb.netapp.com/mgmt/SnapCenter/How_to_use_RestAPI_to_edit_configuration_parameters_in_SCV["RestAPI를 사용하여 SCV에서 구성 매개 변수를 편집하는 방법"] 자세한 내용은.

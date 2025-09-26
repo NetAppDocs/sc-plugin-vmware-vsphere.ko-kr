@@ -16,7 +16,7 @@ summary: 스토리지를 추가하면 VMware vSphere용 SnapCenter 플러그인�
 [role="lead"]
 VM을 백업 또는 복원하려면 먼저 스토리지 클러스터 또는 스토리지 VM을 추가해야 합니다. 스토리지를 추가하면 VMware vSphere용 SnapCenter 플러그인이 vCenter에서 백업 및 복구 작업을 인식하고 관리할 수 있습니다.
 
-* 사용할 GUI
+* 어떤 사용자 인터페이스를 사용해야 하나요?
 +
 VMware vSphere Client를 사용하여 스토리지를 추가합니다.
 
@@ -40,7 +40,7 @@ ESXi 서버, VMware vSphere용 SnapCenter 플러그인 및 각 vCenter를 동시
 VMware vSphere용 SnapCenter 플러그인은 직접 연결된 스토리지 VM과 스토리지 클러스터의 스토리지 VM에서 백업 및 복원 작업을 수행합니다.
 
 
-NOTE: VMware vSphere용 SnapCenter 플러그인을 사용하여 VMDK에서 애플리케이션 기반 백업을 지원하는 경우 SnapCenter GUI를 사용하여 스토리지 인증 세부 정보를 입력하고 스토리지 시스템을 등록해야 합니다.
+NOTE: VMDK에서 애플리케이션 기반 백업을 지원하기 위해 SnapCenter Plug-in for VMware vSphere 사용하는 경우 SnapCenter 사용자 인터페이스를 사용하여 스토리지 인증 세부 정보를 입력하고 스토리지 시스템을 등록해야 합니다.
 
 * 연결된 모드의 vCenter의 경우 각 vCenter에 스토리지 시스템을 별도로 추가해야 합니다.
 * SVM을 추가할 경우 스토리지 VM의 이름이 관리 LIF로 해석되어야 합니다.

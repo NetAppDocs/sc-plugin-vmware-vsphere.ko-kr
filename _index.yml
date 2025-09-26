@@ -6,15 +6,15 @@ indexpage:
     Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인을 위한 VMware 환경에서 애플리케이션 기반 백업 및 복구 작업을
     지원합니다.
   keywords: SnapCenter Plug-in for VMware vSphere, SCV
-  lead: VMware vSphere(SCV)용 SnapCenter 플러그인은 Linux 기반 가상 어플라이언스입니다. 독립 실행형으로서 VM,
-    데이터 저장소 및 VMDK에 대해 빠르고 공간 효율적이며 장애 발생 시 정합성이 보장되는 백업 및 복원 작업을 제공합니다. 또한 SnapCenter
-    Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인을 위한 VMware 환경에서 애플리케이션 기반 백업 및 복구 작업을
-    지원합니다. 이 설명서 라이브러리에서는 VMware vSphere용 SnapCenter 6.1에 대해 설명합니다.
+  lead: SnapCenter Plug-in for VMware vSphere Linux 기반 가상 어플라이언스입니다.  독립형으로 사용할 경우
+    VM, 데이터 저장소, VMDK에 대해 빠르고 공간 효율적이며 충돌 일관성이 뛰어나고 VM 일관성이 있는 백업 및 복원 작업을 제공합니다.  또한
+    SnapCenter Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인에 대한 VMware 환경에서 애플리케이션 기반 백업
+    및 복원 작업을 지원합니다.  이 문서 라이브러리에서는 SnapCenter Plug-in for VMware vSphere 설명합니다.
   tiles:
   - title: 시작하십시오
     links:
     - title: 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP3337464
+      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP3359464
     - title: SCV에 대해 알아보십시오
       url: "/scpivs44_concepts_overview.html"
     - title: 구현할 수 있습니다

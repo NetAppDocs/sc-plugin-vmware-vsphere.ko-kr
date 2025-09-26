@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: scpivs44_modify_the_time_zones.html 
 keywords:  
-summary: SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 백업 일정을 구성하면 VMware vSphere용 SnapCenter 플러그인이 구축되는 표준 시간대에 대한 일정이 자동으로 설정됩니다. VMware vSphere 관리 GUI 또는 유지 관리 콘솔용 SnapCenter 플러그인을 사용하여 해당 시간대를 수정할 수 있습니다. 
+summary: SnapCenter Plug-in for VMware vSphere 대한 백업 일정을 구성하는 경우, 해당 일정은 SnapCenter Plug-in for VMware vSphere 배포된 표준 시간대에 맞게 자동으로 설정됩니다.  SnapCenter Plug-in for VMware vSphere 사용하여 해당 시간대를 수정할 수 있습니다. 
 ---
 = 백업에 대한 시간대를 수정합니다
 :hardbreaks:
@@ -16,11 +16,11 @@ summary: SnapCenter Plug-in for VMware vSphere 리소스 그룹에 대한 백업
 :authorinitials: [
 :authors: [.lead]
 :revnumber: 
-:revdate: the schedule is automatically set for the time zone in which SnapCenter Plug-in for VMware vSphere is deployed. You can modify that time zone by using the SnapCenter Plug-in for VMware vSphere management GUI or maintenance console.
+:revdate: the schedule is automatically set for the time zone in which SnapCenter Plug-in for VMware vSphere is deployed. You can modify that time zone by using the SnapCenter Plug-in for VMware vSphere management user interface or maintenance console.
 
 
 .시작하기 전에
-VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그인 자격 증명을 알고 있어야 합니다. 또한 유지보수 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.
+SnapCenter Plug-in for VMware vSphere 의 IP 주소와 로그인 자격 증명을 알아야 합니다.  유지 관리 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.
 
 * VMware vSphere용 SnapCenter 플러그인을 구축할 때 IP 주소가 표시됩니다.
 * SnapCenter Plug-in for VMware vSphere를 구축하는 동안 제공된 로그인 자격 증명을 사용하거나 나중에 수정한 자격 증명을 사용합니다.
@@ -28,7 +28,7 @@ VMware vSphere 관리 GUI용 SnapCenter 플러그인의 IP 주소 및 로그인 
 
 
 .단계
-. VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그인합니다.
+. SnapCenter Plug-in for VMware vSphere 에 로그인합니다.
 +
 형식을 사용합니다 `\https://<appliance-IP-address>:8080`
 

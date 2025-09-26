@@ -31,7 +31,7 @@ SnapCenter Plug-in for VMware vSphere를 설정하면 플러그인이 vCenter에
 +
 link:scpivs44_back_up_the_snapcenter_plug-in_for_vmware_vsphere_mysql_database.html["VMware vSphere MySQL 데이터베이스용 SnapCenter 플러그인을 백업합니다"].
 
-. 형식을 사용하여 VMware vSphere 관리 GUI용 SnapCenter 플러그인 에 `\https://<OVA-IP-address>:8080`로그인합니다. 배포 시 설정된 admin 사용자 이름과 암호 및 유지보수 콘솔을 사용하여 생성된 MFA 토큰으로 로그인합니다.
+. 다음 형식을 사용하여 SnapCenter Plug-in for VMware vSphere 에 로그인합니다. `\https://<OVA-IP-address>:8080` .  배포 시 설정한 관리자 사용자 이름과 비밀번호, 그리고 유지 관리 콘솔을 사용하여 생성된 MFA 토큰을 사용하여 로그인합니다.
 +
 플러그인을 구축할 때 VMware vSphere용 SnapCenter 플러그인의 IP 주소가 표시됩니다.
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: scpivs44_generate_a_support_bundle_from_the_snapcenter_plug-in_for_vmware_vsphere_gui.html 
 keywords:  
-summary: VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성할 수 있습니다. 
+summary: SnapCenter Plug-in for VMware vSphere 에서 지원 번들을 생성할 수 있습니다. 
 ---
-= VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 생성합니다
+= SnapCenter Plug-in for VMware vSphere 에서 지원 번들 생성
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -15,7 +15,7 @@ summary: VMware vSphere GUI용 SnapCenter 플러그인에서 지원 번들을 �
 
 .시작하기 전에
 [role="lead"]
-VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그온하려면 IP 주소와 로그인 자격 증명을 알고 있어야 합니다. 또한 유지보수 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.
+SnapCenter Plug-in for VMware vSphere 에 로그인하려면 IP 주소와 로그인 자격 증명을 알아야 합니다.  유지 관리 콘솔에서 생성된 MFA 토큰도 기록해 두어야 합니다.
 
 * VMware vSphere용 SnapCenter 플러그인을 구축할 때 IP 주소가 표시됩니다.
 * SnapCenter Plug-in for VMware vSphere를 구축하는 동안 제공된 로그인 자격 증명을 사용하거나 나중에 수정한 자격 증명을 사용합니다.
@@ -23,7 +23,7 @@ VMware vSphere 관리 GUI용 SnapCenter 플러그인에 로그온하려면 IP �
 
 
 .단계
-. VMware vSphere GUI용 SnapCenter 플러그인에 로그인합니다.
+. SnapCenter Plug-in for VMware vSphere 에 로그인합니다.
 +
 형식을 사용합니다 `\https://<OVA-IP-address>:8080`.
 

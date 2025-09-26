@@ -22,7 +22,7 @@ vCenter Server RBAC의 작업을 간소화하기 위해 VMware vSphere용 SnapCe
 
 VMware vSphere용 SnapCenter 플러그인은 vCenter 웹 클라이언트 서비스를 다시 시작하거나 설치를 수정할 때마다 이러한 역할을 기본값(초기 권한 집합)으로 반환합니다. SnapCenter Plug-in for VMware vSphere를 업그레이드하면 해당 버전의 플러그인과 함께 작동하도록 사전 정의된 역할이 자동으로 업그레이드됩니다.
 
-다음 표에 표시된 대로 * Menu > Administration > Roles * 를 선택하면 vCenter GUI에서 사전 정의된 역할을 확인할 수 있습니다.
+다음 표에 표시된 대로 *메뉴 > 관리 > 역할*을 선택하면 vCenter 사용자 인터페이스에서 미리 정의된 역할을 볼 수 있습니다.
 
 |===
 | 역할 | 설명 

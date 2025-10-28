@@ -54,7 +54,7 @@ TIP: 업그레이드를 시작하기 전에 VMware vSphere OVA용 SnapCenter 플
 
 NOTE: 네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지원되지 않습니다.
 
-지원되는 버전에 대한 최신 정보는 https://imt.netapp.com/matrix/imt.jsp?components=134348;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT)를 참조하십시오.
+지원되는 버전에 대한 최신 정보는 다음을 참조하세요. https://imt.netapp.com/imt/imt.jsp?components=180121;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] (IMT).
 
 .단계
 . VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하여 업그레이드를 준비합니다.

@@ -123,6 +123,9 @@ VM 일관성을 사용하여 백업 생성
 
 
 | VMware용 ONTAP 툴 | SnapCenter Plug-in for VMware vSphere 이를 사용하여 vVol 데이터스토어(VMware 가상 볼륨)를 관리합니다. 지원되는 버전은 다음을 참조하세요. https://imt.netapp.com/imt/imt.jsp?components=180121;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] . 
+
+
+| NetApp ONTAP 스토리지용 Amazon FSxN | 9.10 이상 
 |===
 지원되는 버전에 대한 최신 정보는 다음을 참조하세요. https://imt.netapp.com/imt/imt.jsp?components=180121;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴"^] .
 
@@ -152,9 +155,6 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 
 
 | VMware vSphere, 로그 및 MySQL 데이터베이스용 SnapCenter 플러그인의 최소 하드 드라이브 공간 | 100GB 
-
-
-| 어플라이언스에 있는 vmcontrol 서비스의 최대 힙 크기입니다 | 8GB 
 |===
 
 

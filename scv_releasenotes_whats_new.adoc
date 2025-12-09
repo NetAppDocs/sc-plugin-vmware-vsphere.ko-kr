@@ -20,3 +20,5 @@ SnapCenter Plug-in for VMware vSphere ONTAP 9.17.1 이상을 실행하는 ASA r2
 * 복원 워크플로 수행
 * 리소스 그룹을 생성하거나 수정할 때 보조 보호 제공( ONTAP 9.16.1 이상 버전에서 사용 가능)
 
+
+이 릴리스부터 SnapCenter Plug-in for VMware vSphere 버전 9.10 이상을 실행하는 NetApp ONTAP 스토리지 시스템에 대한 Amazon FSxN을 지원합니다.

@@ -4,7 +4,7 @@ permalink: scpivs44_register_snapcenter_plugin_vmware_vsphere_with_snapcenter_se
 keywords:  
 summary: 'SnapCenter(가상화된 데이터베이스 및 파일 시스템에 대한 애플리케이션 기반 보호 워크플로우)에서 VMDK를 넘는 애플리케이션 워크플로우를 수행하려면 SnapCenter 서버에 VMware vSphere용 SnapCenter 플러그인을 등록해야 합니다.' 
 ---
-= VMware vSphere용 SnapCenter 플러그인을 SnapCenter 서버에 등록합니다
+= SnapCenter Server에 SCV 등록
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

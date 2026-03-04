@@ -4,7 +4,7 @@ permalink: scpivs44_monitor_jobs.html
 keywords:  
 summary: VMware vSphere Client를 사용하여 데이터 보호 작업을 수행한 후에는 대시보드의 작업 모니터 탭에서 작업 상태를 모니터링하고 작업 세부 정보를 볼 수 있습니다. 
 ---
-= 작업을 모니터링합니다
+= SnapCenter Plug-in for VMware vSphere에서 작업을 모니터링합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

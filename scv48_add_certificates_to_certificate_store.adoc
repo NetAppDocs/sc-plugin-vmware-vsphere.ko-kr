@@ -4,7 +4,7 @@ permalink: scv48_add_certificates_to_certificate_store.html
 keywords:  
 summary: 인증서와 함께 서명된 아티팩트를 신뢰하려면 인증 기관의 루트 및 중간 인증서를 VMware vCenter에 추가합니다. 
 ---
-= VMware 인증서 저장소에 인증서를 추가합니다
+= SCV용 VMware 인증서 저장소에 인증서 추가
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

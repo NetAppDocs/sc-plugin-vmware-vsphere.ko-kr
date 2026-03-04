@@ -4,7 +4,7 @@ permalink: scpivs44_upgrade_to_a_new_patch.html
 keywords:  
 summary: 동일한 릴리즈의 새 패치로 업그레이드하는 경우 vCenter 웹 서버에서 SnapCenter Plug-in for VMware vSphere 캐시를 지우고 업그레이드 또는 등록 전에 서버를 다시 시작해야 합니다. 
 ---
-= VMware vSphere용 SnapCenter 플러그인의 동일한 릴리즈의 새 패치로 업그레이드하십시오
+= SCV의 동일한 릴리스의 새 패치로 업그레이드
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

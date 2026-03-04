@@ -4,7 +4,7 @@ permalink: scpivs44_mount_a_backup.html
 keywords:  
 summary: 백업의 파일에 액세스하려는 경우 백업에서 기존 데이터 저장소를 마운트할 수 있습니다. 백업이 생성된 동일한 ESXi 호스트에 백업을 마운트하거나 VM 및 호스트 구성이 동일한 대체 ESXi 호스트에 백업을 마운트할 수 있습니다. 데이터 저장소를 호스트에 여러 번 마운트할 수 있습니다. 
 ---
-= 백업을 마운트합니다
+= SnapCenter Plug-in for VMware vSphere를 사용하여 백업을 마운트합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

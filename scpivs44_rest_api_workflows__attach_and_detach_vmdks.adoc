@@ -4,7 +4,7 @@ permalink: scpivs44_rest_api_workflows__attach_and_detach_vmdks.html
 keywords:  
 summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMDK에 대한 연결 및 분리 작업을 수행하려면 규정된 REST API 호출 순서를 따라야 합니다. 
 ---
-= VMDK를 연결 및 분리하는 REST API 워크플로우
+= SCV에서 VMDK를 연결 및 분리하는 REST API 워크플로우
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: scpivs48_rest_apis_audit_logs.html
 keywords:  
 summary: 감사 로그를 생성하는 REST API 
 ---
-= 감사 로그를 생성하는 REST API
+= SCV에 대한 감사 로그를 생성하는 REST API
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

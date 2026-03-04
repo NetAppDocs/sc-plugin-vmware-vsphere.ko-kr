@@ -4,7 +4,7 @@ permalink: scpivs44_how_restore_operations_are_performed.html
 keywords:  
 summary: 'VMFS 환경의 경우 VMware vSphere용 SnapCenter 플러그인은 Storage VMotion을 사용하여 클론 및 마운트 작업을 사용하여 복구 작업을 수행합니다. NFS 환경의 경우 플러그인은 네이티브 ONTAP SFSR(Single File SnapRestore)을 사용하여 대부분의 복구 작업에 더 높은 효율성을 제공합니다. VVOL VM의 경우 플러그인에서 복원 작업에 ONTAP 단일 파일 스냅샷 복원 및 SnapMirror 복원을 사용합니다.' 
 ---
-= 복원 작업 수행 방법
+= SCV가 복구 작업을 수행하는 방법
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

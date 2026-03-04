@@ -4,7 +4,7 @@ permalink: scv48_audit_logs.html
 keywords:  
 summary: 감사 로그는 누가 언제 무엇을 했는지 추적할 수 있습니다. 감사 로그는 시간순으로 이벤트 모음이며 어플라이언스 내의 파일에 기록됩니다. 
 ---
-= 감사 로그
+= SnapCenter Plug-in for VMware vSphere의 감사 로그
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

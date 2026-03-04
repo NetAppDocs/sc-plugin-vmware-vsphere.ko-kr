@@ -4,7 +4,7 @@ permalink: scpivs44_create_backup_policies.html
 keywords:  
 summary:  
 ---
-= 백업 정책을 생성합니다
+= SnapCenter Plug-in for VMware vSphere에서 백업 정책 생성
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

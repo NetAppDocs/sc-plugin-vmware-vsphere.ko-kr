@@ -4,7 +4,7 @@ permalink: scpivs44_back_up_resource_groups_on_demand.html
 keywords:  
 summary: 백업 작업은 리소스 그룹에 정의된 모든 리소스에 대해 수행됩니다. 리소스 그룹에 정책이 연결되어 있고 스케줄이 구성되어 있는 경우 스케줄에 따라 백업이 자동으로 수행됩니다. 
 ---
-= 필요 시 리소스 그룹을 백업합니다
+= SCV에서 필요에 따라 리소스 그룹을 백업합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

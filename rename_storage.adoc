@@ -4,7 +4,7 @@ permalink: rename_storage.html
 keywords:  
 summary: REST API를 사용하여 스토리지 이름을 바꿀 수 있습니다. 
 ---
-= 이름을 바꾼 스토리지의 백업을 복원합니다
+= SCV를 사용하여 이름이 변경된 스토리지에서 백업 복원
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

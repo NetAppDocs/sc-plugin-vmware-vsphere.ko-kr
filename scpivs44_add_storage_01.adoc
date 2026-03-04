@@ -4,7 +4,7 @@ permalink: scpivs44_add_storage_01.html
 keywords:  
 summary: 스토리지를 추가하면 VMware vSphere용 SnapCenter 플러그인이 vCenter에서 백업 및 복구 작업을 인식하고 관리할 수 있습니다. 
 ---
-= 스토리지 추가
+= SnapCenter Plug-in for VMware vSphere에 스토리지 시스템 추가
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

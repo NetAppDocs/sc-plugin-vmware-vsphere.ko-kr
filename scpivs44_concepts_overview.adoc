@@ -4,7 +4,7 @@ permalink: scpivs44_concepts_overview.html
 keywords:  
 summary: 'VMware vSphere용 SnapCenter 플러그인은 VM 및 데이터 저장소에 대한 데이터 보호 서비스를 제공하고 SnapCenter 애플리케이션 기반 플러그인에 대한 데이터 보호 서비스를 지원하는 독립 실행형 가상 어플라이언스(오픈 가상 어플라이언스 형식)입니다. 이 문서에서는 VMware vSphere용 SnapCenter 플러그인을 구축 및 사용하는 방법과 빠른 시작 정보를 제공합니다.' 
 ---
-= 제품 개요
+= SnapCenter Plug-in for VMware vSphere에 대해 알아보기
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

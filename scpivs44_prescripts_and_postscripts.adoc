@@ -4,7 +4,7 @@ permalink: scpivs44_prescripts_and_postscripts.html
 keywords:  
 summary: 데이터 보호 작업의 일부로 사용자 지정 처방과 사후 스크립트를 사용할 수 있습니다. 이러한 스크립트를 사용하면 데이터 보호 작업 전 또는 이후에 자동화를 수행할 수 있습니다. 
 ---
-= 사전 스크립트 및 포스트스크립트
+= SCV에 대한 사전 스크립트 및 사후 스크립트
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

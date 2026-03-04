@@ -4,7 +4,7 @@ permalink: scpivs44_deploy_snapcenter_plug-in_for_vmware_vsphere.html
 keywords:  
 summary: SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다. 
 ---
-= VMware vSphere용 SnapCenter 플러그인 구축
+= SnapCenter Plug-in for VMware vSphere를 배포합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

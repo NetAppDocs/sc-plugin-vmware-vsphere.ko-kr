@@ -4,7 +4,7 @@ permalink: scpivs44_rest_api_workflows__mount_and_unmount_datastores.html
 keywords:  
 summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 데이터 저장소 백업에 대한 마운트 및 마운트 해제 작업을 수행하려면 규정된 REST API 호출 순서를 따라야 합니다. 
 ---
-= 데이터 저장소를 마운트하고 마운트 해제하는 REST API 워크플로우
+= SCV에서 데이터 저장소를 마운트 및 마운트 해제하는 REST API 워크플로우
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: scpivs44_enable_ssh.html
 keywords:  
 summary: VMware vSphere용 SnapCenter 플러그인이 구축되면 기본적으로 SSH가 사용되지 않습니다. 
 ---
-= VMware vSphere용 SnapCenter 플러그인용 SSH를 설정합니다
+= SnapCenter Plug-in for VMware vSphere에 대해 SSH를 활성화합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

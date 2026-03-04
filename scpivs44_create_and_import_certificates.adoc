@@ -4,7 +4,7 @@ permalink: scpivs44_create_and_import_certificates.html
 keywords:  
 summary: 'VMware vSphere용 SnapCenter 플러그인은 클라이언트 브라우저와의 안전한 통신을 위해 SSL 암호화를 사용합니다. 이렇게 하면 전체 전송 중에 암호화된 데이터가 활성화되거나, 새 자체 서명된 인증서를 만들거나, 고유한 CA(인증 기관) 인프라 또는 타사 CA를 사용하여 인증서를 만들 수 있지만, 이 경우 사용자 환경에 맞는 고유한 인증서가 보장됩니다.' 
 ---
-= 인증서를 만들고 가져옵니다
+= SCV용 인증서 생성 및 가져오기
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

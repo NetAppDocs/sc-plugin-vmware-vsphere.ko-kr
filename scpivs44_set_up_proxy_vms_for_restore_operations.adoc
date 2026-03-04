@@ -4,7 +4,7 @@ permalink: scpivs44_set_up_proxy_vms_for_restore_operations.html
 keywords:  
 summary: 게스트 파일 복원 작업을 위해 가상 디스크를 연결하는 데 프록시 VM을 사용하려면 복구 작업을 시작하기 전에 프록시 VM을 설정해야 합니다. 언제든지 프록시 VM을 설정할 수 있지만 플러그인 배포가 완료된 직후 프록시 VM을 설정하는 것이 더 편리할 수 있습니다. 
 ---
-= 복원 작업을 위해 프록시 VM을 설정합니다
+= SCV에서 복원 작업을 위한 프록시 VM을 설정합니다.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: scpivs44_deployment_planning_and_requirements.html
 keywords:  
 summary: 가상 어플라이언스를 구축하기 전에 구축 요구 사항을 숙지해야 합니다. 
 ---
-= 배포 계획 및 요구 사항
+= SCV 구축 계획 및 요구 사항
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

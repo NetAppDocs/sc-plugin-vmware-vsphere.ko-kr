@@ -4,7 +4,7 @@ permalink: scpivs44_rest_api_workflows__add_and_modify_storage_vms.html
 keywords:  
 summary: VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 스토리지 VM 작업을 추가 및 수정하려면 규정된 REST API 호출 순서를 따라야 합니다. 
 ---
-= 스토리지 VM을 추가 및 수정하는 REST API 워크플로우
+= SCV에서 스토리지 VM을 추가 및 수정하는 REST API 워크플로우
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: scpivs44_create_backup_policies_for_vms_and_datastores.html
 keywords:  
 summary: VMware vSphere용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저장소를 백업하려면 먼저 백업 정책을 생성해야 합니다. 
 ---
-= VM 및 데이터 저장소에 대한 백업 정책을 생성합니다
+= SCV에서 VM 및 데이터 저장소에 대한 백업 정책 생성
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

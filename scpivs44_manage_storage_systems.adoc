@@ -4,7 +4,7 @@ permalink: scpivs44_manage_storage_systems.html
 keywords:  
 summary: VMware vSphere Client를 사용하여 VM 또는 데이터 저장소를 백업하거나 복구하려면 먼저 스토리지를 추가해야 합니다. 
 ---
-= 스토리지 시스템 관리
+= SnapCenter Plug-in for VMware vSphere에서 스토리지 시스템을 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

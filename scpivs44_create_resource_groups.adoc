@@ -4,7 +4,7 @@ permalink: scpivs44_create_resource_groups.html
 keywords:  
 summary:  
 ---
-= 리소스 그룹을 생성합니다
+= SnapCenter Plug-in for VMware vSphere에서 리소스 그룹을 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

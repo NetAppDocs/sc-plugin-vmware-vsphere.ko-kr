@@ -4,7 +4,7 @@ permalink: scpivs44_view_vm_and_datastore_backups.html
 keywords:  
 summary: VM 또는 데이터 저장소를 백업 또는 복구할 준비가 되면 해당 리소스에 사용할 수 있는 모든 백업을 확인하고 해당 백업에 대한 세부 정보를 볼 수 있습니다. 
 ---
-= VM 및 데이터 저장소 백업을 봅니다
+= SCV에서 VM 및 데이터 저장소 백업 보기
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

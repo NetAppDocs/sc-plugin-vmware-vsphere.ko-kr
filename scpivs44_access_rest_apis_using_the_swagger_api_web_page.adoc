@@ -4,7 +4,7 @@ permalink: scpivs44_access_rest_apis_using_the_swagger_api_web_page.html
 keywords:  
 summary: REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 SnapCenter 서버 또는 VMware vSphere REST API용 SnapCenter 플러그인을 표시하고 API 호출을 수동으로 실행할 수 있습니다. VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 및 데이터 저장소에 대한 보호 작업을 수행할 수 있습니다. 
 ---
-= Swagger API 웹 페이지를 사용하여 REST API에 액세스합니다
+= SCV용 Swagger API 웹 페이지를 사용하여 REST API에 액세스합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

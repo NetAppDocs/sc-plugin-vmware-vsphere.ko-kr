@@ -4,7 +4,7 @@ permalink: scpivs44_generate_a_support_bundle_from_the_maintenance_console.html
 keywords:  
 summary: 유지보수 콘솔에서 지원 번들을 생성할 수 있습니다. 
 ---
-= 유지보수 콘솔에서 지원 번들을 생성합니다
+= SCV 유지 관리 콘솔에서 지원 번들을 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

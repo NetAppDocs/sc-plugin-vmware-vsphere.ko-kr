@@ -4,7 +4,7 @@ permalink: scpivs44_view_status_information.html
 keywords:  
 summary: vSphere Client Dashboard에서 상태 정보를 볼 수 있습니다. 상태 정보는 한 시간에 한 번 업데이트됩니다. 
 ---
-= 상태 정보를 봅니다
+= SnapCenter Plug-in for VMware vSphere에서 상태 정보를 확인합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

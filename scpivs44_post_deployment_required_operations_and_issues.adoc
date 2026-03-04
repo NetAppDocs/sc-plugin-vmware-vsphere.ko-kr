@@ -4,7 +4,7 @@ permalink: scpivs44_post_deployment_required_operations_and_issues.html
 keywords:  
 summary: VMware vSphere용 SnapCenter 플러그인을 구축한 후에는 설치를 완료해야 합니다. 
 ---
-= 구축 후 필요한 작업 및 문제
+= SnapCenter Plug-in for VMware vSphere 배포 후 필요한 작업 및 문제
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

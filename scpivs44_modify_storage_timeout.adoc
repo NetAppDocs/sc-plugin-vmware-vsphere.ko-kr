@@ -4,7 +4,7 @@ permalink: scpivs44_modify_storage_timeout.html
 keywords:  
 summary: 과거에는 백업이 성공적으로 실행되었지만 VMware vSphere용 SnapCenter 플러그인이 스토리지 시스템이 구성된 시간 초과 기간을 초과할 때까지 기다려야 하는 동안 백업이 실패할 수 있습니다. 이 상황이 발생하면 구성된 시간 초과를 증가시킬 수 있습니다. 
 ---
-= 구성된 스토리지 시간 제한을 수정합니다
+= SCV의 스토리지 시간 초과 수정
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

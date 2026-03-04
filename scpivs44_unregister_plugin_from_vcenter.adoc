@@ -4,7 +4,7 @@ permalink: scpivs44_unregister_plugin_from_vcenter.html
 keywords:  
 summary: 연결 모드에 있는 vCenter에서 SnapCenter Plug-in for VMware vSphere 서비스를 중지하면 연결된 다른 vCenter에서 SnapCenter Plug-in for VMware vSphere 서비스가 실행 중인 경우에도 리소스 그룹을 연결된 모든 vCenter에서 사용할 수 없습니다. SnapCenter Plug-in for VMware vSphere Extensions의 등록을 수동으로 취소해야 합니다. 
 ---
-= vCenter에서 VMware vSphere용 SnapCenter 플러그인 등록을 취소합니다
+= vCenter에서 SnapCenter Plug-in for VMware vSphere 등록 해제
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

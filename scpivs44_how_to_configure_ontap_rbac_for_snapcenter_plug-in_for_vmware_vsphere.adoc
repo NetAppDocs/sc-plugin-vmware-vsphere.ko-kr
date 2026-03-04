@@ -4,7 +4,7 @@ permalink: scpivs44_how_to_configure_ontap_rbac_for_snapcenter_plug-in_for_vmwar
 keywords:  
 summary: 'ONTAP RBAC는 SnapCenter 서버 애플리케이션 정합성 보장(VMDK를 통한 애플리케이션) 작업에만 적용됩니다.' 
 ---
-= VMware vSphere용 SnapCenter 플러그인용 ONTAP RBAC를 구성하는 방법
+= ONTAP RBAC을 SnapCenter Plug-in for VMware vSphere에 대해 구성합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

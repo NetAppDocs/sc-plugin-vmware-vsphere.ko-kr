@@ -210,7 +210,7 @@ sidebar:
       url: "/scpivs44_modify_the_time_zones.html"
     - title: 로그온 자격 증명을 수정합니다
       url: "/scpivs44_modify_the_logon_credentials.html"
-    - title: vCenter 로그온 자격 증명을 수정합니다
+    - title: SCV에 구성된 vCenter 자격 증명을 업데이트하세요.
       url: "/scpivs44_modify_the_vcenter_logon_credentials.html"
     - title: 네트워크 설정을 수정합니다
       url: "/scpivs44_modify_the_network_settings.html"

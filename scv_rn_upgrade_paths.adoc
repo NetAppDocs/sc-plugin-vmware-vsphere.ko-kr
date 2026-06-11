@@ -13,7 +13,7 @@ summary: VMware vSphere 6.1용 SnapCenter 플러그인에서 사용할 수 있�
 
 [NOTE]
 ====
-VMware vSphere(SCV) 4.8 이상용 SnapCenter 플러그인으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. 버전 7 업데이트 1 이전의 VMware vCenter Server에서는 SCV 4.7을 계속 사용해야 합니다.
+SnapCenter Plug-in for VMware vSphere(SCV) 4.8 이상으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. VMware vCenter Server 7 업데이트 1 이전 버전을 사용하는 경우 SCV 4.7을 계속 사용하십시오.
 
 ====
 [cols="50%,50%"]

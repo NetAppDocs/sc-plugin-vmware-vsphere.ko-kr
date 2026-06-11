@@ -212,6 +212,8 @@ sidebar:
       url: "/scpivs44_modify_the_logon_credentials.html"
     - title: SCV에 구성된 vCenter 자격 증명을 업데이트하세요.
       url: "/scpivs44_modify_the_vcenter_logon_credentials.html"
+    - title: vCenter와의 SCV 연결 및 등록 복구
+      url: "/reregister-scv-vcenter.html"
     - title: 네트워크 설정을 수정합니다
       url: "/scpivs44_modify_the_network_settings.html"
     - title: 구성 기본값을 수정합니다

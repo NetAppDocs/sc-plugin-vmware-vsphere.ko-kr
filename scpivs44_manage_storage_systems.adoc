@@ -18,6 +18,7 @@ VMware vSphere Client를 사용하여 VM 또는 데이터 저장소를 백업하
 
 
 
+[[modify-storage-vms]]
 == 스토리지 VM을 수정합니다
 
 VMware vSphere Client를 사용하여 VMware vSphere용 SnapCenter 플러그인에 등록되어 VM 데이터 보호 작업에 사용되는 클러스터 및 스토리지 VM의 구성을 수정할 수 있습니다.
@@ -35,6 +36,7 @@ IMPORTANT: SnapCenter 사용자 인터페이스를 사용하여 애플리케이�
 
 
 
+[[remove-storage-vms]]
 == 스토리지 VM을 제거합니다
 
 VMware vSphere Client를 사용하여 vCenter의 인벤토리에서 스토리지 VM을 제거할 수 있습니다.

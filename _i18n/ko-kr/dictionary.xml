@@ -467,7 +467,6 @@
   <block id="ae40a6aa6dbafd02a1a6877c0cd95c90" category="admonition">네트워크 구성을 고정 상태에서 DHCP로 전환하는 것은 지원되지 않습니다.</block>
   <block id="a115e2512005f81c492d368a9613ee58" category="list-text">VMware vSphere용 SnapCenter 플러그인을 사용하지 않도록 설정하여 업그레이드를 준비합니다.</block>
   <block id="47ad474a6a92b78b6ce74b61fe8b6bbb" category="list-text">업그레이드 '.iso' 파일을 다운로드합니다.</block>
-  <block id="b41450a0b1e390fd09941d73050688f9" category="list-text">NetApp Support 사이트에 로그인합니다 <block ref="5a6885c3943ab3435f9bf287b1025062" category="inline-link-rx"></block>.</block>
   <block id="7dfb2dcb3c7621537351eac0e0c6d1af" category="list-text">VMware vSphere 업그레이드용 SnapCenter 플러그인 .iso 파일을 원하는 위치로 다운로드합니다.</block>
   <block id="f5b0696bfd02863abb2d114ef575a203" category="list-text">업그레이드를 설치합니다.</block>
   <block id="1ced0a64a9eacafaada35a9482d31c57" category="list-text">브라우저에서 VMware vSphere vCenter로 이동합니다.</block>
@@ -2357,4 +2356,9 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="20ceb481fbc8f4970bcc1d340df1f4e3" category="paragraph">자격 증명 변경 후에도 SCV가 연결되지 않으면 VMware vSphere 클라이언트 서비스를 다시 시작하십시오. 그래도 SCV가 연결되지 않으면 <block ref="f2a6ad7f72b7a890165a515940ad8314" category="inline-link-macro-rx"></block>로 이동하십시오.</block>
   <block id="570c179f2910eb222c034a71d4857354" category="admonition">SCV 6.2로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. VMware vCenter Server 7 업데이트 1 이전 버전을 사용하는 경우 SCV 4.7을 계속 사용해야 합니다. 지원되지 않는 버전의 VMware vCenter Server에서는 업그레이드 시 문제가 발생할 수 있습니다.</block>
   <block id="430ae1961340ee0cb232fabeaa98e220" category="paragraph">SnapCenter Plug-in for VMware vSphere(SCV) 4.8 이상으로의 업그레이드는 VMware vCenter Server 7 업데이트 1 이상 버전에서만 지원됩니다. VMware vCenter Server 7 업데이트 1 이전 버전을 사용하는 경우 SCV 4.7을 계속 사용하십시오.</block>
+  <block id="e7cf50365f6cd8b8191b1582a763572f" category="inline-link-macro">SnapCenter Plug-in for VMware vSphere 배포 계획 및 요구 사항</block>
+  <block id="e265dbaceed2be137ef9239c0c28ca81" category="admonition">업그레이드하기 전에 사용 환경이 시스템 요구 사항을 충족하는지 확인하십시오. 자세한 내용은 <block ref="a0e1882159016587140942a1478a5aea" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="be0cdd104110166e130ddd84d1c1fc51" category="paragraph">지원되는 버전에 대한 최신 정보는 <block ref="c4b2de34dedab2af97f29b6fccd6575c" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="8c41baf1ca98e1184f48c4721d44d431" category="inline-link-macro">NetApp 지원 사이트</block>
+  <block id="9eeb0054bc82844b2782a42bddf7c681" category="list-text"><block ref="fe673711457a0919d053a9db0146aa49" category="inline-link-macro-rx"></block>에 로그인하십시오.</block>
 </blocks>

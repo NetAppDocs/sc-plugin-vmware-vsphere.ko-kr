@@ -34,6 +34,7 @@ SnapCenter Plug-in for VMware vSphere(SCV)는 어플라이언스를 배포할 �
 
 
 
+[[recovery-steps]]
 == 복구 단계
 
 . VMware vSphere 클라이언트 서비스를 다시 시작하십시오.
@@ -70,6 +71,8 @@ SnapCenter Plug-in for VMware vSphere(SCV)는 어플라이언스를 배포할 �
 
 
 
+[[verify-that-the-registration-succeeded]]
+[[verify-registration-succeeded]]
 == 등록이 성공했는지 확인하십시오
 
 다음 확인 사항 중 하나를 사용하여 SCV가 등록되고 연결되었는지 확인하십시오.
@@ -91,6 +94,7 @@ SnapCenter Plug-in for VMware vSphere(SCV)는 어플라이언스를 배포할 �
 ====
 
 
+[[common-registration-errors-and-remediations]]
 == 일반적인 등록 오류 및 해결 방법
 
 * *잘못된 로그인 자격 증명*
@@ -117,6 +121,7 @@ VMware vSphere 클라이언트 서비스를 다시 시작하십시오.
 
 
 
+[[related-topics]]
 == 관련 주제
 
 * link:scpivs44_modify_the_vcenter_logon_credentials.html["SCV에 구성된 vCenter 자격 증명을 업데이트하세요."]

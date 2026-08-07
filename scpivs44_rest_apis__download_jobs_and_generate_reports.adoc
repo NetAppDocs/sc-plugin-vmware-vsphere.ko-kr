@@ -20,6 +20,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSpher
 
 
 
+[[use-the-following-rest-apis-in-the-jobs-section-to-get-detailed-information-on-jobs]]
 == 작업에 대한 자세한 정보를 보려면 작업 섹션에서 다음 REST API를 사용하십시오.
 
 |===
@@ -33,6 +34,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSpher
 |===
 
 
+[[use-the-following-rest-api-in-the-jobs-section-to-download-job-logs]]
 == 작업 섹션에서 다음 REST API를 사용하여 작업 로그를 다운로드합니다.
 
 |===
@@ -43,6 +45,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMware vSpher
 |===
 
 
+[[use-the-following-rest-apis-in-the-reports-section-to-generate-reports]]
 == 보고서 섹션에서 다음 REST API를 사용하여 보고서를 생성합니다.
 
 |===

@@ -48,6 +48,7 @@ SnapCenter Plug-in for VMware vSphere ONTAP 9.17.1 이상을 실행하는 ASA r2
 
 
 
+[[protect-your-vmware-estate-using-netapp-backup-and-recovery]]
 == NetApp Backup and Recovery를 사용하여 VMware 환경을 보호하세요
 
 video::UeT9yFssTug[youtube,width=848,height=480]

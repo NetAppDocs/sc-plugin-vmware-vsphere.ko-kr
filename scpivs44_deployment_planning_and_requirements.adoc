@@ -18,6 +18,7 @@ SCV(SnapCenter Plug-in for VMware vSphere)를 구축하기 전에 다음 요구 
 
 
 
+[[host-requirements]]
 == 호스트 요구 사항
 
 SCV(SnapCenter Plug-in for VMware vSphere) 구축을 시작하기 전에 호스트 요구 사항을 잘 알고 있어야 합니다.
@@ -79,6 +80,7 @@ VM 일관성을 사용하여 백업 생성
 
 
 
+[[license-requirements]]
 == 라이센스 요구 사항
 
 |===
@@ -98,6 +100,7 @@ VM 일관성을 사용하여 백업 생성
 |===
 
 
+[[software-support]]
 == 소프트웨어 지원
 
 |===
@@ -142,6 +145,7 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 
 
 
+[[space-sizing-and-scaling-requirements]]
 == 공간, 사이징 및 확장 요구사항
 
 |===
@@ -158,6 +162,7 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 |===
 
 
+[[connection-and-port-requirements]]
 == 연결 및 포트 요구 사항
 
 |===
@@ -181,6 +186,7 @@ NVMe over TCP 및 NVMe over FC 프로토콜 지원을 위한 최소 소프트웨
 |===
 
 
+[[configurations-supported]]
 == 구성 지원
 
 각 플러그인 인스턴스는 연결 모드에 있는 vCenter Server를 하나만 지원합니다. 그러나 다음 그림과 같이 여러 플러그인 인스턴스가 동일한 SnapCenter 서버를 지원할 수 있습니다.
@@ -189,6 +195,7 @@ image:scpivs44_image4.png["지원되는 구성 그래픽 표현입니다"]
 
 
 
+[[rbac-privileges-required]]
 == RBAC 권한이 필요합니다
 
 vCenter 관리자 계정에는 다음 표에 나열된 필수 vCenter Privileges가 있어야 합니다.
@@ -216,6 +223,7 @@ vCenter 관리자 계정에는 다음 표에 나열된 필수 vCenter Privileges
 |===
 
 
+[[autosupport]]
 == AutoSupport
 
 VMware vSphere용 SnapCenter 플러그인은 플러그인 URL을 포함하여 사용량을 추적하기 위한 최소한의 정보를 제공합니다. AutoSupport에는 AutoSupport 뷰어에 표시되는 설치된 플러그인 테이블이 포함되어 있습니다.

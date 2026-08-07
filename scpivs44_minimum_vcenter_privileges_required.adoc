@@ -18,12 +18,14 @@ VMware vSphere용 SnapCenter 플러그인 구축을 시작하기 전에 필요�
 
 
 
+[[required-privileges-for-vcenter-admin-role]]
 == vCenter 관리자 역할에 필요한 권한
 
 Machine.config.AdvancedConfig.VirtualVirtualConfig.VirtualMachine.VirtualInventory.Local.DeleteVM Host.Local.ReconesVM Network.Assign Resource.ExistenerResource.AddRecommendation.ExisteMachine.Machine.VirtualMachine.Create Machine.VirtualConfig.VirtualMachine.VirtualConfig.VirtualConfig.VirtualMachine.Create Host.Local.VirtualConfig.VirtualMachine.VirtualConfig.ExisteConfig.AddQueryResource Management Machine.ExisterCreation.ExisteMachine.Create Machine.VirtualMachine.Create Machine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualMachine.VirtualMachine.VirtualConfig.VirtualMachine.VirtualConfig.VirtualConfig.VirtualConfig.VirtualMachine.VirtualConfig.ExisterCreation.VirtualMachine.Create ExisterCreation.ExisteConfig.Create.Create
 
 
 
+[[required-privileges-specific-to-snapcenter-plug-in-for-vmware-vcenter]]
 == VMware vCenter용 SnapCenter 플러그인과 관련된 필수 권한
 
 |===

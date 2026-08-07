@@ -20,6 +20,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 데이터 저
 
 
 
+[[to-mount-datastores-follow-this-workflow]]
 == 데이터 저장소를 마운트하려면 다음 워크플로우를 따르십시오.
 
 |===
@@ -42,6 +43,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 데이터 저
 |===
 
 
+[[to-unmount-datastores-follow-this-workflow]]
 == 데이터 저장소를 마운트 해제하려면 다음 워크플로우를 따르십시오.
 
 |===

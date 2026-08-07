@@ -227,6 +227,7 @@ NOTE: 백업에 포함된 VM 중 하나에 대한 정지 작업이 실패하면 
 
 
 
+[[manage-compatibility-check-failures]]
 == 호환성 검사 실패 관리
 
 SnapCenter 리소스 그룹을 만들려고 할 때 호환성 검사를 수행합니다. 항상 참조하세요 https://imt.netapp.com/imt/imt.jsp?components=180121;&solution=1517&isHWU&src=IMT["NetApp 상호 운용성 매트릭스 툴(IMT)"^] SnapCenter 지원에 대한 최신 정보를 확인하세요. 비호환성의 이유는 다음과 같습니다.

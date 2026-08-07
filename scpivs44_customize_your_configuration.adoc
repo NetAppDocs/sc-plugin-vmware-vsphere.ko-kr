@@ -20,6 +20,7 @@ SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원하는 VMw
 
 
 
+[[create-the-scbr-override-configuration-file]]
 == scbr.override 구성 파일을 만듭니다
 
 . '/opt/netapp/scvservice/standalone_aegis/etc/scbr/scbr.override-template'으로 이동합니다.
@@ -28,6 +29,7 @@ SnapCenter 애플리케이션 기반 데이터 보호 작업을 지원하는 VMw
 
 
 
+[[properties-you-can-override]]
 == 덮어쓸 수 있는 속성
 
 * 기본적으로 템플릿은 해시 기호를 사용하여 구성 속성에 주석을 달 수 있습니다. 속성을 사용하여 설정 값을 수정하려면 '#' 문자를 제거해야 합니다.

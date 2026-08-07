@@ -20,6 +20,7 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VMDK에 대�
 
 
 
+[[to-attach-vmdks-follow-this-workflow]]
 == VMDK를 연결하려면 다음 워크플로우를 따르십시오.
 
 |===
@@ -44,6 +45,7 @@ NOTE: VMDK를 다른 VM에 연결하려면 alternateVmMoref 속성에서 대상 
 |===
 
 
+[[to-detach-vmdks-follow-this-workflow]]
 == VMDK를 분리하려면 다음 워크플로우를 따르십시오.
 
 |===

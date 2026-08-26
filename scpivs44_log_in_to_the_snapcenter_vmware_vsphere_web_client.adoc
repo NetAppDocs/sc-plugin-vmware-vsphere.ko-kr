@@ -4,7 +4,7 @@ permalink: scpivs44_log_in_to_the_snapcenter_vmware_vsphere_web_client.html
 keywords:  
 summary: VMware vSphere용 SnapCenter 플러그인을 구축하면 vCenter에 VMware vSphere 클라이언트가 설치되며, vCenter 화면에 다른 vSphere 클라이언트와 함께 표시됩니다. 
 ---
-= SnapCenter VMware vSphere Client에 로그인합니다
+= SnapCenter Plug-in for VMware vSphere 클라이언트에 로그인합니다.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

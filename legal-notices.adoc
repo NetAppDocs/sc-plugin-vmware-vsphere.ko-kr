@@ -4,7 +4,7 @@ permalink: legal-notices.html
 keywords:  
 summary:  
 ---
-= 법적 고지
+= SnapCenter Plug-in for VMware vSphere에 대한 법적 고지
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

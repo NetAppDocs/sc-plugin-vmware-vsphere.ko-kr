@@ -2204,13 +2204,11 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="b7b8f6b1819db0f110d159a8db1ae50f" category="doc">SCV의 게스트 파일 복원 시나리오</block>
   <block id="a5b5bbaab0477105f54c80657a42858f" category="doc">SCV가 복구 작업을 수행하는 방법</block>
   <block id="4b941a49c8c4f2361abf530aa6d23a53" category="doc">ONTAP RBAC을 SnapCenter Plug-in for VMware vSphere에 대해 구성합니다</block>
-  <block id="f09becdfd77a0c14076f6312e72a5fbe" category="doc">SCV의 새 패치로 업그레이드한 후 정보가 표시되지 않습니다</block>
   <block id="12f70185f36225d9e785483fa5adec93" category="doc">SnapCenter Plug-in for VMware vSphere 라이선스</block>
   <block id="c60c8305c7704e2a6b481202a87d34a4" category="doc">SnapCenter Plug-in for VMware vSphere에서 백업을 관리합니다</block>
   <block id="7806a0fcfddb17a7ef5ffbc6f69a5d84" category="doc">SnapCenter Plug-in for VMware vSphere에서 정책을 관리합니다</block>
   <block id="a9cf02408b537b32836b3b5e779b0f56" category="doc">SnapCenter Plug-in for VMware vSphere에서 리소스 그룹 관리</block>
   <block id="8ec10186a814e49a8603f7758664c43b" category="doc">SnapCenter Plug-in for VMware vSphere에서 스토리지 시스템을 관리합니다</block>
-  <block id="b3f0168240889017e1bf32ba930c88f9" category="doc">Windows 기반 SnapCenter for VMware vSphere에서 메타데이터 마이그레이션</block>
   <block id="53e2ff616a1db867b9b0647caed4ea4e" category="doc">SCV에 필요한 최소 ONTAP 권한</block>
   <block id="c468fa820a55a1c100c86b2078a91c63" category="doc">SCV에 필요한 최소 vCenter 권한</block>
   <block id="c27d4740b5308a914185b9a6ec4534ba" category="doc">SCV의 구성 기본값을 수정합니다</block>
@@ -2230,7 +2228,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="6803040d0deefc5c64d293411d2eae3c" category="doc">SnapCenter Plug-in for VMware vSphere를 위한 데이터 보호 워크플로우</block>
   <block id="2c20cf3dbe62e059162072efca505843" category="doc">SnapCenter Plug-in for VMware vSphere 빠른 시작</block>
   <block id="706c1ecc5e0dfbf5d0b578709966a41b" category="doc">SnapCenter Server에 SCV 등록</block>
-  <block id="946449a09a5e8fe514190b45b1239172" category="doc">SnapCenter Plug-in for VMware vSphere의 릴리즈 노트</block>
   <block id="e6613d4a408bd1c5af7c93c35fd5c766" category="doc">SnapCenter Plug-in for VMware vSphere 제거</block>
   <block id="9dc439c0b26590060b9baae9a11cef15" category="doc">SnapCenter Plug-in for VMware vSphere를 사용하여 온디맨드 백업을 수행하는 REST API 워크플로</block>
   <block id="10a69d330fd1bd443bb763f537b74f8c" category="doc">SnapCenter Plug-in for VMware vSphere를 사용하여 삭제된 VM을 복원하는 REST API 워크플로</block>
@@ -2242,14 +2239,12 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="a78e138b777bd9b17098fbb8bee31a72" category="doc">SCV에서 기본 제공 스케줄을 수정하는 REST API 워크플로</block>
   <block id="e01d2deaa3a9b8da7ed18a0423a240d2" category="doc">SCV에서 데이터 저장소를 마운트 및 마운트 해제하는 REST API 워크플로우</block>
   <block id="0ab92c1e3d210a1078c8bcb60c815cda" category="doc">SCV에서 작업을 다운로드하고 보고서를 생성하는 REST API</block>
-  <block id="251106474aba3c73dfbbf781349c0420" category="doc">SCV에서 중단된 작업을 실패로 표시하는 REST API</block>
   <block id="a74666d3669e18922af35742c6e64a2a" category="doc">SnapCenter Plug-in for VMware vSphere에서 REST API에 대해 알아보기</block>
   <block id="ea4aaf388f103ba4af0328e2438f506c" category="doc">SCV용 VMware vSphere 클라이언트 서비스를 다시 시작하십시오.</block>
   <block id="b97006b94b5abbef2e4cab535709f798" category="doc">SCV MySQL 데이터베이스의 특정 백업을 복원합니다</block>
   <block id="62bb165014392b3ca2d868cae754a575" category="doc">SCV를 사용하여 백업에서 삭제된 VM 복원</block>
   <block id="1c1d699bb8ba3233d50c545bbd1fae6d" category="doc">SnapCenter Plug-in for VMware vSphere의 복원 옵션</block>
   <block id="d537acd00dd3c27290078e423c835ef5" category="doc">SCV를 사용하여 VMDK에서 게스트 파일 및 폴더 복원</block>
-  <block id="26c55d24b1e98dfc0abb17486fa64729" category="doc">SCV의 게스트 파일 복원 워크플로, 사전 요구 사항 및 제한 사항</block>
   <block id="9fd1425d563e70975dbff208034dfa99" category="doc">SCV MySQL 데이터베이스의 최신 백업을 복원합니다</block>
   <block id="8092cfbde9cd8cf3324b5adcbf7237e2" category="doc">SCV를 사용하여 백업에서 VMDK 복원</block>
   <block id="5e711cf8e194d973e01259462c98c155" category="doc">SCV를 사용하여 백업에서 VM 복원</block>
@@ -2361,4 +2356,11 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="be0cdd104110166e130ddd84d1c1fc51" category="paragraph">지원되는 버전에 대한 최신 정보는 <block ref="c4b2de34dedab2af97f29b6fccd6575c" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="8c41baf1ca98e1184f48c4721d44d431" category="inline-link-macro">NetApp 지원 사이트</block>
   <block id="9eeb0054bc82844b2782a42bddf7c681" category="list-text"><block ref="fe673711457a0919d053a9db0146aa49" category="inline-link-macro-rx"></block>에 로그인하십시오.</block>
+  <block id="6fe778bd4f381bc596c1ad2205bf7850" category="doc">SnapCenter Plug-in for VMware vSphere에 대한 법적 고지</block>
+  <block id="96fb488c6d5d6ed5f3816ffc8e3f6397" category="doc">SCV의 새 패치로 업그레이드 후 누락된 정보 해결</block>
+  <block id="09f90d69ac8c406b9baae622de8de691" category="doc">SnapCenter Plug-in for VMware vSphere 클라이언트에 로그인합니다.</block>
+  <block id="d1feecd02693b9e7b54bae1972ce21f7" category="doc">Windows 기반 SnapCenter for VMware vSphere에서 메타데이터 마이그레이션</block>
+  <block id="14e70facdd7f1056b19624a65647f611" category="doc">SnapCenter Plug-in for VMware vSphere 6.2 릴리즈 노트</block>
+  <block id="0e1c5e24c38bf97d9c3a9e07e8ea35ac" category="doc">SCV에서 REST API를 사용하여 중단된 작업을 실패로 표시합니다.</block>
+  <block id="25dc68a1ecd07d4ec635e66b5aba9478" category="doc">SCV에서 게스트 파일 복원에 대해 알아보기</block>
 </blocks>

@@ -696,11 +696,6 @@
   <block id="29b39b2b805d36f8dc5499179622da3f" category="list-text">옵션 2: 시스템 구성</block>
   <block id="d4a6978acacfefd87687ddcaa390823d" category="paragraph">백업은 리소스 그룹에 대해 구성된 백업 정책에 지정된 대로 수행됩니다.</block>
   <block id="c1634a907000ddd630d2959e055bed59" category="doc">삭제된 VM을 복원하는 REST API 워크플로우</block>
-  <block id="c40cc36b9154fdd4a91c01ccb09ce903" category="cell">VMware Managed Objects URL에서 VM UUID를 찾습니다. 복원할 VM의 * uuid * 를 확인합니다.</block>
-  <block id="e59122dd4a3b9560e419d80fe5d7705c" category="cell">'/4.1/VM/{uuuid}/백업'</block>
-  <block id="e3d8a902b976f14935a74a07f0a8ff70" category="cell">VM 백업 가져오기지정된 VM의 백업 목록을 가져옵니다. 1단계에서 * uuid * 를 전달합니다. 복원하려는 백업의 * backupId * 를 기록해 둡니다.</block>
-  <block id="3a2a882001dd7896eb2b32739b29471d" category="cell">'/4.1/VM/{uuuid}/backups/{backupId}/restore'</block>
-  <block id="7f8c1c53fd7e08fda5762c3337c0bce6" category="cell">"uuuid를 사용하여 백업에서 VM 복원 또는 삭제된 VM 복원"은 지정된 백업을 복원합니다. 1단계에서 * uuid * 를 전달합니다. 2단계에서 * backupId * 를 전달합니다. RestoreLocations * 속성의 3단계와 4단계의 정보를 전달합니다. VM 백업이 부분 백업인 경우 restartVM' 매개변수를 "false"로 설정합니다. * 참고: * 템플릿인 VM은 복원할 수 없습니다.</block>
   <block id="1001ac25ce27c0eddacc2bac45b145a8" category="summary">백업의 파일에 액세스하려는 경우 백업에서 기존 데이터 저장소를 마운트할 수 있습니다. 백업이 생성된 동일한 ESXi 호스트에 백업을 마운트하거나 VM 및 호스트 구성이 동일한 대체 ESXi 호스트에 백업을 마운트할 수 있습니다. 데이터 저장소를 호스트에 여러 번 마운트할 수 있습니다.</block>
   <block id="173e33abe439fc0d0f5e9ee8f5562d8e" category="doc">백업을 마운트합니다</block>
   <block id="d7abac8c42099a1c04f6ca3248730570" category="paragraph">VVOL 데이터 저장소는 마운트할 수 없습니다.</block>
@@ -1509,7 +1504,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="6ba7b5d818acb6cab3137d4c011e2db2" category="inline-link">관리자 인증 및 RBAC</block>
   <block id="b6bdb3b25a95e999fb569567041f332e" category="paragraph"><block ref="b6bdb3b25a95e999fb569567041f332e" category="inline-link-rx"></block></block>
   <block id="47d51cdb9bee4f5be50bff68bef7f005" category="paragraph">각 REST API에 를 추가합니다<block ref="3a8f2c381c875eef37ad96b7d70fc1a1" prefix=" " category="inline-code"></block> REST API의 전면에서 전체 끝점을 형성합니다.</block>
-  <block id="5b845076b112586b7fff13b10d9f0612" category="cell">로 이동합니다<block ref="7c61e9e4b133f96dbd184942bce35796" prefix=" " category="inline-code"></block></block>
   <block id="e4a70196caccbfc6c6d2c0d9df5e3013" category="paragraph">SnapCenter 기능을 사용하여 가상 머신에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VMware vSphere용 SnapCenter 플러그인을 구축해야 합니다.
 를 클릭합니다 <block ref="205a43536d4d7a501f66e7fd657c91ca" category="inline-link-macro-rx"></block> 페이지는 OVA 파일을 다운로드하는 지침을 제공합니다.</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
@@ -2363,4 +2357,15 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="14e70facdd7f1056b19624a65647f611" category="doc">SnapCenter Plug-in for VMware vSphere 6.2 릴리즈 노트</block>
   <block id="0e1c5e24c38bf97d9c3a9e07e8ea35ac" category="doc">SCV에서 REST API를 사용하여 중단된 작업을 실패로 표시합니다.</block>
   <block id="25dc68a1ecd07d4ec635e66b5aba9478" category="doc">SCV에서 게스트 파일 복원에 대해 알아보기</block>
+  <block id="cecbb6d90c269c98fdac515b81e0d73b" category="cell">VMware Managed Objects URL에서 데이터스토어 *moref*를 찾습니다. 삭제된 VM이 있던 데이터스토어의 moref를 기록해 둡니다.</block>
+  <block id="f61beb61662c6537a3f0ae8663f661fe" category="cell"><block ref="00dc830fa803616a49708e2e3e3c8b5b" prefix="" category="inline-code"></block></block>
+  <block id="b009dd3584db37104eeb85f282f3ed53" category="cell"><block ref="66205e1770e6dcf2b2bd1b6d83d6e19a" prefix="" category="inline-code"></block>지정된 데이터 저장소에 대한 백업 목록을 검색합니다. 1단계에서 얻은 *moref*를 전달합니다. 복원하려는 백업의 *backupId*를 기록해 두십시오.</block>
+  <block id="3287b26eea51f72abac4a77e5b4829cd" category="cell"><block ref="f2a41487d6a8e863e610ba88a60bc84f" prefix="" category="inline-code"></block></block>
+  <block id="747eb4264c2de88633140e938e184ca6" category="cell"><block ref="4e49071979e4a204bd91c87e101a1a96" prefix="" category="inline-code"></block> 지정된 백업의 세부 정보를 검색합니다. 2단계에서 얻은 *backupId*를 전달합니다. 엔티티 목록에서 삭제된 VM과 일치하는 *entityName*을 찾고 *UUID*를 기록합니다.</block>
+  <block id="1600ae4c16a60cd5ad67ed50a8ba0f1e" category="cell"><block ref="0d42da7d88167ed4dd002c063a3dcb70" prefix="" category="inline-code"></block></block>
+  <block id="796d765a2681401240691e1d250c6fa1" category="cell"><block ref="af62a8975e8577db87448344c585507f" prefix="" category="inline-code"></block>지정된 백업에 대한 스냅샷 위치를 검색합니다. 2단계에서 얻은 *backupId*를 전달합니다. *snapshotLocationsList* 정보를 기록해 두십시오.</block>
+  <block id="ef223d3a6282eb2d29c9050b41c058a6" category="cell"><block ref="17602b67d88fcff6d9024b3d93710f9e" prefix="" category="inline-code"></block></block>
+  <block id="704566d14e7a9a5778c823d1b4ec8f66" category="cell"><block ref="cd167a8bf45e589a93aea03099990bf5" prefix="" category="inline-code"></block>백업이 저장된 호스트에 대한 정보를 검색합니다. 1단계에서 얻은 *moref*를 전달합니다. *availableEsxHostsList* 정보를 기록해 둡니다.</block>
+  <block id="d87a25d74744053d50de6457d00b0f8c" category="cell"><block ref="35fb52fb97add0bf107e8814314da67c" prefix="" category="inline-code"></block></block>
+  <block id="31533fd2e85160fecb2398d5ece8c194" category="cell"><block ref="42deac4908a17efb438eb8235d8b5154" prefix="" category="inline-code"></block> 지정된 백업을 복원합니다. 3단계에서 얻은 *UUID*를 전달합니다. 2단계에서 얻은 *backupId*를 전달합니다. *restoreLocations* 속성에는 4단계의 *snapshotLocationsList* 정보를 전달하고, *esxHost* 속성에는 5단계의 *availableEsxHostsList* 정보를 전달합니다. VM 백업이 부분 백업인 경우 <block ref="0736c145ca7c004b573fcb3b6242d260" prefix=" " category="inline-code"></block> 매개변수를 *false*로 설정합니다. *참고:* 템플릿 VM은 복원할 수 없습니다.</block>
 </blocks>

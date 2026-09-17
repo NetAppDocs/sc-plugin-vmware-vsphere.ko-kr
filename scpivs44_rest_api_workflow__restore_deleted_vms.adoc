@@ -22,18 +22,20 @@ VMware vSphere REST API용 SnapCenter 플러그인을 사용하여 VM 백업에 
 | 단계 | REST API | 설명 
 
 
-| 1 | 로 이동합니다
-`\http://<vCenter-IP>/mob` | VMware Managed Objects URL에서 VM UUID를 찾습니다. 복원할 VM의 * uuid * 를 확인합니다. 
+| 1 | 로 이동합니다 `\http://<vCenter-IP>/mob` | VMware Managed Objects URL에서 데이터스토어 *moref*를 찾습니다. 삭제된 VM이 있던 데이터스토어의 moref를 기록해 둡니다. 
 
 
-| 2 | '/4.1/VM/{uuuid}/백업' | VM 백업 가져오기지정된 VM의 백업 목록을 가져옵니다. 1단계에서 * uuid * 를 전달합니다. 복원하려는 백업의 * backupId * 를 기록해 둡니다. 
+| 2 | `/4.1/datastores/{moref}/backups` | `Get Datastore Backups`지정된 데이터 저장소에 대한 백업 목록을 검색합니다. 1단계에서 얻은 *moref*를 전달합니다. 복원하려는 백업의 *backupId*를 기록해 두십시오. 
 
 
-| 3 | "/4.1/vm/backups/{backupId}/snapshotlocations" | `Get snapshot locations` 지정된 백업의 스냅샷 위치를 가져옵니다. 2단계에서 * backupId * 를 전달합니다. snapshotLocationsList* 정보를 확인합니다. 
+| 3 | `/4.1/backups/{backupId}` | `Get Backup Details` 지정된 백업의 세부 정보를 검색합니다. 2단계에서 얻은 *backupId*를 전달합니다. 엔티티 목록에서 삭제된 VM과 일치하는 *entityName*을 찾고 *UUID*를 기록합니다. 
 
 
-| 4 | '/4.1/vm/{moref}/backups/availability.xhosts' | Get Available ESX Hosts는 백업이 저장된 호스트에 대한 정보를 가져옵니다. 사용 가능한 EsableEsHostsList* 정보를 확인합니다. 
+| 4 | `/4.1/vm/backups/{backupId}/snapshotlocations` | `Get snapshot locations`지정된 백업에 대한 스냅샷 위치를 검색합니다. 2단계에서 얻은 *backupId*를 전달합니다. *snapshotLocationsList* 정보를 기록해 두십시오. 
 
 
-| 5 | '/4.1/VM/{uuuid}/backups/{backupId}/restore' | "uuuid를 사용하여 백업에서 VM 복원 또는 삭제된 VM 복원"은 지정된 백업을 복원합니다. 1단계에서 * uuid * 를 전달합니다. 2단계에서 * backupId * 를 전달합니다. RestoreLocations * 속성의 3단계와 4단계의 정보를 전달합니다. VM 백업이 부분 백업인 경우 restartVM' 매개변수를 "false"로 설정합니다. * 참고: * 템플릿인 VM은 복원할 수 없습니다. 
+| 5 | `/4.1/datastores/{moref}/availableEsxHosts` | `Get available ESX Hosts`백업이 저장된 호스트에 대한 정보를 검색합니다. 1단계에서 얻은 *moref*를 전달합니다. *availableEsxHostsList* 정보를 기록해 둡니다. 
+
+
+| 6 | `/4.1/vm/{uuid}/backups/{backupId}/restoreVm` | `Restore a VM from a backup` 지정된 백업을 복원합니다. 3단계에서 얻은 *UUID*를 전달합니다. 2단계에서 얻은 *backupId*를 전달합니다. *restoreLocations* 속성에는 4단계의 *snapshotLocationsList* 정보를 전달하고, *esxHost* 속성에는 5단계의 *availableEsxHostsList* 정보를 전달합니다. VM 백업이 부분 백업인 경우  `restartVM` 매개변수를 *false*로 설정합니다. *참고:* 템플릿 VM은 복원할 수 없습니다. 
 |===

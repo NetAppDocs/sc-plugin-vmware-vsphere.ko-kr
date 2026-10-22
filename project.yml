@@ -34,6 +34,8 @@ sidebar:
     entries:
     - title: VMware vSphere용 SnapCenter 플러그인 릴리즈 노트
       url: "/scpivs44_release_notes.html"
+    - title: SnapCenter Plug-in for VMware vSphere 6.2.1의 새로운 기능
+      url: "/scv_releasenotes_621_whats_new.html"
     - title: SnapCenter Plug-in for VMware vSphere 의 새로운 기능
       url: "/scv_releasenotes_whats_new.html"
     - title: 업그레이드 경로

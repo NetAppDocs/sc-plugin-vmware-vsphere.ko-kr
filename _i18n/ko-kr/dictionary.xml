@@ -1795,7 +1795,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="511a61be3395b836dbaacf9a77e28d9c" category="cell">선택한 파일이 복원될 게스트의 UNC 공유 경로를 입력합니다. IPv4 주소 예<block ref="c1efda00eba14c667cfd89393b2be583" prefix=" " category="inline-code"></block>: IPv6 주소 예:<block ref="f7a108079a0dc952ef09921776f4796f" prefix=" " category="inline-code"></block></block>
   <block id="d86e4811939307b3183e2dfd4eb853b6" category="cell">SCV 6.0 및 SCV 6.1로 업그레이드하십시오</block>
   <block id="b0ef2ccf9ac61cfaed33ce8cd24eae39" category="list-text">IPv4/IPv6 주소 설정을 변경합니다</block>
-  <block id="2fd5adf936b993ca4d80eea4c1f5d1e5" category="summary">VMware vSphere 6.1용 SnapCenter 플러그인에서 사용할 수 있는 새로운 기능에 대해 알아보십시오.</block>
   <block id="5db6882763ebe6a093c82ca0da5652f2" category="paragraph">SCV 6.1 를 참조하십시오</block>
   <block id="d61532c65e483bb3822f5a0a1ae885f5" category="paragraph">SCV 6.0 및 SCV 6.1</block>
   <block id="dd3471364a418c5d14272ff6d6881150" category="paragraph">SnapCenter 6.1 을 참조하십시오</block>
@@ -2119,9 +2118,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="3486b2a1d30bd161fb36899f3376d2b5" category="paragraph">스크립트 값이 채워졌는지 확인하려면 다음을 확인하세요.</block>
   <block id="4d7e82b16d362076d5ab45e16c70089e" category="list-text">PERL 스크립트의 경우:<block ref="61d298a13a3f843732a864857b069bb5" prefix=" " category="inline-code"></block></block>
   <block id="a0da1c9995a65432072be2aeebd4e3ea" category="list-text">쉘 스크립트의 경우:<block ref="77c2d1d96cf44632f8442af060d93cb0" prefix=" " category="inline-code"></block></block>
-  <block id="48ed95b473e7ef4e7788b1e1d9482edb" category="paragraph">SnapCenter Plug-in for VMware vSphere 에서 사용할 수 있는 새롭고 향상된 기능에 대해 알아보세요.</block>
-  <block id="19abdf7b381f5ed7b0de0d79a7e0f03e" category="inline-link">SnapCenter Plug-in for VMware vSphere 릴리스 노트</block>
-  <block id="1afaab56cfbc3ce97a79993d50d9ef05" category="paragraph">알려진 문제, 제한 사항 및 해결된 문제에 대한 자세한 내용은 다음을 참조하세요.<block ref="6492f9c91b814421d341fb9d834710b0" category="inline-link-rx"></block> .  릴리스 노트에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 만들어야 합니다.</block>
   <block id="5156b934ff5b0cd83a8a7f129e1e0a31" category="list-text">다음 형식을 사용하여 SnapCenter Plug-in for VMware vSphere 에 로그인합니다.<block ref="3dfacd84c996ac983963942e2712a0bf" prefix=" " category="inline-code"></block> .</block>
   <block id="d874ab609149d0dde843df2768514cc7" category="paragraph">SnapCenter Plug-in for VMware vSphere 사용하여 VM 백업을 복원하려면 아래에 설명된 대로 필요한 REST API 호출 순서를 따르세요.</block>
   <block id="e2706c19e437971cdf7231409e94e04f" category="cell">실행 상태에 멈춘 작업의 ID를 전달하면,<block ref="23f52a72a3b1eee5ab4fb121803fa5aa" prefix=" " category="inline-code"></block> 해당 작업을 실패로 표시합니다.  실행 상태에 갇힌 작업을 식별하려면 작업 모니터 사용자 인터페이스를 사용하여 모든 작업의 상태와 작업 ID를 확인하세요.</block>
@@ -2143,7 +2139,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="53f6bfae40bec441093e8e4b966c2d25" category="list-text">복원 워크플로 수행</block>
   <block id="799a3904b328ccd6642506e9cffca3ac" category="list-text">리소스 그룹을 생성하거나 수정할 때 보조 보호 제공( ONTAP 9.16.1 이상 버전에서 사용 가능)</block>
   <block id="e27967a072bb757c29d755e31dce790a" category="paragraph">SCV 6.2</block>
-  <block id="2dc5aae4389611e60ed72aa096627203" category="paragraph">SCV 6.1 및 SCV 6.2</block>
   <block id="14ec6c84f15dc549038dd1b97273c7bc" category="paragraph">SnapCenter 6.2</block>
   <block id="d4d1d929fd42e59ee32c4b5906cf20be" category="sidebar">SnapCenter Plug-in for VMware vSphere Linux 기반 가상 어플라이언스입니다.  독립형으로 사용할 경우 VM, 데이터 저장소, VMDK에 대해 빠르고 공간 효율적이며 충돌 일관성이 뛰어나고 VM 일관성이 있는 백업 및 복원 작업을 제공합니다.  또한 SnapCenter Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인에 대한 VMware 환경에서 애플리케이션 기반 백업 및 복원 작업을 지원합니다.  이 문서 라이브러리에서는 SnapCenter Plug-in for VMware vSphere 설명합니다.</block>
   <block id="90a8886635ee0da0c4b0c0f9f05014c9" category="sidebar">SnapCenter Plug-in for VMware vSphere</block>
@@ -2354,7 +2349,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="96fb488c6d5d6ed5f3816ffc8e3f6397" category="doc">SCV의 새 패치로 업그레이드 후 누락된 정보 해결</block>
   <block id="09f90d69ac8c406b9baae622de8de691" category="doc">SnapCenter Plug-in for VMware vSphere 클라이언트에 로그인합니다.</block>
   <block id="d1feecd02693b9e7b54bae1972ce21f7" category="doc">Windows 기반 SnapCenter for VMware vSphere에서 메타데이터 마이그레이션</block>
-  <block id="14e70facdd7f1056b19624a65647f611" category="doc">SnapCenter Plug-in for VMware vSphere 6.2 릴리즈 노트</block>
   <block id="0e1c5e24c38bf97d9c3a9e07e8ea35ac" category="doc">SCV에서 REST API를 사용하여 중단된 작업을 실패로 표시합니다.</block>
   <block id="25dc68a1ecd07d4ec635e66b5aba9478" category="doc">SCV에서 게스트 파일 복원에 대해 알아보기</block>
   <block id="cecbb6d90c269c98fdac515b81e0d73b" category="cell">VMware Managed Objects URL에서 데이터스토어 *moref*를 찾습니다. 삭제된 VM이 있던 데이터스토어의 moref를 기록해 둡니다.</block>
@@ -2368,4 +2362,40 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="704566d14e7a9a5778c823d1b4ec8f66" category="cell"><block ref="cd167a8bf45e589a93aea03099990bf5" prefix="" category="inline-code"></block>백업이 저장된 호스트에 대한 정보를 검색합니다. 1단계에서 얻은 *moref*를 전달합니다. *availableEsxHostsList* 정보를 기록해 둡니다.</block>
   <block id="d87a25d74744053d50de6457d00b0f8c" category="cell"><block ref="35fb52fb97add0bf107e8814314da67c" prefix="" category="inline-code"></block></block>
   <block id="31533fd2e85160fecb2398d5ece8c194" category="cell"><block ref="42deac4908a17efb438eb8235d8b5154" prefix="" category="inline-code"></block> 지정된 백업을 복원합니다. 3단계에서 얻은 *UUID*를 전달합니다. 2단계에서 얻은 *backupId*를 전달합니다. *restoreLocations* 속성에는 4단계의 *snapshotLocationsList* 정보를 전달하고, *esxHost* 속성에는 5단계의 *availableEsxHostsList* 정보를 전달합니다. VM 백업이 부분 백업인 경우 <block ref="0736c145ca7c004b573fcb3b6242d260" prefix=" " category="inline-code"></block> 매개변수를 *false*로 설정합니다. *참고:* 템플릿 VM은 복원할 수 없습니다.</block>
+  <block id="5310a1036d007f5d44859f9192e84523" category="doc">SnapCenter Plug-in for VMware vSphere 6.2.1 및 6.2 릴리스 노트</block>
+  <block id="b96b8459b23d226bfd02193a57ee311b" category="paragraph">SnapCenter Plug-in for VMware vSphere 6.2.1 및 6.2에서 제공되는 새롭고 향상된 기능에 대해 알아보십시오.</block>
+  <block id="5e92b8619c82a6981789afae4f5999b6" category="inline-link">SnapCenter Plug-in for VMware vSphere 6.2.1 및 6.2 릴리스 노트</block>
+  <block id="02f1cb81ad227f4a78ad0c8cf52f4fe8" category="paragraph">알려진 문제, 제한 사항 및 해결된 문제에 대한 자세한 내용은 <block ref="05832d382e92b0ddb1f2a03c01b50eff" category="inline-link-rx"></block>을(를) 참조하십시오. 릴리스 노트에 액세스하려면 NetApp 계정으로 로그인하거나 계정을 생성해야 합니다.</block>
+  <block id="8fe5f5a3a8d993e9ba3445b11b8da445" category="summary">SnapCenter Plug-in for VMware vSphere 6.2.1의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="a94c00dc142552f5b2160709de2d8ca0" category="doc">SnapCenter Plug-in for VMware vSphere 6.2.1의 새로운 기능</block>
+  <block id="fbdb29902420e2ebf4b5671a24980535" category="paragraph">SnapCenter Plug-in for VMware vSphere 6.2.1은 유지 관리 릴리스입니다. 이 릴리스는 어플라이언스와 함께 제공되는 타사 소프트웨어를 업데이트하고 SnapCenter Plug-in for VMware vSphere 6.2 릴리스 이후 발견된 문제에 대한 수정 사항을 포함합니다.</block>
+  <block id="7a1b53160a42fabcc2b19b67e77b7d3c" category="section-title">업데이트된 구성 요소</block>
+  <block id="2cb05e4bb7830be982f0922fed86b4cd" category="cell">구성 요소</block>
+  <block id="5c70fc47a114c0c742ecb76144743449" category="cell">SnapCenter Plug-in for VMware vSphere 6.2.1</block>
+  <block id="92dfecfa6869352e411b6c5dfd3cb166" category="cell">Java 런타임</block>
+  <block id="a87a746330fcccafdd46ff35e52a072f" category="cell">OpenJDK 21.0.12</block>
+  <block id="7166232140203ef2966ddd8115d51a31" category="cell">.NET 런타임</block>
+  <block id="814a517ee46c11069830333d9c37b5b9" category="cell">.NET 10.0.11</block>
+  <block id="7cb1d64978adc30091cfb3c7337cbba3" category="cell">어플라이언스 운영 체제</block>
+  <block id="1061da8067873a5bbcf3b13a320008da" category="cell">Debian 13</block>
+  <block id="69464e68a5cdd0b54694ac92276fa1a3" category="section-title">해결된 문제</block>
+  <block id="4bf7189ca42b78c35cf4f9f936645b31" category="paragraph">업그레이드하기 전에 해당 릴리스에서 수정된 알려진 문제를 검토하는 것이 좋습니다.</block>
+  <block id="f1b0557f30f515cd6d2e1aa2e60580b5" category="list-text">VMDP-7072: Oracle Cloud의 클라우드 관리형 ONTAP을 스토리지 시스템으로 추가할 수 있습니다.</block>
+  <block id="7e30746a2e14afbe290955d5099a0827" category="list-text">VMDP-7052: VM을 다른 위치로 복원할 때 VM 스토리지 정책이 유지되므로 기본값이 아닌 정책을 사용하는 VM의 경우 더 이상 복원이 거부되지 않습니다.</block>
+  <block id="ffbb81ba0942679379246214302064d0" category="list-text">VMDP-7027: 지원 로그 번들에는 구성된 스토리지 시스템 목록이 포함됩니다.</block>
+  <block id="54df73c8ac14d36d89e624c6bcb25c15" category="list-text">VMDP-6987: vCenter가 데이터 저장소를 일시적으로 사용할 수 없다고 보고하는 경우에도 가상 디스크 연결 또는 복원 작업이 더 이상 실패하지 않습니다.</block>
+  <block id="a0d9c0a5825a0a479c3c1abf79736802" category="list-text">VMDP-6965: 일정 기록 하나가 불완전할 때 일정 페이지가 더 이상 로드에 실패하지 않습니다.</block>
+  <block id="ae1fe0096853dc264aef45e1af3a1c54" category="list-text">VMDP-6952: 사용자가 리소스 그룹을 삭제할 권한이 없는 경우 권한 메시지가 표시됩니다.</block>
+  <block id="807a094ef06af183d78e766a9312e93b" category="list-text">VMDP-6939: 유지 관리 콘솔에서 더 이상 VMware 툴이 누락되었다는 메시지가 표시되지 않습니다.</block>
+  <block id="d10b5064d7908d30ce794457a6f3a36d" category="list-text">VMDP-6935: 개별 파일을 복원하기 위해 백업을 탐색하는 작업이 더 이상 실패하지 않습니다.</block>
+  <block id="67edb748ed65475a815d4782acf1f80a" category="list-text">VMDP-6933: 새 어플라이언스 배포 시 최초 설정 과정에서 더 이상 오류가 발생하지 않습니다.</block>
+  <block id="447fa43309a40a78d5e193fd06081614" category="list-text">VMDP-6931: 보조 백업 정리 시 더 이상 접근할 수 없는 특정 볼륨에서 몇 시간씩 기다리지 않습니다. 다른 볼륨은 계속 처리됩니다.</block>
+  <block id="1aa76d24b907dec4cb76b6d8a77fed05" category="list-text">VMDP-6817: 소스 ONTAP 볼륨의 이름을 변경해도 보조 백업이 이전 이름으로 고정되거나 더 이상 유효하지 않은 항목이 표시되는 문제가 해결되었습니다.</block>
+  <block id="e5c7cede4b737581cd66c16346d917c5" category="section-title">지원되는 SnapCenter 릴리스</block>
+  <block id="a8873f8f7715ad49732b43f6bdd600b5" category="paragraph">지원되는 버전에 대한 최신 정보는 <block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block> (IMT)를 참조하십시오.</block>
+  <block id="fdc5680e65fa7898d151f608475ae69c" category="summary">SnapCenter Plug-in for VMware vSphere 6.2.1 및 6.2에서 사용할 수 있는 새로운 기능에 대해 알아보십시오.</block>
+  <block id="d9cd9f5434c65a05a69f215297988e99" category="paragraph">SCV 6.2.1</block>
+  <block id="184c7c0c678f365279a40216ed22fe8a" category="paragraph">SCV 6.2 및 SCV 6.2.1</block>
+  <block id="09e5cb2777291d8cdab464a3f4d035e6" category="paragraph">SCV6.1 및 SCV 6.2</block>
+  <block id="20afa33773b6c08681241027158bf0c6" category="sidebar">SnapCenter Plug-in for VMware vSphere 6.2.1의 새로운 기능</block>
 </blocks>

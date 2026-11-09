@@ -2380,17 +2380,6 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="1061da8067873a5bbcf3b13a320008da" category="cell">Debian 13</block>
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="section-title">해결된 문제</block>
   <block id="4bf7189ca42b78c35cf4f9f936645b31" category="paragraph">업그레이드하기 전에 해당 릴리스에서 수정된 알려진 문제를 검토하는 것이 좋습니다.</block>
-  <block id="f1b0557f30f515cd6d2e1aa2e60580b5" category="list-text">VMDP-7072: Oracle Cloud의 클라우드 관리형 ONTAP을 스토리지 시스템으로 추가할 수 있습니다.</block>
-  <block id="7e30746a2e14afbe290955d5099a0827" category="list-text">VMDP-7052: VM을 다른 위치로 복원할 때 VM 스토리지 정책이 유지되므로 기본값이 아닌 정책을 사용하는 VM의 경우 더 이상 복원이 거부되지 않습니다.</block>
-  <block id="ffbb81ba0942679379246214302064d0" category="list-text">VMDP-7027: 지원 로그 번들에는 구성된 스토리지 시스템 목록이 포함됩니다.</block>
-  <block id="54df73c8ac14d36d89e624c6bcb25c15" category="list-text">VMDP-6987: vCenter가 데이터 저장소를 일시적으로 사용할 수 없다고 보고하는 경우에도 가상 디스크 연결 또는 복원 작업이 더 이상 실패하지 않습니다.</block>
-  <block id="a0d9c0a5825a0a479c3c1abf79736802" category="list-text">VMDP-6965: 일정 기록 하나가 불완전할 때 일정 페이지가 더 이상 로드에 실패하지 않습니다.</block>
-  <block id="ae1fe0096853dc264aef45e1af3a1c54" category="list-text">VMDP-6952: 사용자가 리소스 그룹을 삭제할 권한이 없는 경우 권한 메시지가 표시됩니다.</block>
-  <block id="807a094ef06af183d78e766a9312e93b" category="list-text">VMDP-6939: 유지 관리 콘솔에서 더 이상 VMware 툴이 누락되었다는 메시지가 표시되지 않습니다.</block>
-  <block id="d10b5064d7908d30ce794457a6f3a36d" category="list-text">VMDP-6935: 개별 파일을 복원하기 위해 백업을 탐색하는 작업이 더 이상 실패하지 않습니다.</block>
-  <block id="67edb748ed65475a815d4782acf1f80a" category="list-text">VMDP-6933: 새 어플라이언스 배포 시 최초 설정 과정에서 더 이상 오류가 발생하지 않습니다.</block>
-  <block id="447fa43309a40a78d5e193fd06081614" category="list-text">VMDP-6931: 보조 백업 정리 시 더 이상 접근할 수 없는 특정 볼륨에서 몇 시간씩 기다리지 않습니다. 다른 볼륨은 계속 처리됩니다.</block>
-  <block id="1aa76d24b907dec4cb76b6d8a77fed05" category="list-text">VMDP-6817: 소스 ONTAP 볼륨의 이름을 변경해도 보조 백업이 이전 이름으로 고정되거나 더 이상 유효하지 않은 항목이 표시되는 문제가 해결되었습니다.</block>
   <block id="e5c7cede4b737581cd66c16346d917c5" category="section-title">지원되는 SnapCenter 릴리스</block>
   <block id="a8873f8f7715ad49732b43f6bdd600b5" category="paragraph">지원되는 버전에 대한 최신 정보는 <block ref="64fc8efacd4fa13b8c1907c1db527b3d" category="inline-link-rx"></block> (IMT)를 참조하십시오.</block>
   <block id="fdc5680e65fa7898d151f608475ae69c" category="summary">SnapCenter Plug-in for VMware vSphere 6.2.1 및 6.2에서 사용할 수 있는 새로운 기능에 대해 알아보십시오.</block>
@@ -2398,4 +2387,27 @@ FlexGroup 데이터 저장소에서 개별 VM을 선택할 수 없습니다.
   <block id="184c7c0c678f365279a40216ed22fe8a" category="paragraph">SCV 6.2 및 SCV 6.2.1</block>
   <block id="09e5cb2777291d8cdab464a3f4d035e6" category="paragraph">SCV6.1 및 SCV 6.2</block>
   <block id="20afa33773b6c08681241027158bf0c6" category="sidebar">SnapCenter Plug-in for VMware vSphere 6.2.1의 새로운 기능</block>
+  <block id="b066ca6122c9857ad1ee3a44f18cc5e7" category="cell">버그 ID</block>
+  <block id="fbe32e5130ccbbb1ffa89d9f70c1b083" category="cell">VMDP-7072</block>
+  <block id="e53e7d9e47b290851f5322670e9ecb11" category="cell">Oracle Cloud의 클라우드 관리형 ONTAP을 스토리지 시스템으로 추가할 수 있습니다.</block>
+  <block id="db83ccd5ec2a7d5b47fcb16bff367994" category="cell">VMDP-7052</block>
+  <block id="978341053f0d4727fa2d3f60e89ef8d7" category="cell">VM을 다른 위치로 복원하면 VM 스토리지 정책이 유지되므로, 기본값이 아닌 정책을 사용하는 VM에 대한 복원이 더 이상 거부되지 않습니다.</block>
+  <block id="eebb3d78418add83056fa6e98ab314c6" category="cell">VMDP-7027</block>
+  <block id="16f06a0d6af2ec373955e5deebcf1c92" category="cell">지원 로그 번들에는 구성된 스토리지 시스템 목록이 포함됩니다.</block>
+  <block id="1ad7bcd66dc23dcde3ce1b6d54e11fa5" category="cell">VMDP-6987</block>
+  <block id="bd60983e3cd2a710b8bf94a4d46be475" category="cell">vCenter가 데이터스토어를 사용할 수 없다고 잠시 보고할 때 가상 디스크를 연결하거나 복원하는 작업이 더 이상 실패하지 않습니다.</block>
+  <block id="085a21f40a096fe8d421f595412e35c8" category="cell">VMDP-6965</block>
+  <block id="3e8dc69bde1348a24d095a52a5213e68" category="cell">일정 레코드 하나가 불완전해도 일정 페이지가 더 이상 로드에 실패하지 않습니다.</block>
+  <block id="8ca9bc2edece27e6a5ce2cd1d7869b10" category="cell">VMDP-6952</block>
+  <block id="889a2d10bb7e6f4de708d61ec611b0f2" category="cell">사용자가 리소스 그룹을 삭제할 권한이 없는 경우 권한 관련 메시지가 표시됩니다.</block>
+  <block id="d0797b6e14dfa7980b21f2392e2356c8" category="cell">VMDP-6939</block>
+  <block id="47957ac25ad4c0107d64327b8b0ab515" category="cell">유지 관리 콘솔은 더 이상 VMware 툴이 누락되었다고 보고하지 않습니다.</block>
+  <block id="832101e6141ee84bf7cbb623bf72f8d0" category="cell">VMDP-6935</block>
+  <block id="af16420268fa26529065d82d47ad3490" category="cell">개별 파일을 복원하기 위해 백업을 찾아보는 작업이 더 이상 실패하지 않습니다.</block>
+  <block id="616f6786eb6faab93d9b620f359160b5" category="cell">VMDP-6933</block>
+  <block id="31b56ee5316a09ec641a4086ba471fc7" category="cell">새로운 어플라이언스 배포 시 초기 설정 과정에서 더 이상 완료에 실패하지 않습니다.</block>
+  <block id="d50f3dfae3474354ad6a0a356d2dd751" category="cell">VMDP-6931</block>
+  <block id="cd02895ddd7c0fa8421749e568bf6763" category="cell">보조 백업 정리 작업에서 더 이상 접근할 수 없는 특정 볼륨 때문에 몇 시간씩 기다리지 않아도 됩니다. 다른 볼륨은 계속해서 처리됩니다.</block>
+  <block id="0eff747ab0e939a98b87dc30a3d4959d" category="cell">VMDP-6817</block>
+  <block id="49443c787c9ae296da4caa1b641ab418" category="cell">소스 ONTAP 볼륨의 이름을 변경해도 더 이상 보조 백업이 이전 이름으로 유지되거나 더 이상 유효하지 않은 항목이 표시되는 문제가 발생하지 않습니다.</block>
 </blocks>
